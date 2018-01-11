@@ -38,6 +38,18 @@ func (c *MainController) MyTest() {
 	}
 
 	logs.Info("2新增的ID是",id)
+	var updateUser users.Users
+	updateUser.Id = 1
+	updateUser.Email = "206@g9zz.com"
+	updateUser.Name = "叶落"
+	updateUser.Password = "222222222"
+	err = users.UpdateUsersById(&updateUser)
+
+	if err == nil {
+		logs.Info("正确")
+	} else {
+		logs.Info("错误")
+	}
 
 	//c.Data["Website"] = "ylsc633"
 	//c.Data["Email"] = "ylsc633@gamil.com"
