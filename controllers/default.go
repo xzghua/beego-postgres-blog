@@ -17,6 +17,7 @@ type createUser struct {
 	password string
 }
 
+
 func (c *MainController) Get() {
 	c.Data["Website"] = "beego.m111e"
 	c.Data["Email"] = "astaxie@gmail.com"
