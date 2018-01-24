@@ -190,10 +190,10 @@
                         </a>
                         <ul>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="/console/post" title="Blank Page"><i class="icon-media-record"></i><span>帖子列表</span></a>
+                                <a class="tooltip-tip2 ajax-load" href="/console/post" title="Blank Page"><i class="icon-media-record"></i><span>文章列表</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="profile.html" title="Profile Page"><i class="icon-user"></i><span>Profile Page</span></a>
+                                <a class="tooltip-tip2 ajax-load" href="/console/post/create" title="Profile Page"><i class="icon-user"></i><span>新建文章</span></a>
                             </li>
                             <li>
                                 <a class="tooltip-tip2 ajax-load" href="invoice.html" title="Invoice"><i class="entypo-newspaper"></i><span>Invoice</span></a>
@@ -462,21 +462,6 @@
 <script type="text/javascript" src="/static/auth/js/app.js"></script>
 <script type="text/javascript" src="/static/auth/js/load.js"></script>
 <script type="text/javascript" src="/static/auth/js/main.js"></script>
-
-
-
-
-<!-- GAGE -->
-
-
-{{/*<script type="text/javascript" src="/static/auth/js/chart/jquery.flot.js"></script>*/}}
-{{/*<script type="text/javascript" src="/static/auth/js/chart/jquery.flot.resize.js"></script>*/}}
-{{/*<script type="text/javascript" src="/static/auth/js/chart/realTime.js"></script>*/}}
-{{/*<script type="text/javascript" src="/static/auth/js/speed/canvasgauge-coustom.js"></script>*/}}
-{{/*<script type="text/javascript" src="/static/auth/js/countdown/jquery.countdown.js"></script>*/}}
-
-
-{{/*<script src="/static/auth/js/jhere-custom.js"></script>*/}}
 
 
 </body>

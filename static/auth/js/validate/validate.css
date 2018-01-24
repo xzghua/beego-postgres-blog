@@ -7,8 +7,8 @@
 		
 ========================================== */
 
-@import url('assets/css/bootstrap.min.css');
-@import url('assets/css/bootstrap-responsive.min.css');
+@import url('/static/auth/css/bootstrap.css');
+@import url('/static/auth/css/bootstrap-responsive.css');
 
 /* New styles below */
 
