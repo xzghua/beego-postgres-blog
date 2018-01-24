@@ -17,7 +17,11 @@ func (p *PostController) Index()  {
 func (p *PostController) Create() {
 	p.Layout = "auth/master.tpl"
 	p.TplName = "auth/post/create.tpl"
+	//p.LayoutSections = make(map[string]string)
+	//p.LayoutSections["Scripts"] = "auth/post/post_script.tpl"
 }
+
+
 
 func (p *PostController) Store()  {
 

@@ -72,67 +72,7 @@
         </div>
     </div>
 </div>
-<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
-<script type="text/javascript" src="/static/auth/js/validate/jquery.validate.min.js"></script>
-<script type="text/javascript" src="/static/auth/js/tag/jquery.tagsinput.js"></script>
-<script type="text/javascript" src="/static/auth/js/jquery-ui.min.js"></script>
-<script type="text/javascript" src="/static/auth/js/validate/jquery.validate.min.js"></script>
 
-<script type="text/javascript" src="/static/auth/js/admin.create.js"></script>
-<script src="/static/auth/js/editormd.min.js"></script>
-<script>
 
-    var testEditor;
 
-    $(function() {
-        testEditor = editormd("editormd", {
-            width: "100%",
-            height: 640,
-            syncScrolling: "single",
-            path: "/static/auth/js/lib/",
-            imageUpload : true,
-            imageFormats : ["jpg", "jpeg", "gif", "png", "bmp", "webp"],
-            imageUploadURL : "/uploadPhotos",
-            toolbarAutoFixed:false,
-            // markdown : md,
-            codeFold : true,
 
-            saveHTMLToTextarea : true,    // 保存 HTML 到 Textarea
-            searchReplace : true,
-            //watch : false,                // 关闭实时预览
-            htmlDecode : "style,script,iframe|on*",            // 开启 HTML 标签解析，为了安全性，默认不开启
-
-            emoji : true,
-            taskList : true,
-
-            theme : "default | dark",
-            // Preview container theme, added v1.5.0
-            // You can also custom css class .editormd-preview-theme-xxxx
-            previewTheme : " dark",
-            // Added @v1.5.0 & after version this is CodeMirror (editor area) theme
-            editorTheme : editormd.editorThemes['editormd']
-        });
-    });
-
-    $(function() {
-
-        $('#tag').tagsInput({
-
-            autocomplete_url:"/autoCompleteTags",
-
-            previewTheme : "dark",
-            editorTheme : "pastel-on-dark",
-            markdown : 'md',
-            codeFold : true,
-
-            width: 'auto',
-            height:'10px',
-            defaultText:'添加标签',
-            minChars:'0',
-            maxChars:'20',
-            placeholderColor:'#ff0066'
-
-        });
-
-    });
-</script>
