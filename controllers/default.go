@@ -26,12 +26,12 @@ func (c *MainController) Get() {
 
 func (c *MainController) MyTest() {
 
-	var user users.Users
+	var user models.Users
 	user.Email = "211@11.com"
 	user.Name = "叶落山城秋"
 	user.Password = "mima1234"
 
-	id,err := users.AddUsers(&user)
+	id,err := models.AddUsers(&user)
 
 	if err == nil {
 		logs.Info("新增的ID是",id)
@@ -39,12 +39,12 @@ func (c *MainController) MyTest() {
 	}
 
 	logs.Info("2新增的ID是",id)
-	var updateUser users.Users
+	var updateUser models.Users
 	updateUser.Id = 1
 	updateUser.Email = "206@g9zz.com"
 	updateUser.Name = "叶落"
 	updateUser.Password = "222222222"
-	err = users.UpdateUsersById(&updateUser)
+	err = models.UpdateUsersById(&updateUser)
 
 	if err == nil {
 		logs.Info("正确")

@@ -7,48 +7,52 @@ import (
 	"strings"
 
 	"github.com/astaxie/beego/orm"
+	"time"
 )
 
-type Users struct {
-	Id        int64  	`orm:"column(id);auto;unique" json:"id"`
-	Name      string 	`orm:"size(128)"`
-	Email     string 	`orm:"size(128)"`
-	Password  string 	`orm:"size(128)"`
+type Categories struct {
+	Id        		int64  		`orm:"column(id);auto;unique" json:"id"`
+	Name 			string 		`orm:"column(name);size(255);unique" json:"name"`
+	DisplayName 	string 		`orm:"column(display_name);size(255);" json:"display_name"`
+	ParentId	 	int64 		`orm:"column(parent_id);default(0)" json:"parent_id"`
+	Description	 	string 		`orm:"column(description);size(2048);null" json:"description"`
+	CreatedAt      time.Time 	`orm:"column(created_at);default('0000-00-00 00:00:00');null;auto_now_add;type(datetime)" json:"created_at"`
+	UpdatedAt      time.Time 	`orm:"column(updated_at);default('0000-00-00 00:00:00');null;auto_now;type(datetime)" json:"updated_at"`
 }
 
-func (u *Users) TableName() string {
-	return "y_users"
+func (a *Articles) TableName() string {
+	return "y_categories"
 }
 
 func init() {
-	orm.RegisterModel(new(Users))
+	orm.RegisterModel(new(Categories))
 }
 
-// AddUsers insert a new Users into database and returns
+// AddCategories insert a new Categories into database and returns
 // last inserted Id on success.
-func AddUsers(m *Users) (id int64, err error) {
+func AddCategories(m *Categories) (id int64, err error) {
 	o := orm.NewOrm()
 	id, err = o.Insert(m)
 	return
 }
 
-// GetUsersById retrieves Users by Id. Returns error if
+// GetCategoriesById retrieves Categories by Id. Returns error if
 // Id doesn't exist
-func GetUsersById(id int64) (v *Users, err error) {
+func GetCategoriesById(id int64) (v *Categories, err error) {
 	o := orm.NewOrm()
-	v = &Users{Id: id}
-	if err = o.QueryTable(new(Users)).Filter("Id", id).RelatedSel().One(v); err == nil {
+	v = &Categories{Id: id}
+	if err = o.QueryTable(new(Categories)).Filter("Id", id).RelatedSel().One(v); err == nil {
 		return v, nil
 	}
 	return nil, err
 }
 
-// GetAllUsers retrieves all Users matches certain condition. Returns empty list if
+// GetAllCategories retrieves all Categories matches certain condition. Returns empty list if
 // no records exist
-func GetAllUsers(query map[string]string, fields []string, sortby []string, order []string,
+func GetAllCategories(query map[string]string, fields []string, sortby []string, order []string,
 	offset int64, limit int64) (ml []interface{}, err error) {
 	o := orm.NewOrm()
-	qs := o.QueryTable(new(Users))
+	qs := o.QueryTable(new(Categories))
 	// query k=v
 	for k, v := range query {
 		// rewrite dot-notation to Object__Attribute
@@ -94,7 +98,7 @@ func GetAllUsers(query map[string]string, fields []string, sortby []string, orde
 		}
 	}
 
-	var l []Users
+	var l []Categories
 	qs = qs.OrderBy(sortFields...).RelatedSel()
 	if _, err = qs.Limit(limit, offset).All(&l, fields...); err == nil {
 		if len(fields) == 0 {
@@ -117,11 +121,11 @@ func GetAllUsers(query map[string]string, fields []string, sortby []string, orde
 	return nil, err
 }
 
-// UpdateUsers updates Users by Id and returns error if
+// UpdateCategories updates Categories by Id and returns error if
 // the record to be updated doesn't exist
-func UpdateUsersById(m *Users) (err error) {
+func UpdateCategoriesById(m *Categories) (err error) {
 	o := orm.NewOrm()
-	v := Users{Id: m.Id}
+	v := Categories{Id: m.Id}
 	// ascertain id exists in the database
 	if err = o.Read(&v); err == nil {
 		var num int64
@@ -132,15 +136,15 @@ func UpdateUsersById(m *Users) (err error) {
 	return
 }
 
-// DeleteUsers deletes Users by Id and returns error if
+// DeleteCategories deletes Categories by Id and returns error if
 // the record to be deleted doesn't exist
-func DeleteUsers(id int64) (err error) {
+func DeleteCategories(id int64) (err error) {
 	o := orm.NewOrm()
-	v := Users{Id: id}
+	v := Categories{Id: id}
 	// ascertain id exists in the database
 	if err = o.Read(&v); err == nil {
 		var num int64
-		if num, err = o.Delete(&Users{Id: id}); err == nil {
+		if num, err = o.Delete(&Categories{Id: id}); err == nil {
 			fmt.Println("Number of records deleted in database:", num)
 		}
 	}

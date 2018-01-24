@@ -23,9 +23,10 @@ func (m *YArticle_20180105_184641) Up() {
 	m.SQL("CREATE TABLE y_articles("+
 		"id SERIAL primary key," +
 		"title varchar(255) NOT NULL," +
-		"content text NOT NULL," +
+		"content text default null," +
+		"body_original text default null," +
 		"user_id integer NOT NULL," +
-		"password smallint default NULL," +
+		"password smallint default 0," +
 		"note varchar(255) default NULL," +
 		"read_status smallint DEFAULT 1," +
 		"top boolean default false," +
@@ -34,7 +35,7 @@ func (m *YArticle_20180105_184641) Up() {
 		"created_at timestamp default current_timestamp," +
 		"updated_at timestamp default current_timestamp," +
 		"deleted_at timestamp default null" +
-		");create index index on y_articles (user_id)")
+		");create  index article_index on y_articles (user_id)")
 }
 
 // Reverse the migrations
