@@ -28,7 +28,7 @@ type Articles struct {
 
 }
 
-func (c *Categories) TableName() string {
+func (a *Articles) TableName() string {
 	return "y_articles"
 }
 
@@ -158,4 +158,15 @@ func DeleteArticles(id int64) (err error) {
 		}
 	}
 	return
+}
+
+func AllArticle() (ml []interface{}, err error) {
+	var fields []string
+	var sortby []string
+	var order []string
+	var query map[string]string = make(map[string]string)
+	var limit int64 = 10
+	var offset int64 = 0
+
+	return GetAllArticles(query,fields,sortby,order,offset,limit)
 }

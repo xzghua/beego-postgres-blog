@@ -11,6 +11,23 @@ type PostController struct {
 }
 
 func (p *PostController) Index()  {
+
+
+	l,err := models.AllArticle()
+
+	if err == nil {
+		fmt.Print(l)
+	}
+
+	//all,err := models.AllArticle()
+	//if err == nil {
+	//	fmt.Print(all,"没有错误")
+	//} else {
+	//	fmt.Print(all,"有错误")
+	//}
+
+
+
 	p.Data["zgh"] = "叶落山城秋丶"
 	p.Layout = "auth/master.tpl"
 	p.TplName = "auth/post/index.tpl"

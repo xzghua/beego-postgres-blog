@@ -20,7 +20,7 @@ type Categories struct {
 	UpdatedAt      time.Time 	`orm:"column(updated_at);default('0000-00-00 00:00:00');null;auto_now;type(datetime)" json:"updated_at"`
 }
 
-func (a *Articles) TableName() string {
+func (c *Categories) TableName() string {
 	return "y_categories"
 }
 
