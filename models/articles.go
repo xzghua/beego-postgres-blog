@@ -168,5 +168,8 @@ func AllArticle() (ml []interface{}, err error) {
 	var limit int64 = 10
 	var offset int64 = 0
 
+	fields = []string{"Id","Title","Content","BodyOriginal","UserId","Password","Note","ReadStatus",
+		"Top","Abstract","ViewNum","CreatedAt","UpdatedAt"}
+
 	return GetAllArticles(query,fields,sortby,order,offset,limit)
 }

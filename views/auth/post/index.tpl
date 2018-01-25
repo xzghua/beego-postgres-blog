@@ -56,11 +56,12 @@
                             </tr>
                             </thead>
                             <tbody>
+                            {{range $index,$item := .zgh }}
                             <tr>
-                                <td>AAC</td>
-                                <td>叶落山城秋</td>
+                                <td>{{$item.Id}}</td>
+                                <td>{{$item.UserId}}</td>
                                 <td>默认分类</td>
-                                <td><a href="#">关于这个问题,你怎么看</a></td>
+                                <td><a href="#">{{$item.Title}}</a></td>
                                 <td>
                                     <button type="button" class="btn btn-info">
                                         <span class="entypo-pencil"></span>&nbsp;&nbsp;Edit
@@ -70,62 +71,7 @@
                                     </button>
                                 </td>
                             </tr>
-                            <tr>
-                                <td>AAC</td>
-                                <td>叶落山城秋</td>
-                                <td>默认分类</td>
-                                <td><a href="#">关于这个问题,你怎么看</a></td>
-                                <td>
-                                    <button type="button" class="btn btn-info">
-                                        <span class="entypo-pencil"></span>&nbsp;&nbsp;Edit
-                                    </button>
-                                    <button type="button" class="btn btn-danger">
-                                        <span class="entypo-trash"></span>&nbsp;&nbsp;Delete
-                                    </button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>AAC</td>
-                                <td>叶落山城秋</td>
-                                <td>默认分类</td>
-                                <td><a href="#">关于这个问题,你怎么看</a></td>
-                                <td>
-                                    <button type="button" class="btn btn-info">
-                                        <span class="entypo-pencil"></span>&nbsp;&nbsp;Edit
-                                    </button>
-                                    <button type="button" class="btn btn-danger">
-                                        <span class="entypo-trash"></span>&nbsp;&nbsp;Delete
-                                    </button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>AAC</td>
-                                <td>叶落山城秋</td>
-                                <td>默认分类</td>
-                                <td><a href="#">关于这个问题,你怎么看</a></td>
-                                <td>
-                                    <button type="button" class="btn btn-info">
-                                        <span class="entypo-pencil"></span>&nbsp;&nbsp;Edit
-                                    </button>
-                                    <button type="button" class="btn btn-danger">
-                                        <span class="entypo-trash"></span>&nbsp;&nbsp;Delete
-                                    </button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>AAC</td>
-                                <td>叶落山城秋</td>
-                                <td>默认分类</td>
-                                <td><a href="#">关于这个问题,你怎么看</a></td>
-                                <td>
-                                    <button type="button" class="btn btn-info">
-                                        <span class="entypo-pencil"></span>&nbsp;&nbsp;Edit
-                                    </button>
-                                    <button type="button" class="btn btn-danger">
-                                        <span class="entypo-trash"></span>&nbsp;&nbsp;Delete
-                                    </button>
-                                </td>
-                            </tr>
+                            {{end}}
                             </tbody>
                         </table>
                         </div>
