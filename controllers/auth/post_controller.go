@@ -4,6 +4,7 @@ import (
 	"github.com/astaxie/beego"
 	"fmt"
 	"bee-go-myBlog/models"
+	"strconv"
 )
 
 type PostController struct {
@@ -11,13 +12,13 @@ type PostController struct {
 }
 
 func (p *PostController) Index()  {
+	page := p.GetString("page")
+	page2, err := strconv.ParseInt(page, 10, 64)
+	if err != nil {
+		page2 = 1
+	}
 
-
-	l,err := models.AllArticle()
-
-	//for _,v := range l {
-	//	fmt.Printf("%#v\n",v.(models.Articles).Id)
-	//}
+	l,err := models.AllArticle(page2)
 
 	if err == nil {
 		fmt.Print(l)

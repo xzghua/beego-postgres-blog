@@ -52,6 +52,7 @@
                                 <th>作者</th>
                                 <th>分类</th>
                                 <th>标题</th>
+                                <th>时间</th>
                                 <th>操作</th>
                             </tr>
                             </thead>
@@ -62,6 +63,7 @@
                                 <td>{{$item.UserId}}</td>
                                 <td>默认分类</td>
                                 <td><a href="#">{{$item.Title}}</a></td>
+                                <td>{{$item.CreatedAt}}</td>
                                 <td>
                                     <button type="button" class="btn btn-info">
                                         <span class="entypo-pencil"></span>&nbsp;&nbsp;Edit

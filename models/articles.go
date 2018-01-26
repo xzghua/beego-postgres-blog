@@ -8,6 +8,7 @@ import (
 
 	"github.com/astaxie/beego/orm"
 	"time"
+	"github.com/astaxie/beego"
 )
 
 
@@ -160,16 +161,19 @@ func DeleteArticles(id int64) (err error) {
 	return
 }
 
-func AllArticle() (ml []interface{}, err error) {
+func AllArticle( page int64) (ml []interface{}, err error) {
 	var fields []string
 	var sortby []string
 	var order []string
 	var query map[string]string = make(map[string]string)
-	var limit int64 = 10
-	var offset int64 = 0
+	var limit int64
+	var offset int64
+	limit,_ = beego.AppConfig.Int64("page_offset")
 
 	fields = []string{"Id","Title","Content","BodyOriginal","UserId","Password","Note","ReadStatus",
 		"Top","Abstract","ViewNum","CreatedAt","UpdatedAt"}
 
+	offset = (page - 1 ) * limit
+	fmt.Println(limit,offset)
 	return GetAllArticles(query,fields,sortby,order,offset,limit)
 }
