@@ -36,6 +36,7 @@ func (m *YArticle_20180105_184641) Up() {
 		"updated_at timestamp default current_timestamp," +
 		"deleted_at timestamp default null" +
 		");create  index article_index on y_articles (user_id)")
+
 }
 
 // Reverse the migrations

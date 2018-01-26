@@ -11,28 +11,26 @@ import (
 	"github.com/astaxie/beego"
 )
 
-
 type Articles struct {
-	Id        		int64  		`orm:"column(id);auto;unique" json:"id"`
-	Title     		string 		`orm:"column(title);size(255)" json:"title"`
-	Content   		string    	`orm:"column(content);type(longtext);null" json:"content"`
-	BodyOriginal   	string    	`orm:"column(body_original);type(longtext);null" json:"body_original"`
-	UserId    		int64    	`orm:"column(user_id);null;default(0)" json:"user_id"`
-	Password   		int64    	`orm:"column(password);null" json:"password"`
-	Note   			string    	`orm:"column(note);null" json:"note"`
-	ReadStatus  	int64    	`orm:"column(read_status);default(1)" json:"read_status"`
-	Top   			bool    	`orm:"column(top);null;default(false)" json:"top"`
-	Abstract   		string    	`orm:"column(abstract);size(500);null" json:"abstract"`
-	ViewNum   		int64    	`orm:"column(view_num);default(0);null" json:"view_num"`
-	CreatedAt      time.Time 	`orm:"column(created_at);default('0000-00-00 00:00:00');null;auto_now_add;type(datetime)" json:"created_at"`
-	UpdatedAt      time.Time 	`orm:"column(updated_at);default('0000-00-00 00:00:00');null;auto_now;type(datetime)" json:"updated_at"`
-
+	Id           int64     `orm:"column(id);auto;unique" json:"id"`
+	Title        string    `orm:"column(title);size(255)" json:"title"`
+	Content      string    `orm:"column(content);type(longtext);null" json:"content"`
+	BodyOriginal string    `orm:"column(body_original);type(longtext);null" json:"body_original"`
+	UserId       int64     `orm:"column(user_id);null;default(0)" json:"user_id"`
+	Password     int64     `orm:"column(password);null" json:"password"`
+	Note         string    `orm:"column(note);null" json:"note"`
+	ReadStatus   int64     `orm:"column(read_status);default(1)" json:"read_status"`
+	Top          bool      `orm:"column(top);null;default(false)" json:"top"`
+	Abstract     string    `orm:"column(abstract);size(500);null" json:"abstract"`
+	ViewNum      int64     `orm:"column(view_num);default(0);null" json:"view_num"`
+	CreatedAt    time.Time `orm:"column(created_at);default('0000-00-00 00:00:00');null;auto_now_add;type(datetime)" json:"created_at"`
+	UpdatedAt    time.Time `orm:"column(updated_at);default('0000-00-00 00:00:00');null;auto_now;type(datetime)" json:"updated_at"`
+	User         *Users    `orm:"rel(fk)" json:"user"`
 }
 
 func (a *Articles) TableName() string {
 	return "y_articles"
 }
-
 
 func init() {
 	orm.RegisterModel(new(Articles))
@@ -161,19 +159,36 @@ func DeleteArticles(id int64) (err error) {
 	return
 }
 
-func AllArticle( page int64) (ml []interface{}, err error) {
+func AllArticle(page int64) (ml []interface{}, err error) {
 	var fields []string
 	var sortby []string
 	var order []string
 	var query map[string]string = make(map[string]string)
 	var limit int64
 	var offset int64
-	limit,_ = beego.AppConfig.Int64("page_offset")
+	limit, _ = beego.AppConfig.Int64("page_offset")
 
-	fields = []string{"Id","Title","Content","BodyOriginal","UserId","Password","Note","ReadStatus",
-		"Top","Abstract","ViewNum","CreatedAt","UpdatedAt"}
+
+	fields = []string{"Id", "Title", "Content", "BodyOriginal", "Password", "Note", "ReadStatus",
+		"Top", "Abstract", "ViewNum", "CreatedAt", "UpdatedAt"}
 
 	offset = (page - 1 ) * limit
-	fmt.Println(limit,offset)
-	return GetAllArticles(query,fields,sortby,order,offset,limit)
+
+	res, err := GetAllArticles(query, fields, sortby, order, offset, limit)
+
+	var userIds []int64
+	if res != nil {
+		for _, val := range res {
+			userIds = append(userIds, val.(map[string]interface{})["Id"].(int64))
+		}
+	}
+
+
+	o := orm.NewOrm()
+	user := &Users{}
+	o.QueryTable("y_users").Filter("Id",1).RelatedSel().One(user)
+
+	fmt.Println(user.Article)
+
+	return res, err
 }

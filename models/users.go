@@ -10,10 +10,11 @@ import (
 )
 
 type Users struct {
-	Id        int64  	`orm:"column(id);auto;unique" json:"id"`
-	Name      string 	`orm:"size(128)"`
-	Email     string 	`orm:"size(128)"`
-	Password  string 	`orm:"size(128)"`
+	Id        	int64  			`orm:"column(id);auto;unique" json:"id"`
+	Name      	string 			`orm:"size(128)"`
+	Email     	string 			`orm:"size(128)"`
+	Password  	string 			`orm:"size(128)"`
+	Article 	[]*Articles   	`orm:"reverse(many)"`
 }
 
 func (u *Users) TableName() string {
@@ -23,6 +24,8 @@ func (u *Users) TableName() string {
 func init() {
 	orm.RegisterModel(new(Users))
 }
+
+
 
 // AddUsers insert a new Users into database and returns
 // last inserted Id on success.

@@ -18,23 +18,21 @@ func (p *PostController) Index()  {
 		page2 = 1
 	}
 
-	l,err := models.AllArticle(page2)
-
-	if err == nil {
-		fmt.Print(l)
-	}
+	post,err := models.AllArticle(page2)
 
 
-	p.Data["zgh"] = l
+	p.Data["post"] = post
 	p.Layout = "auth/master.tpl"
 	p.TplName = "auth/post/index.tpl"
 }
 
 func (p *PostController) Create() {
 
+
+
 	var post models.Articles
 	//post.Title = "测试标题"
-	post.UserId = 1
+	//post.UserId = 1
 	//post.Content = "这是一个测试的内容,测试一下效果的问题"
 
 	id,err := models.AddArticles(&post)
