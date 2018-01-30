@@ -14,7 +14,7 @@ type Users struct {
 	Name      	string 			`orm:"size(128)"`
 	Email     	string 			`orm:"size(128)"`
 	Password  	string 			`orm:"size(128)"`
-	Article 	[]*Articles   	`orm:"reverse(many)"`
+	Article 	[]*Articles   	`orm:"-;reverse(many)"`
 }
 
 func (u *Users) TableName() string {

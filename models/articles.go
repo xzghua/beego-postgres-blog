@@ -25,7 +25,7 @@ type Articles struct {
 	ViewNum      int64     `orm:"column(view_num);default(0);null" json:"view_num"`
 	CreatedAt    time.Time `orm:"column(created_at);default('0000-00-00 00:00:00');null;auto_now_add;type(datetime)" json:"created_at"`
 	UpdatedAt    time.Time `orm:"column(updated_at);default('0000-00-00 00:00:00');null;auto_now;type(datetime)" json:"updated_at"`
-	User         *Users    `orm:"rel(fk)" json:"user"`
+	User         *Users    `orm:"-;rel(fk)" json:"user"`
 }
 
 func (a *Articles) TableName() string {
@@ -176,19 +176,6 @@ func AllArticle(page int64) (ml []interface{}, err error) {
 
 	res, err := GetAllArticles(query, fields, sortby, order, offset, limit)
 
-	var userIds []int64
-	if res != nil {
-		for _, val := range res {
-			userIds = append(userIds, val.(map[string]interface{})["Id"].(int64))
-		}
-	}
-
-
-	o := orm.NewOrm()
-	user := &Users{}
-	o.QueryTable("y_users").Filter("Id",1).RelatedSel().One(user)
-
-	fmt.Println(user.Article)
 
 	return res, err
 }
