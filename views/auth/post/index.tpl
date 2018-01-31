@@ -57,10 +57,10 @@
                             </tr>
                             </thead>
                             <tbody>
-                            {{range $index,$item := .zgh }}
+                            {{range $index,$item := .post }}
                             <tr>
                                 <td>{{$item.Id}}</td>
-                                <td>{{$item.UserId}}</td>
+                                <td>{{$item.user_name}}</td>
                                 <td>默认分类</td>
                                 <td><a href="#">{{$item.Title}}</a></td>
                                 <td>{{$item.CreatedAt}}</td>
