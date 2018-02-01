@@ -28,7 +28,9 @@
 
                         <form action="#" id="contact-form" class="form-horizontal articleForm">
                             <fieldset>
-
+{{/*{{range $index,$item := .cate }}*/}}
+        {{/*<h2>{{$item.html}}{{$item.Name}} </h2>*/}}
+                {{/*{{end}}*/}}
                                 <div class="control-group">
                                     <label class="control-label" for="title">标题</label>
                                     <div class="controls">
