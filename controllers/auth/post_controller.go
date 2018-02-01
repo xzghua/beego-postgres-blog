@@ -26,7 +26,6 @@ func (p *PostController) Create() {
 
 	cate := services.GetAllCateBySort()
 
-
 	p.Data["cate"] = cate
 	p.Layout = "auth/master.tpl"
 	p.TplName = "auth/post/create.tpl"

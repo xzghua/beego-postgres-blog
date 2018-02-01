@@ -508,7 +508,7 @@
 
         $('.tag').tagsInput({
 
-            autocomplete_url:"/autoCompleteTags",
+            autocomplete_url:"/console/cate/auto",
 
             previewTheme : "dark",
             editorTheme : "pastel-on-dark",

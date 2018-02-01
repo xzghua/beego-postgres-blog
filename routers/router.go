@@ -16,4 +16,8 @@ func init() {
     beego.Router("/console/post",&auth.PostController{},"post:Store")
     beego.Router("/console/post",&auth.PostController{},"put:Update")
     beego.Router("/console/post",&auth.PostController{},"delete:Destroy")
+
+
+    beego.Router("/console/cate/auto",&auth.CateController{},"get:GetCateByLike")
+
 }
