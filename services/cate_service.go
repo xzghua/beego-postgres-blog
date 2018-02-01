@@ -11,15 +11,6 @@ func GetMyAllCate() {
 }
 
 func GetAllCateBySort() ([]interface{}) {
-
-	//var cateCreate models.Categories
-	//cateCreate.Name = "名字-"+GetRandomString(4)
-	//cateCreate.Description = "介绍-"+GetRandomString(16)
-	//cateCreate.ParentId = rand.Int63n(10)
-	//cateCreate.DisplayName = "别名-"+GetRandomString(8)
-	//
-	//id,err := models.AddCategories(&cateCreate)
-	//fmt.Println(id,err)
 	var query map[string]string
 	var fields []string
 	var sortby []string
@@ -30,10 +21,7 @@ func GetAllCateBySort() ([]interface{}) {
 	fields = []string{"Id", "Name", "DisplayName", "ParentId", "Description"}
 	cate, _ := models.GetAllCategories(query, fields, sortby, order, offset, limit)
 
-	//fmt.Println(cate)
-
 	return  tree(cate, 0, 0,0)
-
 }
 
 func tree(cate []interface{}, parent int64, level int64,key int64) ([]interface{}) {
@@ -48,30 +36,19 @@ func tree(cate []interface{}, parent int64, level int64,key int64) ([]interface{
 				newHtml = GoRepeat("&nbsp;&nbsp;&nbsp;&nbsp;", level) + "|"
 			}
 			v.(map[string]interface{})["html"] = newHtml + GoRepeat(html, level)
-			//fmt.Println(k,level,Id,ParentId,parent,"多少次")
-			//fmt.Println(data)
-			data[key] = v
-
-			data = append(data, tree(cate, Id, level+1,key+1))
-
+			data = append(data,v)
+			data = GoMerge(data,tree(cate, Id, level+1,key+1))
 		}
 	}
 	return data
 }
 
-//func GoMerge(arr1 []interface{},arr2 []interface{}) ([]interface{}) {
-//	var arr3 []interface{}
-//	var i int64
-//	i = 0
-//	//for key,val := range arr1 {
-//	//	for k,v := range arr2 {
-//	//		if val == v {
-//	//			arr3[i]
-//	//		}
-//	//	}
-//	//}
-//}
-
+func GoMerge(arr1 []interface{},arr2 []interface{}) ([]interface{}) {
+	for _,val := range arr2 {
+		arr1 = append(arr1,val)
+	}
+	return arr1
+}
 
 func GoRepeat(str string, num int64) (string) {
 	var i int64

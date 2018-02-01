@@ -28,9 +28,6 @@
 
                         <form action="#" id="contact-form" class="form-horizontal articleForm">
                             <fieldset>
-{{/*{{range $index,$item := .cate }}*/}}
-        {{/*<h2>{{$item.html}}{{$item.Name}} </h2>*/}}
-                {{/*{{end}}*/}}
                                 <div class="control-group">
                                     <label class="control-label" for="title">标题</label>
                                     <div class="controls">
@@ -41,8 +38,9 @@
                                     <label class="control-label" for="email">分类</label>
                                     <div class="controls">
                                         <select class="form-control" id="email">
-                                            <option>1</option>
-                                            <option>2</option>
+                                            {{range $index,$item := .cate }}
+                                                <option>{{str2html $item.html}}{{$item.Name}}</option>
+                                            {{end}}
                                         </select>
                                     </div>
                                 </div>

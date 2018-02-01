@@ -4,7 +4,6 @@ import (
 	"github.com/astaxie/beego"
 	"strconv"
 	"bee-go-myBlog/services"
-	"fmt"
 )
 
 type PostController struct {
@@ -27,9 +26,6 @@ func (p *PostController) Create() {
 
 	cate := services.GetAllCateBySort()
 
-	for key,val := range cate {
-		fmt.Println(val,key)
-	}
 
 	p.Data["cate"] = cate
 	p.Layout = "auth/master.tpl"
