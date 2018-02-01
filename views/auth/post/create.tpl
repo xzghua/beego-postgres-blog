@@ -26,7 +26,8 @@
                 <div class="body-nest" id="validation">
                     <div class="form_center">
 
-                        <form action="#" id="contact-form" class="form-horizontal articleForm">
+                        <form action="/console/post" method="post" id="postCreate" class="form-horizontal articleForm">
+                        {{ .xsrfdata }}
                             <fieldset>
                                 <div class="control-group">
                                     <label class="control-label" for="title">标题</label>
@@ -35,11 +36,11 @@
                                     </div>
                                 </div>
                                 <div class="control-group">
-                                    <label class="control-label" for="email">分类</label>
+                                    <label class="control-label" for="categories">分类</label>
                                     <div class="controls">
-                                        <select class="form-control" id="email">
+                                        <select class="form-control" name="category"  id="categories">
                                             {{range $index,$item := .cate }}
-                                                <option>{{str2html $item.html}}{{$item.Name}}</option>
+                                                <option value="{{ $item.Id }}">{{str2html $item.html}}{{$item.Name}}</option>
                                             {{end}}
                                         </select>
                                     </div>
@@ -53,7 +54,7 @@
                                 <div class="control-group" >
                                     <label class="control-label" for="email">内容</label>
                                     <div id="editormd">
-                                        <textarea style="display:none;">### Hello Editor.md !</textarea>
+                                        <textarea name="content" style="display:none;">### Hello Editor.md !</textarea>
                                     </div>
                                 </div>
                                 <div class="form-actions" style="margin:20px 0 0 0;">
