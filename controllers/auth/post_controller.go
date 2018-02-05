@@ -46,7 +46,13 @@ func (p *PostController) Store()  {
 		fmt.Println(err)
 	}
 
-	fmt.Println(u)
+	fmt.Println(
+		u.Title,
+		u.Tag)
+
+
+	p.ServeJSON(true)
+
 }
 
 func (p *PostController) Show() {
