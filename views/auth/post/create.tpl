@@ -22,6 +22,10 @@
                     </div>
 
                 </div>
+            {{.flash}}
+                {{.errors}}
+            {{.flash.warning}}
+            {{.flash.notice}}
 
                 <div class="body-nest" id="validation">
                     <div class="form_center">

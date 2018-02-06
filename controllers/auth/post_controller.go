@@ -6,6 +6,8 @@ import (
 	"bee-go-myBlog/services"
 	"fmt"
 	"html/template"
+	"github.com/astaxie/beego/validation"
+	"log"
 )
 
 type PostController struct {
@@ -13,11 +15,19 @@ type PostController struct {
 }
 
 type PostCreate struct {
-	Title 		string 	`form:"title"`
-	Category 	int64 	`form:"category"`
-	Tag 		string 	`form:"tag"`
-	Content 	string 	`form:"content"`
+	Title 		string 	`form:"title" valid:"Required;MaxSize(2)"`
+	Category 	int64 	`form:"category" valid:"Required"`
+	Tag 		string 	`form:"tag" valid:"Required"`
+	Content 	string 	`form:"content" valid:"Required"`
 }
+
+//type PostCreate struct {
+//	Title 		string
+//	Category 	int64
+//	Tag 		string
+//	Content 	string
+//}
+
 
 func (p *PostController) Index()  {
 	page := p.GetString("page")
@@ -46,9 +56,30 @@ func (p *PostController) Store()  {
 		fmt.Println(err)
 	}
 
-	fmt.Println(
-		u.Title,
-		u.Tag)
+	//fmt.Println(u)
+
+	minAge := 12
+
+	valid := validation.Validation{}
+	b, err := valid.Valid(&u)
+	valid.MaxSize(u.Title, minAge, "age").Message("少儿不宜！")
+
+	if err != nil {
+		// handle error
+	}
+	flash:=beego.NewFlash()
+
+	if !b {
+		// validation does not pass
+		// blabla...
+		for _, err := range valid.Errors {
+			log.Println(err.Key, err.Message)
+			flash.Error(err.Message)
+			flash.Store(&p.Controller)
+			p.Redirect("/console/post/create",302)
+			return
+		}
+	}
 
 
 	p.ServeJSON(true)
