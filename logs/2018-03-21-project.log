@@ -1,0 +1,1295 @@
+2018/03/21 16:57:28 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/21 16:57:32 [C] [asm_amd64.s:509] the request url is  /console/home
+2018/03/21 16:57:32 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/homecontroller/index.tpl
+2018/03/21 16:57:32 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/03/21 16:57:32 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/03/21 16:57:32 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/03/21 16:57:32 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/03/21 16:57:32 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/03/21 16:57:32 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/03/21 16:57:32 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:827
+2018/03/21 16:57:32 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/03/21 16:57:32 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/03/21 16:57:32 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/03/21 16:57:41 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    931.511µs| nomatch|[44m GET     [0m /console
+2018/03/21 16:57:44 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    2.08144ms|   match|[44m GET     [0m /     r:/
+2018/03/21 16:57:44 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    489.588µs|   match|[44m GET     [0m /static/js/reload.min.js
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  30.725387ms|   match|[44m GET     [0m /console/post   r:/console/post
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    836.221µs|   match|[44m GET     [0m /static/auth/css/style.css
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.000845ms|   match|[44m GET     [0m /static/auth/css/loader-style.css
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   2.689323ms|   match|[44m GET     [0m /static/auth/css/bootstrap.css
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   4.418179ms|   match|[44m GET     [0m /static/auth/js/progress-bar/number-pb.css
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   2.039685ms|   match|[44m GET     [0m /static/auth/js/jquery.js
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    503.031µs|   match|[44m GET     [0m /static/auth/js/progress-bar/src/jquery.velocity.min.js
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    541.688µs|   match|[44m GET     [0m /static/auth/js/progress-bar/number-pb.js
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    412.484µs|   match|[44m GET     [0m /static/auth/js/progress-bar/progress-app.js
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    428.411µs|   match|[44m GET     [0m /static/auth/js/preloader.js
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    876.596µs|   match|[44m GET     [0m /static/auth/js/bootstrap.js
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    522.721µs|   match|[44m GET     [0m /static/auth/js/app.js
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    442.403µs|   match|[44m GET     [0m /static/auth/js/load.js
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    770.046µs|   match|[44m GET     [0m /static/auth/js/main.js
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    470.818µs|   match|[44m GET     [0m /static/auth/js/validate/jquery.validate.min.js
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    608.158µs|   match|[44m GET     [0m /static/auth/js/tag/jquery.tagsinput.js
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.886189ms|   match|[44m GET     [0m /static/auth/js/jquery-ui.min.js
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    389.485µs|   match|[44m GET     [0m /static/auth/js/admin.create.js
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    713.394µs|   match|[44m GET     [0m /static/auth/js/editormd.min.js
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    432.741µs|   match|[44m GET     [0m /static/auth/js/skin-select/skin-select.css
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    444.919µs|   match|[44m GET     [0m /static/auth/css/font-awesome.css
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    775.478µs|   match|[44m GET     [0m /static/auth/css/entypo-icon.css
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    347.482µs|   match|[44m GET     [0m /static/auth/css/maki-icons.css
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    278.177µs|   match|[44m GET     [0m /static/auth/css/weather-icons.min.css
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    419.306µs|   match|[44m GET     [0m /static/auth/css/dripicon.css
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    701.916µs|   match|[44m GET     [0m /static/auth/css/open-sans.css
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    967.123µs|   match|[44m GET     [0m /static/auth/css/awwwards.css
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    356.667µs|   match|[44m GET     [0m /static/auth/js/pnotify/jquery.pnotify.default.css
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    804.013µs|   match|[44m GET     [0m /static/auth/js/tip/tooltipster.css
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    286.411µs|   match|[44m GET     [0m /static/auth/js/pace/themes/pace-theme-center-simple.css
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     434.63µs|   match|[44m GET     [0m /static/auth/js/slidebars/slidebars.css
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    568.107µs|   match|[44m GET     [0m /static/auth/js/gage/jquery.easy-pie-chart.css
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    806.154µs|   match|[44m GET     [0m /static/auth/img/bg.jpg
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    499.143µs|   match|[44m GET     [0m /static/auth/fonts/open-sans-light.woff
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    821.872µs|   match|[44m GET     [0m /static/auth/font/dripicons.ttf
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.525316ms|   match|[44m GET     [0m /static/auth/font/entypo.woff
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    850.335µs|   match|[44m GET     [0m /static/auth/font/weathericons-regular-webfont.woff
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    658.971µs|   match|[44m GET     [0m /static/auth/img/search-white.png
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    972.779µs|   match|[44m GET     [0m /static/auth/fonts/fontawesome-webfont.woff
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    465.343µs|   match|[44m GET     [0m /static/auth/js/skin-select/jquery.cookie.js
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    704.675µs|   match|[44m GET     [0m /static/auth/js/clock/date.js
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.092544ms|   match|[44m GET     [0m /static/auth/js/skin-select/skin-select.js
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.222594ms|   match|[44m GET     [0m /static/auth/js/newsticker/jquery.newsTicker.js
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.511684ms|   match|[44m GET     [0m /static/auth/js/custom/scriptbreaker-multiple-accordion-1.js
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   2.020994ms|   match|[44m GET     [0m /static/auth/js/slidebars/slidebars.min.js
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    402.313µs|   match|[44m GET     [0m /static/auth/js/search/jquery.quicksearch.js
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    350.303µs|   match|[44m GET     [0m /static/auth/js/gage/jquery.easypiechart.min.js
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    464.874µs|   match|[44m GET     [0m /static/auth/js/nano/jquery.nanoscroller.js
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    759.818µs|   match|[44m GET     [0m /static/auth/js/pace/pace.js
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.467119ms|   match|[44m GET     [0m /static/auth/js/tip/jquery.tooltipster.js
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    718.944µs|   match|[44m GET     [0m /static/auth/js/chart/jquery.sparkline.js
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     280.89µs|   match|[44m GET     [0m /static/auth/js/clock/jquery.clock.js
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    443.131µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/codemirror.min.css
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    748.845µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addon/dialog/dialog.css
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    789.091µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addon/fold/foldgutter.css
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    2.15951ms|   match|[44m GET     [0m /static/auth/js/lib/codemirror/codemirror.min.js
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   2.721335ms|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addon/search/matchesonscrollbar.css
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    461.526µs|   match|[44m GET     [0m /static/auth/img/plus.png
+2018/03/21 16:58:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   3.536572ms|   match|[44m GET     [0m /static/auth/js/lib/codemirror/modes.min.js
+2018/03/21 16:58:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   3.366699ms|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addons.min.js
+2018/03/21 16:58:17 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   5.607577ms|   match|[44m GET     [0m /static/auth/img/minus.png
+2018/03/21 16:58:17 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   7.312045ms|   match|[44m GET     [0m /console/post   r:/console/post
+2018/03/21 16:58:18 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|     136.14µs| nomatch|[44m GET     [0m /console/mail.html
+2018/03/21 16:58:22 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   9.358803ms|   match|[44m GET     [0m /console/post/create   r:/console/post/create
+2018/03/21 16:58:22 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    422.208µs|   match|[44m GET     [0m /static/auth/js/validate/validate.css
+2018/03/21 16:58:22 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    834.389µs|   match|[44m GET     [0m /static/auth/js/tag/jquery.tagsinput.css
+2018/03/21 16:58:22 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    983.356µs|   match|[44m GET     [0m /static/auth/css/editormd.min.css
+2018/03/21 16:58:22 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    755.104µs|   match|[44m GET     [0m /static/auth/css/jquery-ui.min.css
+2018/03/21 16:58:22 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    511.831µs|   match|[44m GET     [0m /static/auth/css/bootstrap-responsive.css
+2018/03/21 16:58:22 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    197.607µs| nomatch|[44m GET     [0m /static/auth/fonts/fontawesome-webfont.woff2
+2018/03/21 16:58:22 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    189.402µs| nomatch|[44m GET     [0m /static/auth/images/loading@2x.gif
+2018/03/21 16:58:22 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    110.144µs|   match|[44m GET     [0m /static/auth/fonts/fontawesome-webfont.woff
+2018/03/21 16:58:22 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   5.601784ms|   match|[44m GET     [0m /static/auth/js/lib/marked.min.js
+2018/03/21 16:58:22 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    452.086µs|   match|[44m GET     [0m /static/auth/js/lib/prettify.min.js
+2018/03/21 16:59:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   9.522674ms|   match|[44m GET     [0m /console/cate/auto   r:/console/cate/auto
+2018/03/21 16:59:01 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.812796ms|   match|[44m GET     [0m /console/cate/auto   r:/console/cate/auto
+2018/03/21 16:59:03 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.699898ms|   match|[44m GET     [0m /console/cate/auto   r:/console/cate/auto
+2018/03/21 16:59:08 [D] [server.go:2619] |      127.0.0.1|[47m 302 [0m|    230.095µs|   match|[46m POST    [0m /console/post   r:/console/post
+2018/03/21 16:59:08 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   3.184652ms|   match|[44m GET     [0m /console/post/create   r:/console/post/create
+2018/03/21 16:59:08 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    171.432µs| nomatch|[44m GET     [0m /static/auth/fonts/fontawesome-webfont.woff2
+2018/03/21 16:59:08 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    189.949µs| nomatch|[44m GET     [0m /static/auth/images/loading@2x.gif
+2018/03/21 17:02:14 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|     179.59µs| nomatch|[44m GET     [0m /static/auth/images/loading@2x.gif
+2018/03/21 17:02:14 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|     173.81µs| nomatch|[44m GET     [0m /static/auth/fonts/fontawesome-webfont.woff2
+2018/03/21 17:02:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   2.065761ms|   match|[44m GET     [0m /static/auth/ico/minus.png
+2018/03/21 17:25:08 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   9.031064ms|   match|[44m GET     [0m /static/auth/js/skin-select/skin-select.css
+2018/03/21 17:25:08 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   4.876402ms|   match|[44m GET     [0m /static/auth/css/dripicon.css
+2018/03/21 17:25:08 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    690.896µs|   match|[44m GET     [0m /static/auth/css/maki-icons.css
+2018/03/21 17:25:08 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   3.419106ms|   match|[44m GET     [0m /static/auth/css/weather-icons.min.css
+2018/03/21 17:25:08 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  10.933148ms|   match|[44m GET     [0m /static/auth/css/entypo-icon.css
+2018/03/21 17:25:08 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   6.928484ms|   match|[44m GET     [0m /static/auth/css/font-awesome.css
+2018/03/21 17:25:08 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   2.006248ms|   match|[44m GET     [0m /static/auth/css/open-sans.css
+2018/03/21 17:25:08 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    784.613µs|   match|[44m GET     [0m /static/auth/css/awwwards.css
+2018/03/21 17:25:08 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.107706ms|   match|[44m GET     [0m /static/auth/js/tip/tooltipster.css
+2018/03/21 17:25:08 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    652.481µs|   match|[44m GET     [0m /static/auth/js/pnotify/jquery.pnotify.default.css
+2018/03/21 17:25:08 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    259.509µs|   match|[44m GET     [0m /static/auth/js/pace/themes/pace-theme-center-simple.css
+2018/03/21 17:25:08 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    343.438µs|   match|[44m GET     [0m /static/auth/js/slidebars/slidebars.css
+2018/03/21 17:25:08 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    751.667µs|   match|[44m GET     [0m /static/auth/css/bootstrap-responsive.css
+2018/03/21 17:25:08 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    496.286µs|   match|[44m GET     [0m /static/auth/js/gage/jquery.easy-pie-chart.css
+2018/03/21 17:25:09 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    267.908µs| nomatch|[44m GET     [0m /static/auth/css/bootstrap.css.map
+2018/03/21 17:25:20 [D] [server.go:2619] |      127.0.0.1|[47m 302 [0m|    143.129µs|   match|[46m POST    [0m /console/post   r:/console/post
+2018/03/21 17:25:20 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   5.208892ms|   match|[44m GET     [0m /console/post/create   r:/console/post/create
+2018/03/21 17:25:20 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    633.503µs|   match|[44m GET     [0m /static/auth/css/loader-style.css
+2018/03/21 17:25:20 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    995.338µs|   match|[44m GET     [0m /static/auth/css/bootstrap.css
+2018/03/21 17:25:20 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    431.952µs|   match|[44m GET     [0m /static/auth/js/tag/jquery.tagsinput.css
+2018/03/21 17:25:20 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    560.929µs|   match|[44m GET     [0m /static/auth/js/validate/validate.css
+2018/03/21 17:25:20 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    264.714µs|   match|[44m GET     [0m /static/auth/js/progress-bar/number-pb.css
+2018/03/21 17:25:20 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.395342ms|   match|[44m GET     [0m /static/auth/css/style.css
+2018/03/21 17:25:20 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    274.902µs|   match|[44m GET     [0m /static/auth/css/editormd.min.css
+2018/03/21 17:25:20 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    321.843µs|   match|[44m GET     [0m /static/auth/css/jquery-ui.min.css
+2018/03/21 17:25:20 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    712.387µs|   match|[44m GET     [0m /static/auth/js/jquery.js
+2018/03/21 17:25:20 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    289.377µs|   match|[44m GET     [0m /static/auth/js/progress-bar/src/jquery.velocity.min.js
+2018/03/21 17:25:20 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    244.399µs|   match|[44m GET     [0m /static/auth/js/progress-bar/number-pb.js
+2018/03/21 17:25:20 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    183.982µs|   match|[44m GET     [0m /static/auth/js/progress-bar/progress-app.js
+2018/03/21 17:25:20 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    686.227µs|   match|[44m GET     [0m /static/auth/js/preloader.js
+2018/03/21 17:25:20 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    352.937µs|   match|[44m GET     [0m /static/auth/js/bootstrap.js
+2018/03/21 17:25:20 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    882.957µs|   match|[44m GET     [0m /static/auth/js/app.js
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    392.939µs|   match|[44m GET     [0m /static/auth/js/load.js
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    303.815µs|   match|[44m GET     [0m /static/auth/js/main.js
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    249.737µs|   match|[44m GET     [0m /static/auth/js/validate/jquery.validate.min.js
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    224.203µs|   match|[44m GET     [0m /static/auth/js/tag/jquery.tagsinput.js
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     641.92µs|   match|[44m GET     [0m /static/auth/js/jquery-ui.min.js
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    223.057µs|   match|[44m GET     [0m /static/auth/js/admin.create.js
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    262.986µs|   match|[44m GET     [0m /static/auth/js/editormd.min.js
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    126.717µs|   match|[44m GET     [0m /static/auth/js/skin-select/skin-select.css
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    111.967µs|   match|[44m GET     [0m /static/auth/css/font-awesome.css
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    245.222µs|   match|[44m GET     [0m /static/auth/css/maki-icons.css
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     99.687µs|   match|[44m GET     [0m /static/auth/css/entypo-icon.css
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     82.105µs|   match|[44m GET     [0m /static/auth/css/weather-icons.min.css
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     81.375µs|   match|[44m GET     [0m /static/auth/css/dripicon.css
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    101.962µs|   match|[44m GET     [0m /static/auth/css/open-sans.css
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     80.769µs|   match|[44m GET     [0m /static/auth/js/pnotify/jquery.pnotify.default.css
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    137.589µs|   match|[44m GET     [0m /static/auth/css/awwwards.css
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    115.969µs|   match|[44m GET     [0m /static/auth/js/tip/tooltipster.css
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     97.603µs|   match|[44m GET     [0m /static/auth/js/pace/themes/pace-theme-center-simple.css
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     88.654µs|   match|[44m GET     [0m /static/auth/js/slidebars/slidebars.css
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    111.107µs|   match|[44m GET     [0m /static/auth/js/gage/jquery.easy-pie-chart.css
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     96.554µs|   match|[44m GET     [0m /static/auth/css/bootstrap-responsive.css
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    315.074µs|   match|[44m GET     [0m /static/auth/img/bg.jpg
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    530.858µs|   match|[44m GET     [0m /static/auth/font/dripicons.ttf
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    872.076µs|   match|[44m GET     [0m /static/auth/fonts/open-sans-light.woff
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    328.333µs|   match|[44m GET     [0m /static/auth/font/entypo.woff
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    236.113µs|   match|[44m GET     [0m /static/auth/img/search-white.png
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    602.158µs|   match|[44m GET     [0m /static/auth/font/weathericons-regular-webfont.woff
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    237.667µs| nomatch|[44m GET     [0m /static/auth/fonts/fontawesome-webfont.woff2
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|     219.52µs| nomatch|[44m GET     [0m /static/auth/css/bootstrap.css.map
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    203.649µs|   match|[44m GET     [0m /static/auth/js/skin-select/jquery.cookie.js
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    173.602µs|   match|[44m GET     [0m /static/auth/js/skin-select/skin-select.js
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    449.106µs|   match|[44m GET     [0m /static/auth/js/clock/date.js
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    206.543µs|   match|[44m GET     [0m /static/auth/js/newsticker/jquery.newsTicker.js
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    129.297µs|   match|[44m GET     [0m /static/auth/js/custom/scriptbreaker-multiple-accordion-1.js
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    145.063µs|   match|[44m GET     [0m /static/auth/js/slidebars/slidebars.min.js
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    146.174µs|   match|[44m GET     [0m /static/auth/js/gage/jquery.easypiechart.min.js
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    240.905µs|   match|[44m GET     [0m /static/auth/js/search/jquery.quicksearch.js
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     96.993µs|   match|[44m GET     [0m /static/auth/js/tip/jquery.tooltipster.js
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    260.739µs|   match|[44m GET     [0m /static/auth/js/nano/jquery.nanoscroller.js
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    292.426µs|   match|[44m GET     [0m /static/auth/js/pace/pace.js
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     153.93µs|   match|[44m GET     [0m /static/auth/js/chart/jquery.sparkline.js
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    209.485µs|   match|[44m GET     [0m /static/auth/js/clock/jquery.clock.js
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|        341µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addon/dialog/dialog.css
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    483.535µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/codemirror.min.css
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    311.057µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addon/search/matchesonscrollbar.css
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    507.613µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addon/fold/foldgutter.css
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    228.073µs| nomatch|[44m GET     [0m /static/auth/images/loading@2x.gif
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    555.969µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/codemirror.min.js
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     98.781µs|   match|[44m GET     [0m /static/auth/fonts/fontawesome-webfont.woff
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     113.34µs|   match|[44m GET     [0m /static/auth/img/plus.png
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    604.236µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/modes.min.js
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    371.647µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addons.min.js
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    269.983µs|   match|[44m GET     [0m /static/auth/js/lib/marked.min.js
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    102.188µs|   match|[44m GET     [0m /static/auth/fonts/fontawesome-webfont.woff
+2018/03/21 17:25:21 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    266.383µs|   match|[44m GET     [0m /static/auth/js/lib/prettify.min.js
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    110.598µs|   match|[44m GET     [0m /static/auth/img/minus.png
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|  10.900219ms|   match|[44m GET     [0m /console/post   r:/console/post
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     35.062µs|   match|[44m GET     [0m /static/auth/css/loader-style.css
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    134.507µs|   match|[44m GET     [0m /static/auth/css/style.css
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    177.953µs|   match|[44m GET     [0m /static/auth/css/bootstrap.css
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     37.651µs|   match|[44m GET     [0m /static/auth/js/progress-bar/number-pb.css
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    259.983µs|   match|[44m GET     [0m /static/auth/js/jquery.js
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    114.656µs|   match|[44m GET     [0m /static/auth/js/progress-bar/src/jquery.velocity.min.js
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     75.468µs|   match|[44m GET     [0m /static/auth/js/progress-bar/number-pb.js
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     61.569µs|   match|[44m GET     [0m /static/auth/js/progress-bar/progress-app.js
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     62.726µs|   match|[44m GET     [0m /static/auth/js/preloader.js
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    140.334µs|   match|[44m GET     [0m /static/auth/js/bootstrap.js
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     73.959µs|   match|[44m GET     [0m /static/auth/js/app.js
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     97.983µs|   match|[44m GET     [0m /static/auth/js/load.js
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    103.298µs|   match|[44m GET     [0m /static/auth/js/main.js
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    188.914µs|   match|[44m GET     [0m /static/auth/js/validate/jquery.validate.min.js
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    170.943µs|   match|[44m GET     [0m /static/auth/js/tag/jquery.tagsinput.js
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    266.172µs|   match|[44m GET     [0m /static/auth/js/jquery-ui.min.js
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|      79.22µs|   match|[44m GET     [0m /static/auth/js/admin.create.js
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     156.02µs|   match|[44m GET     [0m /static/auth/js/editormd.min.js
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    120.526µs|   match|[44m GET     [0m /static/auth/js/skin-select/skin-select.css
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     75.939µs|   match|[44m GET     [0m /static/auth/css/font-awesome.css
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     78.103µs|   match|[44m GET     [0m /static/auth/css/entypo-icon.css
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     53.434µs|   match|[44m GET     [0m /static/auth/css/maki-icons.css
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     55.702µs|   match|[44m GET     [0m /static/auth/css/weather-icons.min.css
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     55.939µs|   match|[44m GET     [0m /static/auth/css/dripicon.css
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     60.959µs|   match|[44m GET     [0m /static/auth/css/open-sans.css
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     51.504µs|   match|[44m GET     [0m /static/auth/css/awwwards.css
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     35.671µs|   match|[44m GET     [0m /static/auth/js/pnotify/jquery.pnotify.default.css
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     66.504µs|   match|[44m GET     [0m /static/auth/js/tip/tooltipster.css
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     40.264µs|   match|[44m GET     [0m /static/auth/js/pace/themes/pace-theme-center-simple.css
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     59.256µs|   match|[44m GET     [0m /static/auth/js/slidebars/slidebars.css
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     65.439µs|   match|[44m GET     [0m /static/auth/js/gage/jquery.easy-pie-chart.css
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    128.527µs|   match|[44m GET     [0m /static/auth/img/bg.jpg
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    104.786µs|   match|[44m GET     [0m /static/auth/fonts/open-sans-light.woff
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     80.759µs|   match|[44m GET     [0m /static/auth/font/dripicons.ttf
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    109.425µs|   match|[44m GET     [0m /static/auth/font/entypo.woff
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     82.627µs|   match|[44m GET     [0m /static/auth/font/weathericons-regular-webfont.woff
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     39.614µs|   match|[44m GET     [0m /static/auth/img/search-white.png
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     132.73µs|   match|[44m GET     [0m /static/auth/fonts/fontawesome-webfont.woff
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    136.823µs|   match|[44m GET     [0m /static/auth/css/style.css
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    104.602µs|   match|[44m GET     [0m /static/auth/js/skin-select/jquery.cookie.js
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     48.847µs|   match|[44m GET     [0m /static/auth/js/skin-select/skin-select.js
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     38.928µs|   match|[44m GET     [0m /static/auth/js/clock/date.js
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|      63.06µs|   match|[44m GET     [0m /static/auth/js/newsticker/jquery.newsTicker.js
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     58.649µs|   match|[44m GET     [0m /static/auth/js/custom/scriptbreaker-multiple-accordion-1.js
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     75.418µs|   match|[44m GET     [0m /static/auth/js/slidebars/slidebars.min.js
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|      48.61µs|   match|[44m GET     [0m /static/auth/js/gage/jquery.easypiechart.min.js
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    109.499µs|   match|[44m GET     [0m /static/auth/js/search/jquery.quicksearch.js
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     95.588µs|   match|[44m GET     [0m /static/auth/js/tip/jquery.tooltipster.js
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     79.143µs|   match|[44m GET     [0m /static/auth/js/nano/jquery.nanoscroller.js
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    112.181µs|   match|[44m GET     [0m /static/auth/js/pace/pace.js
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    282.722µs| nomatch|[44m GET     [0m /static/auth/css/bootstrap.css.map
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    142.657µs|   match|[44m GET     [0m /static/auth/js/chart/jquery.sparkline.js
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    100.543µs|   match|[44m GET     [0m /static/auth/js/clock/jquery.clock.js
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     87.526µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/codemirror.min.css
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     87.685µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addon/dialog/dialog.css
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     63.324µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addon/fold/foldgutter.css
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    275.497µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/codemirror.min.js
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     55.423µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addon/search/matchesonscrollbar.css
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     64.933µs|   match|[44m GET     [0m /static/auth/img/plus.png
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     282.52µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/modes.min.js
+2018/03/21 17:26:15 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    153.909µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addons.min.js
+2018/03/21 17:26:29 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     52.201µs|   match|[44m GET     [0m /static/auth/img/minus.png
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    2.49176ms|   match|[44m GET     [0m /console/post/create   r:/console/post/create
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|      67.92µs|   match|[44m GET     [0m /static/auth/js/tag/jquery.tagsinput.css
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     39.636µs|   match|[44m GET     [0m /static/auth/js/validate/validate.css
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|      30.59µs|   match|[44m GET     [0m /static/auth/js/progress-bar/number-pb.css
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     35.752µs|   match|[44m GET     [0m /static/auth/css/loader-style.css
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    241.087µs|   match|[44m GET     [0m /static/auth/css/bootstrap.css
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    177.795µs|   match|[44m GET     [0m /static/auth/css/style.css
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    113.407µs|   match|[44m GET     [0m /static/auth/css/editormd.min.css
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    178.356µs|   match|[44m GET     [0m /static/auth/css/jquery-ui.min.css
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    243.994µs|   match|[44m GET     [0m /static/auth/js/jquery.js
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     113.96µs|   match|[44m GET     [0m /static/auth/js/progress-bar/src/jquery.velocity.min.js
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     76.992µs|   match|[44m GET     [0m /static/auth/js/progress-bar/number-pb.js
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    102.178µs|   match|[44m GET     [0m /static/auth/js/progress-bar/progress-app.js
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|      79.26µs|   match|[44m GET     [0m /static/auth/js/preloader.js
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    102.095µs|   match|[44m GET     [0m /static/auth/js/bootstrap.js
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     92.859µs|   match|[44m GET     [0m /static/auth/js/app.js
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     85.043µs|   match|[44m GET     [0m /static/auth/js/load.js
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     84.567µs|   match|[44m GET     [0m /static/auth/js/main.js
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|      93.01µs|   match|[44m GET     [0m /static/auth/js/validate/jquery.validate.min.js
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|         89µs|   match|[44m GET     [0m /static/auth/js/tag/jquery.tagsinput.js
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    258.868µs|   match|[44m GET     [0m /static/auth/js/jquery-ui.min.js
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     56.926µs|   match|[44m GET     [0m /static/auth/js/admin.create.js
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     92.548µs|   match|[44m GET     [0m /static/auth/js/editormd.min.js
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     123.05µs|   match|[44m GET     [0m /static/auth/css/bootstrap-responsive.css
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|      89.44µs|   match|[44m GET     [0m /static/auth/js/skin-select/skin-select.css
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     90.087µs|   match|[44m GET     [0m /static/auth/css/font-awesome.css
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|      65.22µs|   match|[44m GET     [0m /static/auth/css/entypo-icon.css
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     52.115µs|   match|[44m GET     [0m /static/auth/css/maki-icons.css
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     53.981µs|   match|[44m GET     [0m /static/auth/css/weather-icons.min.css
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     85.632µs|   match|[44m GET     [0m /static/auth/css/dripicon.css
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     60.947µs|   match|[44m GET     [0m /static/auth/css/open-sans.css
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     40.899µs|   match|[44m GET     [0m /static/auth/css/awwwards.css
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|      39.27µs|   match|[44m GET     [0m /static/auth/js/pnotify/jquery.pnotify.default.css
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|      69.93µs|   match|[44m GET     [0m /static/auth/js/tip/tooltipster.css
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     32.749µs|   match|[44m GET     [0m /static/auth/js/pace/themes/pace-theme-center-simple.css
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    107.253µs|   match|[44m GET     [0m /static/auth/js/slidebars/slidebars.css
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|      55.46µs|   match|[44m GET     [0m /static/auth/js/gage/jquery.easy-pie-chart.css
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    163.026µs|   match|[44m GET     [0m /static/auth/img/bg.jpg
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     80.979µs|   match|[44m GET     [0m /static/auth/fonts/open-sans-light.woff
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     88.953µs|   match|[44m GET     [0m /static/auth/font/dripicons.ttf
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    103.904µs|   match|[44m GET     [0m /static/auth/font/entypo.woff
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|      80.44µs|   match|[44m GET     [0m /static/auth/font/weathericons-regular-webfont.woff
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|      37.39µs|   match|[44m GET     [0m /static/auth/img/search-white.png
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    224.398µs| nomatch|[44m GET     [0m /static/auth/fonts/fontawesome-webfont.woff2
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    111.226µs|   match|[44m GET     [0m /static/auth/fonts/fontawesome-webfont.woff
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    245.699µs| nomatch|[44m GET     [0m /static/auth/css/bootstrap.css.map
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    102.172µs|   match|[44m GET     [0m /static/auth/js/skin-select/jquery.cookie.js
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|      84.45µs|   match|[44m GET     [0m /static/auth/js/skin-select/skin-select.js
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     77.753µs|   match|[44m GET     [0m /static/auth/js/clock/date.js
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     95.445µs|   match|[44m GET     [0m /static/auth/js/newsticker/jquery.newsTicker.js
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     45.892µs|   match|[44m GET     [0m /static/auth/js/custom/scriptbreaker-multiple-accordion-1.js
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     72.194µs|   match|[44m GET     [0m /static/auth/js/slidebars/slidebars.min.js
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|      84.68µs|   match|[44m GET     [0m /static/auth/js/search/jquery.quicksearch.js
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     36.372µs|   match|[44m GET     [0m /static/auth/js/gage/jquery.easypiechart.min.js
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     70.035µs|   match|[44m GET     [0m /static/auth/js/tip/jquery.tooltipster.js
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    103.516µs|   match|[44m GET     [0m /static/auth/js/nano/jquery.nanoscroller.js
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    105.285µs|   match|[44m GET     [0m /static/auth/js/pace/pace.js
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    118.358µs|   match|[44m GET     [0m /static/auth/js/chart/jquery.sparkline.js
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     77.479µs|   match|[44m GET     [0m /static/auth/js/clock/jquery.clock.js
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     77.174µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/codemirror.min.css
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     47.979µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addon/dialog/dialog.css
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|      21.62µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addon/search/matchesonscrollbar.css
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     32.615µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addon/fold/foldgutter.css
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    178.511µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/codemirror.min.js
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    176.216µs| nomatch|[44m GET     [0m /static/auth/images/loading@2x.gif
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     52.244µs|   match|[44m GET     [0m /static/auth/img/plus.png
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    208.151µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/modes.min.js
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    115.788µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addons.min.js
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     80.755µs|   match|[44m GET     [0m /static/auth/js/lib/marked.min.js
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    367.224µs|   match|[44m GET     [0m /static/auth/fonts/fontawesome-webfont.woff
+2018/03/21 17:26:30 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    102.246µs|   match|[44m GET     [0m /static/auth/js/lib/prettify.min.js
+2018/03/21 17:26:37 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     71.707µs|   match|[44m GET     [0m /static/auth/js/validate/validate.css
+2018/03/21 17:26:37 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     41.578µs|   match|[44m GET     [0m /static/auth/js/tag/jquery.tagsinput.css
+2018/03/21 17:26:37 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    117.448µs|   match|[44m GET     [0m /static/auth/css/editormd.min.css
+2018/03/21 17:26:37 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     75.852µs|   match|[44m GET     [0m /static/auth/css/jquery-ui.min.css
+2018/03/21 17:26:37 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    222.618µs| nomatch|[44m GET     [0m /static/auth/images/loading@2x.gif
+2018/03/21 17:26:37 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    159.508µs| nomatch|[44m GET     [0m /static/auth/fonts/fontawesome-webfont.woff2
+2018/03/21 17:26:37 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    187.736µs| nomatch|[44m GET     [0m /static/auth/css/bootstrap.css.map
+2018/03/21 17:26:40 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   2.218967ms|   match|[44m GET     [0m /console/cate/auto   r:/console/cate/auto
+2018/03/21 17:26:41 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.620176ms|   match|[44m GET     [0m /console/cate/auto   r:/console/cate/auto
+2018/03/21 17:30:21 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/21 17:30:26 [C] [asm_amd64.s:509] the request url is  /console/post
+2018/03/21 17:30:26 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/postcontroller/store.tpl
+2018/03/21 17:30:26 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/03/21 17:30:26 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/03/21 17:30:26 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/03/21 17:30:26 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/03/21 17:30:26 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/03/21 17:30:26 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/03/21 17:30:26 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:827
+2018/03/21 17:30:26 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/03/21 17:30:26 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/03/21 17:30:26 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    987.261µs|   match|[44m GET     [0m /static/auth/css/style.css
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    2.11714ms|   match|[44m GET     [0m /static/auth/css/bootstrap.css
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   2.481685ms|   match|[44m GET     [0m /static/auth/css/loader-style.css
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    2.79982ms|   match|[44m GET     [0m /static/auth/js/progress-bar/number-pb.css
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    955.041µs|   match|[44m GET     [0m /static/auth/css/editormd.min.css
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   3.768794ms|   match|[44m GET     [0m /static/auth/js/validate/validate.css
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   4.105862ms|   match|[44m GET     [0m /static/auth/js/tag/jquery.tagsinput.css
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    645.915µs|   match|[44m GET     [0m /static/auth/css/jquery-ui.min.css
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   2.472334ms|   match|[44m GET     [0m /static/auth/js/jquery.js
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    598.072µs|   match|[44m GET     [0m /static/auth/js/progress-bar/src/jquery.velocity.min.js
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    467.686µs|   match|[44m GET     [0m /static/auth/js/progress-bar/number-pb.js
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     434.27µs|   match|[44m GET     [0m /static/auth/js/progress-bar/progress-app.js
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    424.958µs|   match|[44m GET     [0m /static/auth/js/preloader.js
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.060451ms|   match|[44m GET     [0m /static/auth/js/bootstrap.js
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    505.746µs|   match|[44m GET     [0m /static/auth/js/app.js
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    527.621µs|   match|[44m GET     [0m /static/auth/js/load.js
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     508.74µs|   match|[44m GET     [0m /static/auth/js/main.js
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    633.817µs|   match|[44m GET     [0m /static/auth/js/validate/jquery.validate.min.js
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    597.679µs|   match|[44m GET     [0m /static/auth/js/tag/jquery.tagsinput.js
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   2.393418ms|   match|[44m GET     [0m /static/auth/js/jquery-ui.min.js
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    411.702µs|   match|[44m GET     [0m /static/auth/js/admin.create.js
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    813.545µs|   match|[44m GET     [0m /static/auth/js/editormd.min.js
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    469.521µs|   match|[44m GET     [0m /static/auth/js/skin-select/skin-select.css
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    511.894µs|   match|[44m GET     [0m /static/auth/css/dripicon.css
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.322205ms|   match|[44m GET     [0m /static/auth/css/entypo-icon.css
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.593681ms|   match|[44m GET     [0m /static/auth/css/maki-icons.css
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   2.183339ms|   match|[44m GET     [0m /static/auth/css/font-awesome.css
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   2.314104ms|   match|[44m GET     [0m /static/auth/css/weather-icons.min.css
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    516.423µs|   match|[44m GET     [0m /static/auth/css/open-sans.css
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     427.19µs|   match|[44m GET     [0m /static/auth/css/awwwards.css
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     455.11µs|   match|[44m GET     [0m /static/auth/js/pnotify/jquery.pnotify.default.css
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     743.47µs|   match|[44m GET     [0m /static/auth/js/tip/tooltipster.css
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    920.417µs|   match|[44m GET     [0m /static/auth/js/pace/themes/pace-theme-center-simple.css
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.266183ms|   match|[44m GET     [0m /static/auth/js/slidebars/slidebars.css
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    292.868µs|   match|[44m GET     [0m /static/auth/js/gage/jquery.easy-pie-chart.css
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     574.29µs|   match|[44m GET     [0m /static/auth/css/bootstrap-responsive.css
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.022626ms|   match|[44m GET     [0m /static/auth/img/bg.jpg
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    944.706µs|   match|[44m GET     [0m /static/auth/fonts/open-sans-light.woff
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    567.543µs|   match|[44m GET     [0m /static/auth/font/dripicons.ttf
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    946.216µs|   match|[44m GET     [0m /static/auth/font/entypo.woff
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    1.20208ms|   match|[44m GET     [0m /static/auth/font/weathericons-regular-webfont.woff
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    421.943µs|   match|[44m GET     [0m /static/auth/img/search-white.png
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    282.352µs| nomatch|[44m GET     [0m /static/auth/fonts/fontawesome-webfont.woff2
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    256.089µs| nomatch|[44m GET     [0m /static/auth/css/bootstrap.css.map
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   2.725394ms|   match|[44m GET     [0m /static/auth/fonts/fontawesome-webfont.woff
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     445.46µs|   match|[44m GET     [0m /static/auth/js/skin-select/jquery.cookie.js
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    691.378µs|   match|[44m GET     [0m /static/auth/js/skin-select/skin-select.js
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    673.807µs|   match|[44m GET     [0m /static/auth/js/newsticker/jquery.newsTicker.js
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    713.753µs|   match|[44m GET     [0m /static/auth/js/slidebars/slidebars.min.js
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    1.22938ms|   match|[44m GET     [0m /static/auth/js/custom/scriptbreaker-multiple-accordion-1.js
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.990314ms|   match|[44m GET     [0m /static/auth/js/clock/date.js
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    550.098µs|   match|[44m GET     [0m /static/auth/js/search/jquery.quicksearch.js
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    507.847µs|   match|[44m GET     [0m /static/auth/js/gage/jquery.easypiechart.min.js
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    807.489µs|   match|[44m GET     [0m /static/auth/js/tip/jquery.tooltipster.js
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.033643ms|   match|[44m GET     [0m /static/auth/js/nano/jquery.nanoscroller.js
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.270973ms|   match|[44m GET     [0m /static/auth/js/pace/pace.js
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    813.217µs|   match|[44m GET     [0m /static/auth/js/chart/jquery.sparkline.js
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     355.18µs|   match|[44m GET     [0m /static/auth/js/clock/jquery.clock.js
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   2.011621ms|   match|[44m GET     [0m /static/auth/js/lib/codemirror/codemirror.min.css
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.658016ms|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addon/search/matchesonscrollbar.css
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   2.558908ms|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addon/dialog/dialog.css
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    186.091µs| nomatch|[44m GET     [0m /static/auth/images/loading@2x.gif
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.377256ms|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addon/fold/foldgutter.css
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   2.805388ms|   match|[44m GET     [0m /static/auth/js/lib/codemirror/codemirror.min.js
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     435.07µs|   match|[44m GET     [0m /static/auth/img/plus.png
+2018/03/21 17:30:33 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   2.196265ms|   match|[44m GET     [0m /static/auth/js/lib/codemirror/modes.min.js
+2018/03/21 17:30:34 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    889.168µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addons.min.js
+2018/03/21 17:30:34 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    559.269µs|   match|[44m GET     [0m /static/auth/js/lib/marked.min.js
+2018/03/21 17:30:34 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    137.149µs|   match|[44m GET     [0m /static/auth/fonts/fontawesome-webfont.woff
+2018/03/21 17:30:34 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    507.927µs|   match|[44m GET     [0m /static/auth/js/lib/prettify.min.js
+2018/03/21 17:30:34 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    104.759µs|   match|[44m GET     [0m /static/auth/js/tag/jquery.tagsinput.css
+2018/03/21 17:30:34 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     57.631µs|   match|[44m GET     [0m /static/auth/js/validate/validate.css
+2018/03/21 17:30:34 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|      92.08µs|   match|[44m GET     [0m /static/auth/css/jquery-ui.min.css
+2018/03/21 17:30:34 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    181.042µs|   match|[44m GET     [0m /static/auth/css/editormd.min.css
+2018/03/21 17:30:34 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    245.526µs| nomatch|[44m GET     [0m /static/auth/images/loading@2x.gif
+2018/03/21 17:30:34 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    204.227µs| nomatch|[44m GET     [0m /static/auth/fonts/fontawesome-webfont.woff2
+2018/03/21 17:30:34 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    155.863µs| nomatch|[44m GET     [0m /static/auth/css/bootstrap.css.map
+2018/03/21 17:31:40 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/21 17:31:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    287.378µs|   match|[46m POST    [0m /console/post   r:/console/post
+2018/03/21 17:32:52 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/21 17:36:20 [C] [asm_amd64.s:509] the request url is  /console/post
+2018/03/21 17:36:20 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/postcontroller/store.tpl
+2018/03/21 17:36:20 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/03/21 17:36:20 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/03/21 17:36:20 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/03/21 17:36:20 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/03/21 17:36:20 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/03/21 17:36:20 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/03/21 17:36:20 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:827
+2018/03/21 17:36:20 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/03/21 17:36:20 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/03/21 17:36:20 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/03/21 17:36:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.032048ms|   match|[44m GET     [0m /static/auth/css/style.css
+2018/03/21 17:36:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    199.454µs|   match|[44m GET     [0m /static/auth/js/validate/validate.css
+2018/03/21 17:36:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    204.217µs|   match|[44m GET     [0m /static/auth/js/tag/jquery.tagsinput.css
+2018/03/21 17:36:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.318373ms|   match|[44m GET     [0m /static/auth/css/loader-style.css
+2018/03/21 17:36:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.453838ms|   match|[44m GET     [0m /static/auth/js/progress-bar/number-pb.css
+2018/03/21 17:36:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   2.000788ms|   match|[44m GET     [0m /static/auth/css/bootstrap.css
+2018/03/21 17:36:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    314.074µs|   match|[44m GET     [0m /static/auth/css/editormd.min.css
+2018/03/21 17:36:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    233.665µs|   match|[44m GET     [0m /static/auth/css/jquery-ui.min.css
+2018/03/21 17:36:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.860829ms|   match|[44m GET     [0m /static/auth/js/jquery.js
+2018/03/21 17:36:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    234.446µs|   match|[44m GET     [0m /static/auth/js/progress-bar/src/jquery.velocity.min.js
+2018/03/21 17:36:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    178.938µs|   match|[44m GET     [0m /static/auth/js/progress-bar/number-pb.js
+2018/03/21 17:36:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    128.446µs|   match|[44m GET     [0m /static/auth/js/progress-bar/progress-app.js
+2018/03/21 17:36:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    130.023µs|   match|[44m GET     [0m /static/auth/js/preloader.js
+2018/03/21 17:36:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    233.123µs|   match|[44m GET     [0m /static/auth/js/bootstrap.js
+2018/03/21 17:36:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    136.224µs|   match|[44m GET     [0m /static/auth/js/app.js
+2018/03/21 17:36:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    163.255µs|   match|[44m GET     [0m /static/auth/js/load.js
+2018/03/21 17:36:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    148.725µs|   match|[44m GET     [0m /static/auth/js/main.js
+2018/03/21 17:36:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    176.019µs|   match|[44m GET     [0m /static/auth/js/validate/jquery.validate.min.js
+2018/03/21 17:36:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    218.767µs|   match|[44m GET     [0m /static/auth/js/tag/jquery.tagsinput.js
+2018/03/21 17:36:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    749.752µs|   match|[44m GET     [0m /static/auth/js/jquery-ui.min.js
+2018/03/21 17:36:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    393.463µs|   match|[44m GET     [0m /static/auth/js/admin.create.js
+2018/03/21 17:36:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    197.425µs|   match|[44m GET     [0m /static/auth/js/editormd.min.js
+2018/03/21 17:36:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    275.434µs|   match|[44m GET     [0m /static/auth/css/bootstrap-responsive.css
+2018/03/21 17:36:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    187.744µs|   match|[44m GET     [0m /static/auth/js/skin-select/skin-select.css
+2018/03/21 17:36:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    179.585µs|   match|[44m GET     [0m /static/auth/css/font-awesome.css
+2018/03/21 17:36:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    146.464µs|   match|[44m GET     [0m /static/auth/css/entypo-icon.css
+2018/03/21 17:36:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    162.806µs|   match|[44m GET     [0m /static/auth/css/maki-icons.css
+2018/03/21 17:36:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    171.972µs|   match|[44m GET     [0m /static/auth/css/weather-icons.min.css
+2018/03/21 17:36:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     157.45µs|   match|[44m GET     [0m /static/auth/css/dripicon.css
+2018/03/21 17:36:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    132.999µs|   match|[44m GET     [0m /static/auth/css/open-sans.css
+2018/03/21 17:36:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    108.144µs|   match|[44m GET     [0m /static/auth/css/awwwards.css
+2018/03/21 17:36:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     72.177µs|   match|[44m GET     [0m /static/auth/js/pnotify/jquery.pnotify.default.css
+2018/03/21 17:36:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    123.089µs|   match|[44m GET     [0m /static/auth/js/tip/tooltipster.css
+2018/03/21 17:36:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    112.839µs|   match|[44m GET     [0m /static/auth/js/pace/themes/pace-theme-center-simple.css
+2018/03/21 17:36:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    205.963µs|   match|[44m GET     [0m /static/auth/js/slidebars/slidebars.css
+2018/03/21 17:36:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    121.511µs|   match|[44m GET     [0m /static/auth/js/gage/jquery.easy-pie-chart.css
+2018/03/21 17:36:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    274.805µs|   match|[44m GET     [0m /static/auth/img/bg.jpg
+2018/03/21 17:36:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    323.781µs|   match|[44m GET     [0m /static/auth/fonts/open-sans-light.woff
+2018/03/21 17:36:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    196.196µs|   match|[44m GET     [0m /static/auth/font/dripicons.ttf
+2018/03/21 17:36:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    527.533µs|   match|[44m GET     [0m /static/auth/font/entypo.woff
+2018/03/21 17:36:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    137.023µs|   match|[44m GET     [0m /static/auth/img/search-white.png
+2018/03/21 17:36:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    249.588µs|   match|[44m GET     [0m /static/auth/font/weathericons-regular-webfont.woff
+2018/03/21 17:36:24 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|     265.51µs| nomatch|[44m GET     [0m /static/auth/fonts/fontawesome-webfont.woff2
+2018/03/21 17:36:24 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    245.786µs|   match|[44m GET     [0m /static/auth/fonts/fontawesome-webfont.woff
+2018/03/21 17:36:24 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    285.315µs| nomatch|[44m GET     [0m /static/auth/css/bootstrap.css.map
+2018/03/21 17:36:25 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    197.628µs|   match|[44m GET     [0m /static/auth/js/skin-select/jquery.cookie.js
+2018/03/21 17:36:25 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    201.786µs|   match|[44m GET     [0m /static/auth/js/skin-select/skin-select.js
+2018/03/21 17:36:25 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    207.185µs|   match|[44m GET     [0m /static/auth/js/clock/date.js
+2018/03/21 17:36:25 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    138.255µs|   match|[44m GET     [0m /static/auth/js/newsticker/jquery.newsTicker.js
+2018/03/21 17:36:25 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     109.31µs|   match|[44m GET     [0m /static/auth/js/custom/scriptbreaker-multiple-accordion-1.js
+2018/03/21 17:36:25 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    131.103µs|   match|[44m GET     [0m /static/auth/js/slidebars/slidebars.min.js
+2018/03/21 17:36:25 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    189.885µs|   match|[44m GET     [0m /static/auth/js/search/jquery.quicksearch.js
+2018/03/21 17:36:25 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    174.335µs|   match|[44m GET     [0m /static/auth/js/gage/jquery.easypiechart.min.js
+2018/03/21 17:36:25 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    212.764µs|   match|[44m GET     [0m /static/auth/js/tip/jquery.tooltipster.js
+2018/03/21 17:36:25 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    220.526µs|   match|[44m GET     [0m /static/auth/js/nano/jquery.nanoscroller.js
+2018/03/21 17:36:25 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    193.295µs|   match|[44m GET     [0m /static/auth/js/pace/pace.js
+2018/03/21 17:36:25 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    429.379µs|   match|[44m GET     [0m /static/auth/js/chart/jquery.sparkline.js
+2018/03/21 17:36:25 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    413.729µs|   match|[44m GET     [0m /static/auth/js/clock/jquery.clock.js
+2018/03/21 17:36:25 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    195.754µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addon/dialog/dialog.css
+2018/03/21 17:36:25 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    177.295µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/codemirror.min.css
+2018/03/21 17:36:25 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    480.982µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addon/search/matchesonscrollbar.css
+2018/03/21 17:36:25 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    176.698µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addon/fold/foldgutter.css
+2018/03/21 17:36:25 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.263593ms|   match|[44m GET     [0m /static/auth/js/lib/codemirror/codemirror.min.js
+2018/03/21 17:36:25 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    216.705µs| nomatch|[44m GET     [0m /static/auth/images/loading@2x.gif
+2018/03/21 17:36:25 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     153.06µs|   match|[44m GET     [0m /static/auth/img/plus.png
+2018/03/21 17:36:25 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    439.823µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/modes.min.js
+2018/03/21 17:36:25 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    188.347µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addons.min.js
+2018/03/21 17:36:25 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    159.882µs|   match|[44m GET     [0m /static/auth/js/lib/marked.min.js
+2018/03/21 17:36:25 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     90.733µs|   match|[44m GET     [0m /static/auth/fonts/fontawesome-webfont.woff
+2018/03/21 17:36:25 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    350.026µs|   match|[44m GET     [0m /static/auth/js/lib/prettify.min.js
+2018/03/21 17:36:25 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     63.283µs|   match|[44m GET     [0m /static/auth/js/validate/validate.css
+2018/03/21 17:36:25 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     44.076µs|   match|[44m GET     [0m /static/auth/js/tag/jquery.tagsinput.css
+2018/03/21 17:36:25 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     87.795µs|   match|[44m GET     [0m /static/auth/css/editormd.min.css
+2018/03/21 17:36:25 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     76.663µs|   match|[44m GET     [0m /static/auth/css/jquery-ui.min.css
+2018/03/21 17:36:25 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|     212.25µs| nomatch|[44m GET     [0m /static/auth/images/loading@2x.gif
+2018/03/21 17:36:25 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    215.554µs| nomatch|[44m GET     [0m /static/auth/fonts/fontawesome-webfont.woff2
+2018/03/21 17:36:25 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    264.618µs| nomatch|[44m GET     [0m /static/auth/css/bootstrap.css.map
+2018/03/21 17:43:19 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/21 17:43:24 [C] [asm_amd64.s:509] the request url is  /console/post
+2018/03/21 17:43:24 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/postcontroller/store.tpl
+2018/03/21 17:43:24 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/03/21 17:43:24 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/03/21 17:43:24 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/03/21 17:43:24 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/03/21 17:43:24 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/03/21 17:43:24 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/03/21 17:43:24 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:827
+2018/03/21 17:43:24 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/03/21 17:43:24 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/03/21 17:43:24 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/03/21 17:44:03 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.033068ms|   match|[44m GET     [0m /static/auth/css/style.css
+2018/03/21 17:44:03 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    2.12572ms|   match|[44m GET     [0m /static/auth/css/bootstrap.css
+2018/03/21 17:44:03 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   2.452439ms|   match|[44m GET     [0m /static/auth/css/loader-style.css
+2018/03/21 17:44:03 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   2.733811ms|   match|[44m GET     [0m /static/auth/js/progress-bar/number-pb.css
+2018/03/21 17:44:03 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    983.731µs|   match|[44m GET     [0m /static/auth/css/editormd.min.css
+2018/03/21 17:44:03 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   3.901939ms|   match|[44m GET     [0m /static/auth/js/validate/validate.css
+2018/03/21 17:44:03 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   4.191853ms|   match|[44m GET     [0m /static/auth/js/tag/jquery.tagsinput.css
+2018/03/21 17:44:03 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    641.412µs|   match|[44m GET     [0m /static/auth/css/jquery-ui.min.css
+2018/03/21 17:44:03 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   2.403057ms|   match|[44m GET     [0m /static/auth/js/jquery.js
+2018/03/21 17:44:03 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    616.787µs|   match|[44m GET     [0m /static/auth/js/progress-bar/src/jquery.velocity.min.js
+2018/03/21 17:44:03 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    409.487µs|   match|[44m GET     [0m /static/auth/js/progress-bar/number-pb.js
+2018/03/21 17:44:03 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     521.54µs|   match|[44m GET     [0m /static/auth/js/progress-bar/progress-app.js
+2018/03/21 17:44:03 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     404.47µs|   match|[44m GET     [0m /static/auth/js/preloader.js
+2018/03/21 17:44:03 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     876.67µs|   match|[44m GET     [0m /static/auth/js/bootstrap.js
+2018/03/21 17:44:03 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    532.486µs|   match|[44m GET     [0m /static/auth/js/app.js
+2018/03/21 17:44:03 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    579.265µs|   match|[44m GET     [0m /static/auth/js/load.js
+2018/03/21 17:44:03 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    481.251µs|   match|[44m GET     [0m /static/auth/js/main.js
+2018/03/21 17:44:03 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     566.16µs|   match|[44m GET     [0m /static/auth/js/validate/jquery.validate.min.js
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    578.515µs|   match|[44m GET     [0m /static/auth/js/tag/jquery.tagsinput.js
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    2.63799ms|   match|[44m GET     [0m /static/auth/js/jquery-ui.min.js
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    457.831µs|   match|[44m GET     [0m /static/auth/js/admin.create.js
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    782.125µs|   match|[44m GET     [0m /static/auth/js/editormd.min.js
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.480273ms|   match|[44m GET     [0m /static/auth/js/skin-select/skin-select.css
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   2.945933ms|   match|[44m GET     [0m /static/auth/css/font-awesome.css
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.969435ms|   match|[44m GET     [0m /static/auth/css/entypo-icon.css
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    2.78305ms|   match|[44m GET     [0m /static/auth/css/dripicon.css
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    863.345µs|   match|[44m GET     [0m /static/auth/css/open-sans.css
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   3.794519ms|   match|[44m GET     [0m /static/auth/css/weather-icons.min.css
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   4.270599ms|   match|[44m GET     [0m /static/auth/css/maki-icons.css
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    449.598µs|   match|[44m GET     [0m /static/auth/css/awwwards.css
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    435.375µs|   match|[44m GET     [0m /static/auth/js/pnotify/jquery.pnotify.default.css
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    473.459µs|   match|[44m GET     [0m /static/auth/js/tip/tooltipster.css
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     580.68µs|   match|[44m GET     [0m /static/auth/js/pace/themes/pace-theme-center-simple.css
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    413.648µs|   match|[44m GET     [0m /static/auth/js/slidebars/slidebars.css
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    653.213µs|   match|[44m GET     [0m /static/auth/js/gage/jquery.easy-pie-chart.css
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    508.628µs|   match|[44m GET     [0m /static/auth/css/bootstrap-responsive.css
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    972.197µs|   match|[44m GET     [0m /static/auth/img/bg.jpg
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    675.889µs|   match|[44m GET     [0m /static/auth/font/dripicons.ttf
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.495198ms|   match|[44m GET     [0m /static/auth/fonts/open-sans-light.woff
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   2.594637ms|   match|[44m GET     [0m /static/auth/font/entypo.woff
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.418024ms|   match|[44m GET     [0m /static/auth/font/weathericons-regular-webfont.woff
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    744.472µs|   match|[44m GET     [0m /static/auth/img/search-white.png
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    226.439µs| nomatch|[44m GET     [0m /static/auth/fonts/fontawesome-webfont.woff2
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    220.672µs| nomatch|[44m GET     [0m /static/auth/css/bootstrap.css.map
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    927.744µs|   match|[44m GET     [0m /static/auth/fonts/fontawesome-webfont.woff
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    520.257µs|   match|[44m GET     [0m /static/auth/js/skin-select/jquery.cookie.js
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    412.674µs|   match|[44m GET     [0m /static/auth/js/skin-select/skin-select.js
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    704.019µs|   match|[44m GET     [0m /static/auth/js/clock/date.js
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    837.409µs|   match|[44m GET     [0m /static/auth/js/custom/scriptbreaker-multiple-accordion-1.js
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.106265ms|   match|[44m GET     [0m /static/auth/js/slidebars/slidebars.min.js
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   3.012109ms|   match|[44m GET     [0m /static/auth/js/newsticker/jquery.newsTicker.js
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    834.389µs|   match|[44m GET     [0m /static/auth/js/search/jquery.quicksearch.js
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    467.749µs|   match|[44m GET     [0m /static/auth/js/gage/jquery.easypiechart.min.js
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    715.132µs|   match|[44m GET     [0m /static/auth/js/nano/jquery.nanoscroller.js
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    1.58722ms|   match|[44m GET     [0m /static/auth/js/tip/jquery.tooltipster.js
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    536.295µs|   match|[44m GET     [0m /static/auth/js/pace/pace.js
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    855.191µs|   match|[44m GET     [0m /static/auth/js/chart/jquery.sparkline.js
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    497.987µs|   match|[44m GET     [0m /static/auth/js/clock/jquery.clock.js
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    919.641µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/codemirror.min.css
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    481.264µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addon/dialog/dialog.css
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    606.829µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addon/search/matchesonscrollbar.css
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   3.166259ms|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addon/fold/foldgutter.css
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|     204.29µs| nomatch|[44m GET     [0m /static/auth/images/loading@2x.gif
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   4.931861ms|   match|[44m GET     [0m /static/auth/js/lib/codemirror/codemirror.min.js
+2018/03/21 17:44:04 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    622.753µs|   match|[44m GET     [0m /static/auth/img/plus.png
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   3.062404ms|   match|[44m GET     [0m /static/auth/js/lib/codemirror/modes.min.js
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    940.683µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addons.min.js
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    375.664µs|   match|[44m GET     [0m /static/auth/js/lib/marked.min.js
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    235.195µs|   match|[44m GET     [0m /static/auth/fonts/fontawesome-webfont.woff
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    487.373µs|   match|[44m GET     [0m /static/auth/js/lib/prettify.min.js
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    163.322µs|   match|[44m GET     [0m /static/auth/js/validate/validate.css
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    138.112µs|   match|[44m GET     [0m /static/auth/js/tag/jquery.tagsinput.css
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    296.687µs|   match|[44m GET     [0m /static/auth/css/jquery-ui.min.css
+2018/03/21 17:44:04 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    457.237µs|   match|[44m GET     [0m /static/auth/css/editormd.min.css
+2018/03/21 17:44:05 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    310.972µs| nomatch|[44m GET     [0m /static/auth/css/bootstrap.css.map
+2018/03/21 17:44:05 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    354.412µs| nomatch|[44m GET     [0m /static/auth/images/loading@2x.gif
+2018/03/21 17:44:05 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    289.803µs| nomatch|[44m GET     [0m /static/auth/fonts/fontawesome-webfont.woff2
+2018/03/21 17:44:14 [C] [asm_amd64.s:509] the request url is  /console/post
+2018/03/21 17:44:14 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/postcontroller/store.tpl
+2018/03/21 17:44:14 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/03/21 17:44:14 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/03/21 17:44:14 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/03/21 17:44:14 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/03/21 17:44:14 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/03/21 17:44:14 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/03/21 17:44:14 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:827
+2018/03/21 17:44:14 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/03/21 17:44:14 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/03/21 17:44:14 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/03/21 17:45:53 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   3.637112ms|   match|[44m GET     [0m /static/auth/css/bootstrap.css
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    287.712µs|   match|[44m GET     [0m /static/auth/js/validate/validate.css
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   2.799834ms|   match|[44m GET     [0m /static/auth/js/progress-bar/number-pb.css
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|      436.1µs|   match|[44m GET     [0m /static/auth/js/tag/jquery.tagsinput.css
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    997.056µs|   match|[44m GET     [0m /static/auth/css/loader-style.css
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.069519ms|   match|[44m GET     [0m /static/auth/css/style.css
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    262.634µs|   match|[44m GET     [0m /static/auth/css/editormd.min.css
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    302.858µs|   match|[44m GET     [0m /static/auth/css/jquery-ui.min.css
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.534027ms|   match|[44m GET     [0m /static/auth/js/jquery.js
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    356.091µs|   match|[44m GET     [0m /static/auth/js/progress-bar/src/jquery.velocity.min.js
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    161.465µs|   match|[44m GET     [0m /static/auth/js/progress-bar/number-pb.js
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    146.386µs|   match|[44m GET     [0m /static/auth/js/progress-bar/progress-app.js
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    135.027µs|   match|[44m GET     [0m /static/auth/js/preloader.js
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    249.238µs|   match|[44m GET     [0m /static/auth/js/bootstrap.js
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     198.76µs|   match|[44m GET     [0m /static/auth/css/bootstrap-responsive.css
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     214.15µs|   match|[44m GET     [0m /static/auth/js/skin-select/skin-select.css
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    342.297µs|   match|[44m GET     [0m /static/auth/css/font-awesome.css
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    209.457µs|   match|[44m GET     [0m /static/auth/css/entypo-icon.css
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    188.558µs|   match|[44m GET     [0m /static/auth/css/maki-icons.css
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    241.484µs|   match|[44m GET     [0m /static/auth/css/weather-icons.min.css
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    199.153µs|   match|[44m GET     [0m /static/auth/css/dripicon.css
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    139.798µs|   match|[44m GET     [0m /static/auth/css/open-sans.css
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    196.786µs|   match|[44m GET     [0m /static/auth/css/awwwards.css
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    135.554µs|   match|[44m GET     [0m /static/auth/js/pnotify/jquery.pnotify.default.css
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    684.093µs|   match|[44m GET     [0m /static/auth/js/tip/tooltipster.css
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    144.727µs|   match|[44m GET     [0m /static/auth/js/pace/themes/pace-theme-center-simple.css
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    189.638µs|   match|[44m GET     [0m /static/auth/js/slidebars/slidebars.css
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    114.987µs|   match|[44m GET     [0m /static/auth/js/gage/jquery.easy-pie-chart.css
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    212.495µs|   match|[44m GET     [0m /static/auth/js/app.js
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    235.702µs|   match|[44m GET     [0m /static/auth/js/load.js
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    356.209µs|   match|[44m GET     [0m /static/auth/js/main.js
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    275.733µs|   match|[44m GET     [0m /static/auth/js/validate/jquery.validate.min.js
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    199.343µs|   match|[44m GET     [0m /static/auth/js/tag/jquery.tagsinput.js
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    936.624µs|   match|[44m GET     [0m /static/auth/js/admin.create.js
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.142417ms|   match|[44m GET     [0m /static/auth/js/jquery-ui.min.js
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    280.389µs|   match|[44m GET     [0m /static/auth/js/editormd.min.js
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    519.774µs|   match|[44m GET     [0m /static/auth/img/bg.jpg
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    618.714µs|   match|[44m GET     [0m /static/auth/fonts/open-sans-light.woff
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    731.037µs|   match|[44m GET     [0m /static/auth/font/dripicons.ttf
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    156.389µs|   match|[44m GET     [0m /static/auth/font/entypo.woff
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    159.614µs|   match|[44m GET     [0m /static/auth/font/weathericons-regular-webfont.woff
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    357.183µs| nomatch|[44m GET     [0m /static/auth/fonts/fontawesome-webfont.woff2
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    120.983µs|   match|[44m GET     [0m /static/auth/img/search-white.png
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|     239.91µs| nomatch|[44m GET     [0m /static/auth/css/bootstrap.css.map
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    162.079µs|   match|[44m GET     [0m /static/auth/js/skin-select/jquery.cookie.js
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    138.952µs|   match|[44m GET     [0m /static/auth/js/skin-select/skin-select.js
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     78.634µs|   match|[44m GET     [0m /static/auth/js/clock/date.js
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     144.28µs|   match|[44m GET     [0m /static/auth/js/newsticker/jquery.newsTicker.js
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    107.704µs|   match|[44m GET     [0m /static/auth/js/custom/scriptbreaker-multiple-accordion-1.js
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    135.025µs|   match|[44m GET     [0m /static/auth/js/slidebars/slidebars.min.js
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    190.298µs|   match|[44m GET     [0m /static/auth/js/search/jquery.quicksearch.js
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    101.183µs|   match|[44m GET     [0m /static/auth/js/gage/jquery.easypiechart.min.js
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     290.77µs|   match|[44m GET     [0m /static/auth/js/tip/jquery.tooltipster.js
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    186.294µs|   match|[44m GET     [0m /static/auth/js/nano/jquery.nanoscroller.js
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    234.448µs|   match|[44m GET     [0m /static/auth/js/pace/pace.js
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    348.046µs|   match|[44m GET     [0m /static/auth/js/chart/jquery.sparkline.js
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    286.008µs|   match|[44m GET     [0m /static/auth/js/clock/jquery.clock.js
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    356.507µs|   match|[44m GET     [0m /static/auth/fonts/fontawesome-webfont.woff
+2018/03/21 17:46:00 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    165.167µs|   match|[44m GET     [0m /static/auth/img/plus.png
+2018/03/21 17:46:01 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    189.401µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/codemirror.min.css
+2018/03/21 17:46:01 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    146.875µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addon/dialog/dialog.css
+2018/03/21 17:46:01 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     102.32µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addon/search/matchesonscrollbar.css
+2018/03/21 17:46:01 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    209.625µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addon/fold/foldgutter.css
+2018/03/21 17:46:01 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.723128ms|   match|[44m GET     [0m /static/auth/js/lib/codemirror/codemirror.min.js
+2018/03/21 17:46:01 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|        230µs| nomatch|[44m GET     [0m /static/auth/images/loading@2x.gif
+2018/03/21 17:46:01 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|     164.61µs| nomatch|[44m GET     [0m /static/auth/images/loading@2x.gif
+2018/03/21 17:46:01 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    142.822µs| nomatch|[44m GET     [0m /static/auth/fonts/fontawesome-webfont.woff2
+2018/03/21 17:46:01 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    225.767µs| nomatch|[44m GET     [0m /static/auth/css/bootstrap.css.map
+2018/03/21 17:46:01 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    474.799µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/modes.min.js
+2018/03/21 17:46:01 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    362.394µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addons.min.js
+2018/03/21 17:46:01 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    256.024µs|   match|[44m GET     [0m /static/auth/js/lib/marked.min.js
+2018/03/21 17:46:01 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    129.025µs|   match|[44m GET     [0m /static/auth/fonts/fontawesome-webfont.woff
+2018/03/21 17:46:01 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    2.21665ms|   match|[44m GET     [0m /static/auth/js/lib/prettify.min.js
+2018/03/21 17:46:08 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/21 17:46:13 [I] http server Running on http://:8080
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|   5.297195ms|   match|[44m GET     [0m /console/post/create   r:/console/post/create
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|    367.581µs|   match|[44m GET     [0m /static/auth/css/style.css
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|    159.543µs|   match|[44m GET     [0m /static/auth/css/loader-style.css
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|    175.182µs|   match|[44m GET     [0m /static/auth/js/progress-bar/number-pb.css
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|    230.835µs|   match|[44m GET     [0m /static/auth/js/validate/validate.css
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|      317.6µs|   match|[44m GET     [0m /static/auth/js/tag/jquery.tagsinput.css
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|     985.71µs|   match|[44m GET     [0m /static/auth/css/bootstrap.css
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|    467.562µs|   match|[44m GET     [0m /static/auth/css/editormd.min.css
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|    224.369µs|   match|[44m GET     [0m /static/auth/css/jquery-ui.min.css
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|    896.425µs|   match|[44m GET     [0m /static/auth/js/jquery.js
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|     229.91µs|   match|[44m GET     [0m /static/auth/js/progress-bar/src/jquery.velocity.min.js
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|    154.001µs|   match|[44m GET     [0m /static/auth/js/progress-bar/number-pb.js
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|    130.675µs|   match|[44m GET     [0m /static/auth/js/progress-bar/progress-app.js
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|    139.854µs|   match|[44m GET     [0m /static/auth/js/preloader.js
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|    352.014µs|   match|[44m GET     [0m /static/auth/js/bootstrap.js
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|    148.236µs|   match|[44m GET     [0m /static/auth/js/app.js
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|    714.046µs|   match|[44m GET     [0m /static/auth/js/load.js
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|    265.729µs|   match|[44m GET     [0m /static/auth/js/main.js
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|    271.041µs|   match|[44m GET     [0m /static/auth/js/validate/jquery.validate.min.js
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|     162.26µs|   match|[44m GET     [0m /static/auth/js/tag/jquery.tagsinput.js
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|    914.422µs|   match|[44m GET     [0m /static/auth/js/jquery-ui.min.js
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|     134.88µs|   match|[44m GET     [0m /static/auth/js/admin.create.js
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|    247.348µs|   match|[44m GET     [0m /static/auth/js/editormd.min.js
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|    198.537µs|   match|[44m GET     [0m /static/auth/js/skin-select/skin-select.css
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|    200.211µs|   match|[44m GET     [0m /static/auth/css/font-awesome.css
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|    220.045µs|   match|[44m GET     [0m /static/auth/css/entypo-icon.css
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|    190.888µs|   match|[44m GET     [0m /static/auth/css/maki-icons.css
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|     437.93µs|   match|[44m GET     [0m /static/auth/css/weather-icons.min.css
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|    201.003µs|   match|[44m GET     [0m /static/auth/css/dripicon.css
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|    150.044µs|   match|[44m GET     [0m /static/auth/css/open-sans.css
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|      94.08µs|   match|[44m GET     [0m /static/auth/js/pnotify/jquery.pnotify.default.css
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|    116.023µs|   match|[44m GET     [0m /static/auth/css/awwwards.css
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|    151.075µs|   match|[44m GET     [0m /static/auth/js/tip/tooltipster.css
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|    111.535µs|   match|[44m GET     [0m /static/auth/js/pace/themes/pace-theme-center-simple.css
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|     187.49µs|   match|[44m GET     [0m /static/auth/js/slidebars/slidebars.css
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|     168.14µs|   match|[44m GET     [0m /static/auth/js/gage/jquery.easy-pie-chart.css
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|      210.8µs|   match|[44m GET     [0m /static/auth/css/bootstrap-responsive.css
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|    189.245µs|   match|[44m GET     [0m /static/auth/fonts/open-sans-light.woff
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|    375.261µs|   match|[44m GET     [0m /static/auth/img/bg.jpg
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|    176.569µs|   match|[44m GET     [0m /static/auth/font/dripicons.ttf
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|    334.777µs|   match|[44m GET     [0m /static/auth/font/entypo.woff
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|    288.876µs|   match|[44m GET     [0m /static/auth/font/weathericons-regular-webfont.woff
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|    176.742µs|   match|[44m GET     [0m /static/auth/img/search-white.png
+2018/03/21 17:46:15 [D] |      127.0.0.1|[43m 404 [0m|    264.843µs| nomatch|[44m GET     [0m /static/auth/fonts/fontawesome-webfont.woff2
+2018/03/21 17:46:15 [D] |      127.0.0.1|[43m 404 [0m|    177.216µs| nomatch|[44m GET     [0m /static/auth/css/bootstrap.css.map
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|    332.074µs|   match|[44m GET     [0m /static/auth/fonts/fontawesome-webfont.woff
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|     267.32µs|   match|[44m GET     [0m /static/auth/js/skin-select/jquery.cookie.js
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|    214.481µs|   match|[44m GET     [0m /static/auth/js/skin-select/skin-select.js
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|    223.394µs|   match|[44m GET     [0m /static/auth/js/clock/date.js
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|    179.636µs|   match|[44m GET     [0m /static/auth/js/newsticker/jquery.newsTicker.js
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|    209.265µs|   match|[44m GET     [0m /static/auth/js/custom/scriptbreaker-multiple-accordion-1.js
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|    843.754µs|   match|[44m GET     [0m /static/auth/js/slidebars/slidebars.min.js
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|    165.988µs|   match|[44m GET     [0m /static/auth/js/search/jquery.quicksearch.js
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|    132.691µs|   match|[44m GET     [0m /static/auth/js/gage/jquery.easypiechart.min.js
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|    218.789µs|   match|[44m GET     [0m /static/auth/js/tip/jquery.tooltipster.js
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|    162.919µs|   match|[44m GET     [0m /static/auth/js/nano/jquery.nanoscroller.js
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|    127.769µs|   match|[44m GET     [0m /static/auth/js/pace/pace.js
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|     214.88µs|   match|[44m GET     [0m /static/auth/js/chart/jquery.sparkline.js
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|    264.994µs|   match|[44m GET     [0m /static/auth/js/clock/jquery.clock.js
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|    152.697µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/codemirror.min.css
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|     122.62µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addon/dialog/dialog.css
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|     96.964µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addon/search/matchesonscrollbar.css
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|     96.003µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addon/fold/foldgutter.css
+2018/03/21 17:46:15 [D] |      127.0.0.1|[43m 404 [0m|    214.565µs| nomatch|[44m GET     [0m /static/auth/images/loading@2x.gif
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|    521.715µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/codemirror.min.js
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|     132.25µs|   match|[44m GET     [0m /static/auth/img/plus.png
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|   1.268847ms|   match|[44m GET     [0m /static/auth/js/lib/codemirror/modes.min.js
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|    170.883µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addons.min.js
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|    179.228µs|   match|[44m GET     [0m /static/auth/js/lib/marked.min.js
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|    112.008µs|   match|[44m GET     [0m /static/auth/fonts/fontawesome-webfont.woff
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|    184.829µs|   match|[44m GET     [0m /static/auth/js/lib/prettify.min.js
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|      60.09µs|   match|[44m GET     [0m /static/auth/js/validate/validate.css
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|     49.463µs|   match|[44m GET     [0m /static/auth/js/tag/jquery.tagsinput.css
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|    159.492µs|   match|[44m GET     [0m /static/auth/css/editormd.min.css
+2018/03/21 17:46:15 [D] |      127.0.0.1|[42m 200 [0m|     99.618µs|   match|[44m GET     [0m /static/auth/css/jquery-ui.min.css
+2018/03/21 17:46:16 [D] |      127.0.0.1|[43m 404 [0m|    224.772µs| nomatch|[44m GET     [0m /static/auth/images/loading@2x.gif
+2018/03/21 17:46:16 [D] |      127.0.0.1|[43m 404 [0m|    224.389µs| nomatch|[44m GET     [0m /static/auth/fonts/fontawesome-webfont.woff2
+2018/03/21 17:46:16 [D] |      127.0.0.1|[43m 404 [0m|    248.178µs| nomatch|[44m GET     [0m /static/auth/css/bootstrap.css.map
+2018/03/21 17:46:27 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/21 17:50:58 [C] [asm_amd64.s:509] the request url is  /console/post
+2018/03/21 17:50:58 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/postcontroller/store.tpl
+2018/03/21 17:50:58 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/03/21 17:50:58 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/03/21 17:50:58 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/03/21 17:50:58 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/03/21 17:50:58 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/03/21 17:50:58 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/03/21 17:50:58 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:827
+2018/03/21 17:50:58 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/03/21 17:50:58 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/03/21 17:50:58 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/03/21 17:51:17 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/21 17:51:19 [C] [asm_amd64.s:509] the request url is  /console/post
+2018/03/21 17:51:19 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/postcontroller/store.tpl
+2018/03/21 17:51:19 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/03/21 17:51:19 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/03/21 17:51:19 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/03/21 17:51:19 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/03/21 17:51:19 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/03/21 17:51:19 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/03/21 17:51:19 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:827
+2018/03/21 17:51:19 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/03/21 17:51:19 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/03/21 17:51:19 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/03/21 17:51:56 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/21 17:51:57 [C] [asm_amd64.s:509] the request url is  /console/post
+2018/03/21 17:51:57 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/postcontroller/store.tpl
+2018/03/21 17:51:57 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/03/21 17:51:57 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/03/21 17:51:57 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/03/21 17:51:57 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/03/21 17:51:57 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/03/21 17:51:57 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/03/21 17:51:57 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:827
+2018/03/21 17:51:57 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/03/21 17:51:57 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/03/21 17:51:57 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/03/21 18:10:44 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    591.501µs|   match|[44m GET     [0m /static/auth/css/loader-style.css
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    837.327µs|   match|[44m GET     [0m /static/auth/js/progress-bar/number-pb.css
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    837.514µs|   match|[44m GET     [0m /static/auth/js/validate/validate.css
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    2.18187ms|   match|[44m GET     [0m /static/auth/css/style.css
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   3.383644ms|   match|[44m GET     [0m /static/auth/css/bootstrap.css
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.893612ms|   match|[44m GET     [0m /static/auth/css/editormd.min.css
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   4.475582ms|   match|[44m GET     [0m /static/auth/js/tag/jquery.tagsinput.css
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    546.846µs|   match|[44m GET     [0m /static/auth/css/jquery-ui.min.css
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   2.937082ms|   match|[44m GET     [0m /static/auth/js/jquery.js
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    936.805µs|   match|[44m GET     [0m /static/auth/js/progress-bar/src/jquery.velocity.min.js
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.074705ms|   match|[44m GET     [0m /static/auth/js/progress-bar/number-pb.js
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     508.86µs|   match|[44m GET     [0m /static/auth/js/progress-bar/progress-app.js
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    413.194µs|   match|[44m GET     [0m /static/auth/js/preloader.js
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    808.231µs|   match|[44m GET     [0m /static/auth/js/bootstrap.js
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    893.762µs|   match|[44m GET     [0m /static/auth/js/app.js
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    518.943µs|   match|[44m GET     [0m /static/auth/js/load.js
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    564.453µs|   match|[44m GET     [0m /static/auth/js/main.js
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    480.421µs|   match|[44m GET     [0m /static/auth/js/validate/jquery.validate.min.js
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    464.237µs|   match|[44m GET     [0m /static/auth/js/tag/jquery.tagsinput.js
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.912331ms|   match|[44m GET     [0m /static/auth/js/jquery-ui.min.js
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    578.241µs|   match|[44m GET     [0m /static/auth/js/admin.create.js
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     737.84µs|   match|[44m GET     [0m /static/auth/js/editormd.min.js
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    521.059µs|   match|[44m GET     [0m /static/auth/js/skin-select/skin-select.css
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    872.168µs|   match|[44m GET     [0m /static/auth/css/entypo-icon.css
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    968.024µs|   match|[44m GET     [0m /static/auth/css/weather-icons.min.css
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    1.68642ms|   match|[44m GET     [0m /static/auth/css/font-awesome.css
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.663234ms|   match|[44m GET     [0m /static/auth/css/dripicon.css
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   2.121365ms|   match|[44m GET     [0m /static/auth/css/maki-icons.css
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     423.96µs|   match|[44m GET     [0m /static/auth/css/open-sans.css
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    680.211µs|   match|[44m GET     [0m /static/auth/css/awwwards.css
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|      530.1µs|   match|[44m GET     [0m /static/auth/js/pnotify/jquery.pnotify.default.css
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    871.149µs|   match|[44m GET     [0m /static/auth/js/pace/themes/pace-theme-center-simple.css
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.180091ms|   match|[44m GET     [0m /static/auth/js/tip/tooltipster.css
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    1.19431ms|   match|[44m GET     [0m /static/auth/js/slidebars/slidebars.css
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    290.476µs|   match|[44m GET     [0m /static/auth/js/gage/jquery.easy-pie-chart.css
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    609.697µs|   match|[44m GET     [0m /static/auth/css/bootstrap-responsive.css
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    997.564µs|   match|[44m GET     [0m /static/auth/img/bg.jpg
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    713.248µs|   match|[44m GET     [0m /static/auth/fonts/open-sans-light.woff
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   2.708477ms|   match|[44m GET     [0m /static/auth/font/dripicons.ttf
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    962.977µs|   match|[44m GET     [0m /static/auth/font/entypo.woff
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.401151ms|   match|[44m GET     [0m /static/auth/font/weathericons-regular-webfont.woff
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    821.932µs|   match|[44m GET     [0m /static/auth/img/search-white.png
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    308.628µs| nomatch|[44m GET     [0m /static/auth/fonts/fontawesome-webfont.woff2
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    149.605µs| nomatch|[44m GET     [0m /static/auth/css/bootstrap.css.map
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   2.497644ms|   match|[44m GET     [0m /static/auth/fonts/fontawesome-webfont.woff
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   2.296946ms|   match|[44m GET     [0m /static/auth/js/skin-select/jquery.cookie.js
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    2.56929ms|   match|[44m GET     [0m /static/auth/js/skin-select/skin-select.js
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   2.461385ms|   match|[44m GET     [0m /static/auth/js/clock/date.js
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   2.757856ms|   match|[44m GET     [0m /static/auth/js/custom/scriptbreaker-multiple-accordion-1.js
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   2.978783ms|   match|[44m GET     [0m /static/auth/js/slidebars/slidebars.min.js
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   3.546202ms|   match|[44m GET     [0m /static/auth/js/newsticker/jquery.newsTicker.js
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    435.745µs|   match|[44m GET     [0m /static/auth/js/search/jquery.quicksearch.js
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     389.31µs|   match|[44m GET     [0m /static/auth/js/gage/jquery.easypiechart.min.js
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    750.281µs|   match|[44m GET     [0m /static/auth/js/tip/jquery.tooltipster.js
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    967.492µs|   match|[44m GET     [0m /static/auth/js/nano/jquery.nanoscroller.js
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    861.876µs|   match|[44m GET     [0m /static/auth/js/pace/pace.js
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.480989ms|   match|[44m GET     [0m /static/auth/js/chart/jquery.sparkline.js
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     481.79µs|   match|[44m GET     [0m /static/auth/js/clock/jquery.clock.js
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    195.932µs| nomatch|[44m GET     [0m /static/auth/images/loading@2x.gif
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   2.069341ms|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addon/dialog/dialog.css
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   2.000984ms|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addon/fold/foldgutter.css
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   3.787653ms|   match|[44m GET     [0m /static/auth/js/lib/codemirror/codemirror.min.js
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   4.248139ms|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addon/search/matchesonscrollbar.css
+2018/03/21 18:10:51 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   5.027589ms|   match|[44m GET     [0m /static/auth/js/lib/codemirror/codemirror.min.css
+2018/03/21 18:10:52 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   2.271083ms|   match|[44m GET     [0m /static/auth/img/plus.png
+2018/03/21 18:10:52 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.842991ms|   match|[44m GET     [0m /static/auth/js/lib/codemirror/modes.min.js
+2018/03/21 18:10:52 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    759.366µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addons.min.js
+2018/03/21 18:10:52 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   2.115547ms|   match|[44m GET     [0m /static/auth/js/lib/marked.min.js
+2018/03/21 18:10:52 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     92.748µs|   match|[44m GET     [0m /static/auth/fonts/fontawesome-webfont.woff
+2018/03/21 18:10:52 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    594.615µs|   match|[44m GET     [0m /static/auth/js/lib/prettify.min.js
+2018/03/21 18:11:03 [C] [asm_amd64.s:509] the request url is  /console/post
+2018/03/21 18:11:03 [C] [asm_amd64.s:509] Handler crashed with error XSRF cookie does not match POST argument
+2018/03/21 18:11:03 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/03/21 18:11:03 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/03/21 18:11:03 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/context/context.go:80
+2018/03/21 18:11:03 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/context/context.go:168
+2018/03/21 18:11:03 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:649
+2018/03/21 18:11:03 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:788
+2018/03/21 18:11:03 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/03/21 18:11:03 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/03/21 18:11:03 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    147.306µs|   match|[44m GET     [0m /static/auth/css/style.css
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    161.216µs|   match|[44m GET     [0m /static/auth/css/bootstrap.css
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     50.016µs|   match|[44m GET     [0m /static/auth/css/loader-style.css
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     35.094µs|   match|[44m GET     [0m /static/auth/js/progress-bar/number-pb.css
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|      30.88µs|   match|[44m GET     [0m /static/auth/js/validate/validate.css
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     39.469µs|   match|[44m GET     [0m /static/auth/js/tag/jquery.tagsinput.css
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    111.693µs|   match|[44m GET     [0m /static/auth/css/jquery-ui.min.css
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    147.977µs|   match|[44m GET     [0m /static/auth/css/editormd.min.css
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    307.116µs|   match|[44m GET     [0m /static/auth/js/jquery.js
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    132.578µs|   match|[44m GET     [0m /static/auth/js/progress-bar/src/jquery.velocity.min.js
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    203.194µs|   match|[44m GET     [0m /static/auth/js/progress-bar/number-pb.js
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     85.991µs|   match|[44m GET     [0m /static/auth/js/progress-bar/progress-app.js
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     80.926µs|   match|[44m GET     [0m /static/auth/js/preloader.js
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    123.825µs|   match|[44m GET     [0m /static/auth/js/bootstrap.js
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     58.871µs|   match|[44m GET     [0m /static/auth/js/app.js
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    107.865µs|   match|[44m GET     [0m /static/auth/js/load.js
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     96.876µs|   match|[44m GET     [0m /static/auth/js/main.js
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    125.245µs|   match|[44m GET     [0m /static/auth/js/validate/jquery.validate.min.js
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     87.679µs|   match|[44m GET     [0m /static/auth/js/tag/jquery.tagsinput.js
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    283.259µs|   match|[44m GET     [0m /static/auth/js/jquery-ui.min.js
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     84.242µs|   match|[44m GET     [0m /static/auth/js/admin.create.js
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    113.548µs|   match|[44m GET     [0m /static/auth/js/editormd.min.js
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     125.45µs|   match|[44m GET     [0m /static/auth/js/skin-select/skin-select.css
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    114.435µs|   match|[44m GET     [0m /static/auth/css/font-awesome.css
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    106.773µs|   match|[44m GET     [0m /static/auth/css/entypo-icon.css
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     58.337µs|   match|[44m GET     [0m /static/auth/css/maki-icons.css
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    109.125µs|   match|[44m GET     [0m /static/auth/css/weather-icons.min.css
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     84.292µs|   match|[44m GET     [0m /static/auth/css/dripicon.css
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     90.971µs|   match|[44m GET     [0m /static/auth/css/open-sans.css
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     54.331µs|   match|[44m GET     [0m /static/auth/js/pnotify/jquery.pnotify.default.css
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     65.505µs|   match|[44m GET     [0m /static/auth/css/awwwards.css
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    110.344µs|   match|[44m GET     [0m /static/auth/js/tip/tooltipster.css
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     84.253µs|   match|[44m GET     [0m /static/auth/js/pace/themes/pace-theme-center-simple.css
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    115.023µs|   match|[44m GET     [0m /static/auth/js/slidebars/slidebars.css
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    100.519µs|   match|[44m GET     [0m /static/auth/js/gage/jquery.easy-pie-chart.css
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     107.08µs|   match|[44m GET     [0m /static/auth/css/bootstrap-responsive.css
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    173.696µs|   match|[44m GET     [0m /static/auth/img/bg.jpg
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    104.563µs|   match|[44m GET     [0m /static/auth/fonts/open-sans-light.woff
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    138.529µs|   match|[44m GET     [0m /static/auth/font/dripicons.ttf
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    115.036µs|   match|[44m GET     [0m /static/auth/font/entypo.woff
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     95.847µs|   match|[44m GET     [0m /static/auth/font/weathericons-regular-webfont.woff
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     86.794µs|   match|[44m GET     [0m /static/auth/img/search-white.png
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|     309.29µs| nomatch|[44m GET     [0m /static/auth/fonts/fontawesome-webfont.woff2
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|     203.61µs| nomatch|[44m GET     [0m /static/auth/css/bootstrap.css.map
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    109.196µs|   match|[44m GET     [0m /static/auth/js/skin-select/jquery.cookie.js
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     54.105µs|   match|[44m GET     [0m /static/auth/js/skin-select/skin-select.js
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|       72.6µs|   match|[44m GET     [0m /static/auth/js/clock/date.js
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     89.547µs|   match|[44m GET     [0m /static/auth/js/newsticker/jquery.newsTicker.js
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     66.016µs|   match|[44m GET     [0m /static/auth/js/custom/scriptbreaker-multiple-accordion-1.js
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     98.486µs|   match|[44m GET     [0m /static/auth/js/slidebars/slidebars.min.js
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    117.729µs|   match|[44m GET     [0m /static/auth/js/search/jquery.quicksearch.js
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|      64.19µs|   match|[44m GET     [0m /static/auth/js/gage/jquery.easypiechart.min.js
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    110.922µs|   match|[44m GET     [0m /static/auth/js/tip/jquery.tooltipster.js
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    128.203µs|   match|[44m GET     [0m /static/auth/js/nano/jquery.nanoscroller.js
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     99.521µs|   match|[44m GET     [0m /static/auth/js/pace/pace.js
+2018/03/21 18:11:11 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.421403ms|   match|[44m GET     [0m /static/auth/js/chart/jquery.sparkline.js
+2018/03/21 18:11:12 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     74.564µs|   match|[44m GET     [0m /static/auth/js/clock/jquery.clock.js
+2018/03/21 18:11:12 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     87.457µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/codemirror.min.css
+2018/03/21 18:11:12 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     42.486µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addon/dialog/dialog.css
+2018/03/21 18:11:12 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     34.164µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addon/search/matchesonscrollbar.css
+2018/03/21 18:11:12 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     75.991µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addon/fold/foldgutter.css
+2018/03/21 18:11:12 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    252.559µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/codemirror.min.js
+2018/03/21 18:11:12 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    205.222µs| nomatch|[44m GET     [0m /static/auth/images/loading@2x.gif
+2018/03/21 18:11:12 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    131.043µs|   match|[44m GET     [0m /static/auth/fonts/fontawesome-webfont.woff
+2018/03/21 18:11:12 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     65.394µs|   match|[44m GET     [0m /static/auth/img/plus.png
+2018/03/21 18:11:12 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    279.238µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/modes.min.js
+2018/03/21 18:11:12 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    130.356µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addons.min.js
+2018/03/21 18:11:12 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     90.169µs|   match|[44m GET     [0m /static/auth/js/lib/marked.min.js
+2018/03/21 18:11:12 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     88.354µs|   match|[44m GET     [0m /static/auth/fonts/fontawesome-webfont.woff
+2018/03/21 18:11:12 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     86.842µs|   match|[44m GET     [0m /static/auth/js/lib/prettify.min.js
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   4.882557ms|   match|[44m GET     [0m /console/post/create   r:/console/post/create
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    136.109µs|   match|[44m GET     [0m /static/auth/css/style.css
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     35.637µs|   match|[44m GET     [0m /static/auth/css/loader-style.css
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    148.704µs|   match|[44m GET     [0m /static/auth/css/bootstrap.css
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     39.147µs|   match|[44m GET     [0m /static/auth/js/progress-bar/number-pb.css
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     37.553µs|   match|[44m GET     [0m /static/auth/js/validate/validate.css
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     33.993µs|   match|[44m GET     [0m /static/auth/js/tag/jquery.tagsinput.css
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    147.623µs|   match|[44m GET     [0m /static/auth/css/editormd.min.css
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    122.921µs|   match|[44m GET     [0m /static/auth/css/jquery-ui.min.css
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    257.099µs|   match|[44m GET     [0m /static/auth/js/jquery.js
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    113.778µs|   match|[44m GET     [0m /static/auth/js/progress-bar/src/jquery.velocity.min.js
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     74.627µs|   match|[44m GET     [0m /static/auth/js/progress-bar/number-pb.js
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     55.693µs|   match|[44m GET     [0m /static/auth/js/progress-bar/progress-app.js
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     61.851µs|   match|[44m GET     [0m /static/auth/js/preloader.js
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    154.978µs|   match|[44m GET     [0m /static/auth/js/bootstrap.js
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     78.772µs|   match|[44m GET     [0m /static/auth/js/app.js
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|      99.57µs|   match|[44m GET     [0m /static/auth/js/load.js
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     84.951µs|   match|[44m GET     [0m /static/auth/js/main.js
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     126.57µs|   match|[44m GET     [0m /static/auth/js/validate/jquery.validate.min.js
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     131.17µs|   match|[44m GET     [0m /static/auth/js/tag/jquery.tagsinput.js
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    282.982µs|   match|[44m GET     [0m /static/auth/js/jquery-ui.min.js
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    110.106µs|   match|[44m GET     [0m /static/auth/js/admin.create.js
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     97.177µs|   match|[44m GET     [0m /static/auth/js/editormd.min.js
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    106.168µs|   match|[44m GET     [0m /static/auth/js/skin-select/skin-select.css
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    111.154µs|   match|[44m GET     [0m /static/auth/css/font-awesome.css
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     43.603µs|   match|[44m GET     [0m /static/auth/css/maki-icons.css
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    282.379µs|   match|[44m GET     [0m /static/auth/css/entypo-icon.css
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     77.862µs|   match|[44m GET     [0m /static/auth/css/weather-icons.min.css
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|      83.92µs|   match|[44m GET     [0m /static/auth/css/dripicon.css
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     87.314µs|   match|[44m GET     [0m /static/auth/css/open-sans.css
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     74.332µs|   match|[44m GET     [0m /static/auth/css/awwwards.css
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     115.79µs|   match|[44m GET     [0m /static/auth/js/tip/tooltipster.css
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|       50.5µs|   match|[44m GET     [0m /static/auth/js/pnotify/jquery.pnotify.default.css
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     86.285µs|   match|[44m GET     [0m /static/auth/js/slidebars/slidebars.css
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    137.811µs|   match|[44m GET     [0m /static/auth/js/pace/themes/pace-theme-center-simple.css
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     89.578µs|   match|[44m GET     [0m /static/auth/js/gage/jquery.easy-pie-chart.css
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     88.562µs|   match|[44m GET     [0m /static/auth/css/bootstrap-responsive.css
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     175.72µs|   match|[44m GET     [0m /static/auth/img/bg.jpg
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    121.886µs|   match|[44m GET     [0m /static/auth/fonts/open-sans-light.woff
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    134.819µs|   match|[44m GET     [0m /static/auth/font/dripicons.ttf
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    160.911µs|   match|[44m GET     [0m /static/auth/font/entypo.woff
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    107.675µs|   match|[44m GET     [0m /static/auth/font/weathericons-regular-webfont.woff
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     91.939µs|   match|[44m GET     [0m /static/auth/img/search-white.png
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    216.491µs| nomatch|[44m GET     [0m /static/auth/fonts/fontawesome-webfont.woff2
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    180.123µs|   match|[44m GET     [0m /static/auth/fonts/fontawesome-webfont.woff
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    221.195µs| nomatch|[44m GET     [0m /static/auth/css/bootstrap.css.map
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    151.038µs|   match|[44m GET     [0m /static/auth/js/skin-select/jquery.cookie.js
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     52.421µs|   match|[44m GET     [0m /static/auth/js/clock/date.js
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     69.435µs|   match|[44m GET     [0m /static/auth/js/skin-select/skin-select.js
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     78.854µs|   match|[44m GET     [0m /static/auth/js/newsticker/jquery.newsTicker.js
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     66.641µs|   match|[44m GET     [0m /static/auth/js/custom/scriptbreaker-multiple-accordion-1.js
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     97.989µs|   match|[44m GET     [0m /static/auth/js/slidebars/slidebars.min.js
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     77.669µs|   match|[44m GET     [0m /static/auth/js/gage/jquery.easypiechart.min.js
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    168.017µs|   match|[44m GET     [0m /static/auth/js/search/jquery.quicksearch.js
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    112.782µs|   match|[44m GET     [0m /static/auth/js/tip/jquery.tooltipster.js
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    124.851µs|   match|[44m GET     [0m /static/auth/js/nano/jquery.nanoscroller.js
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    113.372µs|   match|[44m GET     [0m /static/auth/js/pace/pace.js
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    155.243µs|   match|[44m GET     [0m /static/auth/js/chart/jquery.sparkline.js
+2018/03/21 18:11:13 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     86.493µs|   match|[44m GET     [0m /static/auth/js/clock/jquery.clock.js
+2018/03/21 18:11:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     41.551µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addon/dialog/dialog.css
+2018/03/21 18:11:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     68.767µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addon/search/matchesonscrollbar.css
+2018/03/21 18:11:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     87.262µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/codemirror.min.css
+2018/03/21 18:11:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     36.775µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addon/fold/foldgutter.css
+2018/03/21 18:11:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    249.536µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/codemirror.min.js
+2018/03/21 18:11:14 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    1.00709ms| nomatch|[44m GET     [0m /static/auth/images/loading@2x.gif
+2018/03/21 18:11:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     64.313µs|   match|[44m GET     [0m /static/auth/img/plus.png
+2018/03/21 18:11:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    234.271µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/modes.min.js
+2018/03/21 18:11:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     133.04µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addons.min.js
+2018/03/21 18:11:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     86.957µs|   match|[44m GET     [0m /static/auth/js/lib/marked.min.js
+2018/03/21 18:11:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    100.304µs|   match|[44m GET     [0m /static/auth/fonts/fontawesome-webfont.woff
+2018/03/21 18:11:14 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    100.527µs|   match|[44m GET     [0m /static/auth/js/lib/prettify.min.js
+2018/03/21 18:11:14 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    179.044µs| nomatch|[44m GET     [0m /static/auth/images/loading@2x.gif
+2018/03/21 18:11:14 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    133.942µs| nomatch|[44m GET     [0m /static/auth/fonts/fontawesome-webfont.woff2
+2018/03/21 18:11:14 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    171.383µs| nomatch|[44m GET     [0m /static/auth/css/bootstrap.css.map
+2018/03/21 18:11:25 [C] [asm_amd64.s:509] the request url is  /console/post
+2018/03/21 18:11:25 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/postcontroller/store.tpl
+2018/03/21 18:11:25 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/03/21 18:11:25 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/03/21 18:11:25 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/03/21 18:11:25 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/03/21 18:11:25 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/03/21 18:11:25 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/03/21 18:11:25 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:827
+2018/03/21 18:11:25 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/03/21 18:11:25 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/03/21 18:11:25 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/03/21 18:14:04 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/21 18:14:06 [C] [asm_amd64.s:509] the request url is  /console/post
+2018/03/21 18:14:06 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/postcontroller/store.tpl
+2018/03/21 18:14:06 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/03/21 18:14:06 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/03/21 18:14:06 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/03/21 18:14:06 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/03/21 18:14:06 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/03/21 18:14:06 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/03/21 18:14:06 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:827
+2018/03/21 18:14:06 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/03/21 18:14:06 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/03/21 18:14:06 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/03/21 18:16:03 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/21 18:19:51 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/21 18:19:52 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/21 18:19:54 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    275.853µs|   match|[46m POST    [0m /console/post   r:/console/post
+2018/03/21 18:20:35 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/21 18:20:39 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    318.999µs|   match|[46m POST    [0m /console/post   r:/console/post
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.694943ms|   match|[44m GET     [0m /static/auth/css/style.css
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    549.844µs|   match|[44m GET     [0m /static/auth/css/loader-style.css
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.156337ms|   match|[44m GET     [0m /static/auth/js/progress-bar/number-pb.css
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    909.121µs|   match|[44m GET     [0m /static/auth/js/tag/jquery.tagsinput.css
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    994.883µs|   match|[44m GET     [0m /static/auth/js/validate/validate.css
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.625306ms|   match|[44m GET     [0m /static/auth/css/bootstrap.css
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    333.541µs|   match|[44m GET     [0m /static/auth/css/editormd.min.css
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    273.264µs|   match|[44m GET     [0m /static/auth/css/jquery-ui.min.css
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    907.366µs|   match|[44m GET     [0m /static/auth/js/jquery.js
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    545.684µs|   match|[44m GET     [0m /static/auth/js/progress-bar/src/jquery.velocity.min.js
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    180.938µs|   match|[44m GET     [0m /static/auth/js/progress-bar/number-pb.js
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    108.588µs|   match|[44m GET     [0m /static/auth/js/progress-bar/progress-app.js
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    141.724µs|   match|[44m GET     [0m /static/auth/js/preloader.js
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    222.779µs|   match|[44m GET     [0m /static/auth/js/bootstrap.js
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    158.835µs|   match|[44m GET     [0m /static/auth/js/app.js
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    203.014µs|   match|[44m GET     [0m /static/auth/js/load.js
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    170.125µs|   match|[44m GET     [0m /static/auth/js/main.js
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    218.112µs|   match|[44m GET     [0m /static/auth/js/validate/jquery.validate.min.js
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    226.912µs|   match|[44m GET     [0m /static/auth/js/tag/jquery.tagsinput.js
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     775.41µs|   match|[44m GET     [0m /static/auth/js/jquery-ui.min.js
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|      457.6µs|   match|[44m GET     [0m /static/auth/js/admin.create.js
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    173.479µs|   match|[44m GET     [0m /static/auth/js/editormd.min.js
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    208.898µs|   match|[44m GET     [0m /static/auth/js/skin-select/skin-select.css
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    335.716µs|   match|[44m GET     [0m /static/auth/css/font-awesome.css
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    190.906µs|   match|[44m GET     [0m /static/auth/css/maki-icons.css
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    468.691µs|   match|[44m GET     [0m /static/auth/css/entypo-icon.css
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    126.316µs|   match|[44m GET     [0m /static/auth/css/dripicon.css
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    101.517µs|   match|[44m GET     [0m /static/auth/css/weather-icons.min.css
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    193.536µs|   match|[44m GET     [0m /static/auth/js/pnotify/jquery.pnotify.default.css
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    106.439µs|   match|[44m GET     [0m /static/auth/css/awwwards.css
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    100.391µs|   match|[44m GET     [0m /static/auth/js/pace/themes/pace-theme-center-simple.css
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    170.054µs|   match|[44m GET     [0m /static/auth/js/tip/tooltipster.css
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    587.752µs|   match|[44m GET     [0m /static/auth/js/slidebars/slidebars.css
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    730.454µs|   match|[44m GET     [0m /static/auth/css/open-sans.css
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    201.046µs|   match|[44m GET     [0m /static/auth/js/gage/jquery.easy-pie-chart.css
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    162.063µs|   match|[44m GET     [0m /static/auth/css/bootstrap-responsive.css
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    240.135µs|   match|[44m GET     [0m /static/auth/img/bg.jpg
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    365.742µs|   match|[44m GET     [0m /static/auth/fonts/open-sans-light.woff
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    928.151µs|   match|[44m GET     [0m /static/auth/font/dripicons.ttf
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    250.181µs|   match|[44m GET     [0m /static/auth/font/weathericons-regular-webfont.woff
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|        308µs| nomatch|[44m GET     [0m /static/auth/fonts/fontawesome-webfont.woff2
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    429.351µs| nomatch|[44m GET     [0m /static/auth/css/bootstrap.css.map
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    192.053µs|   match|[44m GET     [0m /static/auth/font/entypo.woff
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     93.006µs|   match|[44m GET     [0m /static/auth/img/search-white.png
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    283.155µs|   match|[44m GET     [0m /static/auth/fonts/fontawesome-webfont.woff
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    204.137µs|   match|[44m GET     [0m /static/auth/js/skin-select/jquery.cookie.js
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    110.561µs|   match|[44m GET     [0m /static/auth/js/skin-select/skin-select.js
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    106.417µs|   match|[44m GET     [0m /static/auth/js/clock/date.js
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     79.499µs|   match|[44m GET     [0m /static/auth/js/custom/scriptbreaker-multiple-accordion-1.js
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    141.419µs|   match|[44m GET     [0m /static/auth/js/newsticker/jquery.newsTicker.js
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    116.662µs|   match|[44m GET     [0m /static/auth/js/slidebars/slidebars.min.js
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    174.387µs|   match|[44m GET     [0m /static/auth/js/search/jquery.quicksearch.js
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    119.992µs|   match|[44m GET     [0m /static/auth/js/gage/jquery.easypiechart.min.js
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     166.91µs|   match|[44m GET     [0m /static/auth/js/tip/jquery.tooltipster.js
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    210.484µs|   match|[44m GET     [0m /static/auth/js/nano/jquery.nanoscroller.js
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     177.74µs|   match|[44m GET     [0m /static/auth/js/pace/pace.js
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    333.905µs|   match|[44m GET     [0m /static/auth/js/chart/jquery.sparkline.js
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    171.207µs|   match|[44m GET     [0m /static/auth/js/clock/jquery.clock.js
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    238.714µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/codemirror.min.css
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    281.981µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addon/dialog/dialog.css
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    238.696µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addon/search/matchesonscrollbar.css
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.025204ms|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addon/fold/foldgutter.css
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   1.046091ms|   match|[44m GET     [0m /static/auth/js/lib/codemirror/codemirror.min.js
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    166.897µs| nomatch|[44m GET     [0m /static/auth/images/loading@2x.gif
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    142.734µs|   match|[44m GET     [0m /static/auth/img/plus.png
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    431.008µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/modes.min.js
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    245.624µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addons.min.js
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    151.717µs|   match|[44m GET     [0m /static/auth/js/lib/marked.min.js
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     90.824µs|   match|[44m GET     [0m /static/auth/fonts/fontawesome-webfont.woff
+2018/03/21 18:20:47 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    204.052µs|   match|[44m GET     [0m /static/auth/js/lib/prettify.min.js
+2018/03/21 18:20:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     72.348µs|   match|[44m GET     [0m /static/auth/js/validate/validate.css
+2018/03/21 18:20:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     43.198µs|   match|[44m GET     [0m /static/auth/js/tag/jquery.tagsinput.css
+2018/03/21 18:20:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     94.932µs|   match|[44m GET     [0m /static/auth/css/jquery-ui.min.css
+2018/03/21 18:20:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    182.024µs|   match|[44m GET     [0m /static/auth/css/editormd.min.css
+2018/03/21 18:20:48 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    292.964µs| nomatch|[44m GET     [0m /static/auth/images/loading@2x.gif
+2018/03/21 18:20:48 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    200.635µs| nomatch|[44m GET     [0m /static/auth/fonts/fontawesome-webfont.woff2
+2018/03/21 18:20:48 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    202.019µs| nomatch|[44m GET     [0m /static/auth/css/bootstrap.css.map
+2018/03/21 18:20:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   3.934566ms|   match|[44m GET     [0m /console/post/create   r:/console/post/create
+2018/03/21 18:20:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     34.678µs|   match|[44m GET     [0m /static/auth/css/loader-style.css
+2018/03/21 18:20:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    141.139µs|   match|[44m GET     [0m /static/auth/css/style.css
+2018/03/21 18:20:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    153.676µs|   match|[44m GET     [0m /static/auth/css/bootstrap.css
+2018/03/21 18:20:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     39.704µs|   match|[44m GET     [0m /static/auth/js/progress-bar/number-pb.css
+2018/03/21 18:20:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     38.555µs|   match|[44m GET     [0m /static/auth/js/validate/validate.css
+2018/03/21 18:20:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     86.404µs|   match|[44m GET     [0m /static/auth/js/tag/jquery.tagsinput.css
+2018/03/21 18:20:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     152.29µs|   match|[44m GET     [0m /static/auth/css/editormd.min.css
+2018/03/21 18:20:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    101.322µs|   match|[44m GET     [0m /static/auth/css/jquery-ui.min.css
+2018/03/21 18:20:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    254.914µs|   match|[44m GET     [0m /static/auth/js/jquery.js
+2018/03/21 18:20:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    136.269µs|   match|[44m GET     [0m /static/auth/js/progress-bar/src/jquery.velocity.min.js
+2018/03/21 18:20:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     82.637µs|   match|[44m GET     [0m /static/auth/js/progress-bar/number-pb.js
+2018/03/21 18:20:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     85.823µs|   match|[44m GET     [0m /static/auth/js/progress-bar/progress-app.js
+2018/03/21 18:20:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     86.154µs|   match|[44m GET     [0m /static/auth/js/preloader.js
+2018/03/21 18:20:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    139.387µs|   match|[44m GET     [0m /static/auth/js/bootstrap.js
+2018/03/21 18:20:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    113.711µs|   match|[44m GET     [0m /static/auth/js/app.js
+2018/03/21 18:20:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    172.985µs|   match|[44m GET     [0m /static/auth/js/load.js
+2018/03/21 18:20:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    161.228µs|   match|[44m GET     [0m /static/auth/js/main.js
+2018/03/21 18:20:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    132.005µs|   match|[44m GET     [0m /static/auth/js/validate/jquery.validate.min.js
+2018/03/21 18:20:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    119.618µs|   match|[44m GET     [0m /static/auth/js/tag/jquery.tagsinput.js
+2018/03/21 18:20:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    208.493µs|   match|[44m GET     [0m /static/auth/js/jquery-ui.min.js
+2018/03/21 18:20:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|      76.57µs|   match|[44m GET     [0m /static/auth/js/admin.create.js
+2018/03/21 18:20:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    125.088µs|   match|[44m GET     [0m /static/auth/js/editormd.min.js
+2018/03/21 18:20:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    152.948µs|   match|[44m GET     [0m /static/auth/js/skin-select/skin-select.css
+2018/03/21 18:20:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    164.807µs|   match|[44m GET     [0m /static/auth/css/font-awesome.css
+2018/03/21 18:20:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     61.776µs|   match|[44m GET     [0m /static/auth/css/maki-icons.css
+2018/03/21 18:20:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     88.152µs|   match|[44m GET     [0m /static/auth/css/entypo-icon.css
+2018/03/21 18:20:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     78.632µs|   match|[44m GET     [0m /static/auth/css/weather-icons.min.css
+2018/03/21 18:20:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     71.626µs|   match|[44m GET     [0m /static/auth/css/dripicon.css
+2018/03/21 18:20:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|      84.97µs|   match|[44m GET     [0m /static/auth/css/open-sans.css
+2018/03/21 18:20:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|      62.74µs|   match|[44m GET     [0m /static/auth/css/awwwards.css
+2018/03/21 18:20:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     56.545µs|   match|[44m GET     [0m /static/auth/js/pnotify/jquery.pnotify.default.css
+2018/03/21 18:20:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     100.02µs|   match|[44m GET     [0m /static/auth/js/tip/tooltipster.css
+2018/03/21 18:20:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     60.626µs|   match|[44m GET     [0m /static/auth/js/pace/themes/pace-theme-center-simple.css
+2018/03/21 18:20:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     84.121µs|   match|[44m GET     [0m /static/auth/js/slidebars/slidebars.css
+2018/03/21 18:20:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    147.854µs|   match|[44m GET     [0m /static/auth/js/gage/jquery.easy-pie-chart.css
+2018/03/21 18:20:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     217.51µs|   match|[44m GET     [0m /static/auth/css/bootstrap-responsive.css
+2018/03/21 18:20:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|      79.35µs|   match|[44m GET     [0m /static/auth/fonts/open-sans-light.woff
+2018/03/21 18:20:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|      149.8µs|   match|[44m GET     [0m /static/auth/img/bg.jpg
+2018/03/21 18:20:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     72.969µs|   match|[44m GET     [0m /static/auth/font/dripicons.ttf
+2018/03/21 18:20:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    114.174µs|   match|[44m GET     [0m /static/auth/font/entypo.woff
+2018/03/21 18:20:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    119.302µs|   match|[44m GET     [0m /static/auth/font/weathericons-regular-webfont.woff
+2018/03/21 18:20:48 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     72.632µs|   match|[44m GET     [0m /static/auth/img/search-white.png
+2018/03/21 18:20:48 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    220.584µs| nomatch|[44m GET     [0m /static/auth/fonts/fontawesome-webfont.woff2
+2018/03/21 18:20:49 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    171.733µs| nomatch|[44m GET     [0m /static/auth/css/bootstrap.css.map
+2018/03/21 18:20:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    110.273µs|   match|[44m GET     [0m /static/auth/fonts/fontawesome-webfont.woff
+2018/03/21 18:20:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     97.313µs|   match|[44m GET     [0m /static/auth/js/skin-select/jquery.cookie.js
+2018/03/21 18:20:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|      46.14µs|   match|[44m GET     [0m /static/auth/js/skin-select/skin-select.js
+2018/03/21 18:20:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     40.134µs|   match|[44m GET     [0m /static/auth/js/clock/date.js
+2018/03/21 18:20:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     82.032µs|   match|[44m GET     [0m /static/auth/js/newsticker/jquery.newsTicker.js
+2018/03/21 18:20:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     42.722µs|   match|[44m GET     [0m /static/auth/js/custom/scriptbreaker-multiple-accordion-1.js
+2018/03/21 18:20:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     58.786µs|   match|[44m GET     [0m /static/auth/js/slidebars/slidebars.min.js
+2018/03/21 18:20:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     122.65µs|   match|[44m GET     [0m /static/auth/js/search/jquery.quicksearch.js
+2018/03/21 18:20:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     64.763µs|   match|[44m GET     [0m /static/auth/js/gage/jquery.easypiechart.min.js
+2018/03/21 18:20:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     80.699µs|   match|[44m GET     [0m /static/auth/js/tip/jquery.tooltipster.js
+2018/03/21 18:20:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     92.084µs|   match|[44m GET     [0m /static/auth/js/nano/jquery.nanoscroller.js
+2018/03/21 18:20:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     90.618µs|   match|[44m GET     [0m /static/auth/js/pace/pace.js
+2018/03/21 18:20:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    121.154µs|   match|[44m GET     [0m /static/auth/js/chart/jquery.sparkline.js
+2018/03/21 18:20:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    133.915µs|   match|[44m GET     [0m /static/auth/js/clock/jquery.clock.js
+2018/03/21 18:20:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     81.305µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/codemirror.min.css
+2018/03/21 18:20:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     39.669µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addon/dialog/dialog.css
+2018/03/21 18:20:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     36.242µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addon/fold/foldgutter.css
+2018/03/21 18:20:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     37.434µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addon/search/matchesonscrollbar.css
+2018/03/21 18:20:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    231.689µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/codemirror.min.js
+2018/03/21 18:20:49 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    196.336µs| nomatch|[44m GET     [0m /static/auth/images/loading@2x.gif
+2018/03/21 18:20:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     62.284µs|   match|[44m GET     [0m /static/auth/img/plus.png
+2018/03/21 18:20:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    241.536µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/modes.min.js
+2018/03/21 18:20:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    163.696µs|   match|[44m GET     [0m /static/auth/js/lib/codemirror/addons.min.js
+2018/03/21 18:20:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    155.497µs|   match|[44m GET     [0m /static/auth/js/lib/marked.min.js
+2018/03/21 18:20:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     161.03µs|   match|[44m GET     [0m /static/auth/fonts/fontawesome-webfont.woff
+2018/03/21 18:20:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    153.034µs|   match|[44m GET     [0m /static/auth/js/lib/prettify.min.js
+2018/03/21 18:20:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     84.696µs|   match|[44m GET     [0m /static/auth/js/validate/validate.css
+2018/03/21 18:20:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     66.213µs|   match|[44m GET     [0m /static/auth/js/tag/jquery.tagsinput.css
+2018/03/21 18:20:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     122.37µs|   match|[44m GET     [0m /static/auth/css/editormd.min.css
+2018/03/21 18:20:49 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     94.718µs|   match|[44m GET     [0m /static/auth/css/jquery-ui.min.css
+2018/03/21 18:20:49 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    199.294µs| nomatch|[44m GET     [0m /static/auth/images/loading@2x.gif
+2018/03/21 18:20:49 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|     182.65µs| nomatch|[44m GET     [0m /static/auth/fonts/fontawesome-webfont.woff2
+2018/03/21 18:20:49 [D] [server.go:2619] |      127.0.0.1|[43m 404 [0m|    140.192µs| nomatch|[44m GET     [0m /static/auth/css/bootstrap.css.map
+2018/03/21 18:20:57 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|     2.5134ms|   match|[44m GET     [0m /console/cate/auto   r:/console/cate/auto
+2018/03/21 18:20:58 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|   2.163777ms|   match|[44m GET     [0m /console/cate/auto   r:/console/cate/auto
+2018/03/21 18:21:08 [D] [server.go:2619] |      127.0.0.1|[42m 200 [0m|    130.948µs|   match|[46m POST    [0m /console/post   r:/console/post
+2018/03/21 18:22:05 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/21 18:22:45 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/21 18:22:48 [C] [asm_amd64.s:509] the request url is  /console/post
+2018/03/21 18:22:48 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/postcontroller/store.tpl
+2018/03/21 18:22:48 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/03/21 18:22:48 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/03/21 18:22:48 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/03/21 18:22:48 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/03/21 18:22:48 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/03/21 18:22:48 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/03/21 18:22:48 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:827
+2018/03/21 18:22:48 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/03/21 18:22:48 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/03/21 18:22:48 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/03/21 18:23:29 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/21 18:23:59 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/21 18:24:02 [C] [asm_amd64.s:509] the request url is  /console/post
+2018/03/21 18:24:02 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/postcontroller/store.tpl
+2018/03/21 18:24:02 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/03/21 18:24:02 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/03/21 18:24:02 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/03/21 18:24:02 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/03/21 18:24:02 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/03/21 18:24:02 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/03/21 18:24:02 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:827
+2018/03/21 18:24:02 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/03/21 18:24:02 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/03/21 18:24:02 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/03/21 18:24:44 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/21 18:24:47 [C] [asm_amd64.s:509] the request url is  /console/post
+2018/03/21 18:24:47 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/postcontroller/store.tpl
+2018/03/21 18:24:47 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/03/21 18:24:47 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/03/21 18:24:47 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/03/21 18:24:47 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/03/21 18:24:47 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/03/21 18:24:47 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/03/21 18:24:47 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:827
+2018/03/21 18:24:47 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/03/21 18:24:47 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/03/21 18:24:47 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/03/21 18:25:12 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/21 18:25:14 [C] [asm_amd64.s:509] the request url is  /console/post
+2018/03/21 18:25:14 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/postcontroller/store.tpl
+2018/03/21 18:25:14 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/03/21 18:25:14 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/03/21 18:25:14 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/03/21 18:25:14 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/03/21 18:25:14 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/03/21 18:25:14 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/03/21 18:25:14 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:827
+2018/03/21 18:25:14 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/03/21 18:25:14 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/03/21 18:25:14 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/03/21 18:28:03 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/21 18:32:51 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/21 18:37:48 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/21 18:37:50 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/21 18:37:52 [C] [asm_amd64.s:509] the request url is  /console/post
+2018/03/21 18:37:52 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/postcontroller/store.tpl
+2018/03/21 18:37:52 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/03/21 18:37:52 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/03/21 18:37:52 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/03/21 18:37:52 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/03/21 18:37:52 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/03/21 18:37:52 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/03/21 18:37:52 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:827
+2018/03/21 18:37:52 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/03/21 18:37:52 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/03/21 18:37:52 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/03/21 18:38:33 [I] [asm_amd64.s:2337] http server Running on http://:8080

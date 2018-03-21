@@ -6,8 +6,11 @@ import (
 	"bee-go-myBlog/services"
 	"fmt"
 	"html/template"
-	"github.com/astaxie/beego/validation"
+
+	"bee-go-myBlog/requests"
 	"log"
+	"github.com/astaxie/beego/validation"
+	"reflect"
 )
 
 type PostController struct {
@@ -52,31 +55,34 @@ func (p *PostController) Create() {
 
 func (p *PostController) Store()  {
 	u := PostCreate{}
+	fmt.Println(u,"||||||")
 	if err := p.ParseForm(&u); err != nil {
 		fmt.Println(err)
 	}
+	fmt.Println(u)
+	fmt.Println("type:", reflect.TypeOf(u))
 
-	//fmt.Println(u)
-
-	minAge := 12
+	requests.PostCreateValidate(u)
 
 	valid := validation.Validation{}
+	//valid.MaxSize(u.Title, 2, "Title").Message("少儿不宜！")
 	b, err := valid.Valid(&u)
-	valid.MaxSize(u.Title, minAge, "age").Message("少儿不宜！")
+	fmt.Println("结果3")
 
 	if err != nil {
 		// handle error
 	}
-	flash:=beego.NewFlash()
+	//flash:=beego.NewFlash()
+	fmt.Println("结果4")
 
 	if !b {
 		// validation does not pass
 		// blabla...
 		for _, err := range valid.Errors {
-			log.Println(err.Key, err.Message)
-			flash.Error(err.Message)
-			flash.Store(&p.Controller)
-			p.Redirect("/console/post/create",302)
+			log.Println( err.Message)
+			//flash.Error(err.Message)
+			//flash.Store(&p.Controller)
+			//p.Redirect("/console/post/create",302)
 			return
 		}
 	}
