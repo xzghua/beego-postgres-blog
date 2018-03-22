@@ -1,20 +1,16 @@
 package auth
 
 import (
-	"github.com/astaxie/beego"
 	"strconv"
 	"bee-go-myBlog/services"
 	"fmt"
 	"html/template"
-
-	"bee-go-myBlog/requests"
-	"log"
+	"bee-go-myBlog/controllers"
 	"github.com/astaxie/beego/validation"
-	"reflect"
 )
 
 type PostController struct {
-	beego.Controller
+	controllers.BaseController
 }
 
 type PostCreate struct {
@@ -23,14 +19,6 @@ type PostCreate struct {
 	Tag 		string 	`form:"tag" valid:"Required"`
 	Content 	string 	`form:"content" valid:"Required"`
 }
-
-//type PostCreate struct {
-//	Title 		string
-//	Category 	int64
-//	Tag 		string
-//	Content 	string
-//}
-
 
 func (p *PostController) Index()  {
 	page := p.GetString("page")
@@ -55,37 +43,22 @@ func (p *PostController) Create() {
 
 func (p *PostController) Store()  {
 	u := PostCreate{}
-	fmt.Println(u,"||||||")
+	valid := validation.Validation{}
 	if err := p.ParseForm(&u); err != nil {
 		fmt.Println(err)
 	}
-	fmt.Println(u)
-	fmt.Println("type:", reflect.TypeOf(u))
-
-	requests.PostCreateValidate(u)
-
-	valid := validation.Validation{}
 	//valid.MaxSize(u.Title, 2, "Title").Message("少儿不宜！")
 	b, err := valid.Valid(&u)
-	fmt.Println("结果3")
-
 	if err != nil {
-		// handle error
 	}
-	//flash:=beego.NewFlash()
-	fmt.Println("结果4")
+
+	fmt.Println(u)
 
 	if !b {
-		// validation does not pass
-		// blabla...
-		for _, err := range valid.Errors {
-			log.Println( err.Message)
-			//flash.Error(err.Message)
-			//flash.Store(&p.Controller)
-			//p.Redirect("/console/post/create",302)
-			return
-		}
+		fmt.Println("234234是是是是")
+		p.RequestValidate(valid)
 	}
+
 
 
 	p.ServeJSON(true)

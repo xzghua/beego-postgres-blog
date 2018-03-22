@@ -6,9 +6,9 @@ import (
 	"log"
 )
 
-func PostCreateValidate (u interface{}) {
+func PostCreateValidate (u string) {
 	valid := validation.Validation{}
-	b, err := valid.Valid(&u)
+	b, err := valid.Valid(u)
 	fmt.Println("结果1")
 
 	if err != nil {

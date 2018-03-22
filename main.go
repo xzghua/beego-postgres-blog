@@ -25,6 +25,8 @@ func main() {
 	str := time.Now().Format("2006-01-02")
 	logs.SetLogger(logs.AdapterFile,`{"filename":"`+beego.AppConfig.String("log_path")+str+`-project.log","level":7,"maxlines":0,"maxsize":0,"daily":true,"maxdays":10}`)
 	orm.Debug = true
+	beego.BConfig.Log.AccessLogs = false
+
 
 	beego.Run()
 }
