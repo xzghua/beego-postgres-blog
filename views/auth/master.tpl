@@ -470,9 +470,23 @@
 <script type="text/javascript" src="/static/auth/js/admin.create.js"></script>
 <script src="/static/auth/js/editormd.min.js"></script>
 
+
+<script type="text/javascript" src="/static/auth/js/pnotify/jquery.pnotify.min.js"></script>
+
+
 <script>
 
     var testEditor;
+
+
+
+    $.pnotify({
+        title: '卧槽',
+        text: 'J你这有个大八阿哥啊',
+        type: 'error'
+
+    });
+
 
     $(document).ready(function() {
         testEditor = editormd("editormd", {

@@ -55,7 +55,7 @@ margin-right: .2em;
 /* -- History Pulldown */
 .ui-pnotify-history-container {
 position: absolute;
-top: 0;
+/*top: 0;*/
 right: 18px;
 width: 70px;
 border-top: none;

@@ -7,6 +7,7 @@ import (
 	"html/template"
 	"bee-go-myBlog/controllers"
 	"github.com/astaxie/beego/validation"
+	"github.com/astaxie/beego"
 )
 
 type PostController struct {
@@ -47,7 +48,6 @@ func (p *PostController) Store()  {
 	if err := p.ParseForm(&u); err != nil {
 		fmt.Println(err)
 	}
-	//valid.MaxSize(u.Title, 2, "Title").Message("少儿不宜！")
 	b, err := valid.Valid(&u)
 	if err != nil {
 	}
@@ -55,10 +55,13 @@ func (p *PostController) Store()  {
 	fmt.Println(u)
 
 	if !b {
-		fmt.Println("234234是是是是")
-		p.RequestValidate(valid)
+		_,message := p.RequestValidate(valid)
+		flash :=beego.NewFlash()
+		flash.Error(message)
+		flash.Store(&p.Controller)
+		p.Redirect("/console/post/create",302)
+		return
 	}
-
 
 
 	p.ServeJSON(true)

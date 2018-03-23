@@ -1,0 +1,101 @@
+2018/03/23 11:26:20.415 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/23 11:26:29.082 [C] [asm_amd64.s:509] the request url is  /console/post
+2018/03/23 11:26:29.082 [C] [asm_amd64.s:509] Handler crashed with error XSRF cookie does not match POST argument
+2018/03/23 11:26:29.082 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/03/23 11:26:29.082 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/03/23 11:26:29.082 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/context/context.go:80
+2018/03/23 11:26:29.082 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/context/context.go:168
+2018/03/23 11:26:29.082 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:649
+2018/03/23 11:26:29.082 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:819
+2018/03/23 11:26:29.082 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/03/23 11:26:29.082 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/03/23 11:26:29.082 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/03/23 12:28:10.246 [C] [asm_amd64.s:509] the request url is  /console/post
+2018/03/23 12:28:10.246 [C] [asm_amd64.s:509] Handler crashed with error XSRF cookie does not match POST argument
+2018/03/23 12:28:10.246 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/03/23 12:28:10.246 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/03/23 12:28:10.246 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/context/context.go:80
+2018/03/23 12:28:10.247 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/context/context.go:168
+2018/03/23 12:28:10.247 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:649
+2018/03/23 12:28:10.247 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:819
+2018/03/23 12:28:10.247 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/03/23 12:28:10.247 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/03/23 12:28:10.247 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/03/23 14:37:32.233 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/23 14:39:32.841 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/23 14:39:38.766 [C] [asm_amd64.s:509] the request url is  /console/post
+2018/03/23 14:39:38.766 [C] [asm_amd64.s:509] Handler crashed with error XSRF cookie does not match POST argument
+2018/03/23 14:39:38.766 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/03/23 14:39:38.766 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/03/23 14:39:38.766 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/context/context.go:80
+2018/03/23 14:39:38.766 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/context/context.go:168
+2018/03/23 14:39:38.766 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:649
+2018/03/23 14:39:38.766 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:819
+2018/03/23 14:39:38.766 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/03/23 14:39:38.766 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/03/23 14:39:38.766 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/03/23 14:45:22.671 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/23 15:12:35.432 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/23 15:18:48.753 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/23 15:18:58.179 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/23 15:21:11.196 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/23 15:22:05.821 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/23 15:23:02.941 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/23 15:31:43.537 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/23 15:31:56.059 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/23 15:34:52.994 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/23 16:41:06.595 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/23 16:41:11.303 [C] [asm_amd64.s:509] the request url is  /console/post
+2018/03/23 16:41:11.303 [C] [asm_amd64.s:509] Handler crashed with error XSRF cookie does not match POST argument
+2018/03/23 16:41:11.303 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/03/23 16:41:11.303 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/03/23 16:41:11.303 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/context/context.go:80
+2018/03/23 16:41:11.303 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/context/context.go:168
+2018/03/23 16:41:11.303 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:649
+2018/03/23 16:41:11.303 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:819
+2018/03/23 16:41:11.304 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/03/23 16:41:11.304 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/03/23 16:41:11.304 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/03/23 16:41:18.707 [C] [asm_amd64.s:509] the request url is  /console/post
+2018/03/23 16:41:18.707 [C] [asm_amd64.s:509] Handler crashed with error XSRF cookie does not match POST argument
+2018/03/23 16:41:18.707 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/03/23 16:41:18.707 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/03/23 16:41:18.707 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/context/context.go:80
+2018/03/23 16:41:18.707 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/context/context.go:168
+2018/03/23 16:41:18.707 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:649
+2018/03/23 16:41:18.707 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:819
+2018/03/23 16:41:18.707 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/03/23 16:41:18.707 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/03/23 16:41:18.707 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/03/23 16:59:42.813 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/23 17:12:15.600 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/23 17:27:09.170 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/23 17:27:31.598 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/23 17:35:32.038 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/23 17:39:31.738 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/23 17:40:33.329 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/23 17:44:30.931 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/23 17:44:33.555 [C] [asm_amd64.s:509] the request url is  /console/post
+2018/03/23 17:44:33.556 [C] [asm_amd64.s:509] Handler crashed with error XSRF cookie does not match POST argument
+2018/03/23 17:44:33.556 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/03/23 17:44:33.556 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/03/23 17:44:33.556 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/context/context.go:80
+2018/03/23 17:44:33.556 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/context/context.go:168
+2018/03/23 17:44:33.556 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:649
+2018/03/23 17:44:33.556 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:819
+2018/03/23 17:44:33.556 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/03/23 17:44:33.556 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/03/23 17:44:33.556 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/03/23 17:45:52.560 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/23 18:07:32.392 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/23 19:07:45.712 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/23 19:16:49.398 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/23 19:23:33.935 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/23 19:59:30.912 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/23 20:00:46.602 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/23 20:02:04.680 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/23 20:02:36.419 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/23 20:02:54.519 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/23 20:03:51.828 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/23 20:04:55.009 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/23 20:05:52.694 [I] [asm_amd64.s:2337] http server Running on http://:8080
