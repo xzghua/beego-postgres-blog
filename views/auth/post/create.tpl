@@ -22,41 +22,6 @@
                     </div>
 
                 </div>
-            {{.flash.error}}
-                <div class="alert alert-danger alert-block" >
-                    <button data-dismiss="alert" class="close" type="button">×</button>
-                    <span class="entypo-cancel-circled"></span>
-                    <strong>Warning!</strong>&nbsp;&nbsp;Best check yo self, you're not looking too good.
-                </div>
-                <button onClick="$.pnotify({
-                                title: 'New Thing',
-                                text: 'Just to let you know, something happened.',
-                                type: 'info'
-
-                             });" class="btn source">Info Notice</button>
-                <div id="notif1" style="display:block" class="body-nest2">
-
-
-
-                    <button onClick="$.pnotify({
-                                title: 'New Thing',
-                                text: 'Just to let you know, something happened.',
-                                type: 'success'
-
-                             });" class="btn source">Success Notice</button>
-
-                    <button onClick="$.pnotify({
-                                title: 'New Thing',
-                                text: 'Just to let you know, something happened.',
-                                type: 'error'
-
-                             });" class="btn source">Important Notice</button>
-
-                    <button onClick="$.pnotify({
-                                 title: 'New Thing',
-                                text: 'Just to let you know, something happened.',
-
-                             });" class="btn source">Info Notice</button>
 
                 <div class="body-nest" id="validation">
                     <div class="form_center">
@@ -110,3 +75,4 @@
 
 
 
+</div>

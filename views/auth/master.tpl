@@ -473,19 +473,41 @@
 
 <script type="text/javascript" src="/static/auth/js/pnotify/jquery.pnotify.min.js"></script>
 
-
 <script>
 
     var testEditor;
 
+    function getCookie(cname)
+    {
+        var name = cname + "=";
+        var ca = document.cookie.split(';');
+        for(var i=0; i<ca.length; i++)
+        {
+            var c = ca[i].trim();
+            if (c.indexOf(name)==0) return c.substring(name.length,c.length);
+        }
+        return "";
+    }
+    if ("{{.flash.error}}") {
+        $.pnotify({
+            title: '哎哟',
+            text: "{{.flash.error}}",
+            type: 'error'
+        });
+    } else if ("{{.flash.success}}") {
+        $.pnotify({
+            title: '哎哟',
+            text: "{{.flash.success}}",
+            type: 'success'
+        });
+    } else if ("{{.flash.info}}") {
+        $.pnotify({
+            title: '哎哟',
+            text: "{{.flash.info}}",
+            type: 'info'
+        });
+    }
 
-
-    $.pnotify({
-        title: '卧槽',
-        text: 'J你这有个大八阿哥啊',
-        type: 'error'
-
-    });
 
 
     $(document).ready(function() {

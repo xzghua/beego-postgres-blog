@@ -18,13 +18,17 @@ type createUser struct {
 }
 
 
-func (c *MainController) Get() {
-	c.Data["Website"] = "beego.m111e"
-	c.Data["Email"] = "astaxie@gmail.com"
-	c.TplName = "index.tpl"
+func (cc *MainController) Get() {
+	flash := beego.NewFlash()
+	flash.Error("jkasdjfklasdf..")
+	flash.Store(&cc.Controller)
+	//cc.Redirect("/",302)
+	//cc.Data["Website"] = "beego.m111e"
+	//cc.Data["Email"] = "astaxie@gmail.com"
+	//cc.TplName = "index.tpl"
 }
 
-func (c *MainController) MyTest() {
+func (cc *MainController) MyTest() {
 
 	var user models.Users
 	user.Email = "211@11.com"

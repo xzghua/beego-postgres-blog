@@ -15,7 +15,7 @@ type PostController struct {
 }
 
 type PostCreate struct {
-	Title 		string 	`form:"title" valid:"Required;MaxSize(2)"`
+	Title 		string 	`form:"title" valid:"Required;MaxSize(30)"`
 	Category 	int64 	`form:"category" valid:"Required"`
 	Tag 		string 	`form:"tag" valid:"Required"`
 	Content 	string 	`form:"content" valid:"Required"`
@@ -35,6 +35,7 @@ func (p *PostController) Index()  {
 
 func (p *PostController) Create() {
 
+	beego.ReadFromRequest(&p.Controller)
 	cate := services.GetAllCateBySort()
 	p.Data["xsrfdata"]=template.HTML(p.XSRFFormHTML())
 	p.Data["cate"] = cate
@@ -51,18 +52,16 @@ func (p *PostController) Store()  {
 	b, err := valid.Valid(&u)
 	if err != nil {
 	}
-
-	fmt.Println(u)
-
+	flash :=beego.NewFlash()
 	if !b {
-		_,message := p.RequestValidate(valid)
-		flash :=beego.NewFlash()
+		_,message :=p.RequestValidate(valid)
 		flash.Error(message)
 		flash.Store(&p.Controller)
 		p.Redirect("/console/post/create",302)
 		return
 	}
 
+	fmt.Println(u)
 
 	p.ServeJSON(true)
 

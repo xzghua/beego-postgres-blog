@@ -87,6 +87,7 @@
       Contact me:
       <a class="email" href="mailto:{{.Email}}">{{.Email}}</a>
     </div>
+      <h1>{{.flash.error}}</h1>
   </footer>
   <div class="backdrop"></div>
 
