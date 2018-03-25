@@ -3,7 +3,7 @@ package services
 import (
 	"bee-go-myBlog/models"
 	"github.com/astaxie/beego/orm"
-
+	"fmt"
 )
 
 func GetMyAllPost(page int64) (ml []interface{}, err error){
@@ -12,6 +12,15 @@ func GetMyAllPost(page int64) (ml []interface{}, err error){
 		for key, val := range post {
 			userId := val.(map[string]interface{})["UserId"].(int64)
 			user,_ := models.GetUsersById(userId)
+			postId := val.(map[string]interface{})["Id"].(int64)
+			fmt.Println(postId,"帖子ID")
+			cateId,_ := GetCateByPostId(postId)
+			cate,_ := models.GetCategoriesById(cateId)
+			if cate == nil {
+				post[key].(map[string]interface{})["cate_name"] = ""
+			} else {
+				post[key].(map[string]interface{})["cate_name"] = cate.DisplayName
+			}
 			post[key].(map[string]interface{})["user_name"] = user.Name
 			post[key].(map[string]interface{})["user_id"] = user.Id
 		}

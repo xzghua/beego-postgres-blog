@@ -4,6 +4,8 @@ import (
 	"bee-go-myBlog/models"
 
 	"bee-go-myBlog/helper"
+	"github.com/astaxie/beego/orm"
+	"fmt"
 )
 
 func GetMyAllCate() {
@@ -48,8 +50,15 @@ func GetCateByLike(param string) (ml map[int64]string) {
 }
 
 
-func StorePostCate(cateId int,postId int) {
-
+func GetCateByPostId(postId int64) (int64,error) {
+	o := orm.NewOrm()
+	artCate := models.ArticleCate{ArtId:postId}
+	err := o.Read(&artCate)
+	fmt.Println("||||||")
+	if err == orm.ErrNoRows {
+		return 0,err
+	}
+	return artCate.CateId,nil
 }
 
 func tree(cate []interface{}, parent int64, level int64,key int64) ([]interface{}) {

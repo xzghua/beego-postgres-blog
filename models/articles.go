@@ -173,3 +173,43 @@ func AllArticle(page int64) (ml []interface{}, err error) {
 	res, err := GetAllArticles(query, fields, sortby, order, offset, limit)
 	return res, err
 }
+
+
+func MyPaginate(page int64) (totalPage int64,lastPage int64,currentPage int64,nextPage int64 ){
+	o := orm.NewOrm()
+	var art Articles
+	cnt,_ :=o.QueryTable(art.TableName()).Count()
+	limit, _ := beego.AppConfig.Int64("page_offset")
+	res := round(cnt,limit)
+	totalPage = res
+
+	if page - 1 <= 0 {
+		lastPage = 1
+	} else {
+		lastPage = page - 1
+	}
+
+	if page >= res {
+		currentPage = res
+	} else {
+		currentPage = page
+	}
+
+	if page + 1 >= res {
+		nextPage = res
+ 	} else {
+ 		nextPage = page + 1
+	}
+
+	return totalPage,lastPage,currentPage,nextPage
+}
+
+func round(a int64,b int64) int64 {
+	rem := a % b
+	dis := a / b
+	if rem > 0 {
+		return dis+1
+	} else {
+		return dis
+	}
+}

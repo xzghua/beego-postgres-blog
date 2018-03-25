@@ -32,7 +32,12 @@ func (p *PostController) Index()  {
 		page2 = 1
 	}
 	post,_ := services.GetMyAllPost(page2)
+	totalPage,lastPage,currentPage,nextPage := models.MyPaginate(page2)
 	p.Data["post"] = post
+	p.Data["totalPage"] = totalPage
+	p.Data["lastPage"] = lastPage
+	p.Data["currentPage"] = currentPage
+	p.Data["nextPage"] = nextPage
 	p.Layout = "auth/master.tpl"
 	p.TplName = "auth/post/index.tpl"
 }

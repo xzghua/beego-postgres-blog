@@ -34,6 +34,11 @@ func AddArticleCate(m *ArticleCate) (id int64, err error) {
 	id, err = o.Insert(m)
 	return
 }
+
+
+
+
+
 //
 //// GetArticleCateById retrieves ArticleCate by Id. Returns error if
 //// Id doesn't exist
