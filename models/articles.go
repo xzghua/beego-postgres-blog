@@ -167,15 +167,9 @@ func AllArticle(page int64) (ml []interface{}, err error) {
 	var limit int64
 	var offset int64
 	limit, _ = beego.AppConfig.Int64("page_offset")
-
-
-	fields = []string{"Id", "Title", "Content", "BodyOriginal", "Password", "Note", "ReadStatus",
+	fields = []string{"Id", "Title","UserId", "Content", "BodyOriginal", "Password", "Note", "ReadStatus",
 		"Top", "Abstract", "ViewNum", "CreatedAt", "UpdatedAt"}
-
 	offset = (page - 1 ) * limit
-
 	res, err := GetAllArticles(query, fields, sortby, order, offset, limit)
-
-
 	return res, err
 }

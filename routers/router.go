@@ -18,6 +18,6 @@ func init() {
     beego.Router("/console/post",&auth.PostController{},"delete:Destroy")
 
 
-    beego.Router("/console/cate/auto",&auth.CateController{},"get:GetCateByLike")
+    beego.Router("/console/tag/auto",&auth.TagController{},"get:GetTagByLike")
 
 }

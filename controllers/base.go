@@ -23,3 +23,17 @@ func (c *BaseController) RequestValidate(valid validation.Validation) (int,strin
 	}
 	return code,message
 }
+
+func (c *BaseController) MyReminder(t string,msg string) {
+	flash := beego.NewFlash()
+	if t == "error" {
+		flash.Error(msg)
+	} else if t == "success" {
+		flash.Success(msg)
+	} else if t == "notice" {
+		flash.Notice(msg)
+	} else {
+		flash.Warning(msg)
+	}
+	flash.Store(&c.Controller)
+}

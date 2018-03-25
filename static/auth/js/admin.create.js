@@ -89,6 +89,9 @@ var articleForm = $('.articleForm').validate({
         },
         tag:{
             required:true
+        },
+        abstract:{
+            required:true
         }
     },
     messages:{
@@ -102,6 +105,9 @@ var articleForm = $('.articleForm').validate({
         },
         tag:{
             required:'请输入标签'
+        },
+        abstract:{
+            required:'请输入摘要'
         }
     }
 });

@@ -40,7 +40,7 @@
                                     <div class="controls">
                                         <select class="form-control" name="category"  id="categories">
                                             {{range $index,$item := .cate }}
-                                                <option value="{{ $item.Id }}">{{str2html $item.html}}{{$item.Name}}</option>
+                                                <option value="{{ $item.Id }}">{{str2html $item.html}}{{$item.DisplayName}}</option>
                                             {{end}}
                                         </select>
                                     </div>
@@ -51,10 +51,21 @@
                                         <input type="text" name="tag" id="tag" class="form-control round-input tag">
                                     </div>
                                 </div>
+                                <div class="control-group" style="margin-bottom: 20px">
+                                    <label class="control-label" for="subject">摘要</label>
+                                    <div class="alert alert-info" style="margin: 1px;padding: 6px">
+                                        <button data-dismiss="alert" class="close" type="button">×</button>
+                                        <span class="entypo-info-circled"></span>
+                                        <strong>建议写带HTML标签的摘要,为什么要呢?省得解析,还有文章断句,目前找不到组件</strong>
+                                    </div>
+                                    <div style="padding:14px;" class="form-group">
+                                        <textarea style="resize: none;" name="abstract" id="abstract" rows="5" class="form-update"></textarea>
+                                    </div>
+                                </div>
                                 <div class="control-group" >
                                     <label class="control-label" for="email">内容</label>
                                     <div id="editormd">
-                                        <textarea name="content" style="display:none;">### Hello Editor.md !</textarea>
+                                        <textarea  name="content" style="display:none;">### Hello Editor.md !</textarea>
                                     </div>
                                 </div>
                                 <div class="form-actions" style="margin:20px 0 0 0;">

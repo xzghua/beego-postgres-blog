@@ -21,6 +21,7 @@ func init() {
 func (m *YArticleCate_20180105_192639) Up() {
 	// use m.SQL("CREATE TABLE ...") to make schema update
 	m.SQL("CREATE TABLE y_article_cate ("+
+		"id SERIAL primary key," +
 		"art_id integer REFERENCES y_articles(id)," +
 		"cate_id integer REFERENCES y_categories(id)" +
 		")")

@@ -12,7 +12,7 @@ import (
 type Users struct {
 	Id        	int64  			`orm:"column(id);auto;unique" json:"id"`
 	Name      	string 			`orm:"size(128)"`
-	Email     	string 			`orm:"size(128)"`
+	Email     	string 			`orm:"size(128);unique"`
 	Password  	string 			`orm:"size(128)"`
 	Article 	[]*Articles   	`orm:"-;reverse(many)"`
 }

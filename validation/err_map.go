@@ -9,6 +9,7 @@ var key = map[string][2]string {
 	"Category"	: { "002", "节点" },
 	"Tag" 		: { "003", "标签" },
 	"Content"	: { "004", "内容" },
+	"Abstract" 	: { "005", "摘要" },
 }
 
 var condition = map[string][2]string {

@@ -5,20 +5,20 @@ import (
 )
 
 // DO NOT MODIFY
-type YArticle_20180105_184641 struct {
+type YArticles_20180105_184641 struct {
 	migration.Migration
 }
 
 // DO NOT MODIFY
 func init() {
-	m := &YArticle_20180105_184641{}
+	m := &YArticles_20180105_184641{}
 	m.Created = "20180105_184641"
 
 	migration.Register("YArticle_20180105_184641", m)
 }
 
 // Run the migrations
-func (m *YArticle_20180105_184641) Up() {
+func (m *YArticles_20180105_184641) Up() {
 	// use m.SQL("CREATE TABLE ...") to make schema update
 	m.SQL("CREATE TABLE y_articles("+
 		"id SERIAL primary key," +
@@ -40,7 +40,7 @@ func (m *YArticle_20180105_184641) Up() {
 }
 
 // Reverse the migrations
-func (m *YArticle_20180105_184641) Down() {
+func (m *YArticles_20180105_184641) Down() {
 	// use m.SQL("DROP TABLE ...") to reverse schema update
 	m.SQL("DROP TABLE y_article")
 }

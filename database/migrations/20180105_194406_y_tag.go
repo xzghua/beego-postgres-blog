@@ -23,10 +23,8 @@ func (m *YTag_20180105_194406) Up() {
 	m.SQL("CREATE TABLE y_tags("+
 		"id SERIAL primary key," +
 		"name  varchar(255) NOT NULL," +
-		"display_name varchar(255) NOT NULL," +
-		"created_at timestamp default current_timestamp," +
-		"updated_at timestamp default current_timestamp" +
-		")")
+		"tag_num integer default 0" +
+		");create  index name on y_tags (name)")
 }
 
 // Reverse the migrations

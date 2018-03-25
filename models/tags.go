@@ -7,15 +7,13 @@ import (
 	"strings"
 
 	"github.com/astaxie/beego/orm"
-	"time"
 )
 
 type Tags struct {
 	Id        		int64  		`orm:"column(id);auto;unique" json:"id"`
 	Name 			string 		`orm:"column(name);size(255);unique" json:"name"`
-	DisplayName 	string 		`orm:"column(display_name);size(255);" json:"display_name"`
-	CreatedAt      time.Time 	`orm:"column(created_at);default('0000-00-00 00:00:00');null;auto_now_add;type(datetime)" json:"created_at"`
-	UpdatedAt      time.Time 	`orm:"column(updated_at);default('0000-00-00 00:00:00');null;auto_now;type(datetime)" json:"updated_at"`
+	TagNum      	int64     	`orm:"column(tag_num);default(0);null" json:"tag_num"`
+
 }
 
 func (t *Tags) TableName() string {
@@ -146,6 +144,16 @@ func DeleteTags(id int64) (err error) {
 		if num, err = o.Delete(&Tags{Id: id}); err == nil {
 			fmt.Println("Number of records deleted in database:", num)
 		}
+	}
+	return
+}
+
+
+func AddTagWithUnique(name string) (id int64, err error) {
+	o := orm.NewOrm()
+	v := Tags{Name: name}
+	if _, id, err := o.ReadOrCreate(&v, "name",); err == nil {
+		return id,err
 	}
 	return
 }

@@ -48,7 +48,9 @@ func GetCateByLike(param string) (ml map[int64]string) {
 }
 
 
+func StorePostCate(cateId int,postId int) {
 
+}
 
 func tree(cate []interface{}, parent int64, level int64,key int64) ([]interface{}) {
 	html := "-"

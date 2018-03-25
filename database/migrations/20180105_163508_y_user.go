@@ -23,7 +23,7 @@ func (m *User_20180105_163508) Up() {
 	m.SQL("CREATE TABLE y_users(" +
 		"id serial primary key," +
 		"name varchar(255) NOT NULL," +
-		"email varchar(255) NOT NULL," +
+		"email varchar(255) unique NOT NULL," +
 		"password varchar(255) NOT NULL," +
 		"created_at timestamp default current_timestamp," +
 		"updated_at timestamp default current_timestamp" +

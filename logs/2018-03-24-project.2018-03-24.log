@@ -1,0 +1,41 @@
+2018/03/24 21:49:23.528 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/24 21:58:50.451 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/24 22:11:36.729 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/24 22:21:09.029 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/24 22:24:58.904 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/24 22:25:25.199 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/24 22:34:15.834 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/24 22:49:46.634 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/24 22:50:30.132 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/24 22:52:49.561 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/24 23:14:00.578 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/24 23:25:47.467 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/24 23:26:07.755 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/24 23:27:01.325 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/24 23:28:57.541 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/24 23:29:08.196 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/24 23:29:26.979 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/24 23:30:56.281 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/24 23:31:21.333 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/24 23:31:22.005 [C] [asm_amd64.s:509] the request url is  /
+2018/03/24 23:31:22.006 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/maincontroller/get.tpl
+2018/03/24 23:31:22.006 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/03/24 23:31:22.006 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/03/24 23:31:22.006 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/03/24 23:31:22.006 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/03/24 23:31:22.006 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/03/24 23:31:22.006 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/03/24 23:31:22.006 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/03/24 23:31:22.006 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/03/24 23:31:22.006 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/03/24 23:31:22.006 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/03/24 23:32:18.721 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/24 23:34:24.805 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/24 23:34:41.273 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/24 23:34:59.586 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/24 23:40:40.728 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/24 23:47:13.358 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/24 23:51:36.977 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/24 23:54:10.155 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/24 23:59:07.608 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/24 23:59:08.556 [I] [asm_amd64.s:2337] http server Running on http://:8080

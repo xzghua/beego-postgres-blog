@@ -9,7 +9,7 @@ type CateController struct {
 	beego.Controller
 }
 
-
+//作废
 func (c *CateController) GetCateByLike() {
 	param := c.GetString("term")
 	res := services.GetCateByLike(param)
