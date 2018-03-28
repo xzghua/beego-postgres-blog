@@ -4,6 +4,7 @@ import (
 	"bee-go-myBlog/models"
 	"github.com/astaxie/beego/orm"
 	"fmt"
+	"reflect"
 )
 
 func GetMyAllPost(page int64) (ml []interface{}, err error){
@@ -13,7 +14,8 @@ func GetMyAllPost(page int64) (ml []interface{}, err error){
 			userId := val.(map[string]interface{})["UserId"].(int64)
 			user,_ := models.GetUsersById(userId)
 			postId := val.(map[string]interface{})["Id"].(int64)
-			fmt.Println(postId,"帖子ID")
+			fmt.Println(postId,"帖子ID",reflect.TypeOf(postId))
+
 			cateId,_ := GetCateByPostId(postId)
 			cate,_ := models.GetCategoriesById(cateId)
 			if cate == nil {

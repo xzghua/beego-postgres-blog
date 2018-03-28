@@ -61,7 +61,7 @@
                             <tr>
                                 <td>{{$item.Id}}</td>
                                 <td>{{$item.user_name}}</td>
-                                <td>默认分类</td>
+                                <td>{{$item.cate_name}}</td>
                                 <td><a href="#">{{$item.Title}}</a></td>
                                 <td>{{$item.CreatedAt}}</td>
                                 <td>

@@ -5,7 +5,6 @@ import (
 
 	"bee-go-myBlog/helper"
 	"github.com/astaxie/beego/orm"
-	"fmt"
 )
 
 func GetMyAllCate() {
@@ -53,8 +52,7 @@ func GetCateByLike(param string) (ml map[int64]string) {
 func GetCateByPostId(postId int64) (int64,error) {
 	o := orm.NewOrm()
 	artCate := models.ArticleCate{ArtId:postId}
-	err := o.Read(&artCate)
-	fmt.Println("||||||")
+	err := o.Read(&artCate,"ArtId")
 	if err == orm.ErrNoRows {
 		return 0,err
 	}
