@@ -19,7 +19,7 @@ func GetAllCateBySort() ([]interface{}) {
 	var offset int64
 	var limit int64
 
-	fields = []string{"Id", "Name", "DisplayName", "ParentId", "Description"}
+	fields = []string{"Id", "Name", "DisplayName", "ParentId", "Description","CreatedAt"}
 	cate, _ := models.GetAllCategories(query, fields, sortby, order, offset, limit)
 
 	return tree(cate, 0, 0,0)

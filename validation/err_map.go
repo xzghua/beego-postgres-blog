@@ -5,11 +5,14 @@ import (
 )
 
 var key = map[string][2]string {
-	"Title"		: { "001", "标题" },
-	"Category"	: { "002", "节点" },
-	"Tag" 		: { "003", "标签" },
-	"Content"	: { "004", "内容" },
-	"Abstract" 	: { "005", "摘要" },
+	"Title"			: { "001", "标题" },
+	"Category"		: { "002", "节点" },
+	"Tag" 			: { "003", "标签" },
+	"Content"		: { "004", "内容" },
+	"Abstract" 		: { "005", "摘要" },
+	"Name"			: {	"006", "名" 	 },
+	"DisplayName" 	: { "007", "别名" },
+	"Description"	: { "008", "描述" },
 }
 
 var condition = map[string][2]string {

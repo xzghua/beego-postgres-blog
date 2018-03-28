@@ -17,7 +17,7 @@ func (c *BaseController) RequestValidate(valid validation.Validation) (int,strin
 
 	code,message := 4000000000,"系统内部错误"
 	for _, err := range valid.Errors {
-		code,message = validation2.CustomErrCodeAndMessage("Post",err.Field, err.Name)
+		code,message = validation2.CustomErrCodeAndMessage("Cate",err.Field, err.Name)
 		fmt.Println(code,message)
 		return code,message
 	}

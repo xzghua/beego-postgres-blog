@@ -8,46 +8,29 @@
  */
 var createForm = $('.createForm').validate({
     rules:{
-        cateName:{
+        name:{
             required:true,
             maxlength:20
         },
-        asName:{
+        displayName:{
             required:true,
             maxlength:20
         },
-        seoTitle:{
-            required:true,
-            maxlength:20
-        },
-        seoName:{
-            required:true,
-            maxlength:20
-        },
-        seoDesc:{
-            required:true,
-            maxlength:40
+        description:{
+            maxlength:120
         }
+
     },
     messages:{
-        cateName:{
+        name:{
             required:'请输入分类名称',
             maxlength:'长度超出最大范围'
         },
-        asName:{
+        displayName:{
             required:'请输入分类别名',
             maxlength:'长度超出最大范围'
         },
-        seoTitle:{
-            required:'请输入分类seo标题',
-            maxlength:'长度超出最大范围'
-        },
-        seoName:{
-            required:'请输入分类seo名称',
-            maxlength:'长度超出最大范围'
-        },
-        seoDesc:{
-            required:'请输入seo描述',
+        description:{
             maxlength:'长度超出最大范围'
         }
     }

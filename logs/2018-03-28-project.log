@@ -3,3 +3,199 @@
 2018/03/28 20:57:06.827 [I] [asm_amd64.s:2337] http server Running on http://:8080
 2018/03/28 20:57:14.640 [I] [asm_amd64.s:2337] http server Running on http://:8080
 2018/03/28 20:57:42.697 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/28 21:02:45.331 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/28 21:09:19.806 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/28 21:13:50.065 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/28 21:14:54.806 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/28 21:17:50.583 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/28 21:19:57.283 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/28 21:20:27.296 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/28 21:21:19.240 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/28 21:26:33.694 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/28 21:31:34.615 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/28 21:33:07.609 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/28 21:33:10.252 [C] [asm_amd64.s:509] the request url is  /console/cate
+2018/03/28 21:33:10.252 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/catecontroller/store.tpl
+2018/03/28 21:33:10.252 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/03/28 21:33:10.252 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/03/28 21:33:10.252 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/03/28 21:33:10.252 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/03/28 21:33:10.252 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/03/28 21:33:10.252 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/03/28 21:33:10.252 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/03/28 21:33:10.252 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/03/28 21:33:10.252 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/03/28 21:33:10.253 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/03/28 21:34:09.140 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/28 21:34:17.889 [C] [asm_amd64.s:509] the request url is  /console/cate
+2018/03/28 21:34:17.889 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/catecontroller/store.tpl
+2018/03/28 21:34:17.889 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/03/28 21:34:17.889 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/03/28 21:34:17.889 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/03/28 21:34:17.889 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/03/28 21:34:17.889 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/03/28 21:34:17.889 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/03/28 21:34:17.889 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/03/28 21:34:17.889 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/03/28 21:34:17.889 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/03/28 21:34:17.889 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/03/28 21:35:33.261 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/28 21:35:40.752 [C] [asm_amd64.s:509] the request url is  /console/cate
+2018/03/28 21:35:40.752 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/catecontroller/store.tpl
+2018/03/28 21:35:40.752 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/03/28 21:35:40.752 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/03/28 21:35:40.752 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/03/28 21:35:40.752 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/03/28 21:35:40.752 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/03/28 21:35:40.752 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/03/28 21:35:40.752 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/03/28 21:35:40.752 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/03/28 21:35:40.752 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/03/28 21:35:40.752 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/03/28 21:37:25.670 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/28 21:38:26.712 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/28 21:39:37.655 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/28 21:41:36.209 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/28 21:59:25.983 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/28 21:59:52.595 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/28 22:06:06.210 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/28 22:08:37.709 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/28 22:11:51.373 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/28 22:11:52.320 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/28 22:13:42.971 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/28 22:13:43.933 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/28 22:14:45.086 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/28 22:15:34.611 [C] [asm_amd64.s:509] the request url is  /console/cate
+2018/03/28 22:15:34.612 [C] [asm_amd64.s:509] Handler crashed with error XSRF cookie does not match POST argument
+2018/03/28 22:15:34.612 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/03/28 22:15:34.612 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/03/28 22:15:34.612 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/context/context.go:80
+2018/03/28 22:15:34.612 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/context/context.go:168
+2018/03/28 22:15:34.612 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:649
+2018/03/28 22:15:34.612 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:819
+2018/03/28 22:15:34.612 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/03/28 22:15:34.612 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/03/28 22:15:34.612 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/03/28 22:15:46.643 [C] [asm_amd64.s:509] the request url is  /console/cate
+2018/03/28 22:15:46.643 [C] [asm_amd64.s:509] Handler crashed with error XSRF cookie does not match POST argument
+2018/03/28 22:15:46.643 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/03/28 22:15:46.643 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/03/28 22:15:46.643 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/context/context.go:80
+2018/03/28 22:15:46.643 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/context/context.go:168
+2018/03/28 22:15:46.644 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:649
+2018/03/28 22:15:46.644 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:819
+2018/03/28 22:15:46.644 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/03/28 22:15:46.644 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/03/28 22:15:46.644 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/03/28 22:16:41.425 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/28 22:23:36.207 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/28 22:24:09.809 [C] [asm_amd64.s:509] the request url is  /console/cate/create
+2018/03/28 22:24:09.809 [C] [asm_amd64.s:509] Handler crashed with error interface conversion: interface {} is int, not int64
+2018/03/28 22:24:09.809 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/03/28 22:24:09.809 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/03/28 22:24:09.809 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/iface.go:172
+2018/03/28 22:24:09.809 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/services/cate_service.go:66
+2018/03/28 22:24:09.809 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/services/cate_service.go:25
+2018/03/28 22:24:09.809 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/controllers/auth/cate_controller.go:34
+2018/03/28 22:24:09.809 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/03/28 22:24:09.809 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:434
+2018/03/28 22:24:09.809 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:302
+2018/03/28 22:24:09.810 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:847
+2018/03/28 22:24:09.810 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/03/28 22:24:09.810 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/03/28 22:24:09.810 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/03/28 22:25:40.143 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/28 22:25:42.265 [C] [asm_amd64.s:509] the request url is  /console/cate/create
+2018/03/28 22:25:42.265 [C] [asm_amd64.s:509] Handler crashed with error interface conversion: interface {} is int, not int64
+2018/03/28 22:25:42.265 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/03/28 22:25:42.265 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/03/28 22:25:42.265 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/iface.go:172
+2018/03/28 22:25:42.265 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/services/cate_service.go:66
+2018/03/28 22:25:42.265 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/services/cate_service.go:25
+2018/03/28 22:25:42.265 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/controllers/auth/cate_controller.go:34
+2018/03/28 22:25:42.265 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/03/28 22:25:42.265 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:434
+2018/03/28 22:25:42.265 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:302
+2018/03/28 22:25:42.265 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:847
+2018/03/28 22:25:42.265 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/03/28 22:25:42.265 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/03/28 22:25:42.327 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/03/28 22:26:25.521 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/28 22:26:52.942 [C] [asm_amd64.s:509] the request url is  /console/cate/create
+2018/03/28 22:26:52.942 [C] [asm_amd64.s:509] Handler crashed with error interface conversion: interface {} is int, not int64
+2018/03/28 22:26:52.942 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/03/28 22:26:52.942 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/03/28 22:26:52.942 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/iface.go:172
+2018/03/28 22:26:52.942 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/services/cate_service.go:66
+2018/03/28 22:26:52.942 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/services/cate_service.go:25
+2018/03/28 22:26:52.942 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/controllers/auth/cate_controller.go:34
+2018/03/28 22:26:52.942 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/03/28 22:26:52.942 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:434
+2018/03/28 22:26:52.942 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:302
+2018/03/28 22:26:52.942 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:847
+2018/03/28 22:26:52.942 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/03/28 22:26:52.942 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/03/28 22:26:52.942 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/03/28 22:27:09.387 [C] [asm_amd64.s:509] the request url is  /console/cate
+2018/03/28 22:27:09.387 [C] [asm_amd64.s:509] Handler crashed with error interface conversion: interface {} is int, not int64
+2018/03/28 22:27:09.387 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/03/28 22:27:09.387 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/03/28 22:27:09.387 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/iface.go:172
+2018/03/28 22:27:09.387 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/services/cate_service.go:66
+2018/03/28 22:27:09.387 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/services/cate_service.go:25
+2018/03/28 22:27:09.387 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/controllers/auth/cate_controller.go:26
+2018/03/28 22:27:09.387 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/03/28 22:27:09.388 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:434
+2018/03/28 22:27:09.388 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:302
+2018/03/28 22:27:09.388 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:847
+2018/03/28 22:27:09.388 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/03/28 22:27:09.388 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/03/28 22:27:09.388 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/03/28 22:27:14.464 [C] [asm_amd64.s:509] the request url is  /console/cate
+2018/03/28 22:27:14.464 [C] [asm_amd64.s:509] Handler crashed with error interface conversion: interface {} is int, not int64
+2018/03/28 22:27:14.464 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/03/28 22:27:14.464 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/03/28 22:27:14.464 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/iface.go:172
+2018/03/28 22:27:14.464 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/services/cate_service.go:66
+2018/03/28 22:27:14.464 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/services/cate_service.go:25
+2018/03/28 22:27:14.464 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/controllers/auth/cate_controller.go:26
+2018/03/28 22:27:14.464 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/03/28 22:27:14.464 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:434
+2018/03/28 22:27:14.464 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:302
+2018/03/28 22:27:14.464 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:847
+2018/03/28 22:27:14.464 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/03/28 22:27:14.464 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/03/28 22:27:14.464 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/03/28 22:33:39.983 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/28 22:33:43.813 [C] [asm_amd64.s:509] the request url is  /console/cate
+2018/03/28 22:33:43.813 [C] [asm_amd64.s:509] Handler crashed with error interface conversion: interface {} is int, not int64
+2018/03/28 22:33:43.813 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/03/28 22:33:43.813 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/03/28 22:33:43.813 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/iface.go:172
+2018/03/28 22:33:43.813 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/services/cate_service.go:66
+2018/03/28 22:33:43.813 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/services/cate_service.go:25
+2018/03/28 22:33:43.813 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/controllers/auth/cate_controller.go:26
+2018/03/28 22:33:43.814 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/03/28 22:33:43.814 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:434
+2018/03/28 22:33:43.814 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:302
+2018/03/28 22:33:43.814 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:847
+2018/03/28 22:33:43.814 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/03/28 22:33:43.814 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/03/28 22:33:43.814 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/03/28 22:33:50.801 [C] [asm_amd64.s:509] the request url is  /console/cate
+2018/03/28 22:33:50.801 [C] [asm_amd64.s:509] Handler crashed with error interface conversion: interface {} is int, not int64
+2018/03/28 22:33:50.801 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/03/28 22:33:50.801 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/03/28 22:33:50.801 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/iface.go:172
+2018/03/28 22:33:50.801 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/services/cate_service.go:66
+2018/03/28 22:33:50.801 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/services/cate_service.go:25
+2018/03/28 22:33:50.801 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/controllers/auth/cate_controller.go:26
+2018/03/28 22:33:50.801 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/03/28 22:33:50.801 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:434
+2018/03/28 22:33:50.801 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:302
+2018/03/28 22:33:50.801 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:847
+2018/03/28 22:33:50.801 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/03/28 22:33:50.801 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/03/28 22:33:50.801 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/03/28 22:35:58.806 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/28 22:36:39.827 [I] [asm_amd64.s:2337] http server Running on http://:8080
