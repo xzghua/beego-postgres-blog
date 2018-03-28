@@ -43,13 +43,13 @@ var createForm = $('.createForm').validate({
  */
 var tagForm = $('.tagForm').validate({
     rules:{
-        tagName:{
+        name:{
             required:true,
             maxlength:20
         }
     },
     messages:{
-        tagName:{
+        name:{
             required:'请输入标签名称',
             maxlength:'标签长度超出'
         }

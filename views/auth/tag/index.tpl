@@ -41,7 +41,9 @@
 
                 </div>
 
+
                 <div class="body-nest" id="tableStatic">
+                    <a href="/console/tag/create" ><button type="button" class="btn btn-danger" >新建</button></a>
 
                     <section id="flip-scroll">
                         <div class="table-responsive">
