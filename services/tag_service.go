@@ -5,6 +5,16 @@ import (
 
 )
 
+func GetAllMyTag(page int64) (interface{},error ){
+	tag,err := models.AllTag(page)
+	if tag != nil {
+		return tag,nil
+	}
+	return "",err
+}
+
+
+
 func GetTagByLike(param string) (ml map[int64]string) {
 	var query map[string]string
 	var fields []string

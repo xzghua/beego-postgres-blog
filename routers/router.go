@@ -24,6 +24,13 @@ func init() {
 	beego.Router("/console/cate",&auth.CateController{},"delete:Destroy")
 
 
+	beego.Router("/console/tag",&auth.TagController{},"get:Index")
+	beego.Router("/console/tag/create",&auth.TagController{},"get:Create")
+	beego.Router("/console/tag",&auth.TagController{},"post:Store")
+	beego.Router("/console/tag",&auth.TagController{},"put:Update")
+	beego.Router("/console/tag",&auth.TagController{},"delete:Destroy")
+
+
     beego.Router("/console/tag/auto",&auth.TagController{},"get:GetTagByLike")
 
 }

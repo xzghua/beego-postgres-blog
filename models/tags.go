@@ -7,6 +7,8 @@ import (
 	"strings"
 
 	"github.com/astaxie/beego/orm"
+	"github.com/astaxie/beego"
+	"bee-go-myBlog/helper"
 )
 
 type Tags struct {
@@ -156,4 +158,26 @@ func AddTagWithUnique(name string) (id int64, err error) {
 		return id,err
 	}
 	return
+}
+
+
+func AllTag(page int64) (ml []interface{}, err error) {
+	var fields []string
+	var sortby []string
+	var order []string
+	var query map[string]string = make(map[string]string)
+	var limit int64
+	var offset int64
+	limit, _ = beego.AppConfig.Int64("page_offset")
+	fields = []string{"Id", "Name","TagNum"}
+	offset = (page - 1 ) * limit
+	res, err := GetAllTags(query, fields, sortby, order, offset, limit)
+	return res, err
+}
+
+
+func TagPaginate(page int64) (totalPage int64,lastPage int64,currentPage int64,nextPage int64)  {
+	var tag Tags
+	tableName := tag.TableName()
+	return helper.MyPaginate(page,tableName)
 }

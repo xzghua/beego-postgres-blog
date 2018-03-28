@@ -46,7 +46,6 @@ func (c *CateController) Store() {
 		fmt.Println(err)
 	}
 	b, err := valid.Valid(&u)
-	fmt.Println(b,u,"开始======")
 	if err != nil {
 	}
 	if !b {
@@ -56,7 +55,6 @@ func (c *CateController) Store() {
 		return
 	}
 	parentId,_:=strconv.ParseInt(u.ParentId, 10, 64)
-	fmt.Println(u,parentId,"看看数据")
 	var cateCreate = &models.Categories{
 		ParentId	:	parentId,
 		Name		:	u.Name,

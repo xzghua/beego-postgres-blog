@@ -80,7 +80,7 @@
                                     <td colspan="5">
                                         <div class="btn-group">
                                             <a href="/console/post?page={{.lastPage}}"><button type="button" class="btn btn-warning">上一页</button></a>
-                                            <a href="#"><button type="button" class="btn btn-danger" disabled>Middle</button></a>
+                                            <a href="#" disabled="disabled"><button type="button" class="btn btn-danger" disabled>Middle</button></a>
                                             <a href="/console/post?page={{.nextPage}}"> <button type="button" class="btn btn-info">下一页</button></a>
                                         </div>
                                     </td>

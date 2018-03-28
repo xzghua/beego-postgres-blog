@@ -32,7 +32,7 @@ func (p *PostController) Index()  {
 		page2 = 1
 	}
 	post,_ := services.GetMyAllPost(page2)
-	totalPage,lastPage,currentPage,nextPage := models.MyPaginate(page2)
+	totalPage,lastPage,currentPage,nextPage := models.PostPaginate(page2)
 	p.Data["post"] = post
 	p.Data["totalPage"] = totalPage
 	p.Data["lastPage"] = lastPage
