@@ -30,6 +30,19 @@ func init() {
 	beego.Router("/console/tag",&auth.TagController{},"put:Update")
 	beego.Router("/console/tag",&auth.TagController{},"delete:Destroy")
 
+	beego.Router("/console/link",&auth.LinkController{},"get:Index")
+	beego.Router("/console/link/create",&auth.LinkController{},"get:Create")
+	beego.Router("/console/link",&auth.LinkController{},"post:Store")
+	beego.Router("/console/link",&auth.LinkController{},"put:Update")
+	beego.Router("/console/link",&auth.LinkController{},"delete:Destroy")
+
+	beego.Router("/console/system",&auth.SystemController{},"get:Index")
+	beego.Router("/console/system/create",&auth.SystemController{},"get:Create")
+	beego.Router("/console/system",&auth.SystemController{},"post:Store")
+	beego.Router("/console/system",&auth.SystemController{},"put:Update")
+	beego.Router("/console/system",&auth.SystemController{},"delete:Destroy")
+
+
 
     beego.Router("/console/tag/auto",&auth.TagController{},"get:GetTagByLike")
 

@@ -149,3 +149,17 @@ func DeleteLinks(id int64) (err error) {
 	}
 	return
 }
+
+
+func AllLink() (ml []interface{}, err error) {
+	var fields []string
+	var sortby []string
+	var order []string
+	var query map[string]string = make(map[string]string)
+	var limit int64
+	var offset int64
+	sortby = []string{"Sort"}
+	fields = []string{"Id", "Name","Link","Sort","CreatedAt"}
+	res, err := GetAllLinks(query, fields, sortby, order, offset, limit)
+	return res, err
+}

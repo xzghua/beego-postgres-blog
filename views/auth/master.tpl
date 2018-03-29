@@ -195,50 +195,7 @@
                             <li>
                                 <a class="tooltip-tip2 ajax-load" href="/console/post/create" title="Profile Page"><i class="icon-user"></i><span>新建文章</span></a>
                             </li>
-                            <li>
-                                <a class="tooltip-tip2 ajax-load" href="invoice.html" title="Invoice"><i class="entypo-newspaper"></i><span>Invoice</span></a>
-                            </li>
-                            <li>
-                                <a class="tooltip-tip2 ajax-load" href="pricing_table.html" title="Pricing Table"><i class="fontawesome-money"></i><span>Pricing Table</span></a>
-                            </li>
-                            <li>
-                                <a class="tooltip-tip2 ajax-load" href="time-line.html" title="Time Line"><i class="entypo-clock"></i><span>Time Line</span></a>
-                            </li>
-                            <li>
-                                <a class="tooltip-tip2" href="404.html" title="404 Error Page"><i class="icon-thumbs-down"></i><span>404 Error Page</span></a>
-                            </li>
-                            <li>
-                                <a class="tooltip-tip2" href="500.html" title="500 Error Page"><i class="icon-thumbs-down"></i><span>500 Error Page</span></a>
-                            </li>
-                            <li>
-                                <a class="tooltip-tip2" href="lock-screen.html" title="Lock Screen"><i class="icon-lock"></i><span>Lock Screen</span></a>
-                            </li>
                         </ul>
-                    </li>
-
-                    <li>
-                        <a class="tooltip-tip ajax-load" href="mail.html" title="Mail">
-                            <i class="icon-mail"></i>
-                            <span>mail</span>
-                            <div class="noft-blue">289</div>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a class="tooltip-tip ajax-load" href="icon.html" title="Icons">
-                            <i class="icon-preview"></i>
-                            <span>Icons</span>
-                            <div class="noft-blue" style="display: inline-block; float: none;">New</div>
-                        </a>
-                    </li>
-
-
-
-                    <li>
-                        <a class="tooltip-tip " href="login.html" title="login">
-                            <i class="icon-download"></i>
-                            <span>Login</span>
-                        </a>
                     </li>
 
                 </ul>
@@ -278,30 +235,44 @@
                             </li>
                         </ul>
                     </li>
+
+                </ul>
+
+                <ul id="menu-showhide" class="topnav menu-left-nest">
                     <li>
-                        <a class="tooltip-tip" href="#" title="Tables">
-                            <i class="icon-view-thumb"></i>
-                            <span>Tables</span>
+                        <a href="#" style="border-left:0px solid!important;" class="title-menu-left">
+
+                            <span class="component"></span>
+                            <i data-toggle="tooltip" class="entypo-cog pull-right config-wrap"></i>
+
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a class="tooltip-tip" href="#" title="UI Element">
+                            <i class="icon-monitor"></i>
+                            <span>友链</span>
                         </a>
                         <ul>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="table-static.html" title="Table Static"><i class="entypo-layout"></i><span>Table Static</span></a>
+                                <a class="tooltip-tip2 ajax-load" href="/console/link" title="Element"><i class="icon-attachment"></i><span>友情链接</span></a>
                             </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="tooltip-tip" href="#" title="Form">
+                            <i class="icon-document"></i>
+                            <span>系统管理</span>
+                        </a>
+                        <ul>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="table-dynamic.html" title="Table Dynamic"><i class="entypo-menu"></i><span>Table Dynamic</span></a>
+                                <a class="tooltip-tip2 ajax-load" href="/console/system" title="Form Elements"><i class="icon-document-edit"></i><span>系统管理</span></a>
                             </li>
                         </ul>
                     </li>
 
-                    <li>
-                        <a class="tooltip-tip ajax-load" href="map.html" title="Map">
-                            <i class="icon-location"></i>
-                            <span>Map</span>
-
-                        </a>
-                    </li>
                 </ul>
-
 
                 <div class="side-dash">
                     <h3>
