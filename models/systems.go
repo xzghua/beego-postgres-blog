@@ -152,3 +152,16 @@ func DeleteSystems(id int64) (err error) {
 	}
 	return
 }
+
+
+func System() (ml []interface{}, err error) {
+	var fields []string
+	var sortby []string
+	var order []string
+	var query map[string]string = make(map[string]string)
+	var limit int64
+	var offset int64
+	fields = []string{"Title", "STitle","Description","SeoKey","SeoDes","RecordNumber"}
+	res, err := GetAllLinks(query, fields, sortby, order, offset, limit)
+	return res, err
+}

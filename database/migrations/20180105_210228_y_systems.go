@@ -27,7 +27,7 @@ func (m *YSystems_20180105_210228) Up() {
 		"description varchar(255) default '叶落山城秋博客'," +
 		"seo_key varchar(255) default '叶落山城秋'," +
 		"seo_des varchar(255) default '叶落山城秋'," +
-		"record_number smallint default 0," +
+		"record_number varchar(30) default '京ICP备 88888888号'," +
 		"created_at timestamp default current_timestamp," +
 		"updated_at timestamp default current_timestamp" +
 		")")

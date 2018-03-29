@@ -6,3 +6,57 @@
 2018/03/29 21:57:37.162 [I] [asm_amd64.s:2337] http server Running on http://:8080
 2018/03/29 21:58:04.732 [I] [asm_amd64.s:2337] http server Running on http://:8080
 2018/03/29 21:59:21.666 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/29 22:10:54.556 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/29 22:11:09.422 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/29 22:14:25.701 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/29 22:19:18.874 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/29 22:22:04.629 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/29 22:22:05.687 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/29 22:33:19.565 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/29 22:35:26.231 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/29 22:36:15.015 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/29 22:36:17.014 [D] [controller.go:263] template Execute err: template: auth/system/update.tpl:42:75: executing "auth/system/update.tpl" at <.system.STime>: can't evaluate field STime in type interface {}
+2018/03/29 22:36:17.014 [E] [server.go:2619] template: auth/system/update.tpl:42:75: executing "auth/system/update.tpl" at <.system.STime>: can't evaluate field STime in type interface {}
+2018/03/29 22:36:18.426 [D] [controller.go:263] template Execute err: template: auth/system/update.tpl:42:75: executing "auth/system/update.tpl" at <.system.STime>: can't evaluate field STime in type interface {}
+2018/03/29 22:36:18.426 [E] [server.go:2619] template: auth/system/update.tpl:42:75: executing "auth/system/update.tpl" at <.system.STime>: can't evaluate field STime in type interface {}
+2018/03/29 22:36:19.386 [D] [controller.go:263] template Execute err: template: auth/system/update.tpl:42:75: executing "auth/system/update.tpl" at <.system.STime>: can't evaluate field STime in type interface {}
+2018/03/29 22:36:19.386 [E] [server.go:2619] template: auth/system/update.tpl:42:75: executing "auth/system/update.tpl" at <.system.STime>: can't evaluate field STime in type interface {}
+2018/03/29 22:36:19.941 [D] [controller.go:263] template Execute err: template: auth/system/update.tpl:42:75: executing "auth/system/update.tpl" at <.system.STime>: can't evaluate field STime in type interface {}
+2018/03/29 22:36:19.941 [E] [server.go:2619] template: auth/system/update.tpl:42:75: executing "auth/system/update.tpl" at <.system.STime>: can't evaluate field STime in type interface {}
+2018/03/29 22:37:05.363 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/29 22:37:55.021 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/29 22:39:34.353 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/29 22:39:46.003 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/29 22:41:39.087 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/29 22:44:40.977 [D] [controller.go:263] template Execute err: template: auth/system/update.tpl:36:75: executing "auth/system/update.tpl" at <.system.Title>: can't evaluate field Title in type interface {}
+2018/03/29 22:44:40.977 [E] [server.go:2619] template: auth/system/update.tpl:36:75: executing "auth/system/update.tpl" at <.system.Title>: can't evaluate field Title in type interface {}
+2018/03/29 22:47:30.082 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/29 22:47:33.100 [D] [controller.go:263] template Execute err: template: auth/system/update.tpl:36:75: executing "auth/system/update.tpl" at <.system.Title>: can't evaluate field Title in type interface {}
+2018/03/29 22:47:33.100 [E] [server.go:2619] template: auth/system/update.tpl:36:75: executing "auth/system/update.tpl" at <.system.Title>: can't evaluate field Title in type interface {}
+2018/03/29 22:50:37.788 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/29 22:50:40.240 [D] [controller.go:263] template Execute err: template: auth/system/update.tpl:36:75: executing "auth/system/update.tpl" at <.system.Title>: can't evaluate field Title in type interface {}
+2018/03/29 22:50:40.240 [E] [server.go:2619] template: auth/system/update.tpl:36:75: executing "auth/system/update.tpl" at <.system.Title>: can't evaluate field Title in type interface {}
+2018/03/29 22:51:05.391 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/29 22:51:07.517 [D] [controller.go:263] template Execute err: template: auth/system/update.tpl:36:75: executing "auth/system/update.tpl" at <.system.Title>: can't evaluate field Title in type interface {}
+2018/03/29 22:51:07.517 [E] [server.go:2619] template: auth/system/update.tpl:36:75: executing "auth/system/update.tpl" at <.system.Title>: can't evaluate field Title in type interface {}
+2018/03/29 22:51:32.083 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/29 22:51:34.670 [D] [controller.go:263] template Execute err: template: auth/system/update.tpl:36:75: executing "auth/system/update.tpl" at <.system.Title>: can't evaluate field Title in type interface {}
+2018/03/29 22:51:34.670 [E] [server.go:2619] template: auth/system/update.tpl:36:75: executing "auth/system/update.tpl" at <.system.Title>: can't evaluate field Title in type interface {}
+2018/03/29 22:52:07.059 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/29 22:52:09.506 [D] [controller.go:263] template Execute err: template: auth/system/update.tpl:36:75: executing "auth/system/update.tpl" at <.system.Title>: can't evaluate field Title in type interface {}
+2018/03/29 22:52:09.506 [E] [server.go:2619] template: auth/system/update.tpl:36:75: executing "auth/system/update.tpl" at <.system.Title>: can't evaluate field Title in type interface {}
+2018/03/29 22:53:27.368 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/29 22:53:29.518 [D] [controller.go:263] template Execute err: template: auth/system/update.tpl:36:75: executing "auth/system/update.tpl" at <.system.Title>: can't evaluate field Title in type interface {}
+2018/03/29 22:53:29.518 [E] [server.go:2619] template: auth/system/update.tpl:36:75: executing "auth/system/update.tpl" at <.system.Title>: can't evaluate field Title in type interface {}
+2018/03/29 22:56:44.004 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/29 22:56:46.323 [D] [controller.go:263] template Execute err: template: auth/system/update.tpl:36:75: executing "auth/system/update.tpl" at <.system.Title>: can't evaluate field Title in type interface {}
+2018/03/29 22:56:46.323 [E] [server.go:2619] template: auth/system/update.tpl:36:75: executing "auth/system/update.tpl" at <.system.Title>: can't evaluate field Title in type interface {}
+2018/03/29 22:59:36.438 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/29 22:59:37.355 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/29 23:01:23.249 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/29 23:01:24.239 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/29 23:01:25.219 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/29 23:01:55.560 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/29 23:09:30.034 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/29 23:11:04.095 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/03/29 23:13:53.192 [I] [asm_amd64.s:2337] http server Running on http://:8080

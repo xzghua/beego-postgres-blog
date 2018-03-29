@@ -21,7 +21,16 @@ func GetAllCateBySort() ([]interface{}) {
 
 	fields = []string{"Id", "Name", "DisplayName", "ParentId", "Description","CreatedAt"}
 	cate, _ := models.GetAllCategories(query, fields, sortby, order, offset, limit)
-
+	if len(cate) == 0 {
+		cateCreate := &models.Categories{
+			Name		:	"default",
+			DisplayName	:	"默认分类",
+			Description	:	"默认生成的顶级分类",
+			ParentId	:	0,
+		}
+		models.AddCategories(cateCreate)
+		cate, _ = models.GetAllCategories(query, fields, sortby, order, offset, limit)
+	}
 	return tree(cate, 0, 0,0)
 }
 

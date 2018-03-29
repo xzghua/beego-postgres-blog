@@ -11,10 +11,17 @@ type SystemController struct {
 
 
 func (s *SystemController) Index() {
-	system,_ := models.AllLink()
+	system,_ := models.GetSystemsById(1)
+	if system == nil {
+		var systemCreate = models.Systems{
+			Title	:	"叶落山城秋",
+		}
+		id,_ := models.AddSystems(&systemCreate)
+		system,_ = models.GetSystemsById(id)
+	}
 	s.Data["system"] = system
 	s.Layout = "auth/master.tpl"
-	s.TplName = "auth/system/index.tpl"
+	s.TplName = "auth/system/update.tpl"
 }
 
 func (s *SystemController) Create() {

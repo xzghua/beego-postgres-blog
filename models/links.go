@@ -158,7 +158,8 @@ func AllLink() (ml []interface{}, err error) {
 	var query map[string]string = make(map[string]string)
 	var limit int64
 	var offset int64
-	sortby = []string{"Sort"}
+	sortby = []string{"sort"}
+	order = []string{"asc"}
 	fields = []string{"Id", "Name","Link","Sort","CreatedAt"}
 	res, err := GetAllLinks(query, fields, sortby, order, offset, limit)
 	return res, err
