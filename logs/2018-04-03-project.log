@@ -1,0 +1,3 @@
+2018/04/03 21:09:14.289 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/03 21:21:49.161 [D] [controller.go:263] template Execute err: template: auth/tag/index.tpl:60:56: executing "auth/tag/index.tpl" at <.tag>: range can't iterate over 
+2018/04/03 21:21:49.161 [E] [server.go:2619] template: auth/tag/index.tpl:60:56: executing "auth/tag/index.tpl" at <.tag>: range can't iterate over 
