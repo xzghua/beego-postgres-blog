@@ -154,8 +154,13 @@ func DeleteTags(id int64) (err error) {
 func AddTagWithUnique(name string) (id int64, err error) {
 	o := orm.NewOrm()
 	v := Tags{Name: name}
-	if _, id, err := o.ReadOrCreate(&v, "name",); err == nil {
-		return id,err
+	err = o.Read(&v,"Name")
+	if err != nil {
+		tagCreate := &Tags{
+			Name	:	name,
+			TagNum	:	1,
+		}
+		id,_ = AddTags(tagCreate)
 	}
 	return
 }

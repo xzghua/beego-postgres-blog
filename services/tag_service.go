@@ -7,10 +7,18 @@ import (
 
 func GetAllMyTag(page int64) (interface{},error ){
 	tag,err := models.AllTag(page)
-	if tag != nil {
-		return tag,nil
+	//if err == nil {
+	//	return tag,nil
+	//}
+	if len(tag) == 0 {
+		tagCreate := &models.Tags{
+			Name	:	"默认分类",
+			TagNum	:	0,
+		}
+		models.AddTags(tagCreate)
+		tag,_ = models.AllTag(page)
 	}
-	return "",err
+	return tag,err
 }
 
 

@@ -1,3 +1,29 @@
 2018/04/03 21:09:14.289 [I] [asm_amd64.s:2337] http server Running on http://:8080
 2018/04/03 21:21:49.161 [D] [controller.go:263] template Execute err: template: auth/tag/index.tpl:60:56: executing "auth/tag/index.tpl" at <.tag>: range can't iterate over 
 2018/04/03 21:21:49.161 [E] [server.go:2619] template: auth/tag/index.tpl:60:56: executing "auth/tag/index.tpl" at <.tag>: range can't iterate over 
+2018/04/03 21:32:00.725 [D] [controller.go:263] template Execute err: template: auth/tag/index.tpl:60:56: executing "auth/tag/index.tpl" at <.tag>: range can't iterate over 
+2018/04/03 21:32:00.725 [E] [server.go:2619] template: auth/tag/index.tpl:60:56: executing "auth/tag/index.tpl" at <.tag>: range can't iterate over 
+2018/04/03 21:32:52.275 [D] [controller.go:263] template Execute err: template: auth/tag/index.tpl:60:56: executing "auth/tag/index.tpl" at <.tag>: range can't iterate over 
+2018/04/03 21:32:52.275 [E] [server.go:2619] template: auth/tag/index.tpl:60:56: executing "auth/tag/index.tpl" at <.tag>: range can't iterate over 
+2018/04/03 21:48:06.387 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/03 21:49:43.809 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/03 21:52:54.661 [C] [asm_amd64.s:509] the request url is  /console/post
+2018/04/03 21:52:54.661 [C] [asm_amd64.s:509] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2018/04/03 21:52:54.661 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/03 21:52:54.661 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/03 21:52:54.661 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:63
+2018/04/03 21:52:54.661 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/signal_unix.go:367
+2018/04/03 21:52:54.661 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/services/post_service.go:26
+2018/04/03 21:52:54.661 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/controllers/auth/post_controller.go:34
+2018/04/03 21:52:54.661 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/03 21:52:54.661 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:434
+2018/04/03 21:52:54.661 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:302
+2018/04/03 21:52:54.661 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:847
+2018/04/03 21:52:54.661 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/03 21:52:54.661 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/03 21:52:54.661 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/03 22:09:51.047 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/03 22:19:23.893 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/03 22:23:21.360 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/03 22:27:42.845 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/03 22:28:59.646 [I] [asm_amd64.s:2337] http server Running on http://:8080

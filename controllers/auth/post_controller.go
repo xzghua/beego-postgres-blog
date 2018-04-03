@@ -87,7 +87,7 @@ func (p *PostController) Store()  {
 		p.MyReminder("error","系统内部错误")
 	}
 
-	tag := strings.SplitAfter(u.Tag,",")
+	tag := strings.Split(u.Tag,",")
 	for _,v := range tag {
 		tagId,_ := models.AddTagWithUnique(v)
 		services.AddPostTagRel(postId,tagId)
