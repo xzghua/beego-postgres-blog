@@ -1,0 +1,146 @@
+2018/04/04 00:04:14.502 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/04 00:04:18.086 [C] [asm_amd64.s:509] the request url is  /console/post/6/edit
+2018/04/04 00:04:18.086 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/postcontroller/edit.tpl
+2018/04/04 00:04:18.087 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/04 00:04:18.102 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/04 00:04:18.102 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/04 00:04:18.102 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/04 00:04:18.102 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/04 00:04:18.102 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/04 00:04:18.102 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/04 00:04:18.102 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/04 00:04:18.102 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/04 00:04:18.102 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/04 00:04:57.601 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/04 00:04:59.948 [C] [asm_amd64.s:509] the request url is  /console/post/6/edit
+2018/04/04 00:04:59.948 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/postcontroller/edit.tpl
+2018/04/04 00:04:59.948 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/04 00:04:59.995 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/04 00:04:59.995 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/04 00:04:59.995 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/04 00:04:59.995 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/04 00:04:59.995 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/04 00:04:59.995 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/04 00:04:59.995 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/04 00:04:59.995 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/04 00:04:59.995 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/04 00:05:21.082 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/04 00:05:23.742 [C] [asm_amd64.s:509] the request url is  /console/post/6/edit
+2018/04/04 00:05:23.743 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/postcontroller/edit.tpl
+2018/04/04 00:05:23.743 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/04 00:05:23.743 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/04 00:05:23.743 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/04 00:05:23.743 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/04 00:05:23.743 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/04 00:05:23.743 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/04 00:05:23.743 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/04 00:05:23.743 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/04 00:05:23.743 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/04 00:05:23.743 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/04 00:05:49.608 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/04 00:05:52.416 [C] [asm_amd64.s:509] the request url is  /console/post/6/edit
+2018/04/04 00:05:52.416 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/postcontroller/edit.tpl
+2018/04/04 00:05:52.416 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/04 00:05:52.416 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/04 00:05:52.416 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/04 00:05:52.416 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/04 00:05:52.416 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/04 00:05:52.416 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/04 00:05:52.416 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/04 00:05:52.416 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/04 00:05:52.416 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/04 00:05:52.416 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/04 00:06:07.653 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/04 00:06:10.497 [C] [asm_amd64.s:509] the request url is  /console/post/6/edit
+2018/04/04 00:06:10.497 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/postcontroller/edit.tpl
+2018/04/04 00:06:10.497 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/04 00:06:10.497 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/04 00:06:10.497 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/04 00:06:10.497 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/04 00:06:10.497 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/04 00:06:10.497 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/04 00:06:10.497 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/04 00:06:10.497 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/04 00:06:10.497 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/04 00:06:10.497 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/04 00:06:47.333 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/04 00:06:51.203 [C] [asm_amd64.s:509] the request url is  /console/post/6/edit
+2018/04/04 00:06:51.203 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/postcontroller/edit.tpl
+2018/04/04 00:06:51.203 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/04 00:06:51.203 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/04 00:06:51.203 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/04 00:06:51.203 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/04 00:06:51.203 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/04 00:06:51.203 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/04 00:06:51.203 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/04 00:06:51.203 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/04 00:06:51.203 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/04 00:06:51.203 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/04 00:09:12.006 [C] [asm_amd64.s:509] the request url is  /console/post/6/edit
+2018/04/04 00:09:12.006 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/postcontroller/edit.tpl
+2018/04/04 00:09:12.006 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/04 00:09:12.006 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/04 00:09:12.006 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/04 00:09:12.006 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/04 00:09:12.006 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/04 00:09:12.006 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/04 00:09:12.006 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/04 00:09:12.006 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/04 00:09:12.006 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/04 00:09:12.006 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/04 00:09:14.599 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/04 00:09:15.736 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/04 00:09:17.958 [D] [controller.go:263] template Execute err: template: auth/post/edit.tpl:35:94: executing "auth/post/edit.tpl" at <.post.title>: can't evaluate field title in type interface {}
+2018/04/04 00:09:17.958 [E] [server.go:2619] template: auth/post/edit.tpl:35:94: executing "auth/post/edit.tpl" at <.post.title>: can't evaluate field title in type interface {}
+2018/04/04 00:09:52.679 [D] [controller.go:263] template Execute err: template: auth/post/edit.tpl:35:94: executing "auth/post/edit.tpl" at <.post.title>: can't evaluate field title in type interface {}
+2018/04/04 00:09:52.679 [E] [server.go:2619] template: auth/post/edit.tpl:35:94: executing "auth/post/edit.tpl" at <.post.title>: can't evaluate field title in type interface {}
+2018/04/04 00:09:53.377 [D] [controller.go:263] template Execute err: template: auth/post/edit.tpl:35:94: executing "auth/post/edit.tpl" at <.post.title>: can't evaluate field title in type interface {}
+2018/04/04 00:09:53.377 [E] [server.go:2619] template: auth/post/edit.tpl:35:94: executing "auth/post/edit.tpl" at <.post.title>: can't evaluate field title in type interface {}
+2018/04/04 00:09:54.066 [D] [controller.go:263] template Execute err: template: auth/post/edit.tpl:35:94: executing "auth/post/edit.tpl" at <.post.title>: can't evaluate field title in type interface {}
+2018/04/04 00:09:54.066 [E] [server.go:2619] template: auth/post/edit.tpl:35:94: executing "auth/post/edit.tpl" at <.post.title>: can't evaluate field title in type interface {}
+2018/04/04 00:09:54.591 [D] [controller.go:263] template Execute err: template: auth/post/edit.tpl:35:94: executing "auth/post/edit.tpl" at <.post.title>: can't evaluate field title in type interface {}
+2018/04/04 00:09:54.591 [E] [server.go:2619] template: auth/post/edit.tpl:35:94: executing "auth/post/edit.tpl" at <.post.title>: can't evaluate field title in type interface {}
+2018/04/04 00:09:55.066 [D] [controller.go:263] template Execute err: template: auth/post/edit.tpl:35:94: executing "auth/post/edit.tpl" at <.post.title>: can't evaluate field title in type interface {}
+2018/04/04 00:09:55.067 [E] [server.go:2619] template: auth/post/edit.tpl:35:94: executing "auth/post/edit.tpl" at <.post.title>: can't evaluate field title in type interface {}
+2018/04/04 00:09:55.534 [D] [controller.go:263] template Execute err: template: auth/post/edit.tpl:35:94: executing "auth/post/edit.tpl" at <.post.title>: can't evaluate field title in type interface {}
+2018/04/04 00:09:55.534 [E] [server.go:2619] template: auth/post/edit.tpl:35:94: executing "auth/post/edit.tpl" at <.post.title>: can't evaluate field title in type interface {}
+2018/04/04 00:10:03.325 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/04 00:11:46.603 [E] [template.go:174] parse template err: auth/post/edit.tpl template: auth/post/edit.tpl:43: unexpected "=" in operand
+2018/04/04 00:23:06.976 [E] [template.go:174] parse template err: auth/post/edit.tpl template: auth/post/edit.tpl:43: unexpected "=" in operand
+2018/04/04 00:23:07.927 [E] [template.go:174] parse template err: auth/post/edit.tpl template: auth/post/edit.tpl:43: unexpected "=" in operand
+2018/04/04 00:23:14.275 [E] [template.go:174] parse template err: auth/post/edit.tpl template: auth/post/edit.tpl:43: unexpected "=" in operand
+2018/04/04 00:24:30.054 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/04 00:25:37.426 [E] [template.go:174] parse template err: auth/post/edit.tpl template: auth/post/edit.tpl:43: unexpected "=" in operand
+2018/04/04 00:26:19.031 [E] [template.go:174] parse template err: auth/post/edit.tpl template: auth/post/edit.tpl:43: unexpected "=" in operand
+2018/04/04 00:27:04.581 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/04 00:27:46.747 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/04 00:28:46.991 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/04 00:29:33.550 [E] [template.go:174] parse template err: auth/post/edit.tpl template: auth/post/edit.tpl:44: unexpected "=" in operand
+2018/04/04 00:33:08.157 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/04 00:33:15.371 [D] [controller.go:263] template Execute err: template: auth/post/edit.tpl:44:80: executing "auth/post/edit.tpl" at <eq true $item.Id .po...>: error calling eq: incompatible types for comparison
+2018/04/04 00:33:15.371 [E] [server.go:2619] template: auth/post/edit.tpl:44:80: executing "auth/post/edit.tpl" at <eq true $item.Id .po...>: error calling eq: incompatible types for comparison
+2018/04/04 00:34:12.429 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/04 00:34:19.907 [D] [controller.go:263] template Execute err: template: auth/post/edit.tpl:43:80: executing "auth/post/edit.tpl" at <eq $item.Id .postCat...>: error calling eq: invalid type for comparison
+2018/04/04 00:34:19.907 [E] [server.go:2619] template: auth/post/edit.tpl:43:80: executing "auth/post/edit.tpl" at <eq $item.Id .postCat...>: error calling eq: invalid type for comparison
+2018/04/04 00:36:36.122 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/04 00:36:42.381 [D] [controller.go:263] template Execute err: template: auth/post/edit.tpl:43:87: executing "auth/post/edit.tpl" at <$item.Id>: Id is not a method but has arguments
+2018/04/04 00:36:42.381 [E] [server.go:2619] template: auth/post/edit.tpl:43:87: executing "auth/post/edit.tpl" at <$item.Id>: Id is not a method but has arguments
+2018/04/04 00:37:20.208 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/04 00:37:23.030 [D] [controller.go:263] template Execute err: template: auth/post/edit.tpl:43:80: executing "auth/post/edit.tpl" at <eq $item.Id .postCat...>: error calling eq: invalid type for comparison
+2018/04/04 00:37:23.030 [E] [server.go:2619] template: auth/post/edit.tpl:43:80: executing "auth/post/edit.tpl" at <eq $item.Id .postCat...>: error calling eq: invalid type for comparison
+2018/04/04 00:40:00.458 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/04 00:40:48.973 [D] [controller.go:263] template Execute err: template: auth/post/edit.tpl:45:80: executing "auth/post/edit.tpl" at <eq true $item.Id .po...>: error calling eq: incompatible types for comparison
+2018/04/04 00:40:48.974 [E] [server.go:2619] template: auth/post/edit.tpl:45:80: executing "auth/post/edit.tpl" at <eq true $item.Id .po...>: error calling eq: incompatible types for comparison
+2018/04/04 00:41:09.957 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/04 00:41:54.529 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/04 00:42:41.882 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/04 00:45:05.863 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/04 00:49:38.988 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/04 00:51:04.340 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/04 00:58:27.269 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/04 00:59:32.836 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/04 00:59:36.860 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/04 00:59:39.437 [D] [controller.go:263] template Execute err: template: auth/post/edit.tpl:44:80: executing "auth/post/edit.tpl" at <eq true $item.Id $.P...>: error calling eq: incompatible types for comparison
+2018/04/04 00:59:39.437 [E] [server.go:2619] template: auth/post/edit.tpl:44:80: executing "auth/post/edit.tpl" at <eq true $item.Id $.P...>: error calling eq: incompatible types for comparison
+2018/04/04 01:00:19.682 [E] [template.go:174] parse template err: auth/post/edit.tpl template: auth/post/edit.tpl:43: unexpected "=" in operand
+2018/04/04 01:00:33.679 [I] [asm_amd64.s:2337] http server Running on http://:8080

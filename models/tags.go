@@ -186,3 +186,14 @@ func TagPaginate(page int64) (totalPage int64,lastPage int64,currentPage int64,n
 	tableName := tag.TableName()
 	return helper.MyPaginate(page,tableName)
 }
+
+func GetTagByTagIds(maps []orm.Params) (tags []Tags) {
+	for _,value := range maps {
+		tagId := value["TagId"].(int64)
+		tag,err := GetTagsById(tagId)
+		if err == nil {
+			tags = append(tags,*tag)
+		}
+	}
+	return
+}

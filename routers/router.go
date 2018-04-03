@@ -14,6 +14,7 @@ func init() {
     beego.Router("/console/post",&auth.PostController{},"get:Index")
     beego.Router("/console/post/create",&auth.PostController{},"get:Create")
     beego.Router("/console/post",&auth.PostController{},"post:Store")
+    beego.Router("/console/post/:id([0-9]+/edit",&auth.PostController{},"get:Edit")
     beego.Router("/console/post",&auth.PostController{},"put:Update")
     beego.Router("/console/post",&auth.PostController{},"delete:Destroy")
 

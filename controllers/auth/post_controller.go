@@ -97,9 +97,25 @@ func (p *PostController) Store()  {
 
 }
 
-func (p *PostController) Show() {
+func (p *PostController) Edit() {
+	id :=p.Ctx.Input.Param(":id")
+	fmt.Println(id)
+	id64, _ := strconv.ParseInt(id, 10, 64)
+	post,_ := models.GetArticlesById(id64)
+	cateList := services.GetAllCateBySort()
+	_,maps := models.GetTagIdByPostId(id64)
+	tags := models.GetTagByTagIds(maps)
+	artCate,_ := models.GetCateIdByPostId(id64)
+	postCate,_ := models.GetCategoriesById(artCate.CateId)
+	//fmt.Println(artTag)
+
+	p.Data["post"] = post
+	p.Data["cate"] = cateList
+	p.Data["tag"] = tags
+	p.Data["PostCateId"] = postCate.Id
+	fmt.Println(postCate.Id)
 	p.Layout = "auth/master.tpl"
-	p.TplName = "auth/post/show.tpl"
+	p.TplName = "auth/post/edit.tpl"
 }
 
 func (p *PostController) Update()  {

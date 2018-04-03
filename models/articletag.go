@@ -145,3 +145,10 @@ func DeleteArticleTag(id int64) (err error) {
 	}
 	return
 }
+
+
+func GetTagIdByPostId(postId int64) (num int64,maps []orm.Params)  {
+	o := orm.NewOrm()
+	num,_ = o.QueryTable(new(ArticleTag)).Filter("ArtId",postId).Values(&maps)
+	return num,maps
+}
