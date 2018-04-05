@@ -162,7 +162,7 @@ func AddTagWithUnique(name string) (id int64, err error) {
 		}
 		id,_ = AddTags(tagCreate)
 	}
-	return
+	return v.Id,nil
 }
 
 
@@ -193,6 +193,21 @@ func GetTagByTagIds(maps []orm.Params) (tags []Tags) {
 		tag,err := GetTagsById(tagId)
 		if err == nil {
 			tags = append(tags,*tag)
+		}
+	}
+	return
+}
+
+func GetTagNameArrByTagIds(maps []orm.Params) (tagName string) {
+	for _,value := range maps {
+		tagId := value["TagId"].(int64)
+		tag,err := GetTagsById(tagId)
+		if err == nil {
+			if tagName == "" {
+				tagName = tag.Name
+			} else {
+				tagName = tagName + "," + tag.Name
+			}
 		}
 	}
 	return

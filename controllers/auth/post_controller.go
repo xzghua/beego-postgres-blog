@@ -98,27 +98,79 @@ func (p *PostController) Store()  {
 }
 
 func (p *PostController) Edit() {
+	beego.ReadFromRequest(&p.Controller)
 	id :=p.Ctx.Input.Param(":id")
-	fmt.Println(id)
 	id64, _ := strconv.ParseInt(id, 10, 64)
 	post,_ := models.GetArticlesById(id64)
 	cateList := services.GetAllCateBySort()
 	_,maps := models.GetTagIdByPostId(id64)
-	tags := models.GetTagByTagIds(maps)
+	tagNames := models.GetTagNameArrByTagIds(maps)
 	artCate,_ := models.GetCateIdByPostId(id64)
 	postCate,_ := models.GetCategoriesById(artCate.CateId)
-	//fmt.Println(artTag)
-
+	p.Data["xsrfdata"]=template.HTML(p.XSRFFormHTML())
 	p.Data["post"] = post
 	p.Data["cate"] = cateList
-	p.Data["tag"] = tags
+	p.Data["tag"] = tagNames
 	p.Data["PostCateId"] = postCate.Id
-	fmt.Println(postCate.Id)
 	p.Layout = "auth/master.tpl"
 	p.TplName = "auth/post/edit.tpl"
 }
 
 func (p *PostController) Update()  {
+	id :=p.Ctx.Input.Param(":id")
+	id64, _ := strconv.ParseInt(id, 10, 64)
+	fmt.Println(id64)
+	u := PostCreate{}
+	valid := validation.Validation{}
+	if err := p.ParseForm(&u); err != nil {
+		fmt.Println(err)
+	}
+	b, err := valid.Valid(&u)
+	if err != nil {
+	}
+	if !b {
+		_,message :=p.RequestValidate(valid)
+		p.MyReminder("error",message)
+		p.Redirect("/console/post/create",302)
+		return
+	}
+//fmt.Println(u)
+//	err = services.DelPostTagRel(id64)
+
+	////var postUpdate models.Articles
+	postUpdate := models.Articles{
+		Id				:	id64,
+		Title			:	u.Title,
+		UserId 			: 	1,
+		Content 		: 	u.Content,
+		Abstract 		: 	u.Abstract,
+		BodyOriginal 	: 	u.BodyOriginal,
+	}
+	//TODO::此处缺一个 事务操作
+	err = models.UpdateArticlesById(&postUpdate)
+	if err != nil {
+		p.MyReminder("error","系统内部错误")
+	}
+	err = services.DelPostCateRel(id64,u.Category)
+	if err != nil {
+		p.MyReminder("error","系统内部错误")
+	}
+	_,er := services.AddPostCateRel(id64,u.Category)
+	if er != nil {
+		p.MyReminder("error","系统内部错误")
+	}
+
+	err = services.DelPostTagRel(id64)
+	if err != nil {
+		p.MyReminder("error","系统内部错误")
+	}
+	tag := strings.Split(u.Tag,",")
+	for _,v := range tag {
+		tagId,_ := models.AddTagWithUnique(v)
+		services.AddPostTagRel(id64,tagId)
+	}
+
+	p.Redirect("/console/post",302)
 
 }
 

@@ -26,8 +26,9 @@
                 <div class="body-nest" id="validation">
                     <div class="form_center">
 
-                        <form action="/console/post" method="post" id="postCreate" class="form-horizontal articleForm">
+                        <form action="/console/post/{{.post.Id}}" method="POST" id="postCreate" class="form-horizontal articleForm">
                         {{ .xsrfdata }}
+                            <input type="hidden" name="_method" value="PUT">
                             <fieldset>
                                 <div class="control-group">
                                     <label class="control-label" for="title">标题</label>
@@ -48,7 +49,7 @@
                                 <div class="control-group" style="margin-bottom: 20px">
                                     <label class="control-label" for="subject">标签</label>
                                     <div class="controls">
-                                        <input type="text" name="tag" id="tag" class="form-control round-input tag">
+                                        <input type="text" name="tag" id="tag" value="{{.tag}}" class="form-control round-input tag">
                                     </div>
                                 </div>
                                 <div class="control-group" style="margin-bottom: 20px">
@@ -59,13 +60,13 @@
                                         <strong>建议写带HTML标签的摘要,为什么要呢?省得解析,还有文章断句,目前找不到组件</strong>
                                     </div>
                                     <div style="padding:14px;" class="form-group">
-                                        <textarea style="resize: none;" name="abstract" id="abstract" rows="5" class="form-update"></textarea>
+                                        <textarea style="resize: none;"  name="abstract" id="abstract" rows="5" class="form-update">{{.post.Abstract}}</textarea>
                                     </div>
                                 </div>
                                 <div class="control-group" >
                                     <label class="control-label" for="email">内容</label>
                                     <div id="editormd">
-                                        <textarea  name="content" style="display:none;">### Hello Editor.md !</textarea>
+                                        <textarea  name="content" style="display:none;">{{.post.BodyOriginal}}</textarea>
                                     </div>
                                 </div>
                                 <div class="form-actions" style="margin:20px 0 0 0;">

@@ -1,1 +1,485 @@
 2018/04/05 20:13:01.571 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 20:22:03.025 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 20:26:45.984 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 20:28:57.759 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 20:35:55.682 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 20:39:48.814 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 20:41:31.039 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 20:47:53.870 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 20:48:59.349 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 21:07:55.698 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 21:07:56.613 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 21:11:20.648 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 21:11:21.596 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 21:11:32.287 [C] [asm_amd64.s:509] the request url is  /console/post
+2018/04/05 21:11:32.287 [C] [asm_amd64.s:509] Handler crashed with error '_xsrf' argument missing from POST
+2018/04/05 21:11:32.287 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/05 21:11:32.287 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/05 21:11:32.287 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/context/context.go:80
+2018/04/05 21:11:32.287 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/context/context.go:164
+2018/04/05 21:11:32.287 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:649
+2018/04/05 21:11:32.287 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:819
+2018/04/05 21:11:32.287 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/05 21:11:32.287 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/05 21:11:32.287 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/05 21:12:08.762 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 21:13:37.880 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 21:14:16.726 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 21:17:32.280 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 21:18:15.854 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 21:20:22.802 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 21:23:50.350 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 21:25:29.167 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 21:25:58.526 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 21:27:14.425 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 21:28:19.208 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 21:31:15.975 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 21:36:24.507 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 21:37:48.502 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 21:38:25.816 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 21:43:25.892 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 21:43:34.429 [C] [asm_amd64.s:509] the request url is  /console/post/1
+2018/04/05 21:43:34.429 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/postcontroller/update.tpl
+2018/04/05 21:43:34.429 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/05 21:43:34.429 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/05 21:43:34.430 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/05 21:43:34.430 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/05 21:43:34.430 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/05 21:43:34.430 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/05 21:43:34.430 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/05 21:43:34.430 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/05 21:43:34.430 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/05 21:43:34.430 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/05 21:52:23.437 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 21:52:25.526 [C] [asm_amd64.s:509] the request url is  /console/post/1
+2018/04/05 21:52:25.526 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/postcontroller/update.tpl
+2018/04/05 21:52:25.526 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/05 21:52:25.526 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/05 21:52:25.526 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/05 21:52:25.526 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/05 21:52:25.526 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/05 21:52:25.526 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/05 21:52:25.526 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/05 21:52:25.526 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/05 21:52:25.526 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/05 21:52:25.526 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/05 21:52:53.172 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 21:52:55.530 [C] [asm_amd64.s:509] the request url is  /console/post/1
+2018/04/05 21:52:55.530 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/postcontroller/update.tpl
+2018/04/05 21:52:55.530 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/05 21:52:55.530 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/05 21:52:55.530 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/05 21:52:55.530 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/05 21:52:55.530 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/05 21:52:55.530 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/05 21:52:55.530 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/05 21:52:55.530 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/05 21:52:55.530 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/05 21:52:55.530 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/05 21:53:30.558 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 21:53:31.450 [C] [asm_amd64.s:509] the request url is  /console/post/1
+2018/04/05 21:53:31.450 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/postcontroller/update.tpl
+2018/04/05 21:53:31.450 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/05 21:53:31.450 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/05 21:53:31.450 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/05 21:53:31.450 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/05 21:53:31.450 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/05 21:53:31.450 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/05 21:53:31.450 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/05 21:53:31.450 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/05 21:53:31.450 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/05 21:53:31.450 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/05 21:54:19.391 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 21:54:21.648 [C] [asm_amd64.s:509] the request url is  /console/post/1
+2018/04/05 21:54:21.648 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/postcontroller/update.tpl
+2018/04/05 21:54:21.649 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/05 21:54:21.649 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/05 21:54:21.649 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/05 21:54:21.649 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/05 21:54:21.757 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/05 21:54:21.757 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/05 21:54:21.757 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/05 21:54:21.757 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/05 21:54:21.757 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/05 21:54:21.757 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/05 22:10:10.886 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 22:10:15.012 [C] [asm_amd64.s:509] the request url is  /console/post/1
+2018/04/05 22:10:15.012 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/postcontroller/update.tpl
+2018/04/05 22:10:15.012 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/05 22:10:15.012 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/05 22:10:15.012 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/05 22:10:15.012 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/05 22:10:15.013 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/05 22:10:15.013 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/05 22:10:15.013 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/05 22:10:15.013 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/05 22:10:15.013 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/05 22:10:15.013 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/05 22:13:13.361 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 22:13:17.155 [C] [asm_amd64.s:509] the request url is  /console/post/1
+2018/04/05 22:13:17.155 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/postcontroller/update.tpl
+2018/04/05 22:13:17.155 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/05 22:13:17.155 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/05 22:13:17.155 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/05 22:13:17.155 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/05 22:13:17.155 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/05 22:13:17.155 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/05 22:13:17.155 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/05 22:13:17.155 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/05 22:13:17.155 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/05 22:13:17.155 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/05 22:13:42.010 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 22:13:48.682 [C] [asm_amd64.s:509] the request url is  /console/post/1
+2018/04/05 22:13:48.682 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/postcontroller/update.tpl
+2018/04/05 22:13:48.682 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/05 22:13:48.682 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/05 22:13:48.682 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/05 22:13:48.682 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/05 22:13:48.682 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/05 22:13:48.682 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/05 22:13:48.682 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/05 22:13:48.682 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/05 22:13:48.682 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/05 22:13:48.682 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/05 22:16:53.224 [C] [asm_amd64.s:509] the request url is  /console/post/1
+2018/04/05 22:16:53.224 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/postcontroller/update.tpl
+2018/04/05 22:16:53.224 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/05 22:16:53.224 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/05 22:16:53.224 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/05 22:16:53.224 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/05 22:16:53.224 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/05 22:16:53.224 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/05 22:16:53.224 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/05 22:16:53.224 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/05 22:16:53.224 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/05 22:16:53.224 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/05 22:16:54.811 [C] [asm_amd64.s:509] the request url is  /console/post/1
+2018/04/05 22:16:54.811 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/postcontroller/update.tpl
+2018/04/05 22:16:54.811 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/05 22:16:54.811 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/05 22:16:54.811 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/05 22:16:54.811 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/05 22:16:54.811 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/05 22:16:54.811 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/05 22:16:54.811 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/05 22:16:54.811 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/05 22:16:54.811 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/05 22:16:54.811 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/05 22:16:55.339 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 22:16:56.467 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 22:17:28.748 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 22:17:48.483 [C] [asm_amd64.s:509] the request url is  /console/post/2
+2018/04/05 22:17:48.483 [C] [asm_amd64.s:509] Handler crashed with error XSRF cookie does not match POST argument
+2018/04/05 22:17:48.483 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/05 22:17:48.483 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/05 22:17:48.483 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/context/context.go:80
+2018/04/05 22:17:48.483 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/context/context.go:168
+2018/04/05 22:17:48.483 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:649
+2018/04/05 22:17:48.483 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:819
+2018/04/05 22:17:48.483 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/05 22:17:48.483 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/05 22:17:48.483 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/05 22:18:02.528 [C] [asm_amd64.s:509] the request url is  /console/post/2
+2018/04/05 22:18:02.528 [C] [asm_amd64.s:509] Handler crashed with error XSRF cookie does not match POST argument
+2018/04/05 22:18:02.528 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/05 22:18:02.528 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/05 22:18:02.528 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/context/context.go:80
+2018/04/05 22:18:02.528 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/context/context.go:168
+2018/04/05 22:18:02.528 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:649
+2018/04/05 22:18:02.528 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:819
+2018/04/05 22:18:02.528 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/05 22:18:02.528 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/05 22:18:02.528 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/05 22:18:12.254 [C] [asm_amd64.s:509] the request url is  /console/post/2
+2018/04/05 22:18:12.254 [C] [asm_amd64.s:509] Handler crashed with error XSRF cookie does not match POST argument
+2018/04/05 22:18:12.254 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/05 22:18:12.254 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/05 22:18:12.254 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/context/context.go:80
+2018/04/05 22:18:12.254 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/context/context.go:168
+2018/04/05 22:18:12.254 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:649
+2018/04/05 22:18:12.254 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:819
+2018/04/05 22:18:12.254 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/05 22:18:12.254 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/05 22:18:12.254 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/05 22:28:14.166 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 22:29:25.179 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 22:29:57.844 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 22:35:10.967 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 22:35:15.283 [C] [asm_amd64.s:509] the request url is  /console/post/1
+2018/04/05 22:35:15.283 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/postcontroller/update.tpl
+2018/04/05 22:35:15.283 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/05 22:35:15.283 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/05 22:35:15.284 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/05 22:35:15.284 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/05 22:35:15.284 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/05 22:35:15.284 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/05 22:35:15.284 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/05 22:35:15.284 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/05 22:35:15.284 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/05 22:35:15.284 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/05 22:35:40.043 [C] [asm_amd64.s:509] the request url is  /console/post/1
+2018/04/05 22:35:40.043 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/postcontroller/update.tpl
+2018/04/05 22:35:40.043 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/05 22:35:40.043 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/05 22:35:40.043 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/05 22:35:40.043 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/05 22:35:40.043 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/05 22:35:40.043 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/05 22:35:40.043 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/05 22:35:40.043 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/05 22:35:40.043 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/05 22:35:40.043 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/05 22:35:45.898 [C] [asm_amd64.s:509] the request url is  /console/post/1
+2018/04/05 22:35:45.899 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/postcontroller/update.tpl
+2018/04/05 22:35:45.899 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/05 22:35:45.899 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/05 22:35:45.899 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/05 22:35:45.899 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/05 22:35:45.899 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/05 22:35:45.899 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/05 22:35:45.899 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/05 22:35:45.899 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/05 22:35:45.899 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/05 22:35:45.899 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/05 22:36:03.121 [C] [asm_amd64.s:509] the request url is  /console/post/1
+2018/04/05 22:36:03.121 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/postcontroller/update.tpl
+2018/04/05 22:36:03.121 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/05 22:36:03.121 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/05 22:36:03.121 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/05 22:36:03.121 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/05 22:36:03.121 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/05 22:36:03.121 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/05 22:36:03.121 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/05 22:36:03.121 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/05 22:36:03.121 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/05 22:36:03.121 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/05 22:36:48.253 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 22:36:50.408 [C] [asm_amd64.s:509] the request url is  /console/post/1
+2018/04/05 22:36:50.408 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/postcontroller/update.tpl
+2018/04/05 22:36:50.408 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/05 22:36:50.408 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/05 22:36:50.408 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/05 22:36:50.408 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/05 22:36:50.408 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/05 22:36:50.408 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/05 22:36:50.408 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/05 22:36:50.408 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/05 22:36:50.408 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/05 22:36:50.408 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/05 22:37:27.485 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 22:37:31.869 [C] [asm_amd64.s:509] the request url is  /console/post/1
+2018/04/05 22:37:31.869 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/postcontroller/update.tpl
+2018/04/05 22:37:31.869 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/05 22:37:31.869 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/05 22:37:31.869 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/05 22:37:31.869 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/05 22:37:31.869 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/05 22:37:31.869 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/05 22:37:31.869 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/05 22:37:31.869 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/05 22:37:31.869 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/05 22:37:31.869 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/05 22:41:24.638 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 22:48:29.242 [C] [asm_amd64.s:509] the request url is  /console/post/1
+2018/04/05 22:48:29.242 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/postcontroller/update.tpl
+2018/04/05 22:48:29.242 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/05 22:48:29.242 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/05 22:48:29.242 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/05 22:48:29.242 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/05 22:48:29.242 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/05 22:48:29.242 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/05 22:48:29.242 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/05 22:48:29.243 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/05 22:48:29.243 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/05 22:48:29.243 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/05 22:48:29.920 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 22:48:31.196 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 22:48:36.257 [C] [asm_amd64.s:509] the request url is  /console/post/1
+2018/04/05 22:48:36.257 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/postcontroller/update.tpl
+2018/04/05 22:48:36.257 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/05 22:48:36.257 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/05 22:48:36.257 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/05 22:48:36.257 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/05 22:48:36.258 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/05 22:48:36.258 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/05 22:48:36.258 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/05 22:48:36.258 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/05 22:48:36.258 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/05 22:48:36.258 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/05 22:49:59.770 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 22:50:02.578 [C] [asm_amd64.s:509] the request url is  /console/post/1
+2018/04/05 22:50:02.578 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/postcontroller/update.tpl
+2018/04/05 22:50:02.578 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/05 22:50:02.578 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/05 22:50:02.578 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/05 22:50:02.578 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/05 22:50:02.578 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/05 22:50:02.578 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/05 22:50:02.579 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/05 22:50:02.579 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/05 22:50:02.579 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/05 22:50:02.579 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/05 22:50:31.524 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 22:50:33.447 [C] [asm_amd64.s:509] the request url is  /console/post/1
+2018/04/05 22:50:33.447 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/postcontroller/update.tpl
+2018/04/05 22:50:33.447 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/05 22:50:33.447 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/05 22:50:33.447 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/05 22:50:33.447 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/05 22:50:33.447 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/05 22:50:33.447 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/05 22:50:33.447 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/05 22:50:33.447 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/05 22:50:33.447 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/05 22:50:33.447 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/05 22:51:06.003 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 22:56:00.105 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 22:56:04.298 [C] [asm_amd64.s:509] the request url is  /console/post/1
+2018/04/05 22:56:04.298 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/postcontroller/update.tpl
+2018/04/05 22:56:04.298 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/05 22:56:04.298 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/05 22:56:04.298 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/05 22:56:04.298 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/05 22:56:04.298 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/05 22:56:04.298 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/05 22:56:04.298 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/05 22:56:04.299 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/05 22:56:04.299 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/05 22:56:04.299 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/05 22:56:14.248 [C] [asm_amd64.s:509] the request url is  /console/post/1
+2018/04/05 22:56:14.248 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/postcontroller/update.tpl
+2018/04/05 22:56:14.248 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/05 22:56:14.248 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/05 22:56:14.248 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/05 22:56:14.248 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/05 22:56:14.248 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/05 22:56:14.248 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/05 22:56:14.248 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/05 22:56:14.248 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/05 22:56:14.248 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/05 22:56:14.248 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/05 22:56:16.451 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 22:56:18.985 [C] [asm_amd64.s:509] the request url is  /console/post/1
+2018/04/05 22:56:18.985 [C] [asm_amd64.s:509] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2018/04/05 22:56:18.985 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/05 22:56:18.985 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/05 22:56:18.985 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:63
+2018/04/05 22:56:18.985 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/signal_unix.go:367
+2018/04/05 22:56:18.985 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/services/post_service.go:71
+2018/04/05 22:56:18.985 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/controllers/auth/post_controller.go:138
+2018/04/05 22:56:18.985 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/05 22:56:18.985 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:434
+2018/04/05 22:56:18.985 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:302
+2018/04/05 22:56:18.985 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:847
+2018/04/05 22:56:18.986 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/05 22:56:18.986 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/05 22:56:18.986 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/05 22:57:23.563 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 22:57:25.633 [C] [asm_amd64.s:509] the request url is  /console/post/1
+2018/04/05 22:57:25.633 [C] [asm_amd64.s:509] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2018/04/05 22:57:25.633 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/05 22:57:25.633 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/05 22:57:25.633 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:63
+2018/04/05 22:57:25.633 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/signal_unix.go:367
+2018/04/05 22:57:25.633 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/services/post_service.go:71
+2018/04/05 22:57:25.633 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/controllers/auth/post_controller.go:138
+2018/04/05 22:57:25.633 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/05 22:57:25.633 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:434
+2018/04/05 22:57:25.633 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:302
+2018/04/05 22:57:25.633 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:847
+2018/04/05 22:57:25.633 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/05 22:57:25.633 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/05 22:57:25.633 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/05 22:57:48.840 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 22:57:51.334 [C] [asm_amd64.s:509] the request url is  /console/post/1
+2018/04/05 22:57:51.334 [C] [asm_amd64.s:509] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2018/04/05 22:57:51.334 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/05 22:57:51.334 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/05 22:57:51.334 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:63
+2018/04/05 22:57:51.334 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/signal_unix.go:367
+2018/04/05 22:57:51.334 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/services/post_service.go:71
+2018/04/05 22:57:51.334 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/controllers/auth/post_controller.go:138
+2018/04/05 22:57:51.334 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/05 22:57:51.334 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:434
+2018/04/05 22:57:51.334 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:302
+2018/04/05 22:57:51.334 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:847
+2018/04/05 22:57:51.334 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/05 22:57:51.334 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/05 22:57:51.334 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/05 22:58:22.889 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 22:58:25.354 [C] [asm_amd64.s:509] the request url is  /console/post/1
+2018/04/05 22:58:25.354 [C] [asm_amd64.s:509] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2018/04/05 22:58:25.354 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/05 22:58:25.354 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/05 22:58:25.354 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:63
+2018/04/05 22:58:25.354 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/signal_unix.go:367
+2018/04/05 22:58:25.354 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/services/post_service.go:71
+2018/04/05 22:58:25.354 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/controllers/auth/post_controller.go:138
+2018/04/05 22:58:25.354 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/05 22:58:25.379 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:434
+2018/04/05 22:58:25.379 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:302
+2018/04/05 22:58:25.379 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:847
+2018/04/05 22:58:25.379 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/05 22:58:25.379 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/05 22:58:25.379 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/05 22:59:35.794 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 22:59:37.728 [C] [asm_amd64.s:509] the request url is  /console/post/1
+2018/04/05 22:59:37.728 [C] [asm_amd64.s:509] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2018/04/05 22:59:37.728 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/05 22:59:37.728 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/05 22:59:37.729 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:63
+2018/04/05 22:59:37.729 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/signal_unix.go:367
+2018/04/05 22:59:37.729 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/services/post_service.go:71
+2018/04/05 22:59:37.729 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/controllers/auth/post_controller.go:138
+2018/04/05 22:59:37.729 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/05 22:59:37.729 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:434
+2018/04/05 22:59:37.729 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:302
+2018/04/05 22:59:37.729 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:847
+2018/04/05 22:59:37.729 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/05 22:59:37.729 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/05 22:59:37.729 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/05 23:00:13.550 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 23:00:15.359 [C] [asm_amd64.s:509] the request url is  /console/post/1
+2018/04/05 23:00:15.359 [C] [asm_amd64.s:509] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2018/04/05 23:00:15.359 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/05 23:00:15.359 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/05 23:00:15.359 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:63
+2018/04/05 23:00:15.359 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/signal_unix.go:367
+2018/04/05 23:00:15.359 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/services/post_service.go:72
+2018/04/05 23:00:15.359 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/controllers/auth/post_controller.go:138
+2018/04/05 23:00:15.359 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/05 23:00:15.400 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:434
+2018/04/05 23:00:15.400 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:302
+2018/04/05 23:00:15.400 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:847
+2018/04/05 23:00:15.400 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/05 23:00:15.400 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/05 23:00:15.400 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/05 23:02:27.059 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 23:02:29.418 [C] [asm_amd64.s:509] the request url is  /console/post/1
+2018/04/05 23:02:29.418 [C] [asm_amd64.s:509] Handler crashed with error <Ormer> cannot use non-ptr model struct `bee-go-myBlog/models.Tags`
+2018/04/05 23:02:29.418 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/05 23:02:29.418 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/05 23:02:29.419 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/orm/orm.go:104
+2018/04/05 23:02:29.419 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/orm/orm.go:232
+2018/04/05 23:02:29.419 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/services/post_service.go:75
+2018/04/05 23:02:29.419 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/controllers/auth/post_controller.go:138
+2018/04/05 23:02:29.419 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/05 23:02:29.534 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:434
+2018/04/05 23:02:29.534 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:302
+2018/04/05 23:02:29.534 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:847
+2018/04/05 23:02:29.534 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/05 23:02:29.534 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/05 23:02:29.534 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/05 23:02:52.455 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/05 23:02:54.428 [C] [asm_amd64.s:509] the request url is  /console/post/1
+2018/04/05 23:02:54.429 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/postcontroller/update.tpl
+2018/04/05 23:02:54.429 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/05 23:02:54.429 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/05 23:02:54.429 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/05 23:02:54.429 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/05 23:02:54.516 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/05 23:02:54.516 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/05 23:02:54.516 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/05 23:02:54.516 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/05 23:02:54.516 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/05 23:02:54.516 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337

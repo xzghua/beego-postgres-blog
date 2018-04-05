@@ -4,10 +4,14 @@ import (
 	"bee-go-myBlog/controllers"
 	"github.com/astaxie/beego"
 	"bee-go-myBlog/controllers/auth"
+	"github.com/astaxie/beego/context"
+
 )
 
 func init() {
-    beego.Router("/", &controllers.MainController{})
+	filter()
+
+	beego.Router("/", &controllers.MainController{})
     beego.Router("/my",&controllers.MainController{},"get:MyTest")
     beego.Router("/console/home",&auth.HomeController{},"get:Index")
 
@@ -15,7 +19,7 @@ func init() {
     beego.Router("/console/post/create",&auth.PostController{},"get:Create")
     beego.Router("/console/post",&auth.PostController{},"post:Store")
     beego.Router("/console/post/:id([0-9]+/edit",&auth.PostController{},"get:Edit")
-    beego.Router("/console/post",&auth.PostController{},"put:Update")
+    beego.Router("/console/post/:id([0-9]+",&auth.PostController{},"put:Update")
     beego.Router("/console/post",&auth.PostController{},"delete:Destroy")
 
 	beego.Router("/console/cate",&auth.CateController{},"get:Index")
@@ -47,4 +51,21 @@ func init() {
 
     beego.Router("/console/tag/auto",&auth.TagController{},"get:GetTagByLike")
 
+}
+
+func filter() {
+	// 拓展http方法
+	extMethod()
+	// 权限校验
+}
+
+func extMethod() {
+	var filter = func(ctx *context.Context) {
+		method := ctx.Input.Query("_method")
+		println(method)
+		if method != "" && ctx.Input.IsPost() {
+			ctx.Request.Method = method
+		}
+	}
+	beego.InsertFilter("/*", beego.BeforeRouter, filter)
 }
