@@ -144,3 +144,8 @@
 2018/04/04 00:59:39.437 [E] [server.go:2619] template: auth/post/edit.tpl:44:80: executing "auth/post/edit.tpl" at <eq true $item.Id $.P...>: error calling eq: incompatible types for comparison
 2018/04/04 01:00:19.682 [E] [template.go:174] parse template err: auth/post/edit.tpl template: auth/post/edit.tpl:43: unexpected "=" in operand
 2018/04/04 01:00:33.679 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/04 01:06:55.026 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/04 01:06:56.029 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/04 01:06:57.014 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/04 01:06:58.056 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/04 01:06:59.108 [I] [asm_amd64.s:2337] http server Running on http://:8080
