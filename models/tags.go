@@ -160,7 +160,8 @@ func AddTagWithUnique(name string) (id int64, err error) {
 			Name	:	name,
 			TagNum	:	1,
 		}
-		id,_ = AddTags(tagCreate)
+		id,err1 := AddTags(tagCreate)
+		return id,err1
 	}
 	return v.Id,nil
 }
