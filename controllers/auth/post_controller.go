@@ -25,6 +25,7 @@ type PostCreate struct {
 	BodyOriginal 	string 	`form:"content" valid:"Required"`
 }
 
+// @router /console/post [get]
 func (p *PostController) Index()  {
 	beego.ReadFromRequest(&p.Controller)
 	page := p.GetString("page")
@@ -43,6 +44,7 @@ func (p *PostController) Index()  {
 	p.TplName = "auth/post/index.tpl"
 }
 
+// @router /console/post/create [get]
 func (p *PostController) Create() {
 
 	beego.ReadFromRequest(&p.Controller)
@@ -53,6 +55,7 @@ func (p *PostController) Create() {
 	p.TplName = "auth/post/create.tpl"
 }
 
+// @router /console/post [post]
 func (p *PostController) Store()  {
 	u := PostCreate{}
 	valid := validation.Validation{}
@@ -95,6 +98,7 @@ func (p *PostController) Store()  {
 
 }
 
+// @router /console/post/:id([0-9]+/edit [get]
 func (p *PostController) Edit() {
 	beego.ReadFromRequest(&p.Controller)
 	id :=p.Ctx.Input.Param(":id")
@@ -114,10 +118,11 @@ func (p *PostController) Edit() {
 	p.TplName = "auth/post/edit.tpl"
 }
 
+// @router /console/post/:id([0-9]+ [put]
 func (p *PostController) Update()  {
 	id :=p.Ctx.Input.Param(":id")
 	id64, _ := strconv.ParseInt(id, 10, 64)
-	fmt.Println(id64)
+
 	u := PostCreate{}
 	valid := validation.Validation{}
 	if err := p.ParseForm(&u); err != nil {
@@ -151,6 +156,11 @@ func (p *PostController) Update()  {
 
 }
 
+// @router /console/post/:id([0-9]+ [delete]
 func (p *PostController) Destroy()  {
+	id :=p.Ctx.Input.Param(":id")
+	id64, _ := strconv.ParseInt(id, 10, 64)
+	fmt.Println(id64,"开始删除")
+	services.PostDestroy(id64)
 
 }

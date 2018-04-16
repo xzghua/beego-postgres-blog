@@ -27,6 +27,7 @@ type Articles struct {
 	CreatedAt    time.Time `orm:"column(created_at);default('0000-00-00 00:00:00');null;auto_now_add;type(datetime)" json:"created_at"`
 	UpdatedAt    time.Time `orm:"column(updated_at);default('0000-00-00 00:00:00');null;auto_now;type(datetime)" json:"updated_at"`
 	User         *Users    `orm:"-;rel(fk)" json:"user"`
+	DeletedAt    time.Time `orm:"column(deleted_at);default('0000-00-00 00:00:00');null;auto_now_add;type(datetime)" json:"deleted_at"`
 }
 
 func (a *Articles) TableName() string {

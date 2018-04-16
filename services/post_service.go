@@ -127,3 +127,9 @@ func PostUpdate(postUpdate models.Articles,id64 int64,cate int64,tags string) (e
 	}
 	return
 }
+
+func PostDestroy(id int64) {
+	o := orm.NewOrm()
+	res,err := o.Update(&models.Articles{Id:id},"UpdatedAt")
+	fmt.Println(res,err)
+}

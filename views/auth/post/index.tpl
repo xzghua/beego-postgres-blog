@@ -65,15 +65,13 @@
                                 <td><a href="#">{{$item.Title}}</a></td>
                                 <td>{{$item.CreatedAt}}</td>
                                 <td>
-                                    <a href="/console/post/{{ $item.Id }}/edit">
-                                        <button type="button" class="btn btn-info">
-                                            <span class="entypo-pencil"></span>&nbsp;&nbsp;Edit
-                                        </button>
-                                    </a>
-
-                                    <button type="button" class="btn btn-danger">
-                                        <span class="entypo-trash"></span>&nbsp;&nbsp;Delete
-                                    </button>
+                                    <form action="/console/post/{{ $item.Id }}" method="post">
+                                        <a href="/console/post/{{ $item.Id }}/edit" style="margin-left:10px;" class=" btn btn-info " title="文章修改">
+                                            <span class="entypo-pencil"></span>&nbsp;&nbsp;修改</a>
+                                        <input type="hidden" name="_method" value="delete">
+                                        <button  style="margin-left:10px;" class=" btn btn-danger " title="文章删除">
+                                            <span class="entypo-trash"></span>&nbsp;&nbsp;删除</button>
+                                    </form>
                                 </td>
                             </tr>
                             {{end}}
