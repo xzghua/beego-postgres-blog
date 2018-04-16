@@ -26,6 +26,7 @@ type PostCreate struct {
 }
 
 func (p *PostController) Index()  {
+	beego.ReadFromRequest(&p.Controller)
 	page := p.GetString("page")
 	page2, err := strconv.ParseInt(page, 10, 64)
 	if err != nil {
@@ -68,10 +69,7 @@ func (p *PostController) Store()  {
 		return
 	}
 
-	fmt.Println(u)
-
 	var post models.Articles
-
 	post.Title = u.Title
 	post.Content = u.Content
 	post.Abstract = u.Abstract
@@ -134,10 +132,6 @@ func (p *PostController) Update()  {
 		p.Redirect("/console/post/create",302)
 		return
 	}
-//fmt.Println(u)
-//	err = services.DelPostTagRel(id64)
-
-	////var postUpdate models.Articles
 	postUpdate := models.Articles{
 		Id				:	id64,
 		Title			:	u.Title,
@@ -146,30 +140,13 @@ func (p *PostController) Update()  {
 		Abstract 		: 	u.Abstract,
 		BodyOriginal 	: 	u.BodyOriginal,
 	}
-	//TODO::此处缺一个 事务操作
-	err = models.UpdateArticlesById(&postUpdate)
-	if err != nil {
-		p.MyReminder("error","系统内部错误")
-	}
-	err = services.DelPostCateRel(id64,u.Category)
-	if err != nil {
-		p.MyReminder("error","系统内部错误")
-	}
-	_,er := services.AddPostCateRel(id64,u.Category)
-	if er != nil {
-		p.MyReminder("error","系统内部错误")
-	}
 
-	err = services.DelPostTagRel(id64)
+	err = services.PostUpdate(postUpdate,id64,u.Category,u.Tag)
 	if err != nil {
 		p.MyReminder("error","系统内部错误")
+	} else {
+		p.MyReminder("success","修改成功")
 	}
-	tag := strings.Split(u.Tag,",")
-	for _,v := range tag {
-		tagId,_ := models.AddTagWithUnique(v)
-		services.AddPostTagRel(id64,tagId)
-	}
-
 	p.Redirect("/console/post",302)
 
 }
