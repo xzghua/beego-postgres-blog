@@ -4,8 +4,9 @@ import (
 	"bee-go-myBlog/models"
 	"github.com/astaxie/beego/orm"
 	"fmt"
-	"reflect"
+
 	"strings"
+	"time"
 )
 
 func GetMyAllPost(page int64) (ml []interface{}, err error){
@@ -15,8 +16,13 @@ func GetMyAllPost(page int64) (ml []interface{}, err error){
 			userId := val.(map[string]interface{})["UserId"].(int64)
 			user,_ := models.GetUsersById(userId)
 			postId := val.(map[string]interface{})["Id"].(int64)
-			fmt.Println(postId,"帖子ID",reflect.TypeOf(postId))
-
+			deletedAt := val.(map[string]interface{})["DeletedAt"].(time.Time)
+			fmt.Println(postId,"帖子ID",deletedAt.Unix(),deletedAt.Unix() > 0)
+			if deletedAt.Unix() > 0 {
+				post[key].(map[string]interface{})["time_status"] = true
+ 			} else {
+				post[key].(map[string]interface{})["time_status"] = false
+			}
 			cateId,_ := GetCateByPostId(postId)
 			cate,_ := models.GetCategoriesById(cateId)
 			if cate == nil {
@@ -26,6 +32,7 @@ func GetMyAllPost(page int64) (ml []interface{}, err error){
 			}
 			post[key].(map[string]interface{})["user_name"] = user.Name
 			post[key].(map[string]interface{})["user_id"] = user.Id
+
 		}
 	}
 	return post,err
@@ -130,6 +137,7 @@ func PostUpdate(postUpdate models.Articles,id64 int64,cate int64,tags string) (e
 
 func PostDestroy(id int64) {
 	o := orm.NewOrm()
-	res,err := o.Update(&models.Articles{Id:id},"UpdatedAt")
+	nowTime := time.Now()
+	res,err := o.Update(&models.Articles{Id:id,DeletedAt:nowTime},"DeletedAt")
 	fmt.Println(res,err)
 }

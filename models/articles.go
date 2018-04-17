@@ -59,7 +59,7 @@ func GetArticlesById(id int64) (v *Articles, err error) {
 
 // GetAllArticles retrieves all Articles matches certain condition. Returns empty list if
 // no records exist
-func GetAllArticles(query map[string]string, fields []string, sortby []string, order []string,
+func GetAllArticles(query map[string]interface{}, fields []string, sortby []string, order []string,
 	offset int64, limit int64) (ml []interface{}, err error) {
 	o := orm.NewOrm()
 	qs := o.QueryTable(new(Articles))
@@ -166,12 +166,13 @@ func AllArticle(page int64) (ml []interface{}, err error) {
 	var fields []string
 	var sortby []string
 	var order []string
-	var query map[string]string = make(map[string]string)
+	var query map[string]interface{} = make(map[string]interface{})
 	var limit int64
 	var offset int64
+	//query["deleted_at__isnull"] = true
 	limit, _ = beego.AppConfig.Int64("page_offset")
 	fields = []string{"Id", "Title","UserId", "Content", "BodyOriginal", "Password", "Note", "ReadStatus",
-		"Top", "Abstract", "ViewNum", "CreatedAt", "UpdatedAt"}
+		"Top", "Abstract", "ViewNum", "CreatedAt", "UpdatedAt","DeletedAt"}
 	offset = (page - 1 ) * limit
 	res, err := GetAllArticles(query, fields, sortby, order, offset, limit)
 	return res, err

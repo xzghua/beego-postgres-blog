@@ -53,6 +53,7 @@
                                 <th>分类</th>
                                 <th>标题</th>
                                 <th>时间</th>
+                                <th>状态</th>
                                 <th>操作</th>
                             </tr>
                             </thead>
@@ -64,11 +65,13 @@
                                 <td>{{$item.cate_name}}</td>
                                 <td><a href="#">{{$item.Title}}</a></td>
                                 <td>{{$item.CreatedAt}}</td>
+                                <td>{{if $item.time_status}} 回收站 {{else}} 正常 {{end}}</td>
                                 <td>
                                     <form action="/console/post/{{ $item.Id }}" method="post">
+                                    {{ $.xsrfdata }}
                                         <a href="/console/post/{{ $item.Id }}/edit" style="margin-left:10px;" class=" btn btn-info " title="文章修改">
                                             <span class="entypo-pencil"></span>&nbsp;&nbsp;修改</a>
-                                        <input type="hidden" name="_method" value="delete">
+                                        <input type="hidden" name="_method" value="DELETE">
                                         <button  style="margin-left:10px;" class=" btn btn-danger " title="文章删除">
                                             <span class="entypo-trash"></span>&nbsp;&nbsp;删除</button>
                                     </form>

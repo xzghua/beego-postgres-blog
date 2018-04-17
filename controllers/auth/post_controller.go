@@ -35,6 +35,7 @@ func (p *PostController) Index()  {
 	}
 	post,_ := services.GetMyAllPost(page2)
 	totalPage,lastPage,currentPage,nextPage := models.PostPaginate(page2)
+	p.Data["xsrfdata"]=template.HTML(p.XSRFFormHTML())
 	p.Data["post"] = post
 	p.Data["totalPage"] = totalPage
 	p.Data["lastPage"] = lastPage
