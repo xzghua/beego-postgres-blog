@@ -87,3 +87,21 @@ func tree(cate []interface{}, parent int64, level int64,key int64) ([]interface{
 	return data
 }
 
+func getSimilar() {
+	//allCate := GetAllCateBySort()
+	//i := 0
+	//var similar []interface{}
+	//for _,v := range allCate {
+	//	var ParentId = v.(map[string]interface{})["ParentId"].(int64)
+	//	var Id = v.(map[string]interface{})["Id"].(int64)
+	//	if cateId == Id {
+	//		cateParentId = ParentId
+	//	}
+	//	if ParentId == cateId
+	//}
+
+}
+
+func GetChild(cateId int64) {
+
+}

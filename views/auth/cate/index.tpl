@@ -61,9 +61,11 @@
                                     <td>{{str2html $item.html}}{{$item.DisplayName}}</td>
                                     <td>{{$item.CreatedAt}}</td>
                                     <td>
-                                        <button type="button" class="btn btn-info">
-                                            <span class="entypo-pencil"></span>&nbsp;&nbsp;Edit
-                                        </button>
+                                        <a href="/console/cate/{{$item.Id}}/edit">
+                                            <button type="button" class="btn btn-info">
+                                                <span class="entypo-pencil"></span>&nbsp;&nbsp;Edit
+                                            </button>
+                                        </a>
                                         <button type="button" class="btn btn-danger">
                                             <span class="entypo-trash"></span>&nbsp;&nbsp;Delete
                                         </button>
