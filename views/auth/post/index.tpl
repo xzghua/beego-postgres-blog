@@ -72,8 +72,14 @@
                                         <a href="/console/post/{{ $item.Id }}/edit" style="margin-left:10px;" class=" btn btn-info " title="文章修改">
                                             <span class="entypo-pencil"></span>&nbsp;&nbsp;修改</a>
                                         <input type="hidden" name="_method" value="DELETE">
+                                    {{if $item.time_status}}
+                                        <button  style="margin-left:10px;" class=" btn btn-warning " title="文章恢复">
+                                            <span class="entypo-trash"></span>&nbsp;&nbsp;恢复</button>
+                                    {{else}}
                                         <button  style="margin-left:10px;" class=" btn btn-danger " title="文章删除">
                                             <span class="entypo-trash"></span>&nbsp;&nbsp;删除</button>
+                                    {{end}}
+
                                     </form>
                                 </td>
                             </tr>

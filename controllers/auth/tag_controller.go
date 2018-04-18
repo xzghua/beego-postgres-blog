@@ -19,7 +19,7 @@ type TagRequest struct {
 	Name 	string `form:"name" valid:"Required;MaxSize(30)"`
 }
 
-
+// @router /console/tag [get]
 func (t *TagController) Index() {
 	page := t.GetString("page")
 	page2, err := strconv.ParseInt(page, 10, 64)
@@ -40,6 +40,7 @@ func (t *TagController) Index() {
 	t.TplName = "auth/tag/index.tpl"
 }
 
+// @router /console/tag/create [get]
 func (t *TagController) Create() {
 	beego.ReadFromRequest(&t.Controller)
 	t.Data["xsrfdata"]=template.HTML(t.XSRFFormHTML())
@@ -47,6 +48,7 @@ func (t *TagController) Create() {
 	t.TplName = "auth/tag/create.tpl"
 }
 
+// @router /console/tag [post]
 func (t *TagController) Store() {
 	u := TagRequest{}
 	valid := validation.Validation{}
@@ -81,7 +83,7 @@ func (t *TagController) Destroy() {
 
 }
 
-
+// @router /console/tag/auto [get]
 func (t *TagController) GetTagByLike() {
 	param := t.GetString("term")
 	res := services.GetTagByLike(param)

@@ -12,6 +12,10 @@ func init() {
 
 
 	beego.Include(&auth.PostController{})
+	beego.Include(&auth.CateController{})
+	beego.Include(&auth.LinkController{})
+	beego.Include(&auth.TagController{})
+	beego.Include(&auth.SystemController{})
 	//
 	//beego.Router("/", &controllers.MainController{})
     //beego.Router("/my",&controllers.MainController{},"get:MyTest")

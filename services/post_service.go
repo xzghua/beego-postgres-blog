@@ -135,9 +135,18 @@ func PostUpdate(postUpdate models.Articles,id64 int64,cate int64,tags string) (e
 	return
 }
 
-func PostDestroy(id int64) {
+func PostDestroy(id int64) (err error) {
 	o := orm.NewOrm()
-	nowTime := time.Now()
-	res,err := o.Update(&models.Articles{Id:id,DeletedAt:nowTime},"DeletedAt")
-	fmt.Println(res,err)
+	res,err :=models.GetArticlesById(id)
+	if res.DeletedAt.Unix() > 0 {
+		var nowTime  time.Time
+		nowTime,err = time.Parse("2006-01-02 15:04:05","0000-00-00 00:00:00")
+		//fmt.Println(nowTime)
+		_,err = o.Update(&models.Articles{Id:id,DeletedAt:nowTime},"DeletedAt")
+	} else {
+		nowTime := time.Now()
+		_,err = o.Update(&models.Articles{Id:id,DeletedAt:nowTime},"DeletedAt")
+	}
+
+	return
 }

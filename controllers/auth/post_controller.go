@@ -161,7 +161,11 @@ func (p *PostController) Update()  {
 func (p *PostController) Destroy()  {
 	id :=p.Ctx.Input.Param(":id")
 	id64, _ := strconv.ParseInt(id, 10, 64)
-	fmt.Println(id64,"开始删除")
-	services.PostDestroy(id64)
-
+	err := services.PostDestroy(id64)
+	if  err != nil {
+		p.MyReminder("error","操作失败,请检查代码是啥问题")
+	} else {
+		p.MyReminder("success","操作成功")
+	}
+	p.Redirect("/console/post",302)
 }

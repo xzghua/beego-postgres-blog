@@ -174,6 +174,8 @@ func AllArticle(page int64) (ml []interface{}, err error) {
 	fields = []string{"Id", "Title","UserId", "Content", "BodyOriginal", "Password", "Note", "ReadStatus",
 		"Top", "Abstract", "ViewNum", "CreatedAt", "UpdatedAt","DeletedAt"}
 	offset = (page - 1 ) * limit
+	sortby = []string{"Id","updatedAt"}
+	order = []string{"desc","desc"}
 	res, err := GetAllArticles(query, fields, sortby, order, offset, limit)
 	return res, err
 }

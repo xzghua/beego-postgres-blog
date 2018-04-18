@@ -9,7 +9,7 @@ type LinkController struct {
 	controllers.BaseController
 }
 
-
+// @router /console/link [get]
 func (l *LinkController) Index() {
 	link,_ := models.AllLink()
 	l.Data["link"] = link

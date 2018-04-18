@@ -9,7 +9,7 @@ type SystemController struct {
 	controllers.BaseController
 }
 
-
+// @router /console/system [get]
 func (s *SystemController) Index() {
 	system,_ := models.GetSystemsById(1)
 	if system == nil {

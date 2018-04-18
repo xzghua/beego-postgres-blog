@@ -22,6 +22,7 @@ type cateRequest struct {
 	Description 	string 	`form:"description" valid:"MaxSize(150)"`
 }
 
+// @router /console/cate [get]
 func (c *CateController) Index() {
 	cate := services.GetAllCateBySort()
 	c.Data["cate"] = cate
@@ -29,6 +30,7 @@ func (c *CateController) Index() {
 	c.TplName = "auth/cate/index.tpl"
 }
 
+// @router /console/cate/create [get]
 func (c *CateController) Create() {
 	beego.ReadFromRequest(&c.Controller)
 	cate := services.GetAllCateBySort()
@@ -38,7 +40,7 @@ func (c *CateController) Create() {
 	c.TplName = "auth/cate/create.tpl"
 }
 
-
+// @router /console/post [post]
 func (c *CateController) Store() {
 	u := cateRequest{}
 	valid := validation.Validation{}
