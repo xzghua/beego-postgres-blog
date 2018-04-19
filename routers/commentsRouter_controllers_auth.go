@@ -33,6 +33,14 @@ func init() {
 
 	beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:CateController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:CateController"],
 		beego.ControllerComments{
+			Method: "Destroy",
+			Router: `/console/cate/:id([0-9]+`,
+			AllowHTTPMethods: []string{"delete"},
+			MethodParams: param.Make(),
+			Params: nil})
+
+	beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:CateController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:CateController"],
+		beego.ControllerComments{
 			Method: "Show",
 			Router: `/console/cate/:id([0-9]+/edit`,
 			AllowHTTPMethods: []string{"get"},
@@ -43,6 +51,14 @@ func init() {
 		beego.ControllerComments{
 			Method: "Create",
 			Router: `/console/cate/create`,
+			AllowHTTPMethods: []string{"get"},
+			MethodParams: param.Make(),
+			Params: nil})
+
+	beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:CateController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:CateController"],
+		beego.ControllerComments{
+			Method: "CateTest",
+			Router: `/console/cate/test`,
 			AllowHTTPMethods: []string{"get"},
 			MethodParams: param.Make(),
 			Params: nil})

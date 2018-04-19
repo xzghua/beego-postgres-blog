@@ -5,6 +5,7 @@ import (
 
 	"bee-go-myBlog/helper"
 	"github.com/astaxie/beego/orm"
+	"fmt"
 )
 
 func GetMyAllCate() {
@@ -87,21 +88,20 @@ func tree(cate []interface{}, parent int64, level int64,key int64) ([]interface{
 	return data
 }
 
-func getSimilar() {
-	//allCate := GetAllCateBySort()
-	//i := 0
-	//var similar []interface{}
-	//for _,v := range allCate {
-	//	var ParentId = v.(map[string]interface{})["ParentId"].(int64)
-	//	var Id = v.(map[string]interface{})["Id"].(int64)
-	//	if cateId == Id {
-	//		cateParentId = ParentId
-	//	}
-	//	if ParentId == cateId
-	//}
+func GetSimilar(beginId int64) {
+	o := orm.NewOrm()
+	cates := models.Categories{ParentId:beginId}
+	err := o.Read(&cates,"ParentId")
+	if err != nil {
+		return
+	}
+	fmt.Println(2343)
+	//GetChild(cates)
 
 }
 
-func GetChild(cateId int64) {
-
+func GetChild(cates []interface{}) {
+	//for _,v := range cates {
+	//
+	//}
 }

@@ -126,9 +126,16 @@ func (c *CateController) Update() {
 	c.Redirect("/console/cate",302)
 }
 
+// @router /console/cate/:id([0-9]+ [delete]
 func (c *CateController) Destroy() {
 
 }
+
+// @router /console/cate/test [get]
+func (c *CateController) CateTest() {
+	services.GetSimilar(2)
+}
+
 
 //作废
 func (c *CateController) GetCateByLike() {
