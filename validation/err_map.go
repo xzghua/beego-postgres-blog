@@ -13,6 +13,8 @@ var key = map[string][2]string {
 	"Name"			: {	"006", "name名" 	 },
 	"DisplayName" 	: { "007", "别名" },
 	"Description"	: { "008", "描述" },
+	"Sort"			: { "009", "排序值" },
+	"Link"			: { "010", "链接" },
 }
 
 var condition = map[string][2]string {
@@ -25,11 +27,11 @@ var env = map[string][2]string {
 	"Post"		: { "4001", "帖子" },
 	"Cate"		: { "4002", "节点" },
 	"Tag"		: { "4003", "标签" },
+	"Link"		: {	"4004", "友链" },
 }
 
 
 func CustomErrCodeAndMessage (errEnv string,errKey string,errCondition string) (int,string) {
-
 	codeEnv,okOne := env[errEnv]
 	codeKey,okTwo := key[errKey]
 	codeCondition,okThree := condition[errCondition]

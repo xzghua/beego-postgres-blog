@@ -1309,3 +1309,211 @@
 2018/04/20 17:32:17.440 [I] [asm_amd64.s:2337] http server Running on http://:8080
 2018/04/20 17:32:20.678 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:32:20] "GET /console/link HTTP/1.1 200 0" 0.009171 http://localhost:8080/console/tag Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
 
+2018/04/20 17:32:44.874 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 17:32:45.862 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 17:32:46.859 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 17:32:47.825 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 17:35:16.135 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:35:16] "GET /console/tag HTTP/1.1 200 0" 0.004753 http://localhost:8080/console/link Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:35:17.951 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:35:17] "DELETE /console/tag/3 HTTP/1.1 302 0" 0.010614 http://localhost:8080/console/tag Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:35:17.958 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:35:17] "GET /console/tag HTTP/1.1 200 0" 0.003468 http://localhost:8080/console/tag Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:41:02.512 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 17:41:05.926 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 17:41:06.965 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 17:41:26.005 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:41:25] "GET /console/link HTTP/1.1 200 0" 0.005981 http://localhost:8080/console/tag Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:41:48.899 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 17:41:51.755 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:41:51] "GET /console/link HTTP/1.1 200 0" 0.003665 http://localhost:8080/console/tag Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:41:52.047 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:41:52] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000170 http://localhost:8080/console/link Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:48:35.861 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 17:49:37.304 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 17:49:41.490 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:49:41] "GET /console/link HTTP/1.1 200 0" 0.004966 http://localhost:8080/console/tag Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:49:41.809 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:49:41] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000147 http://localhost:8080/console/link Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:49:43.538 [C] [asm_amd64.s:509] the request url is  /console/link/create
+2018/04/20 17:49:43.538 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/linkcontroller/create.tpl
+2018/04/20 17:49:43.538 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/20 17:49:43.538 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/20 17:49:43.538 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/20 17:49:43.538 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/20 17:49:43.538 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/20 17:49:43.538 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/20 17:49:43.538 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/20 17:49:43.538 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/20 17:49:43.538 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/20 17:49:43.538 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/20 17:50:44.285 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 17:50:45.461 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:50:45] "GET /console/link/create HTTP/1.1 200 0" 0.002966 http://localhost:8080/console/link Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:50:47.423 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 17:58:10.940 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 17:58:12.810 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 17:58:13.812 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 17:58:14.908 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 17:58:28.965 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:58:28] "POST /console/link HTTP/1.1 302 0" 0.000257 http://localhost:8080/console/link/create Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:58:28.974 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:58:28] "GET /console/link/create HTTP/1.1 200 0" 0.001607 http://localhost:8080/console/link/create Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:59:14.869 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 17:59:17.970 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 17:59:33.835 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:59:33] "POST /console/link HTTP/1.1 302 0" 0.000288 http://localhost:8080/console/link/create Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:59:33.845 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:59:33] "GET /console/link/create HTTP/1.1 200 0" 0.001544 http://localhost:8080/console/link/create Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:00:00.743 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 18:00:03.594 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 18:00:25.698 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:00:25] "POST /console/link HTTP/1.1 302 0" 0.005246 http://localhost:8080/console/link/create Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:00:25.706 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:00:25] "GET /console/link/create HTTP/1.1 200 0" 0.003763 http://localhost:8080/console/link/create Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:03:55.009 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 18:04:03.198 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:04:03] "POST /console/link HTTP/1.1 302 0" 0.000453 http://localhost:8080/console/link/create Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:04:03.207 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:04:03] "GET /console/link/create HTTP/1.1 200 0" 0.001633 http://localhost:8080/console/link/create Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:04:35.926 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 18:04:39.006 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 18:05:16.391 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:05:16] "POST /console/link HTTP/1.1 302 0" 0.002965 http://localhost:8080/console/link/create Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:05:16.399 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:05:16] "GET /console/link HTTP/1.1 200 0" 0.003438 http://localhost:8080/console/link/create Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:05:23.747 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:05:23] "GET /console/link/create HTTP/1.1 200 0" 0.001460 http://localhost:8080/console/link Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:05:28.238 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:05:28] "POST /console/link HTTP/1.1 302 0" 0.002259 http://localhost:8080/console/link/create Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:05:28.249 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:05:28] "GET /console/link HTTP/1.1 200 0" 0.003276 http://localhost:8080/console/link/create Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:10:31.930 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 18:10:34.930 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 18:10:38.417 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:10:38] "GET /console/link HTTP/1.1 200 0" 0.004228 http://localhost:8080/console/link/create Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:10:40.079 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:10:40] "GET /console/link/1/edit HTTP/1.1 200 0" 0.003862 http://localhost:8080/console/link Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:10:43.163 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:10:43] "GET /console/link/2/edit HTTP/1.1 200 0" 0.003238 http://localhost:8080/console/link Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:12:55.320 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 18:12:58.526 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 18:13:00.643 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:13:00] "GET /console/link/2/edit HTTP/1.1 200 0" 0.006451 http://localhost:8080/console/link Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:13:03.950 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:13:03] "PUT /console/link/2 HTTP/1.1 302 0" 0.005191 http://localhost:8080/console/link/2/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:13:03.959 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:13:03] "GET /console/link HTTP/1.1 200 0" 0.003950 http://localhost:8080/console/link/2/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:13:06.534 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:13:06] "GET /console/link/2/edit HTTP/1.1 200 0" 0.003348 http://localhost:8080/console/link Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:13:09.018 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:13:09] "PUT /console/link/2 HTTP/1.1 302 0" 0.004087 http://localhost:8080/console/link/2/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:13:09.027 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:13:09] "GET /console/link HTTP/1.1 200 0" 0.003426 http://localhost:8080/console/link/2/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:13:15.871 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:13:15] "GET /console/link/2/edit HTTP/1.1 200 0" 0.003050 http://localhost:8080/console/link Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:13:19.873 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:13:19] "PUT /console/link/2 HTTP/1.1 302 0" 0.003263 http://localhost:8080/console/link/2/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:13:19.883 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:13:19] "GET /console/link HTTP/1.1 200 0" 0.003566 http://localhost:8080/console/link/2/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:13:26.561 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:13:26] "GET /console/link/3/edit HTTP/1.1 200 0" 0.003383 http://localhost:8080/console/link Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:13:28.687 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:13:28] "PUT /console/link/3 HTTP/1.1 302 0" 0.003748 http://localhost:8080/console/link/3/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:13:28.697 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:13:28] "GET /console/link HTTP/1.1 200 0" 0.003384 http://localhost:8080/console/link/3/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:14:51.346 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 18:14:56.730 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:14:56] "GET /console/link/3/edit HTTP/1.1 200 0" 0.004305 http://localhost:8080/console/link Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:14:58.504 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:14:58] "PUT /console/link/3 HTTP/1.1 302 0" 0.003804 http://localhost:8080/console/link/3/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:14:58.514 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:14:58] "GET /console/link HTTP/1.1 200 0" 0.004392 http://localhost:8080/console/link/3/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:15:01.001 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:15:00] "GET /console/link/2/edit HTTP/1.1 200 0" 0.003356 http://localhost:8080/console/link Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:15:02.859 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:15:02] "PUT /console/link/2 HTTP/1.1 302 0" 0.003787 http://localhost:8080/console/link/2/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:15:02.868 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:15:02] "GET /console/link HTTP/1.1 200 0" 0.003745 http://localhost:8080/console/link/2/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:15:50.488 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 18:15:51.584 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 18:15:52.578 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 18:16:19.828 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 18:16:22.653 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 18:16:26.185 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:16:26] "GET /console/link HTTP/1.1 200 0" 0.006028 http://localhost:8080/console/link/2/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:16:26.481 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:16:26] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000453 http://localhost:8080/console/link Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:16:58.452 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 18:17:03.564 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:17:03] "GET /console/link HTTP/1.1 200 0" 0.004799 http://localhost:8080/console/link/2/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:17:03.873 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:17:03] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000161 http://localhost:8080/console/link Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:17:06.849 [C] [asm_amd64.s:509] the request url is  /console/link/2
+2018/04/20 18:17:06.849 [C] [asm_amd64.s:509] Handler crashed with error '_xsrf' argument missing from POST
+2018/04/20 18:17:06.849 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/20 18:17:06.849 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/20 18:17:06.849 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/context/context.go:80
+2018/04/20 18:17:06.849 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/context/context.go:164
+2018/04/20 18:17:06.849 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:649
+2018/04/20 18:17:06.849 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:819
+2018/04/20 18:17:06.850 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/20 18:17:06.850 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/20 18:17:06.850 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/20 18:17:34.522 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:17:34] "GET /console/link HTTP/1.1 200 0" 0.003017 http://localhost:8080/console/link/2/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:17:34.744 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:17:34] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000058 http://localhost:8080/console/link Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:17:35.174 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:17:35] "GET /console/link HTTP/1.1 200 0" 0.003744 http://localhost:8080/console/link/2/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:17:35.396 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:17:35] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000068 http://localhost:8080/console/link Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:17:35.680 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:17:35] "GET /console/link HTTP/1.1 200 0" 0.004282 http://localhost:8080/console/link/2/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:17:35.877 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:17:35] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000109 http://localhost:8080/console/link Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:17:54.826 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 18:17:57.258 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:17:57] "GET /console/link HTTP/1.1 200 0" 0.004726  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:17:58.445 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:17:58] "GET /console/link HTTP/1.1 200 0" 0.003204  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:17:59.015 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:17:59] "GET /console/link HTTP/1.1 200 0" 0.003546  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:18:14.626 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 18:18:20.098 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:18:20] "GET /console/link HTTP/1.1 200 0" 0.005374  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:18:22.346 [C] [asm_amd64.s:509] the request url is  /console/link/2
+2018/04/20 18:18:22.346 [C] [asm_amd64.s:509] Handler crashed with error '_xsrf' argument missing from POST
+2018/04/20 18:18:22.346 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/20 18:18:22.346 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/20 18:18:22.346 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/context/context.go:80
+2018/04/20 18:18:22.346 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/context/context.go:164
+2018/04/20 18:18:22.346 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:649
+2018/04/20 18:18:22.346 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:819
+2018/04/20 18:18:22.346 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/20 18:18:22.346 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/20 18:18:22.346 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/20 18:18:25.323 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:18:25] "GET /console/link HTTP/1.1 200 0" 0.003923 http://localhost:8080/console/link/2/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:18:25.531 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:18:25] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000196 http://localhost:8080/console/link Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:18:26.641 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:18:26] "DELETE /console/link/2 HTTP/1.1 302 0" 0.008855 http://localhost:8080/console/link Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:18:26.650 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:18:26] "GET /console/link HTTP/1.1 200 0" 0.004485 http://localhost:8080/console/link Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:18:29.727 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:18:29] "GET /console/link/create HTTP/1.1 200 0" 0.001365 http://localhost:8080/console/link Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:18:36.210 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:18:36] "POST /console/link HTTP/1.1 302 0" 0.002530 http://localhost:8080/console/link/create Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:18:36.221 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:18:36] "GET /console/link HTTP/1.1 200 0" 0.003652 http://localhost:8080/console/link/create Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:18:39.268 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:18:39] "GET /console/link?page=1 HTTP/1.1 200 0" 0.004002 http://localhost:8080/console/link Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:18:39.899 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:18:39] "GET /console/link?page=1 HTTP/1.1 200 0" 0.003553 http://localhost:8080/console/link?page=1 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:22:34.818 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:22:34] "GET /console/system HTTP/1.1 200 0" 0.009820 http://localhost:8080/console/link?page=1 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:22:34.932 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:22:34] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000153 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 18:22:35.096 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:22:35] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000265 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+

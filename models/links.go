@@ -8,6 +8,7 @@ import (
 
 	"github.com/astaxie/beego/orm"
 	"time"
+	"bee-go-myBlog/helper"
 )
 
 type Links struct {
@@ -15,7 +16,7 @@ type Links struct {
 	Name 			string 		`orm:"column(name);size(255)" json:"name"`
 	Link 			string 		`orm:"column(link);size(255)" json:"link"`
 	Sort	 		int64 		`orm:"column(sort);default(0)" json:"sort"`
-	CreatedAt      time.Time 	`orm:"column(created_at);default('0000-00-00 00:00:00');null;auto_now_add;type(datetime)" json:"created_at"`
+	CreatedAt      time.Time 	`orm:"column(created_at);default('0000-00-00 00:00:00');null;auto_now;type(datetime)" json:"created_at"`
 	UpdatedAt      time.Time 	`orm:"column(updated_at);default('0000-00-00 00:00:00');null;auto_now;type(datetime)" json:"updated_at"`
 }
 
@@ -163,4 +164,10 @@ func AllLink() (ml []interface{}, err error) {
 	fields = []string{"Id", "Name","Link","Sort","CreatedAt"}
 	res, err := GetAllLinks(query, fields, sortby, order, offset, limit)
 	return res, err
+}
+
+func LinkPaginate(page int64) (totalPage int64,lastPage int64,currentPage int64,nextPage int64)  {
+	var link Links
+	tableName := link.TableName()
+	return helper.MyPaginate(page,tableName)
 }

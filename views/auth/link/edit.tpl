@@ -24,32 +24,33 @@
                 <div class="body-nest" id="validation">
                     <div class="form_center">
 
-                        <form action="/console/link" method="post" id="linkCreate" class="form-horizontal linkForm">
+                        <form action="/console/link/{{.link.Id}}" method="post" id="linkCreate" class="form-horizontal linkForm">
                         {{ .xsrfdata }}
+                            <input type="hidden" name="_method" value="PUT">
                             <fieldset>
                                 <div class="form-group">
                                     <label class="col-sm-3 control-label" for="linkName">友链名称</label>
                                     <div class="col-sm-6">
-                                        <input type="text" id="linkName" name="name"  class="form-control linkName">
+                                        <input type="text" value="{{.link.Name}}" id="linkName" name="name"  class="form-control linkName">
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label class="col-sm-3 control-label">友链链接</label>
                                     <div class="col-sm-6">
-                                        <input type="text" id="link" name="link" class="form-control round-input link">
+                                        <input type="text" value="{{.link.Link}}" id="link" name="link" class="form-control round-input link">
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label class="col-sm-3 control-label">顺序</label>
                                     <div class="col-sm-6">
-                                        <input type="text" id="ordering" name="ordering" class="form-control ordering">
+                                        <input type="text" value="{{.link.Sort}}" id="ordering" name="ordering" class="form-control ordering">
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label class="col-sm-3 control-label"></label>
                                     <div class="col-sm-6">
                                         <button class="btn" type="submit">
-                                            <span class="fontawesome-save"></span>&nbsp;&nbsp;创建</button>
+                                            <span class="fontawesome-save"></span>&nbsp;&nbsp;修改</button>
                                     </div>
                                 </div>
                             </fieldset>

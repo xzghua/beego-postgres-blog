@@ -24,10 +24,10 @@ type Articles struct {
 	Top          bool      `orm:"column(top);null;default(false)" json:"top"`
 	Abstract     string    `orm:"column(abstract);size(500);null" json:"abstract"`
 	ViewNum      int64     `orm:"column(view_num);default(0);null" json:"view_num"`
-	CreatedAt    time.Time `orm:"column(created_at);default('0000-00-00 00:00:00');null;auto_now_add;type(datetime)" json:"created_at"`
+	CreatedAt    time.Time `orm:"column(created_at);default('0000-00-00 00:00:00');null;auto_now;type(datetime)" json:"created_at"`
 	UpdatedAt    time.Time `orm:"column(updated_at);default('0000-00-00 00:00:00');null;auto_now;type(datetime)" json:"updated_at"`
 	User         *Users    `orm:"-;rel(fk)" json:"user"`
-	DeletedAt    time.Time `orm:"column(deleted_at);default('0000-00-00 00:00:00');null;auto_now_add;type(datetime)" json:"deleted_at"`
+	DeletedAt    time.Time `orm:"column(deleted_at);default('0000-00-00 00:00:00');null;auto_now;type(datetime)" json:"deleted_at"`
 }
 
 func (a *Articles) TableName() string {

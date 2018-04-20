@@ -14,7 +14,6 @@ type BaseController struct {
 
 
 func (c *BaseController) RequestValidate(valid validation.Validation) (int,string) {
-
 	code,message := 4000000000,"系统内部错误"
 	for _, err := range valid.Errors {
 		code,message = validation2.CustomErrCodeAndMessage("Cate",err.Field, err.Name)

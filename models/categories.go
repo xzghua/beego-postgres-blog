@@ -16,7 +16,7 @@ type Categories struct {
 	DisplayName 	string 		`orm:"column(display_name);size(255);" json:"display_name"`
 	ParentId	 	int64 		`orm:"column(parent_id);default(0)" json:"parent_id"`
 	Description	 	string 		`orm:"column(description);size(2048);null" json:"description"`
-	CreatedAt      time.Time 	`orm:"column(created_at);default('0000-00-00 00:00:00');null;auto_now_add;type(datetime)" json:"created_at"`
+	CreatedAt      time.Time 	`orm:"column(created_at);default('0000-00-00 00:00:00');null;auto_now;type(datetime)" json:"created_at"`
 	UpdatedAt      time.Time 	`orm:"column(updated_at);default('0000-00-00 00:00:00');null;auto_now;type(datetime)" json:"updated_at"`
 }
 

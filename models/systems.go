@@ -18,7 +18,7 @@ type Systems struct {
 	SeoKey 			string 		`orm:"column(seo_key);size(255)" json:"seo_key"`
 	SeoDes 			string 		`orm:"column(seo_des);size(255)" json:"seo_des"`
 	RecordNumber 	string 		`orm:"column(record_number);default(0)" json:"record_number"`
-	CreatedAt      time.Time 	`orm:"column(created_at);default('0000-00-00 00:00:00');null;auto_now_add;type(datetime)" json:"created_at"`
+	CreatedAt      time.Time 	`orm:"column(created_at);default('0000-00-00 00:00:00');null;auto_now;type(datetime)" json:"created_at"`
 	UpdatedAt      time.Time 	`orm:"column(updated_at);default('0000-00-00 00:00:00');null;auto_now;type(datetime)" json:"updated_at"`
 }
 
