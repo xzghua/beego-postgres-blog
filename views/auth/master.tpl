@@ -242,7 +242,7 @@
                     <li>
                         <a href="#" style="border-left:0px solid!important;" class="title-menu-left">
 
-                            <span class="component"></span>
+                            <span class="widget-menu"></span>
                             <i data-toggle="tooltip" class="entypo-cog pull-right config-wrap"></i>
 
                         </a>
@@ -295,20 +295,7 @@
                     <h3>
                         <span>Traffic</span>
                     </h3>
-                    <ul class="side-bar-list">
-                        <li>Avg. Traffic
-                            <div class="linebar">5,7,8,9,3,5,3,8,5</div>
-                        </li>
-                        <li>Visitors
-                            <div class="linebar2">9,7,8,9,5,9,6,8,7</div>
-                        </li>
-                        <li>Convertion Rate
-                            <div class="linebar3">5,7,8,9,3,5,3,8,5</div>
-                        </li>
-                    </ul>
-                    <h3>
-                        <span>Visitors</span>
-                    </h3>
+
                     <div id="g1" style="height:180px" class="gauge"></div>
                 </div>
             </div>

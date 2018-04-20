@@ -45,6 +45,7 @@
 
                     <section id="flip-scroll">
                         <div class="table-responsive">
+                            <a href="/console/post/create" style="margin-left:10px;" class="pull-left btn btn-info " title="新建文章">新建文章</a>
                             <table class="table  table-hover  table-condensed table-striped ">
                             <thead class="cf">
                             <tr>
