@@ -26,20 +26,20 @@
                 <div class="body-nest" id="validation">
                     <div class="form_center">
 
-                        <form action="/console/cate" method="post" id="postCreate" class="form-horizontal createForm">
+                        <form action="/console/system/1" method="post" id="systemCreate" class="form-horizontal systemForm">
                         {{ .xsrfdata }}
                             <fieldset>
-
+                                <input type="hidden" value="PUT" name="_method">
                                 <div class="control-group">
                                     <label class="control-label" for="name">网站标题</label>
                                     <div  class="controls">
-                                        <input type="text" value="{{.system.Title}}" class="form-control" name="name" id="name">
+                                        <input type="text" value="{{.system.Title}}" class="form-control" name="title" id="name">
                                     </div>
                                 </div>
                                 <div class="control-group">
                                     <label class="control-label" for="displayName">标题SEO名</label>
                                     <div  class="controls">
-                                        <input type="text" value="{{.system.STitle}}" class="form-control" name="displayName" id="displayName">
+                                        <input type="text" value="{{.system.STitle}}" class="form-control" name="s_title" id="displayName">
                                     </div>
                                 </div>
                                 <div class="control-group" >
@@ -51,19 +51,19 @@
                                 <div class="control-group" >
                                     <label class="control-label" for="description">网站SEO关键词</label>
                                     <div  class="controls">
-                                        <input type="text" value="{{.system.SeoKey}}" class="form-control" name="description" id="description">
+                                        <input type="text" value="{{.system.SeoKey}}" class="form-control" name="seo_key" id="description">
                                     </div>
                                 </div>
                                 <div class="control-group" >
                                     <label class="control-label" for="description">网站SEO描述</label>
                                     <div  class="controls">
-                                        <input type="text" value="{{.system.SeoDes}}" class="form-control" name="description" id="description">
+                                        <input type="text" value="{{.system.SeoDes}}" class="form-control" name="seo_des" id="description">
                                     </div>
                                 </div>
                                 <div class="control-group" >
                                     <label class="control-label" for="description">网站备案号</label>
                                     <div  class="controls">
-                                        <input type="text" value="{{.system.RecordNumber}}" class="form-control" name="description" id="description">
+                                        <input type="text" value="{{.system.RecordNumber}}" class="form-control" name="record_number" id="description">
                                     </div>
                                 </div>
                                 <div class="form-actions" style="margin:20px 0 0 0;">

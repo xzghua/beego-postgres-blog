@@ -159,6 +159,14 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
+	beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:SystemController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:SystemController"],
+		beego.ControllerComments{
+			Method: "Update",
+			Router: `/console/system/1`,
+			AllowHTTPMethods: []string{"put"},
+			MethodParams: param.Make(),
+			Params: nil})
+
 	beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:TagController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:TagController"],
 		beego.ControllerComments{
 			Method: "Index",

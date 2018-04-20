@@ -15,6 +15,11 @@ var key = map[string][2]string {
 	"Description"	: { "008", "描述" },
 	"Sort"			: { "009", "排序值" },
 	"Link"			: { "010", "链接" },
+	"STitle"		: { "011", "SEO标题" },
+	"SeoKey"		: { "011", "SEO标题" },
+	"SeoDes"		: { "011", "SEO标题" },
+	"RecordNumber"	: { "011", "SEO标题" },
+
 }
 
 var condition = map[string][2]string {
