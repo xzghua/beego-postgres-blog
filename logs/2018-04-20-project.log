@@ -1044,3 +1044,268 @@
 
 2018/04/20 16:37:49.659 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:37:49] "GET /console/post HTTP/1.1 200 0" 0.047121 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
 
+2018/04/20 16:40:09.141 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:40:09] "GET /console/cate HTTP/1.1 200 0" 0.002965 http://localhost:8080/console/post Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:40:10.850 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:40:10] "GET /console/cate/create HTTP/1.1 200 0" 0.002479 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:40:10.939 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:40:10] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000165 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:40:11.064 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:40:11] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000173 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:40:12.381 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:40:12] "GET /console/tag HTTP/1.1 200 0" 0.004558 http://localhost:8080/console/cate/create Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:47:14.849 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 16:47:17.747 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 16:47:25.366 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:47:25] "GET /console/tag HTTP/1.1 200 0" 0.005795 http://localhost:8080/console/cate/create Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:47:25.687 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:47:25] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000191 http://localhost:8080/console/tag Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:48:12.908 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:48:12] "GET /console/tag HTTP/1.1 200 0" 0.004342 http://localhost:8080/console/cate/create Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:48:13.233 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:48:13] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000072 http://localhost:8080/console/tag Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:48:16.308 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 16:48:19.934 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:48:19] "GET /console/tag HTTP/1.1 200 0" 0.004374 http://localhost:8080/console/cate/create Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:48:20.164 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:48:20] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000160 http://localhost:8080/console/tag Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:48:23.652 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:48:23] "GET /console/cate/2/edit HTTP/1.1 200 0" 0.004905 http://localhost:8080/console/tag Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:48:23.745 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:48:23] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000205 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:48:23.865 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:48:23] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000160 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:48:33.508 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:48:33] "GET /console/cate/2/edit HTTP/1.1 200 0" 0.003563 http://localhost:8080/console/tag Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:48:33.596 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:48:33] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000217 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:48:33.710 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:48:33] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000435 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:48:51.618 [D] [controller.go:263] template Execute err: template: auth/cate/edit.tpl:29:59: executing "auth/cate/edit.tpl" at <.cate.Id>: can't evaluate field Id in type interface {}
+2018/04/20 16:48:51.618 [E] [server.go:2619] template: auth/cate/edit.tpl:29:59: executing "auth/cate/edit.tpl" at <.cate.Id>: can't evaluate field Id in type interface {}
+2018/04/20 16:48:51.618 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:48:51] "GET /console/cate/20/edit HTTP/1.1 200 0" 0.003198 http://localhost:8080/console/tag Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:49:00.517 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 16:49:06.958 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:49:06] "GET /console/tag HTTP/1.1 200 0" 0.004247 http://localhost:8080/console/cate/create Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:49:07.229 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:49:07] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000245 http://localhost:8080/console/tag Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:49:08.224 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:49:08] "GET /console/tag/2/edit HTTP/1.1 200 0" 0.003689 http://localhost:8080/console/tag Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:06:55.063 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:06:55] "GET /console/tag HTTP/1.1 200 0" 0.003584 http://localhost:8080/console/cate/create Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:06:55.484 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:06:55] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000061 http://localhost:8080/console/tag Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:06:57.320 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 17:07:00.262 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 17:07:04.482 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:07:04] "GET /console/tag/2/edit HTTP/1.1 200 0" 0.003680 http://localhost:8080/console/tag Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:07:08.157 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:07:08] "PUT /console/tag HTTP/1.1 404 0" 0.000229 http://localhost:8080/console/tag/2/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:07:28.103 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:07:28] "GET /console/tag/2/edit HTTP/1.1 200 0" 0.004379 http://localhost:8080/console/tag Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:07:28.349 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:07:28] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000139 http://localhost:8080/console/tag/2/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:07:29.557 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 17:07:29.850 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:07:29] "GET /console/tag/2/edit HTTP/1.1 200 0" 0.003000 http://localhost:8080/console/tag Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:07:30.062 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:07:30] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000163 http://localhost:8080/console/tag/2/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:07:32.540 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 17:07:34.203 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:07:34] "GET /console/tag/2/edit HTTP/1.1 200 0" 0.004339 http://localhost:8080/console/tag Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:07:34.448 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:07:34] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000208 http://localhost:8080/console/tag/2/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:07:37.758 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:07:37] "PUT /console/tag HTTP/1.1 404 0" 0.000219 http://localhost:8080/console/tag/2/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:08:24.164 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 17:08:27.108 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:08:27] "GET /console/tag/2/edit HTTP/1.1 200 0" 0.004022 http://localhost:8080/console/tag Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:08:27.344 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:08:27] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000183 http://localhost:8080/console/tag/2/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:08:28.302 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:08:28] "GET /console/tag/2/edit HTTP/1.1 200 0" 0.003553 http://localhost:8080/console/tag Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:08:28.526 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:08:28] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000393 http://localhost:8080/console/tag/2/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:08:31.571 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:08:31] "PUT /console/tag/2 HTTP/1.1 302 0" 0.001586 http://localhost:8080/console/tag/2/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:08:31.583 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:08:31] "GET /console/tag HTTP/1.1 200 0" 0.003287 http://localhost:8080/console/tag/2/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:09:18.083 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 17:09:19.101 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:09:19] "GET /console/tag HTTP/1.1 200 0" 0.004326 http://localhost:8080/console/tag/2/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:09:19.410 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:09:19] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000197 http://localhost:8080/console/tag Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:09:21.097 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 17:09:25.840 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:09:25] "GET /console/tag/2/edit HTTP/1.1 200 0" 0.003810 http://localhost:8080/console/tag Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:09:31.747 [C] [asm_amd64.s:509] the request url is  /console/tag/2
+2018/04/20 17:09:31.747 [C] [asm_amd64.s:509] Handler crashed with error unknown field/column name `Id__neq`
+2018/04/20 17:09:31.747 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/20 17:09:31.747 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/20 17:09:31.747 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/orm/db_tables.go:368
+2018/04/20 17:09:31.747 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/orm/db.go:952
+2018/04/20 17:09:31.747 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/orm/orm_queryset.go:194
+2018/04/20 17:09:31.747 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/controllers/auth/tag_controller.go:122
+2018/04/20 17:09:31.747 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/20 17:09:31.747 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:434
+2018/04/20 17:09:31.747 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:302
+2018/04/20 17:09:31.747 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:847
+2018/04/20 17:09:31.747 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/20 17:09:31.747 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/20 17:09:31.747 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/20 17:13:12.834 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:13:12] "GET /console/tag/2/edit HTTP/1.1 200 0" 0.003581 http://localhost:8080/console/tag Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:13:13.082 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:13:13] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000183 http://localhost:8080/console/tag/2/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:13:13.204 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 17:13:14.409 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:13:14] "GET /console/tag/2/edit HTTP/1.1 200 0" 0.003631 http://localhost:8080/console/tag Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:13:14.635 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:13:14] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000185 http://localhost:8080/console/tag/2/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:13:16.369 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 17:13:21.587 [C] [asm_amd64.s:509] the request url is  /console/tag/2
+2018/04/20 17:13:21.587 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/tagcontroller/update.tpl
+2018/04/20 17:13:21.587 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/20 17:13:21.587 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/20 17:13:21.587 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/20 17:13:21.587 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/20 17:13:21.587 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/20 17:13:21.587 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/20 17:13:21.587 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/20 17:13:21.587 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/20 17:13:21.587 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/20 17:13:21.587 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/20 17:13:43.514 [C] [asm_amd64.s:509] the request url is  /console/tag/2
+2018/04/20 17:13:43.514 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/tagcontroller/update.tpl
+2018/04/20 17:13:43.514 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/20 17:13:43.514 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/20 17:13:43.514 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/20 17:13:43.514 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/20 17:13:43.514 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/20 17:13:43.514 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/20 17:13:43.514 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/20 17:13:43.514 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/20 17:13:43.514 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/20 17:13:43.514 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/20 17:15:48.154 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 17:15:51.161 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 17:15:52.906 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:15:52] "PUT /console/tag/2 HTTP/1.1 302 0" 0.003877 http://localhost:8080/console/tag/2/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:15:52.916 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:15:52] "GET /console/tag HTTP/1.1 200 0" 0.004273 http://localhost:8080/console/tag/2/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:15:56.007 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:15:56] "GET /console/tag/2/edit HTTP/1.1 200 0" 0.004023 http://localhost:8080/console/tag Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:16:25.347 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 17:16:27.184 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:16:27] "GET /console/tag/2/edit HTTP/1.1 200 0" 0.004306 http://localhost:8080/console/tag Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:16:27.519 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:16:27] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000193 http://localhost:8080/console/tag/2/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:16:28.417 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 17:18:21.623 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:18:21] "PUT /console/tag/2 HTTP/1.1 302 0" 0.003196 http://localhost:8080/console/tag/2/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:18:21.633 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:18:21] "GET /console/tag/2/edit HTTP/1.1 200 0" 0.002943 http://localhost:8080/console/tag/2/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:18:28.300 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:18:28] "PUT /console/tag/2 HTTP/1.1 302 0" 0.003163 http://localhost:8080/console/tag/2/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:18:28.310 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:18:28] "GET /console/tag/2/edit HTTP/1.1 200 0" 0.003520 http://localhost:8080/console/tag/2/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:18:35.591 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:18:35] "PUT /console/tag/2 HTTP/1.1 302 0" 0.004794 http://localhost:8080/console/tag/2/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:18:35.598 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:18:35] "GET /console/tag HTTP/1.1 200 0" 0.003133 http://localhost:8080/console/tag/2/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:18:41.956 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:18:41] "GET /console/tag?page=2 HTTP/1.1 200 0" 0.003243 http://localhost:8080/console/tag Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:18:42.620 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:18:42] "GET /console/tag?page=3 HTTP/1.1 200 0" 0.004256 http://localhost:8080/console/tag?page=2 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:18:43.351 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:18:43] "GET /console/tag?page=4 HTTP/1.1 200 0" 0.003841 http://localhost:8080/console/tag?page=3 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:18:43.981 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:18:43] "GET /console/tag?page=5 HTTP/1.1 200 0" 0.003457 http://localhost:8080/console/tag?page=4 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:18:44.691 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:18:44] "GET /console/tag?page=6 HTTP/1.1 200 0" 0.003848 http://localhost:8080/console/tag?page=5 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:18:46.041 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:18:46] "GET /console/tag?page=5 HTTP/1.1 200 0" 0.003101 http://localhost:8080/console/tag?page=6 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:18:46.749 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:18:46] "GET /console/tag?page=4 HTTP/1.1 200 0" 0.003197 http://localhost:8080/console/tag?page=5 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:18:47.290 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:18:47] "GET /console/tag?page=3 HTTP/1.1 200 0" 0.003674 http://localhost:8080/console/tag?page=4 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:18:47.596 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:18:47] "GET /console/tag?page=2 HTTP/1.1 200 0" 0.003665 http://localhost:8080/console/tag?page=3 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:18:48.010 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:18:48] "GET /console/tag?page=1 HTTP/1.1 200 0" 0.003501 http://localhost:8080/console/tag?page=2 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:27:21.343 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 17:27:23.264 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 17:27:24.269 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 17:28:54.269 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 17:29:14.210 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 17:29:16.013 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 17:29:17.035 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 17:29:20.305 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:29:20] "GET /console/tag?page=1 HTTP/1.1 200 0" 0.003986 http://localhost:8080/console/tag?page=2 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:29:20.628 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:29:20] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000230 http://localhost:8080/console/tag?page=1 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:29:24.786 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:29:24] "DELETE /console/tag/2 HTTP/1.1 302 0" 0.010512 http://localhost:8080/console/tag?page=1 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:29:24.793 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:29:24] "GET /console/tag HTTP/1.1 200 0" 0.003604 http://localhost:8080/console/tag?page=1 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:29:44.383 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:29:44] "GET /console/post HTTP/1.1 200 0" 0.046809 http://localhost:8080/console/tag Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:29:46.534 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:29:46] "GET /console/post/9/edit HTTP/1.1 200 0" 0.012212 http://localhost:8080/console/post Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:29:46.620 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:29:46] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000192 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:29:46.663 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:29:46] "GET /static/auth/images/loading@2x.gif HTTP/1.1 404 0" 0.000242 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:29:46.787 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:29:46] "GET /static/auth/images/loading@2x.gif HTTP/1.1 404 0" 0.000195 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:29:46.790 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:29:46] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.001009 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:29:51.912 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:29:51] "GET /console/tag HTTP/1.1 200 0" 0.003412 http://localhost:8080/console/post Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:29:53.590 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:29:53] "GET /console/tag?page=2 HTTP/1.1 200 0" 0.003489 http://localhost:8080/console/tag Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:29:54.805 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:29:54] "GET /console/tag?page=3 HTTP/1.1 200 0" 0.004532 http://localhost:8080/console/tag?page=2 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:29:56.212 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:29:56] "GET /console/tag?page=4 HTTP/1.1 200 0" 0.003949 http://localhost:8080/console/tag?page=3 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:29:58.212 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:29:58] "GET /console/tag?page=5 HTTP/1.1 200 0" 0.003089 http://localhost:8080/console/tag?page=4 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:30:00.004 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:29:59] "GET /console/tag?page=6 HTTP/1.1 200 0" 0.005023 http://localhost:8080/console/tag?page=5 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:30:01.173 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:30:01] "GET /console/tag?page=6 HTTP/1.1 200 0" 0.003479 http://localhost:8080/console/tag?page=6 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:30:04.210 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:30:04] "DELETE /console/tag/61 HTTP/1.1 302 0" 0.004650 http://localhost:8080/console/tag?page=6 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:30:04.219 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:30:04] "GET /console/tag HTTP/1.1 200 0" 0.003133 http://localhost:8080/console/tag?page=6 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:30:09.301 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:30:09] "GET /console/post HTTP/1.1 200 0" 0.044452 http://localhost:8080/console/tag Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:30:11.495 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:30:11] "GET /console/post/9/edit HTTP/1.1 200 0" 0.008829 http://localhost:8080/console/post Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:30:11.586 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:30:11] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000154 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:30:11.629 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:30:11] "GET /static/auth/images/loading@2x.gif HTTP/1.1 404 0" 0.000151 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:30:11.745 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:30:11] "GET /static/auth/images/loading@2x.gif HTTP/1.1 404 0" 0.000219 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:30:11.746 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:30:11] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000230 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:31:38.376 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 17:31:46.863 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:31:46] "GET /console/post HTTP/1.1 200 0" 0.049203 http://localhost:8080/console/tag Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:31:47.183 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:31:47] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000147 http://localhost:8080/console/post Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:31:49.605 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:31:49] "GET /console/post HTTP/1.1 200 0" 0.029361 http://localhost:8080/console/tag Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:31:49.852 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:31:49] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000063 http://localhost:8080/console/post Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:31:53.562 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:31:53] "GET /console/cate HTTP/1.1 200 0" 0.002824 http://localhost:8080/console/post Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:31:57.399 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:31:57] "GET /console/cate HTTP/1.1 200 0" 0.003721 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:32:00.540 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:32:00] "GET /console/tag HTTP/1.1 200 0" 0.004586 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 17:32:17.440 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 17:32:20.678 [D] [server.go:2619] ::1 - - [20/Apr/2018 05:32:20] "GET /console/link HTTP/1.1 200 0" 0.009171 http://localhost:8080/console/tag Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+

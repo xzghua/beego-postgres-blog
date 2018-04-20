@@ -63,12 +63,17 @@
                                     <td>{{$item.Name}}</td>
                                     <td>{{$item.TagNum}}</td>
                                     <td>
-                                        <button type="button" class="btn btn-info">
-                                            <span class="entypo-pencil"></span>&nbsp;&nbsp;Edit
-                                        </button>
-                                        <button type="button" class="btn btn-danger">
-                                            <span class="entypo-trash"></span>&nbsp;&nbsp;Delete
-                                        </button>
+                                        <form action="/console/tag/{{$item.Id}}" method="post">
+                                            {{ $.xsrfdata }}
+                                            <a href="/console/tag/{{$item.Id}}/edit">
+                                                <button type="button" class="btn btn-info">
+                                                    <span class="entypo-pencil"></span>&nbsp;&nbsp;Edit
+                                                </button>
+                                            </a>
+                                                <input type="hidden" name="_method" value="DELETE">
+                                                <button  style="margin-left:10px;" class=" btn btn-danger " title="标签删除">
+                                                    <span class="entypo-trash"></span>&nbsp;&nbsp;删除</button>
+                                        </form>
                                     </td>
                                 </tr>
                                 {{end}}

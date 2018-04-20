@@ -124,7 +124,7 @@ func DeleteCateById(cateId int64) {
 	o.Begin()
 	var postCateList []*models.ArticleCate
 	num,delPostCateErr := o.QueryTable(new(models.ArticleCate)).Filter("CateId",cateId).All(&postCateList)
-	
+
 	if num != 0 {
 		for _,v := range postCateList {
 			var postCateUpdate models.ArticleCate

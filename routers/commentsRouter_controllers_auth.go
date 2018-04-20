@@ -137,6 +137,30 @@ func init() {
 
 	beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:TagController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:TagController"],
 		beego.ControllerComments{
+			Method: "Update",
+			Router: `/console/tag/:id([0-9]+`,
+			AllowHTTPMethods: []string{"put"},
+			MethodParams: param.Make(),
+			Params: nil})
+
+	beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:TagController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:TagController"],
+		beego.ControllerComments{
+			Method: "Destroy",
+			Router: `/console/tag/:id([0-9]+`,
+			AllowHTTPMethods: []string{"delete"},
+			MethodParams: param.Make(),
+			Params: nil})
+
+	beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:TagController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:TagController"],
+		beego.ControllerComments{
+			Method: "Show",
+			Router: `/console/tag/:id([0-9]+/edit`,
+			AllowHTTPMethods: []string{"get"},
+			MethodParams: param.Make(),
+			Params: nil})
+
+	beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:TagController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:TagController"],
+		beego.ControllerComments{
 			Method: "GetTagByLike",
 			Router: `/console/tag/auto`,
 			AllowHTTPMethods: []string{"get"},

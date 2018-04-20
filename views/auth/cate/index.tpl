@@ -69,7 +69,7 @@
                                                 </button>
                                             </a>
                                             <input type="hidden" name="_method" value="DELETE">
-                                            <button  style="margin-left:10px;" class=" btn btn-danger " title="文章删除">
+                                            <button  style="margin-left:10px;" class=" btn btn-danger " title="分类删除">
                                                 <span class="entypo-trash"></span>&nbsp;&nbsp;删除</button>
                                         </form>
                                     </td>

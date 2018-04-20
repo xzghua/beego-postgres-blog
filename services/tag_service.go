@@ -2,7 +2,7 @@ package services
 
 import (
 	"bee-go-myBlog/models"
-
+	"github.com/astaxie/beego/orm"
 )
 
 func GetAllMyTag(page int64) (interface{},error ){
@@ -44,4 +44,19 @@ func GetTagByLike(param string) (ml map[int64]string) {
 	}
 
 	return cate
+}
+
+func DeleteTag(tagId int64) (res bool) {
+	o := orm.NewOrm()
+	o.Begin()
+	_,delArtTagErr := o.Delete(&models.ArticleTag{TagId:tagId},"TagId")
+
+	_,err :=o.Delete(&models.Tags{Id:tagId})
+	if err ==nil && delArtTagErr == nil {
+		o.Commit()
+		return true
+	} else {
+		o.Rollback()
+		return false
+	}
 }
