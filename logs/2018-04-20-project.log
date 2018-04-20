@@ -1,0 +1,1046 @@
+2018/04/20 11:22:38.218 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 11:27:07.886 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 11:27:10.099 [D] [server.go:2619] ::1 - - [20/Apr/2018 11:27:10] "GET /console/post HTTP/1.1 200 0" 0.088209  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 11:27:28.023 [C] [asm_amd64.s:509] the request url is  /console/cate/test
+2018/04/20 11:27:28.023 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/catecontroller/catetest.tpl
+2018/04/20 11:27:28.023 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/20 11:27:28.023 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/20 11:27:28.023 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/20 11:27:28.023 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/20 11:27:28.023 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/20 11:27:28.023 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/20 11:27:28.023 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/20 11:27:28.023 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/20 11:27:28.023 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/20 11:27:28.023 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/20 11:27:28.284 [D] [server.go:2619] ::1 - - [20/Apr/2018 11:27:28] "GET /favicon.ico HTTP/1.1 404 0" 0.000234 http://localhost:8080/console/cate/test Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 11:27:57.771 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 11:28:00.854 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 11:28:02.724 [C] [asm_amd64.s:509] the request url is  /console/cate/test
+2018/04/20 11:28:02.724 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/catecontroller/catetest.tpl
+2018/04/20 11:28:02.724 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/20 11:28:02.724 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/20 11:28:02.724 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/20 11:28:02.724 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/20 11:28:02.724 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/20 11:28:02.724 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/20 11:28:02.724 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/20 11:28:02.724 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/20 11:28:02.724 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/20 11:28:02.724 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/20 11:28:16.622 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 11:28:20.144 [C] [asm_amd64.s:509] the request url is  /console/cate/test
+2018/04/20 11:28:20.144 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/catecontroller/catetest.tpl
+2018/04/20 11:28:20.144 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/20 11:28:20.144 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/20 11:28:20.144 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/20 11:28:20.144 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/20 11:28:20.144 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/20 11:28:20.144 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/20 11:28:20.144 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/20 11:28:20.145 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/20 11:28:20.145 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/20 11:28:20.145 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/20 11:29:27.715 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 11:29:30.501 [C] [asm_amd64.s:509] the request url is  /console/cate/test
+2018/04/20 11:29:30.501 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/catecontroller/catetest.tpl
+2018/04/20 11:29:30.501 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/20 11:29:30.501 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/20 11:29:30.501 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/20 11:29:30.501 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/20 11:29:30.501 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/20 11:29:30.501 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/20 11:29:30.501 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/20 11:29:30.501 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/20 11:29:30.501 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/20 11:29:30.501 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/20 11:33:51.407 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 11:33:56.234 [C] [asm_amd64.s:509] the request url is  /console/cate/test
+2018/04/20 11:33:56.234 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/catecontroller/catetest.tpl
+2018/04/20 11:33:56.234 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/20 11:33:56.234 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/20 11:33:56.234 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/20 11:33:56.234 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/20 11:33:56.234 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/20 11:33:56.234 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/20 11:33:56.234 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/20 11:33:56.234 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/20 11:33:56.234 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/20 11:33:56.234 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/20 11:34:08.774 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 11:34:11.768 [C] [asm_amd64.s:509] the request url is  /console/cate/test
+2018/04/20 11:34:11.768 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/catecontroller/catetest.tpl
+2018/04/20 11:34:11.768 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/20 11:34:11.768 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/20 11:34:11.768 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/20 11:34:11.768 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/20 11:34:11.768 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/20 11:34:11.768 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/20 11:34:11.768 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/20 11:34:11.768 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/20 11:34:11.768 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/20 11:34:11.768 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/20 11:59:23.335 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 11:59:26.314 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 11:59:27.298 [C] [asm_amd64.s:509] the request url is  /console/cate/test
+2018/04/20 11:59:27.298 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/catecontroller/catetest.tpl
+2018/04/20 11:59:27.298 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/20 11:59:27.298 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/20 11:59:27.298 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/20 11:59:27.298 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/20 11:59:27.298 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/20 11:59:27.298 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/20 11:59:27.298 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/20 11:59:27.298 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/20 11:59:27.298 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/20 11:59:27.298 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/20 12:00:29.186 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 12:07:07.478 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 12:07:10.373 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 12:07:16.077 [C] [asm_amd64.s:509] the request url is  /console/cate/test
+2018/04/20 12:07:16.077 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/catecontroller/catetest.tpl
+2018/04/20 12:07:16.077 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/20 12:07:16.077 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/20 12:07:16.077 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/20 12:07:16.077 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/20 12:07:16.077 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/20 12:07:16.077 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/20 12:07:16.077 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/20 12:07:16.077 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/20 12:07:16.077 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/20 12:07:16.077 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/20 12:08:34.591 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 12:08:40.185 [C] [asm_amd64.s:509] the request url is  /console/cate/test
+2018/04/20 12:08:40.185 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/catecontroller/catetest.tpl
+2018/04/20 12:08:40.186 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/20 12:08:40.186 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/20 12:08:40.186 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/20 12:08:40.186 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/20 12:08:40.186 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/20 12:08:40.186 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/20 12:08:40.186 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/20 12:08:40.186 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/20 12:08:40.186 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/20 12:08:40.186 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/20 12:09:41.145 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 12:10:26.809 [C] [asm_amd64.s:509] the request url is  /console/cate/test
+2018/04/20 12:10:26.809 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/catecontroller/catetest.tpl
+2018/04/20 12:10:26.810 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/20 12:10:26.810 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/20 12:10:26.810 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/20 12:10:26.810 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/20 12:10:26.810 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/20 12:10:26.810 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/20 12:10:26.810 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/20 12:10:26.810 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/20 12:10:26.810 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/20 12:10:26.810 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/20 12:10:55.244 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 12:11:00.629 [C] [asm_amd64.s:509] the request url is  /console/cate/test
+2018/04/20 12:11:00.629 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/catecontroller/catetest.tpl
+2018/04/20 12:11:00.629 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/20 12:11:00.629 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/20 12:11:00.629 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/20 12:11:00.629 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/20 12:11:00.629 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/20 12:11:00.629 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/20 12:11:00.629 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/20 12:11:00.630 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/20 12:11:00.630 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/20 12:11:00.630 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/20 12:11:50.785 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 12:11:54.022 [C] [asm_amd64.s:509] the request url is  /console/cate/test
+2018/04/20 12:11:54.022 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/catecontroller/catetest.tpl
+2018/04/20 12:11:54.022 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/20 12:11:54.022 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/20 12:11:54.022 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/20 12:11:54.023 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/20 12:11:54.023 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/20 12:11:54.023 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/20 12:11:54.023 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/20 12:11:54.023 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/20 12:11:54.023 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/20 12:11:54.023 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/20 12:16:23.702 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 12:16:26.835 [C] [asm_amd64.s:509] the request url is  /console/cate/test
+2018/04/20 12:16:26.835 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/catecontroller/catetest.tpl
+2018/04/20 12:16:26.835 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/20 12:16:26.835 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/20 12:16:26.835 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/20 12:16:26.835 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/20 12:16:26.835 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/20 12:16:26.835 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/20 12:16:26.835 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/20 12:16:26.835 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/20 12:16:26.835 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/20 12:16:26.835 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/20 12:18:27.507 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 12:19:01.981 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 12:19:06.458 [C] [asm_amd64.s:509] the request url is  /console/cate/test
+2018/04/20 12:19:06.458 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/catecontroller/catetest.tpl
+2018/04/20 12:19:06.458 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/20 12:19:06.458 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/20 12:19:06.458 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/20 12:19:06.458 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/20 12:19:06.458 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/20 12:19:06.459 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/20 12:19:06.459 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/20 12:19:06.459 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/20 12:19:06.459 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/20 12:19:06.459 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/20 12:19:45.639 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 12:19:48.468 [C] [asm_amd64.s:509] the request url is  /console/cate/test
+2018/04/20 12:19:48.468 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/catecontroller/catetest.tpl
+2018/04/20 12:19:48.468 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/20 12:19:48.468 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/20 12:19:48.468 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/20 12:19:48.468 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/20 12:19:48.468 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/20 12:19:48.468 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/20 12:19:48.468 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/20 12:19:48.468 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/20 12:19:48.468 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/20 12:19:48.468 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/20 12:20:32.838 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 12:26:10.962 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 12:26:13.841 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 12:26:18.847 [C] [asm_amd64.s:509] the request url is  /console/cate/test
+2018/04/20 12:26:18.847 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/catecontroller/catetest.tpl
+2018/04/20 12:26:18.847 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/20 12:26:18.847 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/20 12:26:18.847 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/20 12:26:18.847 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/20 12:26:18.847 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/20 12:26:18.847 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/20 12:26:18.847 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/20 12:26:18.848 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/20 12:26:18.848 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/20 12:26:18.848 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/20 12:28:46.291 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 12:28:49.739 [C] [asm_amd64.s:509] the request url is  /console/cate/test
+2018/04/20 12:28:49.739 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/catecontroller/catetest.tpl
+2018/04/20 12:28:49.739 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/20 12:28:49.739 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/20 12:28:49.739 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/20 12:28:49.739 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/20 12:28:49.739 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/20 12:28:49.739 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/20 12:28:49.739 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/20 12:28:49.739 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/20 12:28:49.739 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/20 12:28:49.739 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/20 12:29:19.802 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 12:29:22.924 [C] [asm_amd64.s:509] the request url is  /console/cate/test
+2018/04/20 12:29:22.924 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/catecontroller/catetest.tpl
+2018/04/20 12:29:22.924 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/20 12:29:22.924 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/20 12:29:22.924 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/20 12:29:22.925 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/20 12:29:22.925 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/20 12:29:22.925 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/20 12:29:22.925 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/20 12:29:22.925 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/20 12:29:22.925 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/20 12:29:22.925 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/20 12:30:17.785 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 12:30:21.013 [C] [asm_amd64.s:509] the request url is  /console/cate/test
+2018/04/20 12:30:21.013 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/catecontroller/catetest.tpl
+2018/04/20 12:30:21.013 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/20 12:30:21.013 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/20 12:30:21.013 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/20 12:30:21.013 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/20 12:30:21.013 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/20 12:30:21.013 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/20 12:30:21.013 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/20 12:30:21.013 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/20 12:30:21.013 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/20 12:30:21.013 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/20 12:34:17.531 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 12:34:19.146 [C] [asm_amd64.s:509] the request url is  /console/cate/test
+2018/04/20 12:34:19.146 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/catecontroller/catetest.tpl
+2018/04/20 12:34:19.146 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/20 12:34:19.146 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/20 12:34:19.146 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/20 12:34:19.146 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/20 12:34:19.146 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/20 12:34:19.146 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/20 12:34:19.146 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/20 12:34:19.146 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/20 12:34:19.146 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/20 12:34:19.146 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/20 12:39:37.484 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 12:39:39.363 [C] [asm_amd64.s:509] the request url is  /console/cate/test
+2018/04/20 12:39:39.363 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/catecontroller/catetest.tpl
+2018/04/20 12:39:39.363 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/20 12:39:39.363 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/20 12:39:39.363 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/20 12:39:39.363 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/20 12:39:39.363 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/20 12:39:39.363 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/20 12:39:39.363 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/20 12:39:39.363 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/20 12:39:39.363 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/20 12:39:39.363 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/20 12:41:15.184 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 12:41:18.172 [C] [asm_amd64.s:509] the request url is  /console/cate/test
+2018/04/20 12:41:18.172 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/catecontroller/catetest.tpl
+2018/04/20 12:41:18.172 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/20 12:41:18.172 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/20 12:41:18.172 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/20 12:41:18.172 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/20 12:41:18.172 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/20 12:41:18.172 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/20 12:41:18.172 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/20 12:41:18.172 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/20 12:41:18.172 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/20 12:41:18.172 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/20 12:42:03.813 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 12:42:05.624 [C] [asm_amd64.s:509] the request url is  /console/cate/test
+2018/04/20 12:42:05.624 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/catecontroller/catetest.tpl
+2018/04/20 12:42:05.624 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/20 12:42:05.628 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/20 12:42:05.628 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/20 12:42:05.628 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/20 12:42:05.628 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/20 12:42:05.628 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/20 12:42:05.628 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/20 12:42:05.629 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/20 12:42:05.629 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/20 12:42:05.629 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/20 12:42:47.507 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 12:42:50.024 [C] [asm_amd64.s:509] the request url is  /console/cate/test
+2018/04/20 12:42:50.024 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/catecontroller/catetest.tpl
+2018/04/20 12:42:50.024 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/20 12:42:50.024 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/20 12:42:50.024 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/20 12:42:50.024 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/20 12:42:50.024 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/20 12:42:50.024 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/20 12:42:50.024 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/20 12:42:50.024 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/20 12:42:50.024 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/20 12:42:50.024 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/20 12:43:07.995 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 12:43:09.300 [C] [asm_amd64.s:509] the request url is  /console/cate/test
+2018/04/20 12:43:09.300 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/catecontroller/catetest.tpl
+2018/04/20 12:43:09.300 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/20 12:43:09.300 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/20 12:43:09.300 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/20 12:43:09.300 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/20 12:43:09.300 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/20 12:43:09.300 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/20 12:43:09.300 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/20 12:43:09.300 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/20 12:43:09.300 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/20 12:43:09.300 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/20 12:43:11.048 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 14:37:31.732 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 14:37:34.590 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 14:37:38.924 [C] [asm_amd64.s:509] the request url is  /console/cate/test
+2018/04/20 14:37:38.924 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/catecontroller/catetest.tpl
+2018/04/20 14:37:38.924 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/20 14:37:38.924 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/20 14:37:38.924 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/20 14:37:38.924 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/20 14:37:38.924 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/20 14:37:38.924 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/20 14:37:38.924 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/20 14:37:38.924 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/20 14:37:38.924 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/20 14:37:38.924 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/20 14:39:18.296 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 14:53:19.208 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 14:53:22.866 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:53:22] "GET /console/cate HTTP/1.1 200 0" 0.003620  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 14:53:27.380 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:53:27] "GET /console/cate/4/edit HTTP/1.1 200 0" 0.004562 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 14:53:27.471 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:53:27] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000258 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 14:53:27.617 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:53:27] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000186 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 14:53:35.699 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:53:35] "PUT /console/cate/4 HTTP/1.1 302 0" 0.009218 http://localhost:8080/console/cate/4/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 14:53:35.706 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:53:35] "GET /console/cate HTTP/1.1 200 0" 0.002842 http://localhost:8080/console/cate/4/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 14:54:38.659 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:54:38] "GET /console/cate HTTP/1.1 200 0" 0.003064 http://localhost:8080/console/cate/4/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 14:54:38.906 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:54:38] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000529 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 14:54:41.280 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 14:54:44.214 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 14:54:46.929 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:54:46] "GET /console/cate/4/edit HTTP/1.1 200 0" 0.005249 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 14:54:47.019 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:54:47] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000169 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 14:54:47.140 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:54:47] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000433 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 14:54:51.507 [C] [asm_amd64.s:509] the request url is  /console/cate/4
+2018/04/20 14:54:51.507 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/catecontroller/update.tpl
+2018/04/20 14:54:51.507 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/20 14:54:51.507 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/20 14:54:51.507 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/20 14:54:51.507 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/20 14:54:51.507 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/20 14:54:51.507 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/20 14:54:51.507 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/20 14:54:51.507 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/20 14:54:51.507 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/20 14:54:51.507 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/20 14:56:05.185 [C] [asm_amd64.s:509] the request url is  /console/cate/4
+2018/04/20 14:56:05.185 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/catecontroller/update.tpl
+2018/04/20 14:56:05.185 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/20 14:56:05.185 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/20 14:56:05.185 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/20 14:56:05.185 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/20 14:56:05.185 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/20 14:56:05.185 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/20 14:56:05.185 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/20 14:56:05.185 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/20 14:56:05.185 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/20 14:56:05.185 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/20 14:56:05.730 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 14:56:08.635 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 14:56:18.168 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:56:18] "GET /console/cate/4/edit HTTP/1.1 200 0" 0.005543 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 14:56:18.283 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:56:18] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000236 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 14:56:18.450 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:56:18] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000225 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 14:56:18.539 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:56:18] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000211 http://localhost:8080/console/cate/4/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 14:56:20.162 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 14:56:23.095 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 14:56:24.703 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:56:24] "PUT /console/cate/4 HTTP/1.1 302 0" 0.003682 http://localhost:8080/console/cate/4/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 14:56:24.712 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:56:24] "GET /console/cate/4/edit HTTP/1.1 200 0" 0.003839 http://localhost:8080/console/cate/4/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 14:56:24.800 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:56:24] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000360 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 14:56:24.931 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:56:24] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000197 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 14:56:28.491 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:56:28] "PUT /console/cate/4 HTTP/1.1 302 0" 0.011413 http://localhost:8080/console/cate/4/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 14:56:28.499 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:56:28] "GET /console/cate HTTP/1.1 200 0" 0.002881 http://localhost:8080/console/cate/4/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 14:56:30.981 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:56:30] "GET /console/cate/4/edit HTTP/1.1 200 0" 0.004026 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 14:56:31.067 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:56:31] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000202 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 14:56:31.186 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:56:31] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000216 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 14:56:39.024 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:56:39] "PUT /console/cate/4 HTTP/1.1 302 0" 0.011965 http://localhost:8080/console/cate/4/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 14:56:39.030 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:56:39] "GET /console/cate HTTP/1.1 200 0" 0.002351 http://localhost:8080/console/cate/4/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 14:57:37.285 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 14:57:42.286 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:57:42] "GET /console/cate HTTP/1.1 200 0" 0.003981 http://localhost:8080/console/cate/4/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 14:57:42.585 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:57:42] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000175 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 14:57:52.443 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:57:52] "GET /console/cate/4/edit HTTP/1.1 200 0" 0.004814 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 14:57:52.562 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:57:52] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000205 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 14:57:52.693 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:57:52] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000233 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 14:57:56.156 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:57:56] "PUT /console/cate/4 HTTP/1.1 302 0" 0.002841 http://localhost:8080/console/cate/4/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 14:57:56.166 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:57:56] "GET /console/cate/4/edit HTTP/1.1 200 0" 0.004454 http://localhost:8080/console/cate/4/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 14:57:56.259 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:57:56] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000161 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 14:57:56.384 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:57:56] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000245 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 14:58:04.628 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:58:04] "PUT /console/cate/4 HTTP/1.1 302 0" 0.002770 http://localhost:8080/console/cate/4/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 14:58:04.638 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:58:04] "GET /console/cate/4/edit HTTP/1.1 200 0" 0.004397 http://localhost:8080/console/cate/4/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 14:58:04.721 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:58:04] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000153 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 14:58:04.846 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:58:04] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000257 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 14:58:09.248 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:58:09] "PUT /console/cate/4 HTTP/1.1 302 0" 0.011259 http://localhost:8080/console/cate/4/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 14:58:09.256 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:58:09] "GET /console/cate HTTP/1.1 200 0" 0.003077 http://localhost:8080/console/cate/4/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 14:58:11.589 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:58:11] "GET /console/cate/5/edit HTTP/1.1 200 0" 0.003661 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 14:58:11.678 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:58:11] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000153 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 14:58:11.807 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:58:11] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000208 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 14:59:17.042 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:59:17] "GET /console/cate/6/edit HTTP/1.1 200 0" 0.004057 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 14:59:17.179 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:59:17] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000247 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 14:59:17.350 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:59:17] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000243 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 14:59:18.156 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 14:59:18.845 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:59:18] "PUT /console/cate/6 HTTP/1.1 302 0" 0.004976 http://localhost:8080/console/cate/6/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 14:59:18.851 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:59:18] "GET /console/cate HTTP/1.1 200 0" 0.003024 http://localhost:8080/console/cate/6/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 14:59:29.331 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:59:29] "GET /console/cate/6/edit HTTP/1.1 200 0" 0.004437 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 14:59:29.448 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:59:29] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000204 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 14:59:29.600 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:59:29] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000177 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 14:59:34.239 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:59:34] "PUT /console/cate/6 HTTP/1.1 302 0" 0.007250 http://localhost:8080/console/cate/6/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 14:59:34.246 [D] [server.go:2619] ::1 - - [20/Apr/2018 02:59:34] "GET /console/cate HTTP/1.1 200 0" 0.002777 http://localhost:8080/console/cate/6/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:01:14.404 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 15:01:20.911 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:01:20] "GET /console/cate HTTP/1.1 200 0" 0.003376 http://localhost:8080/console/cate/6/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:01:21.199 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:01:21] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000218 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:01:22.529 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:01:22] "GET /console/cate/6/edit HTTP/1.1 200 0" 0.004491 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:01:22.624 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:01:22] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000186 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:01:22.751 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:01:22] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000360 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:01:25.755 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:01:25] "PUT /console/cate/6 HTTP/1.1 302 0" 0.009684 http://localhost:8080/console/cate/6/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:01:25.761 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:01:25] "GET /console/cate HTTP/1.1 200 0" 0.002296 http://localhost:8080/console/cate/6/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:01:56.812 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 15:02:05.085 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:02:05] "GET /console/cate HTTP/1.1 200 0" 0.003647 http://localhost:8080/console/cate/6/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:02:05.403 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:02:05] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000222 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:02:06.596 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:02:06] "GET /console/cate/6/edit HTTP/1.1 200 0" 0.004950 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:02:06.682 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:02:06] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000171 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:02:06.805 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:02:06] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000286 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:02:12.089 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:02:12] "PUT /console/cate/6 HTTP/1.1 302 0" 0.006650 http://localhost:8080/console/cate/6/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:02:12.096 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:02:12] "GET /console/cate HTTP/1.1 200 0" 0.002339 http://localhost:8080/console/cate/6/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:02:46.144 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 15:02:51.044 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:02:51] "GET /console/cate HTTP/1.1 200 0" 0.003877 http://localhost:8080/console/cate/6/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:02:51.337 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:02:51] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000161 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:02:53.924 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:02:53] "GET /console/cate/6/edit HTTP/1.1 200 0" 0.004740 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:02:54.011 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:02:54] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000242 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:02:54.135 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:02:54] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000177 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:02:57.041 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:02:57] "PUT /console/cate/6 HTTP/1.1 302 0" 0.001727 http://localhost:8080/console/cate/6/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:02:57.054 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:02:57] "GET /console/cate/6/edit HTTP/1.1 200 0" 0.004265 http://localhost:8080/console/cate/6/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:02:57.143 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:02:57] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000180 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:02:57.281 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:02:57] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000293 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:03:00.745 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:03:00] "PUT /console/cate/6 HTTP/1.1 302 0" 0.004726 http://localhost:8080/console/cate/6/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:03:00.752 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:03:00] "GET /console/cate HTTP/1.1 200 0" 0.003182 http://localhost:8080/console/cate/6/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:12:14.981 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 15:12:16.652 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 15:12:17.629 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 15:14:12.218 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 15:16:00.176 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:16:00] "GET /console/cate HTTP/1.1 200 0" 0.003749 http://localhost:8080/console/cate/6/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:16:00.497 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:16:00] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000158 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:16:07.757 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:16:07] "GET /console/cate/6/edit HTTP/1.1 200 0" 0.005232 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:16:07.842 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:16:07] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000158 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:16:07.962 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:16:07] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000174 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:16:37.118 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 15:16:42.568 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:16:42] "GET /console/cate HTTP/1.1 200 0" 0.004261 http://localhost:8080/console/cate/6/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:16:42.854 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:16:42] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000155 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:16:44.183 [C] [asm_amd64.s:509] the request url is  /console/cate/6
+2018/04/20 15:16:44.183 [C] [asm_amd64.s:509] Handler crashed with error '_xsrf' argument missing from POST
+2018/04/20 15:16:44.183 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/20 15:16:44.183 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/20 15:16:44.183 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/context/context.go:80
+2018/04/20 15:16:44.183 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/context/context.go:164
+2018/04/20 15:16:44.183 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:649
+2018/04/20 15:16:44.183 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:819
+2018/04/20 15:16:44.183 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/20 15:16:44.183 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/20 15:16:44.183 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/20 15:17:01.939 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:17:01] "GET /console/cate HTTP/1.1 200 0" 0.003767 http://localhost:8080/console/cate/6/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:17:02.166 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:17:02] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000055 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:17:02.830 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:17:02] "GET /console/cate HTTP/1.1 200 0" 0.002556 http://localhost:8080/console/cate/6/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:17:03.046 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:17:03] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000076 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:17:03.356 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:17:03] "GET /console/cate HTTP/1.1 200 0" 0.002715 http://localhost:8080/console/cate/6/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:17:03.564 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:17:03] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000056 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:17:03.590 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:17:03] "GET /console/cate HTTP/1.1 200 0" 0.006066 http://localhost:8080/console/cate/6/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:17:03.807 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:17:03] "GET /console/cate HTTP/1.1 200 0" 0.003966 http://localhost:8080/console/cate/6/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:17:04.029 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:17:04] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000067 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:17:07.863 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 15:17:13.959 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:17:13] "GET /console/cate HTTP/1.1 200 0" 0.004867 http://localhost:8080/console/cate/6/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:17:14.174 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:17:14] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000148 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:17:15.559 [C] [asm_amd64.s:509] the request url is  /console/cate/6
+2018/04/20 15:17:15.559 [C] [asm_amd64.s:509] Handler crashed with error '_xsrf' argument missing from POST
+2018/04/20 15:17:15.559 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/20 15:17:15.559 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/20 15:17:15.559 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/context/context.go:80
+2018/04/20 15:17:15.559 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/context/context.go:164
+2018/04/20 15:17:15.559 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:649
+2018/04/20 15:17:15.559 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:819
+2018/04/20 15:17:15.559 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/20 15:17:15.559 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/20 15:17:15.559 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/20 15:17:31.907 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 15:18:49.026 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 15:18:51.944 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 15:18:56.516 [C] [asm_amd64.s:509] the request url is  /console/cate/6
+2018/04/20 15:18:56.516 [C] [asm_amd64.s:509] Handler crashed with error '_xsrf' argument missing from POST
+2018/04/20 15:18:56.516 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/20 15:18:56.516 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/20 15:18:56.516 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/context/context.go:80
+2018/04/20 15:18:56.516 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/context/context.go:164
+2018/04/20 15:18:56.516 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:649
+2018/04/20 15:18:56.516 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:819
+2018/04/20 15:18:56.516 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/20 15:18:56.516 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/20 15:18:56.516 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/20 15:18:59.695 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:18:59] "GET /console/cate HTTP/1.1 200 0" 0.003268 http://localhost:8080/console/cate/6/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:18:59.896 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:18:59] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000355 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:19:03.409 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 15:19:03.867 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:19:03] "GET /console/cate HTTP/1.1 200 0" 0.003896 http://localhost:8080/console/cate/6/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:19:04.082 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:19:04] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000170 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:19:40.184 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:19:40] "GET /console/cate HTTP/1.1 200 0" 0.004106 http://localhost:8080/console/cate/6/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:19:40.481 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:19:40] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000052 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:20:01.957 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:20:01] "DELETE /console/cate/6 HTTP/1.1 302 0" 0.001789 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:20:01.964 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:20:01] "GET /console/cate HTTP/1.1 200 0" 0.002633 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:20:36.703 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 15:20:39.672 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 15:21:01.141 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:21:01] "DELETE /console/cate/6 HTTP/1.1 302 0" 0.018573 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:21:01.161 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:21:01] "GET /console/cate HTTP/1.1 200 0" 0.002637 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:21:26.282 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:21:26] "GET /console/cate/create HTTP/1.1 200 0" 0.003550 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:21:26.412 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:21:26] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000221 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:21:26.577 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:21:26] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000256 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:21:37.473 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:21:37] "POST /console/cate HTTP/1.1 302 0" 0.005248 http://localhost:8080/console/cate/create Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:21:37.480 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:21:37] "GET /console/cate HTTP/1.1 200 0" 0.002656 http://localhost:8080/console/cate/create Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:21:43.697 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:21:43] "GET /console/post/create HTTP/1.1 200 0" 0.002589 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:21:43.789 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:21:43] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000178 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:21:43.839 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:21:43] "GET /static/auth/images/loading@2x.gif HTTP/1.1 404 0" 0.000200 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:21:43.936 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:21:43] "GET /static/auth/images/loading@2x.gif HTTP/1.1 404 0" 0.000247 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:21:43.938 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:21:43] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000209 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:21:56.151 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:21:56] "GET /console/tag/auto?term=vue HTTP/1.1 200 0" 0.007067 http://localhost:8080/console/post/create Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:21:58.185 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:21:58] "GET /console/tag/auto?term=vuex HTTP/1.1 200 0" 0.001912 http://localhost:8080/console/post/create Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:22:01.563 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:22:01] "GET /console/tag/auto?term=no%27de%27j HTTP/1.1 200 0" 0.001167 http://localhost:8080/console/post/create Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:22:10.718 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:22:10] "POST /console/post HTTP/1.1 302 0" 0.030839 http://localhost:8080/console/post/create Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:22:10.747 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:22:10] "GET /console/post HTTP/1.1 200 0" 0.025546 http://localhost:8080/console/post/create Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:22:51.734 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:22:51] "DELETE /console/post/9 HTTP/1.1 302 0" 0.009002 http://localhost:8080/console/post Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:22:51.775 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:22:51] "GET /console/post HTTP/1.1 200 0" 0.037947 http://localhost:8080/console/post Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:22:57.316 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:22:57] "GET /console/cate HTTP/1.1 200 0" 0.002908 http://localhost:8080/console/post Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:23:10.787 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:23:10] "DELETE /console/cate/7 HTTP/1.1 302 0" 0.005635 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:23:10.794 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:23:10] "GET /console/cate HTTP/1.1 200 0" 0.002412 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:23:45.695 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:23:45] "GET /console/cate HTTP/1.1 200 0" 0.003133 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:23:45.985 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:23:45] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000216 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:28:26.449 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 15:29:14.224 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:29:14] "GET /console/cate HTTP/1.1 200 0" 0.006680 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:29:14.514 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:29:14] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000249 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:30:06.032 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 15:30:09.644 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:30:09] "GET /console/cate HTTP/1.1 200 0" 0.004681 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:30:09.953 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:30:09] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000147 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:31:50.124 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:31:50] "GET /console/cate HTTP/1.1 200 0" 0.011963 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:31:50.441 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:31:50] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000065 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:31:52.515 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 15:31:58.715 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:31:58] "DELETE /console/cate/5 HTTP/1.1 302 0" 0.018891 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:31:58.729 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:31:58] "GET /console/cate HTTP/1.1 200 0" 0.002869 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:32:55.941 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 15:32:57.248 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:32:57] "GET /console/cate/7 HTTP/1.1 404 0" 0.000295  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:32:58.479 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:32:58] "GET /console/cate/7 HTTP/1.1 404 0" 0.000201  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:32:59.196 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:32:59] "GET /console/cate/7 HTTP/1.1 404 0" 0.000197  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:33:02.499 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:33:02] "GET /console/cate HTTP/1.1 200 0" 0.003318 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:33:02.713 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:33:02] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000245 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:34:24.346 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:34:24] "GET /console/cate HTTP/1.1 200 0" 0.008211 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:34:24.661 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:34:24] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000054 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:34:25.386 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:34:25] "GET /console/cate HTTP/1.1 200 0" 0.002635 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:34:25.607 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:34:25] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000104 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:34:42.244 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:34:42] "GET /console/post HTTP/1.1 200 0" 0.039580 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:34:47.516 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:34:47] "GET /console/post/4/edit HTTP/1.1 200 0" 0.012522 http://localhost:8080/console/post Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:34:47.607 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:34:47] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000164 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:34:47.651 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:34:47] "GET /static/auth/images/loading@2x.gif HTTP/1.1 404 0" 0.000181 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:34:47.753 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:34:47] "GET /static/auth/images/loading@2x.gif HTTP/1.1 404 0" 0.000161 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:34:47.756 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:34:47] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000249 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:34:51.349 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:34:51] "PUT /console/post/4 HTTP/1.1 302 0" 0.048926 http://localhost:8080/console/post/4/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:34:51.383 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:34:51] "GET /console/post HTTP/1.1 200 0" 0.030874 http://localhost:8080/console/post/4/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:34:55.008 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:34:55] "GET /console/cate HTTP/1.1 200 0" 0.002758 http://localhost:8080/console/post Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:35:50.869 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:35:50] "GET /console/post HTTP/1.1 200 0" 0.051062 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:35:54.426 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:35:54] "GET /console/post/6/edit HTTP/1.1 200 0" 0.018147 http://localhost:8080/console/post Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:35:54.523 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:35:54] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000192 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:35:54.571 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:35:54] "GET /static/auth/images/loading@2x.gif HTTP/1.1 404 0" 0.000189 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:35:54.670 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:35:54] "GET /static/auth/images/loading@2x.gif HTTP/1.1 404 0" 0.000204 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:35:54.671 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:35:54] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000274 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:35:59.034 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:35:58] "PUT /console/post/6 HTTP/1.1 302 0" 0.088078 http://localhost:8080/console/post/6/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:35:59.073 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:35:59] "GET /console/post HTTP/1.1 200 0" 0.035299 http://localhost:8080/console/post/6/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:36:41.009 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:36:41] "GET /console/cate HTTP/1.1 200 0" 0.002708 http://localhost:8080/console/post Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:37:21.443 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 15:37:23.554 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:37:23] "GET /console/cate/3 HTTP/1.1 404 0" 0.000511  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:37:26.112 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:37:26] "GET /console/cate HTTP/1.1 200 0" 0.003627 http://localhost:8080/console/post Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:37:26.315 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:37:26] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000182 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:37:33.418 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:37:33] "DELETE /console/cate/7 HTTP/1.1 302 0" 0.009590 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:37:33.425 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:37:33] "GET /console/cate HTTP/1.1 200 0" 0.002554 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:38:10.957 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 15:38:21.483 [C] [asm_amd64.s:509] the request url is  /console/cate/3
+2018/04/20 15:38:21.483 [C] [asm_amd64.s:509] Handler crashed with error XSRF cookie does not match POST argument
+2018/04/20 15:38:21.483 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/20 15:38:21.483 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/20 15:38:21.483 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/context/context.go:80
+2018/04/20 15:38:21.483 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/context/context.go:168
+2018/04/20 15:38:21.483 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:649
+2018/04/20 15:38:21.483 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:819
+2018/04/20 15:38:21.483 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/20 15:38:21.483 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/20 15:38:21.483 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/20 15:38:28.457 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:38:28] "GET /console/cate HTTP/1.1 200 0" 0.003564 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:38:28.665 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:38:28] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000151 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:38:29.227 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:38:29] "GET /console/cate HTTP/1.1 200 0" 0.003805 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:38:29.432 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:38:29] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000086 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:41:46.919 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 15:41:54.157 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:41:54] "GET /console/cate HTTP/1.1 200 0" 0.003436 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:41:54.369 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:41:54] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000157 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:51:45.318 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:51:45] "GET /console/cate HTTP/1.1 200 0" 0.010286 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:51:45.605 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:51:45] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000094 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:51:50.351 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:51:50] "DELETE /console/cate/4 HTTP/1.1 302 0" 0.017716 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:51:50.363 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:51:50] "GET /console/cate HTTP/1.1 200 0" 0.002615 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:53:09.516 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 15:53:14.360 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:53:14] "GET /console/cate HTTP/1.1 200 0" 0.004361 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:53:14.612 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:53:14] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000136 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:53:17.734 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:53:17] "DELETE /console/cate/3 HTTP/1.1 302 0" 0.011249 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:53:17.741 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:53:17] "GET /console/cate HTTP/1.1 200 0" 0.002810 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:53:41.355 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 15:56:38.032 [D] [server.go:2619] ::1 - - [20/Apr/2018 03:56:37] "GET /console/post HTTP/1.1 200 0" 0.044105 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 15:56:42.962 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 16:01:02.302 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:01:02] "GET /console/cate/create HTTP/1.1 200 0" 0.003834 http://localhost:8080/console/post Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:01:02.325 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:01:02] "GET /static/auth/js/admin.create.js HTTP/1.1 304 0" 0.000510 http://localhost:8080/console/cate/create Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:01:02.419 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:01:02] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000190 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:01:02.586 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:01:02] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000241 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:01:03.212 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 16:01:09.877 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:01:09] "POST /console/cate HTTP/1.1 302 0" 0.004414 http://localhost:8080/console/cate/create Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:01:09.884 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:01:09] "GET /console/cate HTTP/1.1 200 0" 0.002701 http://localhost:8080/console/cate/create Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:01:12.944 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:01:12] "GET /console/cate/create HTTP/1.1 200 0" 0.002326 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:01:13.023 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:01:13] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000163 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:01:13.126 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:01:13] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000196 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:01:26.125 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:01:26] "POST /console/cate HTTP/1.1 302 0" 0.007359 http://localhost:8080/console/cate/create Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:01:26.132 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:01:26] "GET /console/cate HTTP/1.1 200 0" 0.003239 http://localhost:8080/console/cate/create Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:01:29.311 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:01:29] "GET /console/cate/create HTTP/1.1 200 0" 0.002449 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:01:29.406 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:01:29] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000171 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:01:29.533 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:01:29] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000200 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:01:35.075 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:01:35] "POST /console/cate HTTP/1.1 302 0" 0.004037 http://localhost:8080/console/cate/create Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:01:35.082 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:01:35] "GET /console/cate HTTP/1.1 200 0" 0.002806 http://localhost:8080/console/cate/create Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:01:36.290 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:01:36] "GET /console/post HTTP/1.1 200 0" 0.047378 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:01:37.883 [C] [asm_amd64.s:509] the request url is  /console/post/9/edit
+2018/04/20 16:01:37.883 [C] [asm_amd64.s:509] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2018/04/20 16:01:37.883 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/20 16:01:37.883 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/20 16:01:37.883 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:63
+2018/04/20 16:01:37.883 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/signal_unix.go:367
+2018/04/20 16:01:37.883 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/controllers/auth/post_controller.go:117
+2018/04/20 16:01:37.883 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/20 16:01:37.883 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:434
+2018/04/20 16:01:37.883 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:302
+2018/04/20 16:01:37.883 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:847
+2018/04/20 16:01:37.883 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/20 16:01:37.883 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/20 16:01:37.883 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/20 16:02:49.819 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:02:49] "GET /console/cate HTTP/1.1 200 0" 0.002774 http://localhost:8080/console/post Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:03:01.780 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:03:01] "GET /console/post HTTP/1.1 200 0" 0.050695 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:03:03.314 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:03:03] "GET /console/post HTTP/1.1 200 0" 0.038390 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:03:03.535 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:03:03] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000162 http://localhost:8080/console/post Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:03:08.811 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:03:08] "GET /console/cate HTTP/1.1 200 0" 0.003309 http://localhost:8080/console/post Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:03:10.928 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:03:10] "DELETE /console/cate/10 HTTP/1.1 302 0" 0.006972 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:03:10.935 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:03:10] "GET /console/cate HTTP/1.1 200 0" 0.002868 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:03:42.308 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:03:42] "GET /console/post HTTP/1.1 200 0" 0.042181 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:03:45.125 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:03:45] "GET /console/cate HTTP/1.1 200 0" 0.003124 http://localhost:8080/console/post Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:05:27.669 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 16:05:30.942 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:05:30] "DELETE /console/cate/10 HTTP/1.1 302 0" 0.006470 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:05:30.949 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:05:30] "GET /console/cate HTTP/1.1 200 0" 0.002985 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:06:21.083 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 16:06:25.763 [C] [asm_amd64.s:509] the request url is  /console/cate/10
+2018/04/20 16:06:25.763 [C] [asm_amd64.s:509] Handler crashed with error <Ormer> cannot use non-ptr model struct `bee-go-myBlog/models.ArticleCate`
+2018/04/20 16:06:25.763 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/20 16:06:25.763 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/20 16:06:25.763 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/orm/orm.go:104
+2018/04/20 16:06:25.764 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/orm/orm.go:232
+2018/04/20 16:06:25.764 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/services/cate_service.go:132
+2018/04/20 16:06:25.764 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/controllers/auth/cate_controller.go:149
+2018/04/20 16:06:25.764 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/20 16:06:25.764 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:434
+2018/04/20 16:06:25.764 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:302
+2018/04/20 16:06:25.764 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:847
+2018/04/20 16:06:25.764 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/20 16:06:25.764 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/20 16:06:25.764 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/20 16:08:01.063 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:08:01] "GET /console/cate HTTP/1.1 200 0" 0.008165 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:08:01.321 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:08:01] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000200 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:08:01.785 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 16:08:17.243 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:08:17] "GET /console/cate HTTP/1.1 200 0" 0.004444 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:08:17.542 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:08:17] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000162 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:08:21.556 [C] [asm_amd64.s:509] the request url is  /console/cate/10
+2018/04/20 16:08:21.556 [C] [asm_amd64.s:509] Handler crashed with error <Ormer> cannot use non-ptr model struct `bee-go-myBlog/models.ArticleCate`
+2018/04/20 16:08:21.556 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/20 16:08:21.556 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/20 16:08:21.556 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/orm/orm.go:104
+2018/04/20 16:08:21.556 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/orm/orm.go:232
+2018/04/20 16:08:21.556 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/services/cate_service.go:134
+2018/04/20 16:08:21.556 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/controllers/auth/cate_controller.go:149
+2018/04/20 16:08:21.556 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/20 16:08:21.556 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:434
+2018/04/20 16:08:21.556 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:302
+2018/04/20 16:08:21.556 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:847
+2018/04/20 16:08:21.556 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/20 16:08:21.556 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/20 16:08:21.556 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/20 16:09:10.402 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 16:09:13.958 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:09:13] "GET /console/cate HTTP/1.1 200 0" 0.003506 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:09:14.188 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:09:14] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000148 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:09:17.040 [C] [asm_amd64.s:509] the request url is  /console/cate/10
+2018/04/20 16:09:17.040 [C] [asm_amd64.s:509] Handler crashed with error <Ormer> cannot use non-ptr model struct `bee-go-myBlog/models.ArticleCate`
+2018/04/20 16:09:17.040 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/20 16:09:17.040 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/20 16:09:17.040 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/orm/orm.go:104
+2018/04/20 16:09:17.040 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/orm/orm.go:232
+2018/04/20 16:09:17.040 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/services/cate_service.go:135
+2018/04/20 16:09:17.040 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/controllers/auth/cate_controller.go:149
+2018/04/20 16:09:17.040 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/20 16:09:17.040 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:434
+2018/04/20 16:09:17.040 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:302
+2018/04/20 16:09:17.040 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:847
+2018/04/20 16:09:17.040 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/20 16:09:17.040 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/20 16:09:17.040 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/20 16:09:36.312 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 16:09:49.023 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 16:09:52.459 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:09:52] "GET /console/cate HTTP/1.1 200 0" 0.005119 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:09:52.674 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:09:52] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000165 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:09:53.961 [C] [asm_amd64.s:509] the request url is  /console/cate/10
+2018/04/20 16:09:53.961 [C] [asm_amd64.s:509] Handler crashed with error <Ormer> cannot use non-ptr model struct `bee-go-myBlog/models.ArticleCate`
+2018/04/20 16:09:53.961 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/20 16:09:53.961 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/20 16:09:53.961 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/orm/orm.go:104
+2018/04/20 16:09:53.961 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/orm/orm.go:232
+2018/04/20 16:09:53.961 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/services/cate_service.go:137
+2018/04/20 16:09:53.961 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/controllers/auth/cate_controller.go:149
+2018/04/20 16:09:53.961 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/20 16:09:53.961 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:434
+2018/04/20 16:09:53.962 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:302
+2018/04/20 16:09:53.962 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:847
+2018/04/20 16:09:53.962 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/20 16:09:53.962 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/20 16:09:53.962 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/20 16:10:23.904 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 16:10:24.874 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:10:24] "GET /console/cate HTTP/1.1 200 0" 0.003409 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:10:25.086 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:10:25] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000138 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:10:31.572 [C] [asm_amd64.s:509] the request url is  /console/cate/10
+2018/04/20 16:10:31.572 [C] [asm_amd64.s:509] Handler crashed with error <Ormer> cannot use non-ptr model struct `bee-go-myBlog/models.ArticleCate`
+2018/04/20 16:10:31.572 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/20 16:10:31.572 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/20 16:10:31.572 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/orm/orm.go:104
+2018/04/20 16:10:31.572 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/orm/orm.go:232
+2018/04/20 16:10:31.572 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/services/cate_service.go:137
+2018/04/20 16:10:31.572 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/controllers/auth/cate_controller.go:149
+2018/04/20 16:10:31.572 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/20 16:10:31.572 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:434
+2018/04/20 16:10:31.572 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:302
+2018/04/20 16:10:31.572 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:847
+2018/04/20 16:10:31.572 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/20 16:10:31.572 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/20 16:10:31.572 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/20 16:11:18.277 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 16:12:14.477 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 16:12:20.368 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:12:20] "GET /console/cate HTTP/1.1 200 0" 0.003471 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:12:20.588 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:12:20] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000180 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:12:23.645 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:12:23] "DELETE /console/cate/10 HTTP/1.1 302 0" 0.007912 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:12:23.664 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:12:23] "GET /console/cate HTTP/1.1 200 0" 0.004301 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:13:35.246 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:13:35] "GET /console/post HTTP/1.1 200 0" 0.049458 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:13:37.319 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 16:37:18.620 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 16:37:30.072 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:37:30] "GET /console/post/9/edit HTTP/1.1 200 0" 0.011938 http://localhost:8080/console/post Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:37:30.194 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:37:30] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000177 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:37:30.254 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:37:30] "GET /static/auth/images/loading@2x.gif HTTP/1.1 404 0" 0.000163 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:37:30.368 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:37:30] "GET /static/auth/images/loading@2x.gif HTTP/1.1 404 0" 0.000196 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:37:30.371 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:37:30] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000267 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:37:34.916 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:37:34] "PUT /console/post/9 HTTP/1.1 302 0" 0.042455 http://localhost:8080/console/post/9/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:37:34.947 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:37:34] "GET /console/post HTTP/1.1 200 0" 0.026457 http://localhost:8080/console/post/9/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:37:36.665 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:37:36] "GET /console/post/8/edit HTTP/1.1 200 0" 0.012281 http://localhost:8080/console/post Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:37:36.765 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:37:36] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000167 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:37:36.807 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:37:36] "GET /static/auth/images/loading@2x.gif HTTP/1.1 404 0" 0.000219 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:37:36.909 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:37:36] "GET /static/auth/images/loading@2x.gif HTTP/1.1 404 0" 0.000211 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:37:36.912 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:37:36] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000324 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:37:40.546 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:37:40] "PUT /console/post/8 HTTP/1.1 302 0" 0.051520 http://localhost:8080/console/post/8/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:37:40.578 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:37:40] "GET /console/post HTTP/1.1 200 0" 0.028553 http://localhost:8080/console/post/8/edit Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:37:45.262 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:37:45] "GET /console/cate HTTP/1.1 200 0" 0.002971 http://localhost:8080/console/post Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:37:47.367 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:37:47] "DELETE /console/cate/9 HTTP/1.1 302 0" 0.014622 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:37:47.391 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:37:47] "GET /console/cate HTTP/1.1 200 0" 0.003077 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 16:37:49.659 [D] [server.go:2619] ::1 - - [20/Apr/2018 04:37:49] "GET /console/post HTTP/1.1 200 0" 0.047121 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+

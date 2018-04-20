@@ -61,14 +61,17 @@
                                     <td>{{str2html $item.html}}{{$item.DisplayName}}</td>
                                     <td>{{$item.CreatedAt}}</td>
                                     <td>
-                                        <a href="/console/cate/{{$item.Id}}/edit">
-                                            <button type="button" class="btn btn-info">
-                                                <span class="entypo-pencil"></span>&nbsp;&nbsp;Edit
-                                            </button>
-                                        </a>
-                                        <button type="button" class="btn btn-danger">
-                                            <span class="entypo-trash"></span>&nbsp;&nbsp;Delete
-                                        </button>
+                                        <form action="/console/cate/{{$item.Id}}" method="post">
+                                        {{ $.xsrfdata }}
+                                            <a href="/console/cate/{{$item.Id}}/edit">
+                                                <button type="button" class="btn btn-info">
+                                                    <span class="entypo-pencil"></span>&nbsp;&nbsp;Edit
+                                                </button>
+                                            </a>
+                                            <input type="hidden" name="_method" value="DELETE">
+                                            <button  style="margin-left:10px;" class=" btn btn-danger " title="文章删除">
+                                                <span class="entypo-trash"></span>&nbsp;&nbsp;删除</button>
+                                        </form>
                                     </td>
                                 </tr>
                                 {{end}}

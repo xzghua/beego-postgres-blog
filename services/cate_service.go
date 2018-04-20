@@ -88,20 +88,61 @@ func tree(cate []interface{}, parent int64, level int64,key int64) ([]interface{
 	return data
 }
 
-func GetSimilar(beginId int64) {
-	o := orm.NewOrm()
-	cates := models.Categories{ParentId:beginId}
-	err := o.Read(&cates,"ParentId")
-	if err != nil {
-		return
+func GetSimilar(beginId []int64,resIds []int64,level int) (beginId2 []int64,resIds2 []int64,level2 int) {
+	if len(beginId) != 0 {
+		o := orm.NewOrm()
+		var cates []*models.Categories
+		num,err := o.QueryTable(new(models.Categories)).Filter("ParentId__in",beginId).All(&cates)
+		fmt.Println(num,err)
+		if err != nil {
+		}
+		if num != 0 {
+			if level == 0 {
+				resIds2 = beginId
+			} else {
+				resIds2 = resIds
+			}
+			for _,v := range cates {
+				id := v.Id
+				beginId2 = append(beginId2,id)
+				resIds2 = append(resIds2,id)
+			}
+			level2 = level + 1
+			return GetSimilar(beginId2,resIds2,level2)
+		}
+		if level == 0 && num == 0 {
+			return beginId,beginId,level
+		} else {
+			return beginId,resIds,level
+		}
 	}
-	fmt.Println(2343)
-	//GetChild(cates)
-
+	return beginId,resIds,level
 }
 
-func GetChild(cates []interface{}) {
-	//for _,v := range cates {
-	//
-	//}
+func DeleteCateById(cateId int64) {
+	o := orm.NewOrm()
+	o.Begin()
+	var postCateList []*models.ArticleCate
+	num,delPostCateErr := o.QueryTable(new(models.ArticleCate)).Filter("CateId",cateId).All(&postCateList)
+	
+	if num != 0 {
+		for _,v := range postCateList {
+			var postCateUpdate models.ArticleCate
+			postCateUpdate.CateId = 1
+			postCateUpdate.Id = v.Id
+			_, delPostCateErr = o.Update(&postCateUpdate,"CateId")
+			if delPostCateErr != nil {
+				o.Rollback()
+			}
+		}
+	}
+
+	cate := models.Categories{Id:cateId}
+	_,err := o.Delete(&cate)
+
+	if err == nil && delPostCateErr == nil {
+		o.Commit()
+	} else {
+		o.Rollback()
+	}
 }

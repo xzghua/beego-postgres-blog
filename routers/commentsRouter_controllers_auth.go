@@ -55,14 +55,6 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:CateController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:CateController"],
-		beego.ControllerComments{
-			Method: "CateTest",
-			Router: `/console/cate/test`,
-			AllowHTTPMethods: []string{"get"},
-			MethodParams: param.Make(),
-			Params: nil})
-
 	beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:LinkController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:LinkController"],
 		beego.ControllerComments{
 			Method: "Index",
