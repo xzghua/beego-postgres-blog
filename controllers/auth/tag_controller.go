@@ -20,6 +20,17 @@ type TagRequest struct {
 	Name 	string `form:"name" valid:"Required;MaxSize(30)"`
 }
 
+func (t *TagController)URLMapping()  {
+	t.Mapping("Index",t.Index)
+	t.Mapping("Create",t.Create)
+	t.Mapping("Store",t.Store)
+	t.Mapping("Show",t.Show)
+	t.Mapping("Update",t.Update)
+	t.Mapping("Destroy",t.Destroy)
+	t.Mapping("GetTagByLike",t.GetTagByLike)
+}
+
+
 // @router /console/tag [get]
 func (t *TagController) Index() {
 	beego.ReadFromRequest(&t.Controller)

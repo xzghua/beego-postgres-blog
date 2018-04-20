@@ -20,6 +20,14 @@ type LinkCreate struct {
 	Sort 	int64   `form:"ordering" valid:"Required"`
 }
 
+func (l *LinkController)URLMapping()  {
+	l.Mapping("Index",l.Index)
+	l.Mapping("Create",l.Create)
+	l.Mapping("Store",l.Store)
+	l.Mapping("Show",l.Show)
+	l.Mapping("Update",l.Update)
+	l.Mapping("Destroy",l.Destroy)
+}
 
 // @router /console/link [get]
 func (l *LinkController) Index() {

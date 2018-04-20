@@ -25,6 +25,14 @@ type PostCreate struct {
 	BodyOriginal 	string 	`form:"content" valid:"Required"`
 }
 
+func (p *PostController)URLMapping()  {
+	p.Mapping("Index",p.Index)
+	p.Mapping("Create",p.Create)
+	p.Mapping("Store",p.Store)
+	p.Mapping("Update",p.Update)
+	p.Mapping("Destroy",p.Destroy)
+}
+
 // @router /console/post [get]
 func (p *PostController) Index()  {
 	beego.ReadFromRequest(&p.Controller)

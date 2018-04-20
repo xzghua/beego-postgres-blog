@@ -22,6 +22,12 @@ type SystemUpdate struct {
 	RecordNumber	string 		`form:"record_number" `
 }
 
+func (s *SystemController)URLMapping()  {
+	s.Mapping("Index",s.Index)
+	s.Mapping("Update",s.Update)
+}
+
+
 // @router /console/system [get]
 func (s *SystemController) Index() {
 	beego.ReadFromRequest(&s.Controller)

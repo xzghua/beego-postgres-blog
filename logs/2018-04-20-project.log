@@ -2036,3 +2036,5 @@
 
 2018/04/20 18:55:34.138 [D] [server.go:2619] ::1 - - [20/Apr/2018 06:55:34] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000189 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
 
+2018/04/20 18:56:19.328 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 18:57:36.762 [I] [asm_amd64.s:2337] http server Running on http://:8080

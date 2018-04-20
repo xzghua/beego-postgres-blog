@@ -22,6 +22,16 @@ type cateRequest struct {
 	Description 	string 	`form:"description" valid:"MaxSize(150)"`
 }
 
+func (c *CateController)URLMapping()  {
+	c.Mapping("Index",c.Index)
+	c.Mapping("Create",c.Create)
+	c.Mapping("Store",c.Store)
+	c.Mapping("Show",c.Show)
+	c.Mapping("Update",c.Update)
+	c.Mapping("Destroy",c.Destroy)
+}
+
+
 // @router /console/cate [get]
 func (c *CateController) Index() {
 	beego.ReadFromRequest(&c.Controller)
