@@ -4,23 +4,17 @@ import (
 	"github.com/astaxie/beego"
 	"bee-go-myBlog/services"
 	"html/template"
-	"github.com/astaxie/beego/validation"
-	"fmt"
 	"bee-go-myBlog/controllers"
 	"bee-go-myBlog/models"
 	"strconv"
+	"bee-go-myBlog/common"
+	"bee-go-myBlog/requests"
 )
 
 type CateController struct {
 	controllers.BaseController
 }
 
-type cateRequest struct {
-	ParentId		string 	`form:"parentId" valid:"Required"`
-	Name 			string 	`form:"name" valid:"Required;MaxSize(30)"`
-	DisplayName 	string 	`form:"displayName" valid:"Required;MaxSize(30)"`
-	Description 	string 	`form:"description" valid:"MaxSize(150)"`
-}
 
 func (c *CateController)URLMapping()  {
 	c.Mapping("Index",c.Index)
@@ -54,16 +48,12 @@ func (c *CateController) Create() {
 
 // @router /console/cate [post]
 func (c *CateController) Store() {
-	u := cateRequest{}
-	valid := validation.Validation{}
+	u := common.CateRequest{}
 	if err := c.ParseForm(&u); err != nil {
-		fmt.Println(err)
+		c.MyReminder("error","")
 	}
-	b, err := valid.Valid(&u)
-	if err != nil {
-	}
-	if !b {
-		_,message :=c.RequestValidate(valid)
+	code ,message := requests.IphptValidate(c.Ctx,"Cate")
+	if code != 0 {
 		c.MyReminder("error",message)
 		c.Redirect("/console/cate/create",302)
 		return
@@ -75,7 +65,7 @@ func (c *CateController) Store() {
 		DisplayName	:	u.DisplayName,
 		Description	:	u.Description,
 	}
-	_,err = models.AddCategories(cateCreate)
+	_,err := models.AddCategories(cateCreate)
 	if err != nil {
 		c.MyReminder("error","分类创建失败,请检查后再试")
 	} else {
@@ -101,16 +91,12 @@ func (c *CateController) Show() {
 
 // @router /console/cate/:id([0-9]+ [put]
 func (c *CateController) Update() {
-	u := cateRequest{}
-	valid := validation.Validation{}
+	u := common.CateRequest{}
 	if err := c.ParseForm(&u); err != nil {
-		fmt.Println(err)
+		c.MyReminder("error","")
 	}
-	b, err := valid.Valid(&u)
-	if err != nil {
-	}
-	if !b {
-		_,message :=c.RequestValidate(valid)
+	code ,message := requests.IphptValidate(c.Ctx,"Cate")
+	if code != 0 {
 		c.MyReminder("error",message)
 		c.Redirect("/console/cate/create",302)
 		return
@@ -136,7 +122,7 @@ func (c *CateController) Update() {
 		DisplayName	:	u.DisplayName,
 		Description	:	u.Description,
 	}
-	err = models.UpdateCategoriesById(cateUpdate)
+	err := models.UpdateCategoriesById(cateUpdate)
 	if err != nil {
 		c.MyReminder("error","分类修改失败,请检查后再试")
 	} else {

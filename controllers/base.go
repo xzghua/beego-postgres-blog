@@ -3,7 +3,7 @@ package controllers
 import (
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/validation"
-
+	"github.com/astaxie/beego/context"
 	validation2 "bee-go-myBlog/validation"
 	"fmt"
 )
@@ -25,6 +25,9 @@ func (c *BaseController) RequestValidate(valid validation.Validation) (int,strin
 
 func (c *BaseController) MyReminder(t string,msg string) {
 	flash := beego.NewFlash()
+	if msg == "" {
+		msg = "系统内部错误,请检查后再试"
+	}
 	if t == "error" {
 		flash.Error(msg)
 	} else if t == "success" {
@@ -35,4 +38,8 @@ func (c *BaseController) MyReminder(t string,msg string) {
 		flash.Warning(msg)
 	}
 	flash.Store(&c.Controller)
+}
+
+func (c *BaseController) Context() *context.Context {
+	return c.Ctx
 }

@@ -8,7 +8,7 @@ import (
 
 	"github.com/astaxie/beego/orm"
 	"time"
-	"bee-go-myBlog/helper"
+	"bee-go-myBlog/common"
 )
 
 type Links struct {
@@ -169,5 +169,5 @@ func AllLink() (ml []interface{}, err error) {
 func LinkPaginate(page int64) (totalPage int64,lastPage int64,currentPage int64,nextPage int64)  {
 	var link Links
 	tableName := link.TableName()
-	return helper.MyPaginate(page,tableName)
+	return common.MyPaginate(page,tableName)
 }

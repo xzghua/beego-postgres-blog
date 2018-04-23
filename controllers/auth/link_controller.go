@@ -6,18 +6,12 @@ import (
 	"github.com/astaxie/beego"
 	"strconv"
 	"html/template"
-	"github.com/astaxie/beego/validation"
-	"fmt"
+	"bee-go-myBlog/common"
+	"bee-go-myBlog/requests"
 )
 
 type LinkController struct {
 	controllers.BaseController
-}
-
-type LinkCreate struct {
-	Name 	string 	`form:"name" valid:"Required;MaxSize(23)"`
-	Link 	string 	`form:"link" valid:"Required;MaxSize(100)"`
-	Sort 	int64   `form:"ordering" valid:"Required"`
 }
 
 func (l *LinkController)URLMapping()  {
@@ -62,17 +56,12 @@ func (l *LinkController) Create() {
 
 // @router /console/link [post]
 func (l *LinkController) Store() {
-	u := LinkCreate{}
-	valid := validation.Validation{}
+	u := common.LinkCreate{}
 	if err := l.ParseForm(&u); err != nil {
-		fmt.Println(err)
+		l.MyReminder("error","")
 	}
-	b, err := valid.Valid(&u)
-	fmt.Println(u)
-	if err != nil {
-	}
-	if !b {
-		_,message :=l.RequestValidate(valid)
+	code ,message := requests.IphptValidate(l.Ctx,"Link")
+	if code != 0 {
 		l.MyReminder("error",message)
 		l.Redirect("/console/link/create",302)
 		return
@@ -102,17 +91,12 @@ func (l *LinkController) Show() {
 
 // @router /console/link/:id([0-9]+ [put]
 func (l *LinkController) Update() {
-	u := LinkCreate{}
-	valid := validation.Validation{}
+	u := common.LinkCreate{}
 	if err := l.ParseForm(&u); err != nil {
-		fmt.Println(err)
+		l.MyReminder("error","")
 	}
-	b, err := valid.Valid(&u)
-	fmt.Println(u)
-	if err != nil {
-	}
-	if !b {
-		_,message :=l.RequestValidate(valid)
+	code ,message := requests.IphptValidate(l.Ctx,"Link")
+	if code != 0 {
 		l.MyReminder("error",message)
 		l.Redirect("/console/link/create",302)
 		return

@@ -2,15 +2,10 @@ package services
 
 import (
 	"bee-go-myBlog/models"
-
-	"bee-go-myBlog/helper"
 	"github.com/astaxie/beego/orm"
 	"fmt"
+	"bee-go-myBlog/common"
 )
-
-func GetMyAllCate() {
-
-}
 
 func GetAllCateBySort() ([]interface{}) {
 	var query map[string]string
@@ -78,11 +73,11 @@ func tree(cate []interface{}, parent int64, level int64,key int64) ([]interface{
 		if ParentId == parent {
 			var newHtml string
 			if level != 0 {
-				newHtml = helper.GoRepeat("&nbsp;&nbsp;&nbsp;&nbsp;", level) + "|"
+				newHtml = common.GoRepeat("&nbsp;&nbsp;&nbsp;&nbsp;", level) + "|"
 			}
-			v.(map[string]interface{})["html"] = newHtml + helper.GoRepeat(html, level)
+			v.(map[string]interface{})["html"] = newHtml + common.GoRepeat(html, level)
 			data = append(data,v)
-			data = helper.GoMerge(data,tree(cate, Id, level+1,key+1))
+			data = common.GoMerge(data,tree(cate, Id, level+1,key+1))
 		}
 	}
 	return data

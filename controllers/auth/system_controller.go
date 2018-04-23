@@ -3,24 +3,16 @@ package auth
 import (
 	"bee-go-myBlog/controllers"
 	"bee-go-myBlog/models"
-	"fmt"
 	"html/template"
-	"github.com/astaxie/beego/validation"
 	"github.com/astaxie/beego"
+	"bee-go-myBlog/common"
+	"bee-go-myBlog/requests"
 )
 
 type SystemController struct {
 	controllers.BaseController
 }
 
-type SystemUpdate struct {
-	Title			string 		`form:"title" valid:"Required;MaxSize(23)"`
-	STitle			string 		`form:"s_title" `
-	Description 	string 		`form:"description" `
-	SeoKey			string 		`form:"seo_key" `
-	SeoDes			string 		`form:"seo_des" `
-	RecordNumber	string 		`form:"record_number" `
-}
 
 func (s *SystemController)URLMapping()  {
 	s.Mapping("Index",s.Index)
@@ -47,16 +39,12 @@ func (s *SystemController) Index() {
 
 // @router /console/system/1 [put]
 func (s *SystemController) Update() {
-	u := SystemUpdate{}
-	valid := validation.Validation{}
+	u := common.SystemUpdate{}
 	if err := s.ParseForm(&u); err != nil {
-		fmt.Println(err)
+		s.MyReminder("error","")
 	}
-	b, err := valid.Valid(&u)
-	if err != nil {
-	}
-	if !b {
-		_,message :=s.RequestValidate(valid)
+	code ,message := requests.IphptValidate(s.Ctx,"System")
+	if code != 0 {
 		s.MyReminder("error",message)
 		s.Redirect("/console/system",302)
 		return

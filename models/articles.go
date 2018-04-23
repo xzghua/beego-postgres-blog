@@ -9,7 +9,7 @@ import (
 	"github.com/astaxie/beego/orm"
 	"time"
 	"github.com/astaxie/beego"
-	"bee-go-myBlog/helper"
+	"bee-go-myBlog/common"
 )
 
 type Articles struct {
@@ -27,7 +27,7 @@ type Articles struct {
 	CreatedAt    time.Time `orm:"column(created_at);default('0000-00-00 00:00:00');null;auto_now;type(datetime)" json:"created_at"`
 	UpdatedAt    time.Time `orm:"column(updated_at);default('0000-00-00 00:00:00');null;auto_now;type(datetime)" json:"updated_at"`
 	User         *Users    `orm:"-;rel(fk)" json:"user"`
-	DeletedAt    time.Time `orm:"column(deleted_at);default('0000-00-00 00:00:00');null;auto_now;type(datetime)" json:"deleted_at"`
+	DeletedAt    time.Time `orm:"column(deleted_at);default('0000-00-00 00:00:00');null;type(datetime)" json:"deleted_at"`
 }
 
 func (a *Articles) TableName() string {
@@ -184,5 +184,5 @@ func AllArticle(page int64) (ml []interface{}, err error) {
 func PostPaginate(page int64) (totalPage int64,lastPage int64,currentPage int64,nextPage int64)  {
 	var art Articles
 	tableName := art.TableName()
-	return helper.MyPaginate(page,tableName)
+	return common.MyPaginate(page,tableName)
 }

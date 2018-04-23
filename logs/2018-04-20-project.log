@@ -2038,3 +2038,41 @@
 
 2018/04/20 18:56:19.328 [I] [asm_amd64.s:2337] http server Running on http://:8080
 2018/04/20 18:57:36.762 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 19:04:10.631 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 19:04:12.418 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 19:04:13.421 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 19:04:14.617 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 19:04:15.676 [D] [server.go:2619] ::1 - - [20/Apr/2018 07:04:15] "GET /console/post HTTP/1.1 200 0" 0.048757 http://localhost:8080/console/link Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 19:04:15.742 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 19:04:15.768 [D] [server.go:2619] ::1 - - [20/Apr/2018 07:04:15] "GET /static/auth/js/skin-select/skin-select.css HTTP/1.1 304 0" 0.000566 http://localhost:8080/console/post Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 19:04:16.883 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/20 19:04:18.130 [D] [server.go:2619] ::1 - - [20/Apr/2018 07:04:18] "GET /console/post/create HTTP/1.1 200 0" 0.003912 http://localhost:8080/console/post Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 19:04:18.219 [D] [server.go:2619] ::1 - - [20/Apr/2018 07:04:18] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000443 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 19:04:18.259 [D] [server.go:2619] ::1 - - [20/Apr/2018 07:04:18] "GET /static/auth/images/loading@2x.gif HTTP/1.1 404 0" 0.000189 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 19:04:18.380 [D] [server.go:2619] ::1 - - [20/Apr/2018 07:04:18] "GET /static/auth/images/loading@2x.gif HTTP/1.1 404 0" 0.000224 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 19:04:18.384 [D] [server.go:2619] ::1 - - [20/Apr/2018 07:04:18] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000219 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 19:04:20.064 [D] [server.go:2619] ::1 - - [20/Apr/2018 07:04:20] "GET /console/cate HTTP/1.1 200 0" 0.002620 http://localhost:8080/console/post/create Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 19:04:21.716 [D] [server.go:2619] ::1 - - [20/Apr/2018 07:04:21] "GET /console/cate/create HTTP/1.1 200 0" 0.002962 http://localhost:8080/console/cate Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 19:04:21.802 [D] [server.go:2619] ::1 - - [20/Apr/2018 07:04:21] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000190 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 19:04:21.936 [D] [server.go:2619] ::1 - - [20/Apr/2018 07:04:21] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000192 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 19:04:23.352 [D] [server.go:2619] ::1 - - [20/Apr/2018 07:04:23] "GET /console/link HTTP/1.1 200 0" 0.004470 http://localhost:8080/console/cate/create Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 19:04:24.599 [D] [server.go:2619] ::1 - - [20/Apr/2018 07:04:24] "GET /console/system HTTP/1.1 200 0" 0.003280 http://localhost:8080/console/link Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 19:04:24.696 [D] [server.go:2619] ::1 - - [20/Apr/2018 07:04:24] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000184 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 19:04:24.840 [D] [server.go:2619] ::1 - - [20/Apr/2018 07:04:24] "GET /static/auth/fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1 404 0" 0.000160 http://localhost:8080/static/auth/css/editormd.min.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/20 19:04:38.819 [D] [server.go:2619] ::1 - - [20/Apr/2018 07:04:38] "GET /console/post HTTP/1.1 200 0" 0.033518 http://localhost:8080/console/link Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+

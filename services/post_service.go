@@ -7,7 +7,47 @@ import (
 
 	"strings"
 	"time"
+	"bee-go-myBlog/common"
 )
+
+func StorePost(u common.PostCreate) (res bool) {
+	var post models.Articles
+	post.Title = u.Title
+	post.Content = u.Content
+	post.Abstract = u.Abstract
+	post.BodyOriginal = u.BodyOriginal
+	post.UserId = 1
+
+	o := orm.NewOrm()
+	o.Begin()
+	postId,postAddErr :=models.AddArticles(&post)
+	if postAddErr != nil {
+		o.Rollback()
+		return false
+	}
+	_,postCateRelErr := AddPostCateRel(postId,u.Category)
+	if postCateRelErr != nil {
+		o.Rollback()
+		return false
+	}
+	tag := strings.Split(u.Tag,",")
+	for _,v := range tag {
+		tagId,err := models.AddTagWithUnique(v)
+		if err != nil {
+			o.Rollback()
+			return false
+		}
+		_,err = AddPostTagRel(postId,tagId)
+		if err != nil {
+			o.Rollback()
+			return false
+		}
+	}
+	o.Commit()
+	return true
+}
+
+
 
 func GetMyAllPost(page int64) (ml []interface{}, err error){
 	post,err := models.AllArticle(page)
@@ -138,11 +178,10 @@ func PostUpdate(postUpdate models.Articles,id64 int64,cate int64,tags string) (e
 func PostDestroy(id int64) (err error) {
 	o := orm.NewOrm()
 	res,err :=models.GetArticlesById(id)
+	fmt.Println(res.DeletedAt.Unix() > 0,res.DeletedAt.Unix())
 	if res.DeletedAt.Unix() > 0 {
-		var nowTime  time.Time
-		nowTime,err = time.Parse("2006-01-02 15:04:05","0000-00-00 00:00:00")
-		//fmt.Println(nowTime)
-		_,err = o.Update(&models.Articles{Id:id,DeletedAt:nowTime},"DeletedAt")
+		var theTime = new(time.Time)
+		_,err = o.Update(&models.Articles{Id:id,DeletedAt:*theTime},"DeletedAt")
 	} else {
 		nowTime := time.Now()
 		_,err = o.Update(&models.Articles{Id:id,DeletedAt:nowTime},"DeletedAt")

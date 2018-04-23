@@ -3,26 +3,16 @@ package auth
 import (
 	"strconv"
 	"bee-go-myBlog/services"
-	"fmt"
 	"html/template"
 	"bee-go-myBlog/controllers"
-	"github.com/astaxie/beego/validation"
 	"github.com/astaxie/beego"
-	"strings"
 	"bee-go-myBlog/models"
+	"bee-go-myBlog/common"
+	"bee-go-myBlog/requests"
 )
 
 type PostController struct {
 	controllers.BaseController
-}
-
-type PostCreate struct {
-	Title 			string 	`form:"title" valid:"Required;MaxSize(23)"`
-	Abstract 		string	`form:"abstract" valid:"Required;MaxSize(50)"`
-	Category 		int64 	`form:"category" valid:"Required"`
-	Tag 			string 	`form:"tag" valid:"Required"`
-	Content 		string 	`form:"editormd-html-code" valid:"Required"`
-	BodyOriginal 	string 	`form:"content" valid:"Required"`
 }
 
 func (p *PostController)URLMapping()  {
@@ -66,43 +56,23 @@ func (p *PostController) Create() {
 
 // @router /console/post [post]
 func (p *PostController) Store()  {
-	u := PostCreate{}
-	valid := validation.Validation{}
+	u := common.PostCreate{}
 	if err := p.ParseForm(&u); err != nil {
-		fmt.Println(err)
+		p.MyReminder("error","")
 	}
-	b, err := valid.Valid(&u)
-	if err != nil {
-	}
-	if !b {
-		_,message :=p.RequestValidate(valid)
+
+	code ,message := requests.IphptValidate(p.Ctx,"Post")
+	if code != 0 {
 		p.MyReminder("error",message)
 		p.Redirect("/console/post/create",302)
 		return
 	}
-
-	var post models.Articles
-	post.Title = u.Title
-	post.Content = u.Content
-	post.Abstract = u.Abstract
-	post.BodyOriginal = u.BodyOriginal
-	post.UserId = 1
-
-	postId,err :=models.AddArticles(&post)
-	if err != nil {
-		p.MyReminder("error","系统内部错误")
+	res := services.StorePost(u)
+	if res {
+		p.MyReminder("success","创建文章成功")
+	} else {
+		p.MyReminder("error","创建文章失败,请检查后再试")
 	}
-	_,er := services.AddPostCateRel(postId,u.Category)
-	if er != nil {
-		p.MyReminder("error","系统内部错误")
-	}
-
-	tag := strings.Split(u.Tag,",")
-	for _,v := range tag {
-		tagId,_ := models.AddTagWithUnique(v)
-		services.AddPostTagRel(postId,tagId)
-	}
-
 	p.Redirect("/console/post",302)
 
 }
@@ -132,20 +102,18 @@ func (p *PostController) Update()  {
 	id :=p.Ctx.Input.Param(":id")
 	id64, _ := strconv.ParseInt(id, 10, 64)
 
-	u := PostCreate{}
-	valid := validation.Validation{}
+	u := common.PostCreate{}
 	if err := p.ParseForm(&u); err != nil {
-		fmt.Println(err)
+		p.MyReminder("error","")
 	}
-	b, err := valid.Valid(&u)
-	if err != nil {
-	}
-	if !b {
-		_,message :=p.RequestValidate(valid)
+
+	code ,message := requests.IphptValidate(p.Ctx,"Post")
+	if code != 0 {
 		p.MyReminder("error",message)
 		p.Redirect("/console/post/create",302)
 		return
 	}
+
 	postUpdate := models.Articles{
 		Id				:	id64,
 		Title			:	u.Title,
@@ -155,9 +123,9 @@ func (p *PostController) Update()  {
 		BodyOriginal 	: 	u.BodyOriginal,
 	}
 
-	err = services.PostUpdate(postUpdate,id64,u.Category,u.Tag)
+	err := services.PostUpdate(postUpdate,id64,u.Category,u.Tag)
 	if err != nil {
-		p.MyReminder("error","系统内部错误")
+		p.MyReminder("error","修改失败,请检查后再试")
 	} else {
 		p.MyReminder("success","修改成功")
 	}

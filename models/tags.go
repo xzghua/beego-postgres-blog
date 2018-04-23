@@ -8,7 +8,7 @@ import (
 
 	"github.com/astaxie/beego/orm"
 	"github.com/astaxie/beego"
-	"bee-go-myBlog/helper"
+	"bee-go-myBlog/common"
 )
 
 type Tags struct {
@@ -185,7 +185,7 @@ func AllTag(page int64) (ml []interface{}, err error) {
 func TagPaginate(page int64) (totalPage int64,lastPage int64,currentPage int64,nextPage int64)  {
 	var tag Tags
 	tableName := tag.TableName()
-	return helper.MyPaginate(page,tableName)
+	return common.MyPaginate(page,tableName)
 }
 
 func GetTagByTagIds(maps []orm.Params) (tags []Tags) {

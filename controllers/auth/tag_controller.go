@@ -7,17 +7,13 @@ import (
 	"bee-go-myBlog/models"
 	"github.com/astaxie/beego"
 	"html/template"
-	"fmt"
-	"github.com/astaxie/beego/validation"
 	"github.com/astaxie/beego/orm"
+	"bee-go-myBlog/requests"
+	"bee-go-myBlog/common"
 )
 
 type TagController struct {
 	controllers.BaseController
-}
-
-type TagRequest struct {
-	Name 	string `form:"name" valid:"Required;MaxSize(30)"`
 }
 
 func (t *TagController)URLMapping()  {
@@ -62,16 +58,12 @@ func (t *TagController) Create() {
 
 // @router /console/tag [post]
 func (t *TagController) Store() {
-	u := TagRequest{}
-	valid := validation.Validation{}
+	u := common.TagRequest{}
 	if err := t.ParseForm(&u); err != nil {
-		fmt.Println(err)
+		t.MyReminder("error","")
 	}
-	b, err := valid.Valid(&u)
-	if err != nil {
-	}
-	if !b {
-		_,message := t.RequestValidate(valid)
+	code ,message := requests.IphptValidate(t.Ctx,"Tag")
+	if code != 0 {
 		t.MyReminder("error",message)
 		t.Redirect("/console/tag/create",302)
 		return
@@ -79,7 +71,7 @@ func (t *TagController) Store() {
 	var tagCreate = models.Tags{
 		Name	:	u.Name,
 	}
-	_,err = models.AddTags(&tagCreate)
+	_,err := models.AddTags(&tagCreate)
 	if err != nil {
 		t.MyReminder("error","系统内部错误")
 	}
@@ -100,16 +92,12 @@ func (t *TagController) Show() {
 
 // @router /console/tag/:id([0-9]+ [put]
 func (t *TagController) Update() {
-	u := TagRequest{}
-	valid := validation.Validation{}
+	u := common.TagRequest{}
 	if err := t.ParseForm(&u); err != nil {
-		fmt.Println(err)
+		t.MyReminder("error","")
 	}
-	b, err := valid.Valid(&u)
-	if err != nil {
-	}
-	if !b {
-		_,message := t.RequestValidate(valid)
+	code ,message := requests.IphptValidate(t.Ctx,"Tag")
+	if code != 0 {
 		t.MyReminder("error",message)
 		t.Redirect("/console/tag/create",302)
 		return
@@ -118,7 +106,7 @@ func (t *TagController) Update() {
 	id64, _ := strconv.ParseInt(id, 10, 64)
 	o := orm.NewOrm()
 	tag := models.Tags{Id:id64}
-	err = o.Read(&tag)
+	err := o.Read(&tag)
 	if err != nil {
 		t.MyReminder("error","数据不存在,请检查后再试")
 		t.Redirect("/console/tag",302)
