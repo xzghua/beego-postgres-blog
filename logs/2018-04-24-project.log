@@ -237,3 +237,400 @@
 2018/04/24 16:55:19.346 [I] [asm_amd64.s:2337] http server Running on http://:8080
 2018/04/24 16:55:20.402 [I] [asm_amd64.s:2337] http server Running on http://:8080
 2018/04/24 16:55:21.403 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 18:01:15.527 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 18:01:18.638 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 18:01:30.701 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:01:30] "GET /console/post HTTP/1.1 200 0" 0.072203  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:01:30.723 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:01:30] "GET /static/auth/js/main.js HTTP/1.1 304 0" 0.000445 http://localhost:8080/console/post Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:01:34.182 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:01:34] "GET / HTTP/1.1 200 0" 0.066741  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:01:42.225 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:01:42] "GET / HTTP/1.1 200 0" 0.058233  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:01:42.419 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:01:42] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.000919 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:02:03.171 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 18:02:06.636 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 18:02:11.197 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:02:11] "GET / HTTP/1.1 200 0" 0.064353  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:02:11.461 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:02:11] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.000972 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:03:31.526 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 18:03:35.214 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:03:34] "GET / HTTP/1.1 200 0" 0.248936  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:03:35.483 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:03:35] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.000295 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:04:02.359 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 18:04:08.936 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:04:08] "GET / HTTP/1.1 200 0" 0.063997  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:04:09.205 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:04:09] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.000665 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:05:22.049 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:05:21] "GET / HTTP/1.1 200 0" 0.067429  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:05:22.327 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:05:22] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.000167 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:07:57.339 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 18:08:00.516 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 18:08:02.903 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:08:02] "GET / HTTP/1.1 200 0" 0.068532  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:08:03.160 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:08:03] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.006628 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:09:14.471 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 18:09:17.582 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 18:09:20.223 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:09:20] "GET / HTTP/1.1 200 0" 0.071652  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:09:20.483 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:09:20] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.000942 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:10:03.590 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 18:10:06.746 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 18:10:13.020 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:10:12] "GET / HTTP/1.1 200 0" 0.078293  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:10:13.281 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:10:13] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.006012 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:12:08.996 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 18:12:12.141 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 18:12:17.056 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:12:16] "GET / HTTP/1.1 200 0" 0.073802  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:12:17.321 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:12:17] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.000997 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:15:42.731 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 18:15:45.799 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 18:16:24.305 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 18:16:27.523 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 18:16:29.247 [C] [asm_amd64.s:509] the request url is  /
+2018/04/24 18:16:29.247 [C] [asm_amd64.s:509] Handler crashed with error interface conversion: interface {} is []uint8, not string
+2018/04/24 18:16:29.247 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/24 18:16:29.247 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/24 18:16:29.247 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/iface.go:172
+2018/04/24 18:16:29.247 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/controllers/index/index_controller.go:31
+2018/04/24 18:16:29.247 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/24 18:16:29.247 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:434
+2018/04/24 18:16:29.247 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:302
+2018/04/24 18:16:29.247 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:847
+2018/04/24 18:16:29.247 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/24 18:16:29.247 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/24 18:16:29.247 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/24 18:18:45.127 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 18:18:46.971 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 18:18:48.030 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 18:18:50.286 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:18:50] "GET / HTTP/1.1 200 0" 0.069760  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:18:50.626 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:18:50] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.001670 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:19:09.736 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 18:19:13.944 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:19:13] "GET / HTTP/1.1 200 0" 0.068418  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:19:14.215 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:19:14] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.000988 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:21:55.342 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 18:22:00.437 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:22:00] "GET / HTTP/1.1 200 0" 0.078018  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:22:00.713 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:22:00] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.002995 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:22:15.672 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 18:22:18.894 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:22:18] "GET / HTTP/1.1 200 0" 0.040737  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:22:19.147 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:22:19] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.000297 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:23:42.257 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 18:25:44.256 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 18:25:48.321 [C] [asm_amd64.s:509] the request url is  /
+2018/04/24 18:25:48.321 [C] [asm_amd64.s:509] Handler crashed with error interface conversion: interface {} is []uint8, not string
+2018/04/24 18:25:48.321 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/24 18:25:48.321 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/24 18:25:48.321 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/iface.go:172
+2018/04/24 18:25:48.321 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/services/post_service.go:198
+2018/04/24 18:25:48.321 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/controllers/index/index_controller.go:22
+2018/04/24 18:25:48.321 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/24 18:25:48.321 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:434
+2018/04/24 18:25:48.321 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:302
+2018/04/24 18:25:48.321 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:847
+2018/04/24 18:25:48.321 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/24 18:25:48.321 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/24 18:25:48.321 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/24 18:26:05.834 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 18:26:08.621 [C] [asm_amd64.s:509] the request url is  /
+2018/04/24 18:26:08.621 [C] [asm_amd64.s:509] Handler crashed with error interface conversion: interface {} is nil, not string
+2018/04/24 18:26:08.621 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/24 18:26:08.621 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/24 18:26:08.621 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/iface.go:172
+2018/04/24 18:26:08.621 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/services/post_service.go:198
+2018/04/24 18:26:08.621 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/controllers/index/index_controller.go:22
+2018/04/24 18:26:08.621 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/24 18:26:08.621 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:434
+2018/04/24 18:26:08.621 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:302
+2018/04/24 18:26:08.621 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:847
+2018/04/24 18:26:08.621 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/24 18:26:08.622 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/24 18:26:08.622 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/24 18:27:45.476 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 18:27:49.880 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:27:49] "GET / HTTP/1.1 200 0" 0.003587  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:27:50.248 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:27:50] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.002287 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:27:56.045 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:27:56] "GET / HTTP/1.1 200 0" 0.003596  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:27:56.250 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:27:56] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.000112 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:28:49.377 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 18:28:51.567 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:28:51] "GET / HTTP/1.1 200 0" 0.004648  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:28:51.818 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:28:51] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.002516 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:28:55.054 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:28:55] "GET / HTTP/1.1 200 0" 0.006131  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:28:55.258 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:28:55] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.000122 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:30:51.104 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 18:30:54.486 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:30:54] "GET / HTTP/1.1 200 0" 0.006150  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:30:54.753 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:30:54] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.005876 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:30:57.357 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:30:57] "GET / HTTP/1.1 200 0" 0.003095  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:30:57.551 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:30:57] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.000119 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:31:09.981 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 18:31:12.954 [C] [asm_amd64.s:509] the request url is  /
+2018/04/24 18:31:12.954 [C] [asm_amd64.s:509] Handler crashed with error interface conversion: interface {} is []uint8, not string
+2018/04/24 18:31:12.954 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/24 18:31:12.954 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/24 18:31:12.954 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/iface.go:172
+2018/04/24 18:31:12.954 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/services/post_service.go:202
+2018/04/24 18:31:12.954 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/controllers/index/index_controller.go:22
+2018/04/24 18:31:12.954 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/24 18:31:12.954 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:434
+2018/04/24 18:31:12.954 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:302
+2018/04/24 18:31:12.954 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:847
+2018/04/24 18:31:12.954 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/24 18:31:12.954 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/24 18:31:12.954 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/24 18:32:04.392 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:32:04] "GET / HTTP/1.1 200 0" 0.003561  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:32:04.739 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:32:04] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.000823 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:32:07.843 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:32:07] "GET / HTTP/1.1 200 0" 0.003819  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:32:08.039 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:32:08] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.000116 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:32:29.031 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 18:32:34.091 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:32:34] "GET / HTTP/1.1 200 0" 0.068396  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:32:34.345 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:32:34] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.002619 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:32:38.203 [C] [asm_amd64.s:509] the request url is  /
+2018/04/24 18:32:38.203 [C] [asm_amd64.s:509] Handler crashed with error interface conversion: interface {} is []uint8, not string
+2018/04/24 18:32:38.203 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/24 18:32:38.203 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/24 18:32:38.203 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/iface.go:172
+2018/04/24 18:32:38.203 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/services/post_service.go:202
+2018/04/24 18:32:38.203 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/controllers/index/index_controller.go:22
+2018/04/24 18:32:38.203 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/24 18:32:38.203 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:434
+2018/04/24 18:32:38.203 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:302
+2018/04/24 18:32:38.203 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:847
+2018/04/24 18:32:38.203 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/24 18:32:38.203 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/24 18:32:38.203 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/24 18:36:18.665 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 18:36:36.781 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:36:36] "GET / HTTP/1.1 200 0" 0.068676  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:36:37.133 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:36:37] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.006051 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:36:45.336 [C] [asm_amd64.s:509] the request url is  /
+2018/04/24 18:36:45.336 [C] [asm_amd64.s:509] Handler crashed with error interface conversion: interface {} is []uint8, not string
+2018/04/24 18:36:45.336 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/24 18:36:45.336 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/24 18:36:45.336 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/iface.go:172
+2018/04/24 18:36:45.336 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/services/post_service.go:202
+2018/04/24 18:36:45.336 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/controllers/index/index_controller.go:22
+2018/04/24 18:36:45.336 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/24 18:36:45.336 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:434
+2018/04/24 18:36:45.336 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:302
+2018/04/24 18:36:45.336 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:847
+2018/04/24 18:36:45.336 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/24 18:36:45.336 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/24 18:36:45.336 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/24 18:41:26.017 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 18:41:39.618 [C] [asm_amd64.s:509] the request url is  /
+2018/04/24 18:41:39.618 [C] [asm_amd64.s:509] Handler crashed with error interface conversion: interface {} is []uint8, not string
+2018/04/24 18:41:39.618 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/24 18:41:39.618 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/24 18:41:39.618 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/iface.go:172
+2018/04/24 18:41:39.618 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/services/post_service.go:202
+2018/04/24 18:41:39.618 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/controllers/index/index_controller.go:22
+2018/04/24 18:41:39.618 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/24 18:41:39.618 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:434
+2018/04/24 18:41:39.618 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:302
+2018/04/24 18:41:39.618 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:847
+2018/04/24 18:41:39.618 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/24 18:41:39.618 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/24 18:41:39.618 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/24 18:42:39.026 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 18:42:41.277 [C] [asm_amd64.s:509] the request url is  /
+2018/04/24 18:42:41.277 [C] [asm_amd64.s:509] Handler crashed with error interface conversion: interface {} is []uint8, not string
+2018/04/24 18:42:41.277 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/24 18:42:41.277 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/24 18:42:41.277 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/iface.go:172
+2018/04/24 18:42:41.277 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/services/post_service.go:202
+2018/04/24 18:42:41.277 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/controllers/index/index_controller.go:22
+2018/04/24 18:42:41.277 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/24 18:42:41.277 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:434
+2018/04/24 18:42:41.277 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:302
+2018/04/24 18:42:41.277 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:847
+2018/04/24 18:42:41.277 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/24 18:42:41.277 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/24 18:42:41.277 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/24 18:42:57.900 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:42:57] "GET / HTTP/1.1 200 0" 0.094107  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:42:57.917 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:42:57] "GET /static/index/css/all.css HTTP/1.1 304 0" 0.001869 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:42:57.918 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:42:57] "GET /static/index/fancybox/jquery.fancybox.css HTTP/1.1 304 0" 0.000339 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:42:58.283 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:42:58] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.005978 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:43:02.417 [C] [asm_amd64.s:509] the request url is  /
+2018/04/24 18:43:02.417 [C] [asm_amd64.s:509] Handler crashed with error interface conversion: interface {} is []uint8, not string
+2018/04/24 18:43:02.417 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/24 18:43:02.417 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/24 18:43:02.417 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/iface.go:172
+2018/04/24 18:43:02.417 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/services/post_service.go:202
+2018/04/24 18:43:02.417 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/controllers/index/index_controller.go:22
+2018/04/24 18:43:02.417 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/24 18:43:02.417 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:434
+2018/04/24 18:43:02.417 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:302
+2018/04/24 18:43:02.417 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:847
+2018/04/24 18:43:02.417 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/24 18:43:02.418 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/24 18:43:02.418 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/24 18:44:10.899 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 18:44:19.152 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:44:19] "GET / HTTP/1.1 200 0" 0.071692  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:44:19.504 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:44:19] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.005962 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:44:49.830 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 18:44:54.258 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:44:54] "GET / HTTP/1.1 200 0" 0.071877  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:44:54.506 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:44:54] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.001030 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:45:10.267 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 18:45:19.047 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:45:18] "GET / HTTP/1.1 200 0" 0.078137  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:45:19.301 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:45:19] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.005931 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:46:36.964 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 18:46:43.968 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:46:43] "GET / HTTP/1.1 200 0" 0.083432  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:46:44.249 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:46:44] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.002727 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:47:17.832 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 18:47:20.731 [C] [asm_amd64.s:509] the request url is  /
+2018/04/24 18:47:20.731 [C] [asm_amd64.s:509] Handler crashed with error interface conversion: interface {} is []uint8, not string
+2018/04/24 18:47:20.731 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/24 18:47:20.731 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/24 18:47:20.731 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/iface.go:172
+2018/04/24 18:47:20.731 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/services/post_service.go:202
+2018/04/24 18:47:20.731 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/controllers/index/index_controller.go:22
+2018/04/24 18:47:20.731 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/24 18:47:20.731 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:434
+2018/04/24 18:47:20.731 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:302
+2018/04/24 18:47:20.731 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:847
+2018/04/24 18:47:20.732 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/24 18:47:20.732 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/24 18:47:20.732 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/24 18:47:46.935 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 18:47:51.323 [C] [asm_amd64.s:509] the request url is  /
+2018/04/24 18:47:51.323 [C] [asm_amd64.s:509] Handler crashed with error interface conversion: interface {} is []uint8, not string
+2018/04/24 18:47:51.323 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/24 18:47:51.323 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/24 18:47:51.323 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/iface.go:172
+2018/04/24 18:47:51.324 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/services/post_service.go:198
+2018/04/24 18:47:51.324 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/controllers/index/index_controller.go:22
+2018/04/24 18:47:51.324 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/24 18:47:51.324 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:434
+2018/04/24 18:47:51.324 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:302
+2018/04/24 18:47:51.324 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:847
+2018/04/24 18:47:51.324 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/24 18:47:51.324 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/24 18:47:51.324 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/24 18:49:46.416 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 18:49:53.052 [C] [asm_amd64.s:509] the request url is  /
+2018/04/24 18:49:53.052 [C] [asm_amd64.s:509] Handler crashed with error interface conversion: interface {} is []uint8, not string
+2018/04/24 18:49:53.052 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/24 18:49:53.052 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/24 18:49:53.052 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/iface.go:172
+2018/04/24 18:49:53.052 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/services/post_service.go:202
+2018/04/24 18:49:53.052 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/controllers/index/index_controller.go:22
+2018/04/24 18:49:53.052 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/24 18:49:53.052 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:434
+2018/04/24 18:49:53.052 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:302
+2018/04/24 18:49:53.052 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:847
+2018/04/24 18:49:53.052 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/24 18:49:53.052 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/24 18:49:53.052 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/24 18:51:55.377 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 18:52:12.579 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 18:52:15.124 [C] [asm_amd64.s:509] the request url is  /
+2018/04/24 18:52:15.124 [C] [asm_amd64.s:509] Handler crashed with error interface conversion: interface {} is []uint8, not string
+2018/04/24 18:52:15.124 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/24 18:52:15.124 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/24 18:52:15.124 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/iface.go:172
+2018/04/24 18:52:15.124 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/services/post_service.go:203
+2018/04/24 18:52:15.124 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/controllers/index/index_controller.go:22
+2018/04/24 18:52:15.124 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/24 18:52:15.124 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:434
+2018/04/24 18:52:15.124 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:302
+2018/04/24 18:52:15.125 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:847
+2018/04/24 18:52:15.125 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/24 18:52:15.125 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/24 18:52:15.125 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/24 18:58:01.142 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 18:58:04.234 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:58:04] "GET / HTTP/1.1 200 0" 0.009654  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:58:04.604 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:58:04] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.002576 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:59:51.850 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 18:59:54.919 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:59:54] "GET / HTTP/1.1 200 0" 0.009882  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 18:59:55.183 [D] [server.go:2619] ::1 - - [24/Apr/2018 06:59:55] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.000263 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 19:00:30.796 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 19:00:34.127 [D] [server.go:2619] ::1 - - [24/Apr/2018 07:00:34] "GET / HTTP/1.1 200 0" 0.009305  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 19:00:34.385 [D] [server.go:2619] ::1 - - [24/Apr/2018 07:00:34] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.006134 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 19:01:05.367 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 19:01:10.359 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 19:01:13.367 [D] [server.go:2619] ::1 - - [24/Apr/2018 07:01:13] "GET / HTTP/1.1 200 0" 0.004154  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 19:01:13.627 [D] [server.go:2619] ::1 - - [24/Apr/2018 07:01:13] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.005984 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 19:02:04.194 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 19:02:21.110 [D] [server.go:2619] ::1 - - [24/Apr/2018 07:02:21] "GET / HTTP/1.1 200 0" 0.005528  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 19:02:21.361 [D] [server.go:2619] ::1 - - [24/Apr/2018 07:02:21] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.006104 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 19:03:42.194 [D] [server.go:2619] ::1 - - [24/Apr/2018 07:03:42] "GET / HTTP/1.1 200 0" 0.004147  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 19:03:42.444 [D] [server.go:2619] ::1 - - [24/Apr/2018 07:03:42] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.000150 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 19:04:55.780 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 19:05:03.368 [D] [server.go:2619] ::1 - - [24/Apr/2018 07:05:03] "GET / HTTP/1.1 200 0" 0.005545  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 19:05:03.626 [D] [server.go:2619] ::1 - - [24/Apr/2018 07:05:03] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.005899 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 19:05:26.059 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 19:05:27.328 [D] [server.go:2619] ::1 - - [24/Apr/2018 07:05:27] "GET / HTTP/1.1 200 0" 0.008444  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 19:05:27.601 [D] [server.go:2619] ::1 - - [24/Apr/2018 07:05:27] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.002708 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 19:08:54.231 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 19:08:59.678 [D] [server.go:2619] ::1 - - [24/Apr/2018 07:08:59] "GET / HTTP/1.1 200 0" 0.006844  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 19:08:59.931 [D] [server.go:2619] ::1 - - [24/Apr/2018 07:08:59] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.006237 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 19:10:39.987 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/24 19:10:42.611 [D] [server.go:2619] ::1 - - [24/Apr/2018 07:10:42] "GET / HTTP/1.1 200 0" 0.014061  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/24 19:10:42.879 [D] [server.go:2619] ::1 - - [24/Apr/2018 07:10:42] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.000328 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+

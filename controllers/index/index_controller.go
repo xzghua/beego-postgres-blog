@@ -17,6 +17,8 @@ func (h *HomeController) Index() {
 	if err != nil {
 		page2 = 1
 	}
+
+
 	services.IndexPostList(page2)
 	h.Layout = "home/master.tpl"
 	h.TplName = "home/index.tpl"

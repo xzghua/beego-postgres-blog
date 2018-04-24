@@ -8,6 +8,9 @@ import (
 	"strings"
 	"time"
 	"bee-go-myBlog/common"
+	"encoding/json"
+	"reflect"
+	"github.com/garyburd/redigo/redis"
 )
 
 func StorePost(u common.PostCreate) (res bool) {
@@ -192,25 +195,40 @@ func PostDestroy(id int64) (err error) {
 
 
 func IndexPostList(page int64) (ml []interface{}, err error) {
-	post,err := models.IndexAllPost(page)
-	if post != nil {
-		for key, val := range post {
-			userId := val.(map[string]interface{})["UserId"].(int64)
-			user,_ := models.GetUsersById(userId)
-			postId := val.(map[string]interface{})["Id"].(int64)
-			deletedAt := val.(map[string]interface{})["DeletedAt"].(time.Time)
-			fmt.Println(postId,"帖子ID",deletedAt.Unix(),deletedAt.Unix() > 0)
-			cateId,_ := GetCateByPostId(postId)
-			cate,_ := models.GetCategoriesById(cateId)
-			if cate == nil {
-				post[key].(map[string]interface{})["cate_name"] = ""
-			} else {
-				post[key].(map[string]interface{})["cate_name"] = cate.DisplayName
+	cache := common.Cache()
+	key := "index:post:list"
+	res := cache.Get(key)
+
+	if res == nil {
+		post,err := models.IndexAllPost(page)
+		if post != nil {
+			for key, val := range post {
+				userId := val.(map[string]interface{})["UserId"].(int64)
+				user,_ := models.GetUsersById(userId)
+				postId := val.(map[string]interface{})["Id"].(int64)
+				deletedAt := val.(map[string]interface{})["DeletedAt"].(time.Time)
+				fmt.Println(postId,"帖子ID",deletedAt.Unix(),deletedAt.Unix() > 0)
+				cateId,_ := GetCateByPostId(postId)
+				cate,_ := models.GetCategoriesById(cateId)
+				if cate == nil {
+					post[key].(map[string]interface{})["cate_name"] = ""
+				} else {
+					post[key].(map[string]interface{})["cate_name"] = cate.DisplayName
+				}
+				post[key].(map[string]interface{})["user_name"] = user.Name
+				post[key].(map[string]interface{})["user_id"] = user.Id
 			}
-			post[key].(map[string]interface{})["user_name"] = user.Name
-			post[key].(map[string]interface{})["user_id"] = user.Id
 		}
+		timeoutDuration := 24 * 30 * time.Hour
+		data ,_ := json.Marshal(post)
+		cache.Put(key,data,timeoutDuration)
+		return post,err
 	}
+
+	var post  []interface{}
+	string1,err := redis.String(res,err)
+	json.Unmarshal([]byte(string1),&post)
+	
 	return post,err
 
 }
