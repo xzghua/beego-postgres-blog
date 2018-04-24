@@ -182,10 +182,10 @@ func AllTag(page int64) (ml []interface{}, err error) {
 }
 
 
-func TagPaginate(page int64) (totalPage int64,lastPage int64,currentPage int64,nextPage int64)  {
+func TagPaginate(page int64,env string) (totalPage int64,lastPage int64,currentPage int64,nextPage int64)  {
 	var tag Tags
 	tableName := tag.TableName()
-	return common.MyPaginate(page,tableName)
+	return common.MyPaginate(page,tableName,env)
 }
 
 func GetTagByTagIds(maps []orm.Params) (tags []Tags) {

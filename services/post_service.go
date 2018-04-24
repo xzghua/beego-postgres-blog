@@ -189,3 +189,28 @@ func PostDestroy(id int64) (err error) {
 
 	return
 }
+
+
+func IndexPostList(page int64) (ml []interface{}, err error) {
+	post,err := models.IndexAllPost(page)
+	if post != nil {
+		for key, val := range post {
+			userId := val.(map[string]interface{})["UserId"].(int64)
+			user,_ := models.GetUsersById(userId)
+			postId := val.(map[string]interface{})["Id"].(int64)
+			deletedAt := val.(map[string]interface{})["DeletedAt"].(time.Time)
+			fmt.Println(postId,"帖子ID",deletedAt.Unix(),deletedAt.Unix() > 0)
+			cateId,_ := GetCateByPostId(postId)
+			cate,_ := models.GetCategoriesById(cateId)
+			if cate == nil {
+				post[key].(map[string]interface{})["cate_name"] = ""
+			} else {
+				post[key].(map[string]interface{})["cate_name"] = cate.DisplayName
+			}
+			post[key].(map[string]interface{})["user_name"] = user.Name
+			post[key].(map[string]interface{})["user_id"] = user.Id
+		}
+	}
+	return post,err
+
+}

@@ -37,7 +37,7 @@ func (t *TagController) Index() {
 	}
 	tag,_ := services.GetAllMyTag(page2)
 
-	totalPage,lastPage,currentPage,nextPage := models.TagPaginate(page2)
+	totalPage,lastPage,currentPage,nextPage := models.TagPaginate(page2,"console")
 	t.Data["xsrfdata"]=template.HTML(t.XSRFFormHTML())
 	t.Data["totalPage"] = totalPage
 	t.Data["lastPage"] = lastPage

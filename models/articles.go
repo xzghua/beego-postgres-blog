@@ -181,8 +181,26 @@ func AllArticle(page int64) (ml []interface{}, err error) {
 }
 
 
-func PostPaginate(page int64) (totalPage int64,lastPage int64,currentPage int64,nextPage int64)  {
+func PostPaginate(page int64,env string) (totalPage int64,lastPage int64,currentPage int64,nextPage int64)  {
 	var art Articles
 	tableName := art.TableName()
-	return common.MyPaginate(page,tableName)
+	return common.MyPaginate(page,tableName,env)
+}
+
+func IndexAllPost(page int64) (ml []interface{}, err error) {
+	var fields []string
+	var sortby []string
+	var order []string
+	var query map[string]interface{} = make(map[string]interface{})
+	var limit int64
+	var offset int64
+	query["deleted_at__isnull"] = true
+	limit, _ = beego.AppConfig.Int64("page_offset")
+	fields = []string{"Id", "Title","UserId", "Content", "BodyOriginal", "Password", "Note", "ReadStatus",
+		"Top", "Abstract", "ViewNum", "CreatedAt", "UpdatedAt","DeletedAt"}
+	offset = (page - 1 ) * limit
+	sortby = []string{"Id","updatedAt"}
+	order = []string{"desc","desc"}
+	res, err := GetAllArticles(query, fields, sortby, order, offset, limit)
+	return res, err
 }

@@ -41,9 +41,14 @@ func GetRandomString(l int64) string {
 }
 
 
-func MyPaginate(page int64,tableName string) (totalPage int64,lastPage int64,currentPage int64,nextPage int64 ){
+func MyPaginate(page int64,tableName string,env string) (totalPage int64,lastPage int64,currentPage int64,nextPage int64 ){
 	o := orm.NewOrm()
-	cnt,_ := o.QueryTable(tableName).Count()
+	var cnt int64
+	if env == "console" {
+		cnt,_ = o.QueryTable(tableName).Count()
+	} else {
+		cnt,_ = o.QueryTable(tableName).Filter("deleted_at__isnull",true).Count()
+	}
 	limit, _ := beego.AppConfig.Int64("page_offset")
 	res := round(cnt,limit)
 	totalPage = res

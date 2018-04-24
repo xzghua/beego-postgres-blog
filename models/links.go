@@ -166,8 +166,8 @@ func AllLink() (ml []interface{}, err error) {
 	return res, err
 }
 
-func LinkPaginate(page int64) (totalPage int64,lastPage int64,currentPage int64,nextPage int64)  {
+func LinkPaginate(page int64,env string) (totalPage int64,lastPage int64,currentPage int64,nextPage int64)  {
 	var link Links
 	tableName := link.TableName()
-	return common.MyPaginate(page,tableName)
+	return common.MyPaginate(page,tableName,env)
 }

@@ -7,16 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <!-- Le styles -->
-
-
 
     <link rel="stylesheet" href="/static/auth/css/style.css">
     <link rel="stylesheet" href="/static/auth/css/loader-style.css">
     <link rel="stylesheet" href="/static/auth/css/bootstrap.css">
 
     <link rel="stylesheet" type="text/css" href="/static/auth/js/progress-bar/number-pb.css">
-
 
     <style type="text/css">
         canvas#canvas4 {
@@ -82,18 +78,6 @@
                     </li>
                     <li><i class="wi-day-lightning"></i>&#160;&#160;Yogyakarta&#160;
                         <b>85</b><i class="wi-fahrenheit"></i>&#160;; Tonight- 72 °F (22.2 °C)
-                    </li>
-
-                    <li><i class="wi-day-lightning"></i>&#160;&#160;Sttugart&#160;
-                        <b>85</b><i class="wi-fahrenheit"></i>&#160;; 15km/h
-                    </li>
-
-                    <li><i class="wi-day-lightning"></i>&#160;&#160;Muchen&#160;
-                        <b>85</b><i class="wi-fahrenheit"></i>&#160;; 15km/h
-                    </li>
-
-                    <li><i class="wi-day-lightning"></i>&#160;&#160;Frankurt&#160;
-                        <b>85</b><i class="wi-fahrenheit"></i>&#160;; 15km/h
                     </li>
 
                 </ul>
