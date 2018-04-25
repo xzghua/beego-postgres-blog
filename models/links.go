@@ -9,6 +9,7 @@ import (
 	"github.com/astaxie/beego/orm"
 	"time"
 	"bee-go-myBlog/common"
+	"github.com/astaxie/beego"
 )
 
 type Links struct {
@@ -151,8 +152,7 @@ func DeleteLinks(id int64) (err error) {
 	return
 }
 
-
-func AllLink() (ml []interface{}, err error) {
+func IndexAllLink() (ml []interface{}, err error) {
 	var fields []string
 	var sortby []string
 	var order []string
@@ -161,6 +161,23 @@ func AllLink() (ml []interface{}, err error) {
 	var offset int64
 	sortby = []string{"sort"}
 	order = []string{"asc"}
+	fields = []string{"Id", "Name","Link","Sort","CreatedAt"}
+	res, err := GetAllLinks(query, fields, sortby, order, offset, limit)
+	return res, err
+}
+
+
+func AllLink(page int64) (ml []interface{}, err error) {
+	var fields []string
+	var sortby []string
+	var order []string
+	var query map[string]string = make(map[string]string)
+	var limit int64
+	var offset int64
+	limit, _ = beego.AppConfig.Int64("page_offset")
+	sortby = []string{"sort"}
+	order = []string{"asc"}
+	offset = (page - 1 ) * limit
 	fields = []string{"Id", "Name","Link","Sort","CreatedAt"}
 	res, err := GetAllLinks(query, fields, sortby, order, offset, limit)
 	return res, err

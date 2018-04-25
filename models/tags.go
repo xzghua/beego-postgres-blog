@@ -181,6 +181,19 @@ func AllTag(page int64) (ml []interface{}, err error) {
 	return res, err
 }
 
+func IndexAllTag() (ml []interface{}, err error) {
+	var fields []string
+	var sortby []string
+	var order []string
+	var query map[string]string = make(map[string]string)
+	var limit int64
+	var offset int64
+	fields = []string{"Id", "Name","TagNum"}
+	res, err := GetAllTags(query, fields, sortby, order, offset, limit)
+	return res, err
+}
+
+
 
 func TagPaginate(page int64,env string) (totalPage int64,lastPage int64,currentPage int64,nextPage int64)  {
 	var tag Tags

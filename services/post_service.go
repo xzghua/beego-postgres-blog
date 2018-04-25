@@ -9,8 +9,8 @@ import (
 	"time"
 	"bee-go-myBlog/common"
 	"encoding/json"
-	"reflect"
 	"github.com/garyburd/redigo/redis"
+	"strconv"
 )
 
 func StorePost(u common.PostCreate) (res bool) {
@@ -196,7 +196,8 @@ func PostDestroy(id int64) (err error) {
 
 func IndexPostList(page int64) (ml []interface{}, err error) {
 	cache := common.Cache()
-	key := "index:post:list"
+	pageString :=strconv.FormatInt(page,10)
+	key := "index:post:list:"+pageString
 	res := cache.Get(key)
 
 	if res == nil {
@@ -228,7 +229,7 @@ func IndexPostList(page int64) (ml []interface{}, err error) {
 	var post  []interface{}
 	string1,err := redis.String(res,err)
 	json.Unmarshal([]byte(string1),&post)
-	
+
 	return post,err
 
 }

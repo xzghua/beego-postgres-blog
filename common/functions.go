@@ -5,6 +5,8 @@ import (
 	"math/rand"
 	"github.com/astaxie/beego/orm"
 	"github.com/astaxie/beego"
+	"encoding/json"
+	"github.com/garyburd/redigo/redis"
 )
 
 func GoMerge(arr1 []interface{},arr2 []interface{}) ([]interface{}) {
@@ -47,7 +49,19 @@ func MyPaginate(page int64,tableName string,env string) (totalPage int64,lastPag
 	if env == "console" {
 		cnt,_ = o.QueryTable(tableName).Count()
 	} else {
-		cnt,_ = o.QueryTable(tableName).Filter("deleted_at__isnull",true).Count()
+		cache := Cache()
+		key := "index:paginate:data"
+		res := cache.Get(key)
+		if res == nil {
+			cnt,_ = o.QueryTable(tableName).Filter("deleted_at__isnull",true).Count()
+			timeoutDuration := 24 * 30 * time.Hour
+			data ,_ := json.Marshal(cnt)
+			cache.Put(key,data,timeoutDuration)
+		} else {
+			var err error
+			string1,err := redis.String(res,err)
+			json.Unmarshal([]byte(string1),&cnt)
+		}
 	}
 	limit, _ := beego.AppConfig.Int64("page_offset")
 	res := round(cnt,limit)

@@ -4,6 +4,7 @@ import (
 	"bee-go-myBlog/controllers"
 	"strconv"
 	"bee-go-myBlog/services"
+	"bee-go-myBlog/models"
 )
 
 type HomeController struct {
@@ -18,8 +19,21 @@ func (h *HomeController) Index() {
 		page2 = 1
 	}
 
-
-	services.IndexPostList(page2)
+	post,err := services.IndexPostList(page2)
+	cate := services.IndexAllCateBySort()
+	tag := services.IndexAllTag()
+	system := services.IndexSystem()
+	link := services.IndexLinkList()
+	totalPage,lastPage,currentPage,nextPage := models.PostPaginate(page2,"index")
+	h.Data["totalPage"] = totalPage
+	h.Data["lastPage"] = lastPage
+	h.Data["currentPage"] = currentPage
+	h.Data["nextPage"] = nextPage
+	h.Data["system"] = system
+	h.Data["post"] = post
+	h.Data["cate"] = cate
+	h.Data["link"] = link
+	h.Data["tag"] = tag
 	h.Layout = "home/master.tpl"
 	h.TplName = "home/index.tpl"
 }

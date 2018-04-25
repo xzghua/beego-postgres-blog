@@ -31,7 +31,7 @@ func (l *LinkController) Index() {
 	if err != nil {
 		page2 = 1
 	}
-	link,_ := models.AllLink()
+	link,_ := models.AllLink(page2)
 	totalPage,lastPage,currentPage,nextPage := models.LinkPaginate(page2,"console")
 	l.Data["xsrfdata"]= template.HTML(l.XSRFFormHTML())
 	l.Data["link"] = link

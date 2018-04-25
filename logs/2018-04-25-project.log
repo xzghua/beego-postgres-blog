@@ -1,0 +1,92 @@
+2018/04/25 11:12:01.824 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/25 11:13:58.260 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/25 11:14:01.403 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/25 11:20:21.906 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/25 11:20:23.786 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/25 11:20:25.013 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/25 11:20:26.176 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/25 11:20:55.154 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/25 11:26:31.666 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/25 11:26:33.519 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/25 11:26:34.558 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/25 11:26:35.583 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/25 11:29:51.255 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/25 11:29:53.220 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/25 11:29:54.280 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/25 11:31:25.346 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/25 11:31:28.459 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/25 11:33:01.436 [D] [server.go:2619] ::1 - - [25/Apr/2018 11:33:01] "GET / HTTP/1.1 200 0" 0.088927  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/25 11:33:01.469 [D] [server.go:2619] ::1 - - [25/Apr/2018 11:33:01] "GET /static/index/css/all.css HTTP/1.1 304 0" 0.001795 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/25 11:33:01.471 [D] [server.go:2619] ::1 - - [25/Apr/2018 11:33:01] "GET /static/index/fancybox/jquery.fancybox.css HTTP/1.1 304 0" 0.000438 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/25 11:33:01.746 [D] [server.go:2619] ::1 - - [25/Apr/2018 11:33:01] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.006065 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/25 11:33:27.215 [D] [server.go:2619] ::1 - - [25/Apr/2018 11:33:27] "GET / HTTP/1.1 200 0" 0.007022  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/25 11:33:27.465 [D] [server.go:2619] ::1 - - [25/Apr/2018 11:33:27] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.000111 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/25 11:44:37.853 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/25 11:44:39.722 [D] [server.go:2619] ::1 - - [25/Apr/2018 11:44:39] "GET / HTTP/1.1 200 0" 0.013188  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/25 11:44:39.977 [D] [server.go:2619] ::1 - - [25/Apr/2018 11:44:39] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.006089 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/25 11:44:43.317 [D] [server.go:2619] ::1 - - [25/Apr/2018 11:44:43] "GET / HTTP/1.1 200 0" 0.009444  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/25 11:44:43.527 [D] [server.go:2619] ::1 - - [25/Apr/2018 11:44:43] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.000133 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/25 11:45:25.012 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/25 11:45:27.315 [D] [server.go:2619] ::1 - - [25/Apr/2018 11:45:27] "GET / HTTP/1.1 200 0" 0.013097  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/25 11:45:27.558 [D] [server.go:2619] ::1 - - [25/Apr/2018 11:45:27] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.000275 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/25 11:45:31.230 [D] [server.go:2619] ::1 - - [25/Apr/2018 11:45:31] "GET / HTTP/1.1 200 0" 0.010292  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/25 11:45:31.438 [D] [server.go:2619] ::1 - - [25/Apr/2018 11:45:31] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.000160 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/25 11:48:21.246 [D] [server.go:2619] ::1 - - [25/Apr/2018 11:48:21] "GET / HTTP/1.1 200 0" 0.010517  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/25 11:48:21.493 [D] [server.go:2619] ::1 - - [25/Apr/2018 11:48:21] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.000155 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/25 11:48:25.527 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/25 11:48:26.926 [D] [server.go:2619] ::1 - - [25/Apr/2018 11:48:26] "GET / HTTP/1.1 200 0" 0.009615  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/25 11:48:27.131 [D] [server.go:2619] ::1 - - [25/Apr/2018 11:48:27] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.000998 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/25 11:50:05.102 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/25 11:54:06.042 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/25 11:55:03.380 [D] [server.go:2619] ::1 - - [25/Apr/2018 11:55:03] "GET /console/post HTTP/1.1 200 0" 0.092551  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/25 11:55:03.693 [D] [server.go:2619] ::1 - - [25/Apr/2018 11:55:03] "GET /static/auth/js/main.js HTTP/1.1 304 0" 0.000442 http://localhost:8080/console/post Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/25 11:55:03.721 [D] [server.go:2619] ::1 - - [25/Apr/2018 11:55:03] "GET /static/auth/js/skin-select/skin-select.css HTTP/1.1 304 0" 0.000446 http://localhost:8080/console/post Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/25 11:55:04.365 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/25 11:55:05.724 [D] [server.go:2619] ::1 - - [25/Apr/2018 11:55:05] "GET /console/link HTTP/1.1 200 0" 0.006362 http://localhost:8080/console/post Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/25 11:55:06.511 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/25 11:55:07.620 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/25 11:55:08.680 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/25 11:59:22.141 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/25 11:59:24.013 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/25 11:59:25.092 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/25 11:59:26.156 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/25 11:59:27.385 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/25 11:59:28.634 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/25 11:59:32.180 [D] [server.go:2619] ::1 - - [25/Apr/2018 11:59:32] "GET /console/link HTTP/1.1 200 0" 0.004666 http://localhost:8080/console/post Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/25 11:59:32.471 [D] [server.go:2619] ::1 - - [25/Apr/2018 11:59:32] "GET /static/auth/ico/minus.png HTTP/1.1 200 0" 0.000460 http://localhost:8080/console/link Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/25 11:59:38.062 [D] [server.go:2619] ::1 - - [25/Apr/2018 11:59:38] "GET / HTTP/1.1 200 0" 0.016443  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/25 11:59:38.334 [D] [server.go:2619] ::1 - - [25/Apr/2018 11:59:38] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.002545 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/25 11:59:41.585 [D] [server.go:2619] ::1 - - [25/Apr/2018 11:59:41] "GET / HTTP/1.1 200 0" 0.012289  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/25 11:59:41.789 [D] [server.go:2619] ::1 - - [25/Apr/2018 11:59:41] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.000147 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/25 11:59:44.019 [D] [server.go:2619] ::1 - - [25/Apr/2018 11:59:44] "GET / HTTP/1.1 200 0" 0.012471  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/25 11:59:44.195 [D] [server.go:2619] ::1 - - [25/Apr/2018 11:59:44] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.000091 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+

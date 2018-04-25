@@ -5,7 +5,30 @@ import (
 	"github.com/astaxie/beego/orm"
 	"fmt"
 	"bee-go-myBlog/common"
+	"encoding/json"
+	"github.com/garyburd/redigo/redis"
+	"time"
 )
+
+func IndexAllCateBySort() ([]interface{}) {
+	cache := common.Cache()
+	key := "index:cate:list"
+	res := cache.Get(key)
+	if res == nil {
+		cateList := GetAllCateBySort()
+		timeoutDuration := 24 * 30 * time.Hour
+		data ,_ := json.Marshal(cateList)
+		cache.Put(key,data,timeoutDuration)
+		return cateList
+	}
+
+	var err error
+	var cateList  []interface{}
+	string1,_ := redis.String(res,err)
+	json.Unmarshal([]byte(string1),&cateList)
+	return cateList
+}
+
 
 func GetAllCateBySort() ([]interface{}) {
 	var query map[string]string

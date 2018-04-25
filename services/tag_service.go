@@ -3,7 +3,41 @@ package services
 import (
 	"bee-go-myBlog/models"
 	"github.com/astaxie/beego/orm"
+	"bee-go-myBlog/common"
+	"time"
+	"encoding/json"
+	"github.com/garyburd/redigo/redis"
 )
+
+
+func IndexAllTag() ([]interface{}) {
+	cache := common.Cache()
+	key := "index:tag:list"
+	res := cache.Get(key)
+
+	if res == nil {
+		tag,_ := models.IndexAllTag()
+		if len(tag) == 0 {
+			tagCreate := &models.Tags{
+				Name	:	"默认分类",
+				TagNum	:	0,
+			}
+			models.AddTags(tagCreate)
+			tag,_ = models.IndexAllTag()
+		}
+		timeoutDuration := 24 * 30 * time.Hour
+		data ,_ := json.Marshal(tag)
+		cache.Put(key,data,timeoutDuration)
+		return tag
+	}
+
+	var err error
+	var tagList  []interface{}
+	string1,_ := redis.String(res,err)
+	json.Unmarshal([]byte(string1),&tagList)
+	return tagList
+
+}
 
 func GetAllMyTag(page int64) (interface{},error ){
 	tag,err := models.AllTag(page)
