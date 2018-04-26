@@ -40,7 +40,26 @@
 
 
 
-    <style>.col-md-8.col-md-offset-2.opening-statement img{display:none;}</style>
+    <style>
+        .col-md-8.col-md-offset-2.opening-statement img{display:none;}
+        .el-tag--success {
+            background-color: rgba(18,206,102,.1);
+            border-color: #12ce6633;
+            color: #13ce66;
+        }
+        .el-tag {
+             background-color: #8391a5;
+            padding: 0 5px;
+             height: 24px;
+             line-height: 22px;
+            font-size: 12px;
+             color: #fff;
+            border-radius: 4px;
+             box-sizing: border-box;
+            border: 1px solid #12ce6633;
+            display: inline-block;
+        }
+    </style>
 </head>
 
 <!--

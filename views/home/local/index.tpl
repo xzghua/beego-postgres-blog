@@ -1,11 +1,11 @@
 <section id="hero" class="scrollme">
-    <div class="container-fluid element-img" style="background: url(https://odu38kv7q.qnssl.com/index.jpg) no-repeat center center fixed;background-size: cover">
+    <div class="container-fluid element-img" style="background: url(/static/index/img/1.jpeg) no-repeat center center fixed;background-size: cover">
         <div class="row">
             <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 vertical-align cover boost text-center">
                 <div class="center-me animateme" data-when="exit" data-from="0" data-to="0.6" data-opacity="0" data-translatey="100">
                     <div>
 
-                        <h2></h2>
+                        <h2>叶落山城秋</h2>
                         <p></p>
 
                         <h2></h2>
@@ -31,34 +31,29 @@
 <section id="intro">
     <div class="container">
 
+        {{range $index,$item := .post }}
+
         <div class="row">
             <div class="col-md-8 col-md-offset-2 opening-statement">
                 <div class="col-md-4">
-                    <h3><a href="post/43/index.html">南北湖 / 奕仙城 / 未完成的一日一夜游小记</a></h3>
+                    <h3 style="white-space: pre-wrap;word-wrap: break-word;"><a href="post/43/index.html">{{$item.Title}}</a></h3>
                     <span>
                         <span class="post-meta">
-      <time datetime="2018-01-06T06:00:07.000Z" itemprop="datePublished">
-          2018-01-06
-      </time>
-
-
-    |
-    <a href='tags/南北湖/index.html'>南北湖</a>,
-
-    <a href='tags/奕仙城/index.html'>奕仙城</a>,
-
-    <a href='tags/Travel/index.html'>Travel</a>
-
-
-</span>
+                        <time datetime="{{$item.CreatedAt}}" itemprop="datePublished">
+                        {{$item.CreatedAt}}
+                        </time>
+                        |
+                            {{range $key,$value := $item.tag_list}}
+                                    {{ range $k,$v := $value }}
+                                        <span class="el-tag el-tag--success"> {{$v}}</span>
+                                    {{end}}
+                            {{end}}
+                        </span>
                     </span>
                 </div>
                 <div class="col-md-8">
                     <p>
-
-                        先来段正规的介绍12345南北湖，浙江省第一批省级风景名胜区、国家AAAA级旅游景区、浙江十大“最佳休闲度假胜地”之一。南北湖，山有层次，水有曲折，海有奇景，村有故事，是我国唯一融山、海、湖、村为一体的全景度假地，依托山海湖·村特色资源，提供多种主题度假方式，感受完美全景度假生活。门票：80元预订：60元海盐本地居民凭 330424 开头的身份证可以办理南北湖旅游年卡，无限次进入南北湖，20元/年年卡办理公众号：nanbeihuly
-                        首
-
+                    {{$item.Abstract}} ...
                     </p>
 
                     <p class="pull-right readMore">
@@ -70,6 +65,9 @@
                 <hr class="nogutter">
             </div>
         </div>
+        {{end}}
+
+
 
         <div class="row">
             <div class="col-md-8 col-md-offset-2 opening-statement">

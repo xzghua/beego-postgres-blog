@@ -1,0 +1,519 @@
+2018/04/26 11:36:12.637 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/26 11:36:15.980 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/26 11:36:18.733 [C] [asm_amd64.s:509] the request url is  /
+2018/04/26 11:36:18.733 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/home/index.tpl
+2018/04/26 11:36:18.733 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/04/26 11:36:18.733 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/04/26 11:36:18.733 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/04/26 11:36:18.733 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/04/26 11:36:18.733 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/04/26 11:36:18.733 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/04/26 11:36:18.733 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/04/26 11:36:18.733 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/04/26 11:36:18.733 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/04/26 11:36:18.733 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/04/26 11:36:53.406 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/26 11:36:58.829 [D] [server.go:2619] ::1 - - [26/Apr/2018 11:36:58] "GET / HTTP/1.1 200 0" 0.018958  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 11:36:58.849 [D] [server.go:2619] ::1 - - [26/Apr/2018 11:36:58] "GET /static/index/css/all.css HTTP/1.1 304 0" 0.002566 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 11:36:58.849 [D] [server.go:2619] ::1 - - [26/Apr/2018 11:36:58] "GET /static/index/fancybox/jquery.fancybox.css HTTP/1.1 304 0" 0.000509 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 11:36:59.209 [D] [server.go:2619] ::1 - - [26/Apr/2018 11:36:59] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.000885 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 11:37:37.657 [D] [server.go:2619] ::1 - - [26/Apr/2018 11:37:37] "GET / HTTP/1.1 200 0" 0.015754  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 11:37:37.935 [D] [server.go:2619] ::1 - - [26/Apr/2018 11:37:37] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.000142 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 11:37:55.405 [D] [server.go:2619] ::1 - - [26/Apr/2018 11:37:55] "GET / HTTP/1.1 200 0" 0.016546  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 11:37:55.682 [D] [server.go:2619] ::1 - - [26/Apr/2018 11:37:55] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.000112 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 11:38:10.039 [D] [server.go:2619] ::1 - - [26/Apr/2018 11:38:10] "GET / HTTP/1.1 200 0" 0.016012  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 11:38:10.319 [D] [server.go:2619] ::1 - - [26/Apr/2018 11:38:10] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.000131 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 11:41:11.838 [D] [server.go:2619] ::1 - - [26/Apr/2018 11:41:11] "GET / HTTP/1.1 200 0" 0.016663  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 11:41:12.155 [D] [server.go:2619] ::1 - - [26/Apr/2018 11:41:12] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.000096 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 11:43:17.383 [D] [server.go:2619] ::1 - - [26/Apr/2018 11:43:17] "GET / HTTP/1.1 200 0" 0.025647  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 11:43:17.687 [D] [server.go:2619] ::1 - - [26/Apr/2018 11:43:17] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.000106 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 11:43:40.315 [D] [server.go:2619] ::1 - - [26/Apr/2018 11:43:40] "GET / HTTP/1.1 200 0" 0.015857  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 11:43:40.597 [D] [server.go:2619] ::1 - - [26/Apr/2018 11:43:40] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.000136 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 11:44:09.089 [D] [server.go:2619] ::1 - - [26/Apr/2018 11:44:09] "GET / HTTP/1.1 200 0" 0.023231  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 11:44:09.372 [D] [server.go:2619] ::1 - - [26/Apr/2018 11:44:09] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.000133 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 11:44:14.375 [D] [server.go:2619] ::1 - - [26/Apr/2018 11:44:14] "GET / HTTP/1.1 200 0" 0.011549  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 11:44:14.604 [D] [server.go:2619] ::1 - - [26/Apr/2018 11:44:14] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.000402 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 11:44:21.320 [D] [server.go:2619] ::1 - - [26/Apr/2018 11:44:21] "GET / HTTP/1.1 200 0" 0.014101  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 11:44:21.543 [D] [server.go:2619] ::1 - - [26/Apr/2018 11:44:21] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.000118 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 11:44:22.593 [D] [server.go:2619] ::1 - - [26/Apr/2018 11:44:22] "GET / HTTP/1.1 200 0" 0.012089  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 11:44:22.801 [D] [server.go:2619] ::1 - - [26/Apr/2018 11:44:22] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.000150 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 11:47:53.341 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/26 14:35:46.839 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/26 14:36:17.065 [D] [server.go:2619] ::1 - - [26/Apr/2018 02:36:16] "GET / HTTP/1.1 200 0" 0.137744  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 14:36:17.460 [D] [server.go:2619] ::1 - - [26/Apr/2018 02:36:17] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.000952 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 14:36:21.717 [D] [server.go:2619] ::1 - - [26/Apr/2018 02:36:21] "GET / HTTP/1.1 200 0" 0.012597  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 14:36:21.913 [D] [server.go:2619] ::1 - - [26/Apr/2018 02:36:21] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.000126 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 14:37:44.463 [D] [controller.go:263] template Execute err: template: home/local/index.tpl:46:56: executing "home/local/index.tpl" at <$item.tag_list>: range can't iterate over 啊SD发生的发的是发水电费
+2018/04/26 14:37:44.463 [E] [server.go:2619] template: home/local/index.tpl:46:56: executing "home/local/index.tpl" at <$item.tag_list>: range can't iterate over 啊SD发生的发的是发水电费
+2018/04/26 14:37:44.463 [D] [server.go:2619] ::1 - - [26/Apr/2018 02:37:44] "GET / HTTP/1.1 200 0" 0.013175  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 14:44:06.417 [D] [server.go:2619] ::1 - - [26/Apr/2018 02:44:06] "GET / HTTP/1.1 200 0" 0.015632  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 14:44:06.795 [D] [server.go:2619] ::1 - - [26/Apr/2018 02:44:06] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.000118 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 15:53:27.631 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/26 15:53:30.328 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/26 15:53:31.553 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/26 15:53:35.900 [D] [server.go:2619] ::1 - - [26/Apr/2018 03:53:35] "GET / HTTP/1.1 200 0" 0.018157  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 15:53:36.199 [D] [server.go:2619] ::1 - - [26/Apr/2018 03:53:36] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.001022 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 15:54:36.634 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/26 15:54:38.855 [D] [server.go:2619] ::1 - - [26/Apr/2018 03:54:38] "GET / HTTP/1.1 200 0" 0.016051  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 15:54:39.145 [D] [server.go:2619] ::1 - - [26/Apr/2018 03:54:39] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.002615 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 15:54:52.923 [D] [server.go:2619] ::1 - - [26/Apr/2018 03:54:52] "GET / HTTP/1.1 200 0" 0.173241  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 15:54:53.180 [D] [server.go:2619] ::1 - - [26/Apr/2018 03:54:53] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.000114 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 15:55:21.124 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/26 15:55:22.776 [D] [server.go:2619] ::1 - - [26/Apr/2018 03:55:22] "GET / HTTP/1.1 200 0" 0.016510  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 15:55:23.056 [D] [server.go:2619] ::1 - - [26/Apr/2018 03:55:23] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.000891 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 15:55:53.417 [D] [server.go:2619] ::1 - - [26/Apr/2018 03:55:53] "GET / HTTP/1.1 200 0" 0.016622  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 15:55:53.688 [D] [server.go:2619] ::1 - - [26/Apr/2018 03:55:53] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.000190 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 15:56:17.868 [D] [server.go:2619] ::1 - - [26/Apr/2018 03:56:17] "GET / HTTP/1.1 200 0" 0.018796  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 15:56:18.164 [D] [server.go:2619] ::1 - - [26/Apr/2018 03:56:18] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.000126 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 15:56:19.182 [D] [server.go:2619] ::1 - - [26/Apr/2018 03:56:19] "GET / HTTP/1.1 200 0" 0.013808  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 15:56:19.398 [D] [server.go:2619] ::1 - - [26/Apr/2018 03:56:19] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.000198 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 15:58:18.266 [E] [controller.go:261] parse template err: home/local/index.tpl template: home/local/index.tpl:48: unexpected bad character U+005B '[' in command
+2018/04/26 17:15:36.608 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/26 17:15:38.555 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:15:38] "GET / HTTP/1.1 200 0" 0.014254  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:15:38.911 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:15:38] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.000974 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:16:12.783 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:16:12] "GET / HTTP/1.1 200 0" 0.015123  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:16:13.097 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:16:13] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.000140 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:18:32.585 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:18:32] "GET / HTTP/1.1 200 0" 0.014649  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:18:32.861 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:18:32] "GET /static/index/img/favicon.ico HTTP/1.1 200 0" 0.000109 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:18:35.499 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/26 17:22:09.855 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:22:09] "GET / HTTP/1.1 200 0" 0.020671  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:22:09.882 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:22:09] "GET /static/index/css/all.css HTTP/1.1 200 0" 0.002638 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:22:09.882 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:22:09] "GET /static/index/highlightjs/xcode.css HTTP/1.1 200 0" 0.002589 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:22:09.883 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:22:09] "GET /static/index/js/jquery-1.11.1.min.js HTTP/1.1 200 0" 0.003567 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:22:09.884 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:22:09] "GET /static/index/fancybox/jquery.fancybox.css HTTP/1.1 200 0" 0.004337 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:22:09.895 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:22:09] "GET /static/index/js/plugins.min.js HTTP/1.1 200 0" 0.000916 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:22:09.899 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:22:09] "GET /static/index/js/scripts.js HTTP/1.1 200 0" 0.000508 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:22:09.903 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:22:09] "GET /static/index/fancybox/jquery.fancybox.pack.js HTTP/1.1 200 0" 0.000574 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:22:09.907 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:22:09] "GET /static/index/img/close.png HTTP/1.1 200 0" 0.000424 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:22:09.912 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:22:09] "GET /static/index/img/logo.png HTTP/1.1 200 0" 0.000652 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:22:10.003 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:22:10] "GET /static/index/img/1.jpeg HTTP/1.1 200 0" 0.001103 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:22:10.004 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:22:10] "GET /static/index/fonts/icons.woff HTTP/1.1 200 0" 0.001689 http://localhost:8080/static/index/css/all.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:22:10.004 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:22:10] "GET /static/index/fonts/opensans.woff HTTP/1.1 200 0" 0.001897 http://localhost:8080/static/index/css/all.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:22:52.178 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:22:52] "GET / HTTP/1.1 200 0" 0.016389  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:22:52.201 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:22:52] "GET /static/index/highlightjs/xcode.css HTTP/1.1 200 0" 0.000039 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:22:52.201 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:22:52] "GET /static/index/css/all.css HTTP/1.1 200 0" 0.000250 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:22:52.202 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:22:52] "GET /static/index/js/jquery-1.11.1.min.js HTTP/1.1 200 0" 0.000162 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:22:52.203 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:22:52] "GET /static/index/fancybox/jquery.fancybox.css HTTP/1.1 200 0" 0.000076 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:22:52.210 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:22:52] "GET /static/index/js/plugins.min.js HTTP/1.1 200 0" 0.000136 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:22:52.213 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:22:52] "GET /static/index/js/scripts.js HTTP/1.1 200 0" 0.000098 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:22:52.218 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:22:52] "GET /static/index/fancybox/jquery.fancybox.pack.js HTTP/1.1 200 0" 0.000133 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:22:52.226 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:22:52] "GET /static/index/img/close.png HTTP/1.1 200 0" 0.000069 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:22:52.229 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:22:52] "GET /static/index/img/logo.png HTTP/1.1 200 0" 0.000098 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:22:52.333 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:22:52] "GET /static/index/fonts/icons.woff HTTP/1.1 200 0" 0.000072 http://localhost:8080/static/index/css/all.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:22:52.333 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:22:52] "GET /static/index/img/1.jpeg HTTP/1.1 200 0" 0.000145 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:22:52.333 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:22:52] "GET /static/index/fonts/opensans.woff HTTP/1.1 200 0" 0.000070 http://localhost:8080/static/index/css/all.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:30:51.375 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:30:51] "GET / HTTP/1.1 200 0" 0.017403  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:30:51.398 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:30:51] "GET /static/index/highlightjs/xcode.css HTTP/1.1 200 0" 0.000070 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:30:51.398 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:30:51] "GET /static/index/css/all.css HTTP/1.1 200 0" 0.000191 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:30:51.399 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:30:51] "GET /static/index/js/jquery-1.11.1.min.js HTTP/1.1 200 0" 0.000155 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:30:51.406 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:30:51] "GET /static/index/img/close.png HTTP/1.1 200 0" 0.000129 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:30:51.416 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:30:51] "GET /static/index/img/logo.png HTTP/1.1 200 0" 0.000103 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:30:51.480 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:30:51] "GET /static/index/fancybox/jquery.fancybox.css HTTP/1.1 200 0" 0.000074 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:30:51.524 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:30:51] "GET /static/index/js/plugins.min.js HTTP/1.1 200 0" 0.000145 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:30:51.525 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:30:51] "GET /static/index/js/scripts.js HTTP/1.1 200 0" 0.000067 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:30:51.526 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:30:51] "GET /static/index/fancybox/jquery.fancybox.pack.js HTTP/1.1 200 0" 0.000107 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:30:51.538 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:30:51] "GET /static/index/img/1.jpeg HTTP/1.1 200 0" 0.000164 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:30:51.539 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:30:51] "GET /static/index/fonts/icons.woff HTTP/1.1 200 0" 0.000144 http://localhost:8080/static/index/css/all.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:30:51.541 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:30:51] "GET /static/index/fonts/opensans.woff HTTP/1.1 200 0" 0.000092 http://localhost:8080/static/index/css/all.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:31:26.064 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:31:26] "GET / HTTP/1.1 200 0" 0.020571  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:31:26.108 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:31:26] "GET /static/index/highlightjs/xcode.css HTTP/1.1 200 0" 0.000048 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:31:26.108 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:31:26] "GET /static/index/css/all.css HTTP/1.1 200 0" 0.000219 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:31:26.109 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:31:26] "GET /static/index/js/jquery-1.11.1.min.js HTTP/1.1 200 0" 0.000976 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:31:26.122 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:31:26] "GET /static/index/img/close.png HTTP/1.1 200 0" 0.000055 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:31:26.125 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:31:26] "GET /static/index/img/logo.png HTTP/1.1 200 0" 0.000106 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:31:26.200 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:31:26] "GET /static/index/fancybox/jquery.fancybox.css HTTP/1.1 200 0" 0.000097 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:31:26.249 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:31:26] "GET /static/index/js/plugins.min.js HTTP/1.1 200 0" 0.000115 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:31:26.250 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:31:26] "GET /static/index/js/scripts.js HTTP/1.1 200 0" 0.000077 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:31:26.252 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:31:26] "GET /static/index/fancybox/jquery.fancybox.pack.js HTTP/1.1 200 0" 0.000172 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:31:26.270 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:31:26] "GET /static/index/img/1.jpeg HTTP/1.1 200 0" 0.000155 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:31:26.270 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:31:26] "GET /static/index/fonts/icons.woff HTTP/1.1 200 0" 0.000118 http://localhost:8080/static/index/css/all.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:31:26.270 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:31:26] "GET /static/index/fonts/opensans.woff HTTP/1.1 200 0" 0.000082 http://localhost:8080/static/index/css/all.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:32:12.172 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:32:12] "GET / HTTP/1.1 200 0" 0.019275  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:32:12.194 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:32:12] "GET /static/index/highlightjs/xcode.css HTTP/1.1 200 0" 0.000140 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:32:12.195 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:32:12] "GET /static/index/js/jquery-1.11.1.min.js HTTP/1.1 200 0" 0.000182 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:32:12.195 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:32:12] "GET /static/index/css/all.css HTTP/1.1 200 0" 0.001188 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:32:12.212 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:32:12] "GET /static/index/img/close.png HTTP/1.1 200 0" 0.000071 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:32:12.216 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:32:12] "GET /static/index/img/logo.png HTTP/1.1 200 0" 0.000120 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:32:12.282 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:32:12] "GET /static/index/fancybox/jquery.fancybox.css HTTP/1.1 200 0" 0.000082 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:32:12.318 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:32:12] "GET /static/index/js/plugins.min.js HTTP/1.1 200 0" 0.000141 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:32:12.318 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:32:12] "GET /static/index/js/scripts.js HTTP/1.1 200 0" 0.000054 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:32:12.318 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:32:12] "GET /static/index/fancybox/jquery.fancybox.pack.js HTTP/1.1 200 0" 0.000067 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:32:12.334 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:32:12] "GET /static/index/img/1.jpeg HTTP/1.1 200 0" 0.000156 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:32:12.334 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:32:12] "GET /static/index/fonts/icons.woff HTTP/1.1 200 0" 0.000091 http://localhost:8080/static/index/css/all.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:32:12.335 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:32:12] "GET /static/index/fonts/opensans.woff HTTP/1.1 200 0" 0.000089 http://localhost:8080/static/index/css/all.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:41:23.796 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:41:23] "GET / HTTP/1.1 200 0" 0.016944  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:41:23.819 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:41:23] "GET /static/index/css/all.css HTTP/1.1 200 0" 0.000215 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:41:23.819 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:41:23] "GET /static/index/highlightjs/xcode.css HTTP/1.1 200 0" 0.000145 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:41:23.819 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:41:23] "GET /static/index/js/jquery-1.11.1.min.js HTTP/1.1 200 0" 0.000185 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:41:23.826 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:41:23] "GET /static/index/img/close.png HTTP/1.1 200 0" 0.000054 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:41:23.833 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:41:23] "GET /static/index/img/logo.png HTTP/1.1 200 0" 0.000169 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:41:23.900 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:41:23] "GET /static/index/fancybox/jquery.fancybox.css HTTP/1.1 200 0" 0.000096 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:41:23.935 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:41:23] "GET /static/index/js/plugins.min.js HTTP/1.1 200 0" 0.000140 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:41:23.936 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:41:23] "GET /static/index/js/scripts.js HTTP/1.1 200 0" 0.000085 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:41:23.937 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:41:23] "GET /static/index/fancybox/jquery.fancybox.pack.js HTTP/1.1 200 0" 0.000156 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:41:23.951 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:41:23] "GET /static/index/img/1.jpeg HTTP/1.1 200 0" 0.000145 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:41:23.951 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:41:23] "GET /static/index/fonts/icons.woff HTTP/1.1 200 0" 0.000104 http://localhost:8080/static/index/css/all.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:41:23.952 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:41:23] "GET /static/index/fonts/opensans.woff HTTP/1.1 200 0" 0.000062 http://localhost:8080/static/index/css/all.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:43:02.893 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:43:02] "GET / HTTP/1.1 200 0" 0.019572  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:43:02.926 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:43:02] "GET /static/index/highlightjs/xcode.css HTTP/1.1 200 0" 0.000038 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:43:02.926 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:43:02] "GET /static/index/css/all.css HTTP/1.1 200 0" 0.000243 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:43:02.926 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:43:02] "GET /static/index/js/jquery-1.11.1.min.js HTTP/1.1 200 0" 0.000120 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:43:02.934 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:43:02] "GET /static/index/img/close.png HTTP/1.1 200 0" 0.000070 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:43:02.938 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:43:02] "GET /static/index/img/logo.png HTTP/1.1 200 0" 0.000131 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:43:03.008 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:43:03] "GET /static/index/fancybox/jquery.fancybox.css HTTP/1.1 200 0" 0.000088 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:43:03.045 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:43:03] "GET /static/index/js/plugins.min.js HTTP/1.1 200 0" 0.000131 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:43:03.046 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:43:03] "GET /static/index/js/scripts.js HTTP/1.1 200 0" 0.000047 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:43:03.046 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:43:03] "GET /static/index/fancybox/jquery.fancybox.pack.js HTTP/1.1 200 0" 0.000096 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:43:03.059 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:43:03] "GET /static/index/img/1.jpeg HTTP/1.1 200 0" 0.000173 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:43:03.059 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:43:03] "GET /static/index/fonts/icons.woff HTTP/1.1 200 0" 0.000075 http://localhost:8080/static/index/css/all.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:43:03.060 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:43:03] "GET /static/index/fonts/opensans.woff HTTP/1.1 200 0" 0.000058 http://localhost:8080/static/index/css/all.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:54:08.001 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:54:07] "GET / HTTP/1.1 200 0" 0.020841  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:54:08.030 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:54:08] "GET /static/index/highlightjs/xcode.css HTTP/1.1 200 0" 0.000051 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:54:08.030 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:54:08] "GET /static/index/css/all.css HTTP/1.1 200 0" 0.000227 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:54:08.030 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:54:08] "GET /static/index/js/jquery-1.11.1.min.js HTTP/1.1 200 0" 0.000128 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:54:08.037 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:54:08] "GET /static/index/img/close.png HTTP/1.1 200 0" 0.000053 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:54:08.040 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:54:08] "GET /static/index/img/logo.png HTTP/1.1 200 0" 0.000129 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:54:08.107 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:54:08] "GET /static/index/fancybox/jquery.fancybox.css HTTP/1.1 200 0" 0.000106 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:54:08.152 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:54:08] "GET /static/index/js/plugins.min.js HTTP/1.1 200 0" 0.000154 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:54:08.152 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:54:08] "GET /static/index/js/scripts.js HTTP/1.1 200 0" 0.000064 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:54:08.153 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:54:08] "GET /static/index/fancybox/jquery.fancybox.pack.js HTTP/1.1 200 0" 0.000347 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:54:08.164 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:54:08] "GET /static/index/fonts/icons.woff HTTP/1.1 200 0" 0.000102 http://localhost:8080/static/index/css/all.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:54:08.165 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:54:08] "GET /static/index/img/1.jpeg HTTP/1.1 200 0" 0.000153 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:54:08.165 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:54:08] "GET /static/index/fonts/opensans.woff HTTP/1.1 200 0" 0.000064 http://localhost:8080/static/index/css/all.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:54:32.302 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:54:32] "GET / HTTP/1.1 200 0" 0.015717  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:54:32.321 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:54:32] "GET /static/index/css/all.css HTTP/1.1 200 0" 0.000224 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:54:32.322 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:54:32] "GET /static/index/highlightjs/xcode.css HTTP/1.1 200 0" 0.000054 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:54:32.322 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:54:32] "GET /static/index/js/jquery-1.11.1.min.js HTTP/1.1 200 0" 0.000143 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:54:32.329 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:54:32] "GET /static/index/img/close.png HTTP/1.1 200 0" 0.000066 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:54:32.334 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:54:32] "GET /static/index/img/logo.png HTTP/1.1 200 0" 0.000143 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:54:32.400 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:54:32] "GET /static/index/fancybox/jquery.fancybox.css HTTP/1.1 200 0" 0.000093 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:54:32.440 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:54:32] "GET /static/index/js/plugins.min.js HTTP/1.1 200 0" 0.000143 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:54:32.440 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:54:32] "GET /static/index/js/scripts.js HTTP/1.1 200 0" 0.000063 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:54:32.441 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:54:32] "GET /static/index/fancybox/jquery.fancybox.pack.js HTTP/1.1 200 0" 0.000090 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:54:32.451 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:54:32] "GET /static/index/fonts/icons.woff HTTP/1.1 200 0" 0.000087 http://localhost:8080/static/index/css/all.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:54:32.451 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:54:32] "GET /static/index/img/1.jpeg HTTP/1.1 200 0" 0.000130 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:54:32.451 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:54:32] "GET /static/index/fonts/opensans.woff HTTP/1.1 200 0" 0.000072 http://localhost:8080/static/index/css/all.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:55:08.471 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:55:08] "GET / HTTP/1.1 200 0" 0.017485  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:55:08.492 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:55:08] "GET /static/index/highlightjs/xcode.css HTTP/1.1 200 0" 0.000036 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:55:08.492 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:55:08] "GET /static/index/css/all.css HTTP/1.1 200 0" 0.000213 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:55:08.493 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:55:08] "GET /static/index/img/close.png HTTP/1.1 200 0" 0.000093 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:55:08.493 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:55:08] "GET /static/index/js/jquery-1.11.1.min.js HTTP/1.1 200 0" 0.001074 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:55:08.493 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:55:08] "GET /static/index/img/logo.png HTTP/1.1 200 0" 0.000177 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:55:08.571 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:55:08] "GET /static/index/fancybox/jquery.fancybox.css HTTP/1.1 200 0" 0.000080 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:55:08.608 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:55:08] "GET /static/index/js/plugins.min.js HTTP/1.1 200 0" 0.000155 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:55:08.608 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:55:08] "GET /static/index/js/scripts.js HTTP/1.1 200 0" 0.000081 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:55:08.609 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:55:08] "GET /static/index/fancybox/jquery.fancybox.pack.js HTTP/1.1 200 0" 0.000103 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:55:08.621 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:55:08] "GET /static/index/img/1.jpeg HTTP/1.1 200 0" 0.000209 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:55:08.622 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:55:08] "GET /static/index/fonts/icons.woff HTTP/1.1 200 0" 0.000111 http://localhost:8080/static/index/css/all.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:55:08.622 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:55:08] "GET /static/index/fonts/opensans.woff HTTP/1.1 200 0" 0.000088 http://localhost:8080/static/index/css/all.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:55:37.804 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:55:37] "GET / HTTP/1.1 200 0" 0.018074  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:55:37.827 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:55:37] "GET /static/index/css/all.css HTTP/1.1 200 0" 0.000215 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:55:37.827 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:55:37] "GET /static/index/highlightjs/xcode.css HTTP/1.1 200 0" 0.000045 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:55:37.828 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:55:37] "GET /static/index/js/jquery-1.11.1.min.js HTTP/1.1 200 0" 0.000561 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:55:37.835 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:55:37] "GET /static/index/img/close.png HTTP/1.1 200 0" 0.000072 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:55:37.838 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:55:37] "GET /static/index/img/logo.png HTTP/1.1 200 0" 0.000111 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:55:37.919 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:55:37] "GET /static/index/fancybox/jquery.fancybox.css HTTP/1.1 200 0" 0.000065 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:55:37.967 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:55:37] "GET /static/index/js/plugins.min.js HTTP/1.1 200 0" 0.000116 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:55:37.968 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:55:37] "GET /static/index/js/scripts.js HTTP/1.1 200 0" 0.000100 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:55:37.969 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:55:37] "GET /static/index/fancybox/jquery.fancybox.pack.js HTTP/1.1 200 0" 0.000103 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:55:37.986 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:55:37] "GET /static/index/img/1.jpeg HTTP/1.1 200 0" 0.000142 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:55:37.986 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:55:37] "GET /static/index/fonts/icons.woff HTTP/1.1 200 0" 0.000096 http://localhost:8080/static/index/css/all.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:55:37.987 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:55:37] "GET /static/index/fonts/opensans.woff HTTP/1.1 200 0" 0.000080 http://localhost:8080/static/index/css/all.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:57:39.454 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:57:39] "GET / HTTP/1.1 200 0" 0.013448  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:57:39.475 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:57:39] "GET /static/index/highlightjs/xcode.css HTTP/1.1 200 0" 0.000044 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:57:39.475 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:57:39] "GET /static/index/css/all.css HTTP/1.1 200 0" 0.000198 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:57:39.475 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:57:39] "GET /static/index/js/jquery-1.11.1.min.js HTTP/1.1 200 0" 0.000123 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:57:39.483 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:57:39] "GET /static/index/img/close.png HTTP/1.1 200 0" 0.000064 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:57:39.486 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:57:39] "GET /static/index/img/logo.png HTTP/1.1 200 0" 0.000092 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:57:39.550 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:57:39] "GET /static/index/fancybox/jquery.fancybox.css HTTP/1.1 200 0" 0.000064 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:57:39.585 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:57:39] "GET /static/index/js/scripts.js HTTP/1.1 200 0" 0.000075 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:57:39.585 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:57:39] "GET /static/index/js/plugins.min.js HTTP/1.1 200 0" 0.000094 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:57:39.586 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:57:39] "GET /static/index/fancybox/jquery.fancybox.pack.js HTTP/1.1 200 0" 0.000205 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:57:39.594 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:57:39] "GET /static/index/img/1.jpeg HTTP/1.1 200 0" 0.000130 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:57:39.595 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:57:39] "GET /static/index/fonts/icons.woff HTTP/1.1 200 0" 0.000068 http://localhost:8080/static/index/css/all.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:57:39.595 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:57:39] "GET /static/index/fonts/opensans.woff HTTP/1.1 200 0" 0.000055 http://localhost:8080/static/index/css/all.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:59:29.638 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:59:29] "GET / HTTP/1.1 200 0" 0.020166  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:59:29.658 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:59:29] "GET /static/index/css/all.css HTTP/1.1 200 0" 0.000213 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:59:29.658 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:59:29] "GET /static/index/highlightjs/xcode.css HTTP/1.1 200 0" 0.000041 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:59:29.658 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:59:29] "GET /static/index/js/jquery-1.11.1.min.js HTTP/1.1 200 0" 0.000100 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:59:29.658 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:59:29] "GET /static/index/fancybox/jquery.fancybox.css HTTP/1.1 200 0" 0.000058 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:59:29.665 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:59:29] "GET /static/index/js/plugins.min.js HTTP/1.1 200 0" 0.000180 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:59:29.672 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:59:29] "GET /static/index/js/scripts.js HTTP/1.1 200 0" 0.000097 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:59:29.675 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:59:29] "GET /static/index/fancybox/jquery.fancybox.pack.js HTTP/1.1 200 0" 0.000101 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:59:29.678 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:59:29] "GET /static/index/img/close.png HTTP/1.1 200 0" 0.000067 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:59:29.681 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:59:29] "GET /static/index/img/logo.png HTTP/1.1 200 0" 0.000134 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:59:29.790 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:59:29] "GET /static/index/fonts/icons.woff HTTP/1.1 200 0" 0.000092 http://localhost:8080/static/index/css/all.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:59:29.790 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:59:29] "GET /static/index/fonts/opensans.woff HTTP/1.1 200 0" 0.000306 http://localhost:8080/static/index/css/all.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 17:59:29.790 [D] [server.go:2619] ::1 - - [26/Apr/2018 05:59:29] "GET /static/index/img/1.jpeg HTTP/1.1 200 0" 0.000161 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 18:01:09.950 [D] [server.go:2619] ::1 - - [26/Apr/2018 06:01:09] "GET / HTTP/1.1 200 0" 0.020110  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 18:01:09.970 [D] [server.go:2619] ::1 - - [26/Apr/2018 06:01:09] "GET /static/index/css/all.css HTTP/1.1 200 0" 0.000204 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 18:01:09.970 [D] [server.go:2619] ::1 - - [26/Apr/2018 06:01:09] "GET /static/index/highlightjs/xcode.css HTTP/1.1 200 0" 0.000043 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 18:01:09.971 [D] [server.go:2619] ::1 - - [26/Apr/2018 06:01:09] "GET /static/index/js/jquery-1.11.1.min.js HTTP/1.1 200 0" 0.000137 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 18:01:09.972 [D] [server.go:2619] ::1 - - [26/Apr/2018 06:01:09] "GET /static/index/fancybox/jquery.fancybox.css HTTP/1.1 200 0" 0.000060 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 18:01:09.977 [D] [server.go:2619] ::1 - - [26/Apr/2018 06:01:09] "GET /static/index/js/plugins.min.js HTTP/1.1 200 0" 0.000110 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 18:01:09.980 [D] [server.go:2619] ::1 - - [26/Apr/2018 06:01:09] "GET /static/index/js/scripts.js HTTP/1.1 200 0" 0.000089 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 18:01:09.984 [D] [server.go:2619] ::1 - - [26/Apr/2018 06:01:09] "GET /static/index/fancybox/jquery.fancybox.pack.js HTTP/1.1 200 0" 0.000131 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 18:01:09.987 [D] [server.go:2619] ::1 - - [26/Apr/2018 06:01:09] "GET /static/index/img/close.png HTTP/1.1 200 0" 0.000076 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 18:01:09.991 [D] [server.go:2619] ::1 - - [26/Apr/2018 06:01:09] "GET /static/index/img/logo.png HTTP/1.1 200 0" 0.000097 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 18:01:10.097 [D] [server.go:2619] ::1 - - [26/Apr/2018 06:01:10] "GET /static/index/img/1.jpeg HTTP/1.1 200 0" 0.000146 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 18:01:10.097 [D] [server.go:2619] ::1 - - [26/Apr/2018 06:01:10] "GET /static/index/fonts/icons.woff HTTP/1.1 200 0" 0.000082 http://localhost:8080/static/index/css/all.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 18:01:10.097 [D] [server.go:2619] ::1 - - [26/Apr/2018 06:01:10] "GET /static/index/fonts/opensans.woff HTTP/1.1 200 0" 0.000059 http://localhost:8080/static/index/css/all.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 18:01:11.945 [D] [server.go:2619] ::1 - - [26/Apr/2018 06:01:11] "GET / HTTP/1.1 200 0" 0.016191  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 18:01:11.966 [D] [server.go:2619] ::1 - - [26/Apr/2018 06:01:11] "GET /static/index/css/all.css HTTP/1.1 200 0" 0.000228 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 18:01:11.966 [D] [server.go:2619] ::1 - - [26/Apr/2018 06:01:11] "GET /static/index/highlightjs/xcode.css HTTP/1.1 200 0" 0.000044 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 18:01:11.967 [D] [server.go:2619] ::1 - - [26/Apr/2018 06:01:11] "GET /static/index/js/jquery-1.11.1.min.js HTTP/1.1 200 0" 0.000120 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 18:01:11.967 [D] [server.go:2619] ::1 - - [26/Apr/2018 06:01:11] "GET /static/index/fancybox/jquery.fancybox.css HTTP/1.1 200 0" 0.000050 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 18:01:11.974 [D] [server.go:2619] ::1 - - [26/Apr/2018 06:01:11] "GET /static/index/js/plugins.min.js HTTP/1.1 200 0" 0.000196 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 18:01:11.978 [D] [server.go:2619] ::1 - - [26/Apr/2018 06:01:11] "GET /static/index/js/scripts.js HTTP/1.1 200 0" 0.000083 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 18:01:11.982 [D] [server.go:2619] ::1 - - [26/Apr/2018 06:01:11] "GET /static/index/fancybox/jquery.fancybox.pack.js HTTP/1.1 200 0" 0.000119 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 18:01:11.985 [D] [server.go:2619] ::1 - - [26/Apr/2018 06:01:11] "GET /static/index/img/close.png HTTP/1.1 200 0" 0.000051 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 18:01:11.989 [D] [server.go:2619] ::1 - - [26/Apr/2018 06:01:11] "GET /static/index/img/logo.png HTTP/1.1 200 0" 0.000115 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 18:01:12.088 [D] [server.go:2619] ::1 - - [26/Apr/2018 06:01:12] "GET /static/index/img/1.jpeg HTTP/1.1 200 0" 0.000156 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 18:01:12.088 [D] [server.go:2619] ::1 - - [26/Apr/2018 06:01:12] "GET /static/index/fonts/icons.woff HTTP/1.1 200 0" 0.000090 http://localhost:8080/static/index/css/all.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+
+2018/04/26 18:01:12.088 [D] [server.go:2619] ::1 - - [26/Apr/2018 06:01:12] "GET /static/index/fonts/opensans.woff HTTP/1.1 200 0" 0.000078 http://localhost:8080/static/index/css/all.css Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+

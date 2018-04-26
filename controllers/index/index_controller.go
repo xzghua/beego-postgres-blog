@@ -5,6 +5,7 @@ import (
 	"strconv"
 	"bee-go-myBlog/services"
 	"bee-go-myBlog/models"
+	"github.com/astaxie/beego"
 )
 
 type HomeController struct {
@@ -34,8 +35,15 @@ func (h *HomeController) Index() {
 	h.Data["cate"] = cate
 	h.Data["link"] = link
 	h.Data["tag"] = tag
-	h.Layout = "home/master.tpl"
-	h.TplName = "home/index.tpl"
+	staticMode := beego.AppConfig.String("staticmode")
+	if staticMode == "local" {
+		h.Layout = "home/local/master.tpl"
+		h.TplName = "home/local/index.tpl"
+	} else {
+		h.Layout = "home/master.tpl"
+		h.TplName = "home/index.tpl"
+	}
+
 }
 
 func (h *HomeController) Detail() {

@@ -207,8 +207,9 @@ func IndexPostList(page int64) (ml []interface{}, err error) {
 				userId := val.(map[string]interface{})["UserId"].(int64)
 				user,_ := models.GetUsersById(userId)
 				postId := val.(map[string]interface{})["Id"].(int64)
-				deletedAt := val.(map[string]interface{})["DeletedAt"].(time.Time)
-				fmt.Println(postId,"帖子ID",deletedAt.Unix(),deletedAt.Unix() > 0)
+				_,maps := models.GetTagIdByPostId(postId)
+				tagNames := models.GetTagByTagIds(maps)
+				post[key].(map[string]interface{})["tag_list"] = tagNames
 				cateId,_ := GetCateByPostId(postId)
 				cate,_ := models.GetCategoriesById(cateId)
 				if cate == nil {
