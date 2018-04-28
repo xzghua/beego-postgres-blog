@@ -204,3 +204,12 @@ func IndexAllPost(page int64) (ml []interface{}, err error) {
 	res, err := GetAllArticles(query, fields, sortby, order, offset, limit)
 	return res, err
 }
+
+func GetIndexArticlesById(id int64,condition string,condition2 string) (v *Articles, err error) {
+	o := orm.NewOrm()
+	v = &Articles{Id: id}
+	if err = o.QueryTable(new(Articles)).Filter(condition, id).Filter("DeletedAt__isnull",true).OrderBy(condition2).RelatedSel().One(v); err == nil {
+		return v, nil
+	}
+	return nil, err
+}

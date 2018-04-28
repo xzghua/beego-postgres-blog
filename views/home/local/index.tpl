@@ -59,7 +59,7 @@
                     </p>
 
                     <p class="pull-right readMore">
-                        <a href="post/43/index.html">Read More...</a>
+                        <a href="/detail/{{$item.Id }}">Read More...</a>
                     </p>
 
                 </div>

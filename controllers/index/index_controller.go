@@ -52,18 +52,46 @@ func (h *HomeController) Index() {
 
 }
 
+//@router /detail/:id([0-9]+ [get]
 func (h *HomeController) Detail() {
+	id := h.Ctx.Input.Param(":id")
+	id64, _ := strconv.ParseInt(id, 10, 64)
+	post := services.IndexPostDetail(id64)
+	lastPost := services.IndexPostLast(id64)
+	lastBefore := services.IndexPostBefore(id64)
+	tag := services.IndexPostTag(id64)
+
+	//评论
+
+	h.Data["tag"] = tag
+	h.Data["detail"] = post
+	h.Data["lastPost"] = lastPost
+	h.Data["lastBefore"] = lastBefore
+	staticMode := beego.AppConfig.String("staticmode")
+	if staticMode == "local" {
+		h.Layout = "home/local/master.tpl"
+	} else {
+		h.Layout = "home/master.tpl"
+	}
+	h.TplName = "home/detail.tpl"
 
 }
 
+//@router /cate/:id([0-9]+ [get]
 func (h *HomeController) Cate() {
-
+	//page := h.GetString("page")
+	//page2, err := strconv.ParseInt(page, 10, 64)
+	//if err != nil {
+	//	page2 = 1
+	//}
 }
 
+//@router /tag/:id([0-9]+ [get]
 func (h *HomeController) Tag() {
 
 }
 
+//@router /archive [get]
 func (h *HomeController) Archive() {
 
 }

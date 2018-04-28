@@ -237,3 +237,79 @@ func IndexPostList(page int64) (ml []interface{}, err error) {
 	return post,err
 
 }
+
+func IndexPostDetail (id int64) (post *models.Articles) {
+	cache := common.Cache()
+	IdString :=strconv.FormatInt(id,10)
+	key := "index:post:detail:"+IdString
+	res := cache.Get(key)
+
+	if res == nil {
+		post,_ := models.GetArticlesById(id)
+		timeoutDuration := 24 * 30 * time.Hour
+		data ,_ := json.Marshal(post)
+		cache.Put(key,data,timeoutDuration)
+		return post
+	}
+	var err error
+	string1,err := redis.String(res,err)
+	json.Unmarshal([]byte(string1),&post)
+	return post
+}
+
+func IndexPostTag(id int64) (tags []interface{}) {
+	cache := common.Cache()
+	IdString :=strconv.FormatInt(id,10)
+	key := "index:post:tag:"+IdString
+	res := cache.Get(key)
+
+	if res == nil {
+		_,maps := models.GetTagIdByPostId(id)
+		tags := models.GetTagByTagIds(maps)
+		timeoutDuration := 24 * 30 * time.Hour
+		data ,_ := json.Marshal(tags)
+		cache.Put(key,data,timeoutDuration)
+		return tags
+	}
+	var err error
+	string1,err := redis.String(res,err)
+	json.Unmarshal([]byte(string1),&tags)
+	return tags
+}
+
+
+func IndexPostLast(id int64) (post *models.Articles) {
+	cache := common.Cache()
+	IdString :=strconv.FormatInt(id,10)
+	key := "index:post:last:"+IdString
+	res := cache.Get(key)
+	if res == nil {
+		post,_ := models.GetIndexArticlesById(id,"Id__lt","-Id")
+		timeoutDuration := 24 * 30 * time.Hour
+		data ,_ := json.Marshal(post)
+		cache.Put(key,data,timeoutDuration)
+		return post
+	}
+	var err error
+	string1,err := redis.String(res,err)
+	json.Unmarshal([]byte(string1),&post)
+	return post
+}
+
+func IndexPostBefore(id int64) (post *models.Articles) {
+	cache := common.Cache()
+	IdString :=strconv.FormatInt(id,10)
+	key := "index:post:before:"+IdString
+	res := cache.Get(key)
+	if res == nil {
+		post,_ := models.GetIndexArticlesById(id,"Id__gt","Id")
+		timeoutDuration := 24 * 30 * time.Hour
+		data ,_ := json.Marshal(post)
+		cache.Put(key,data,timeoutDuration)
+		return post
+	}
+	var err error
+	string1,err := redis.String(res,err)
+	json.Unmarshal([]byte(string1),&post)
+	return post
+}
