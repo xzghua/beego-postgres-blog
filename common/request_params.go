@@ -4,7 +4,7 @@ package common
 
 type PostCreate struct {
 	Title 			string 	`form:"title" valid:"Required;MaxSize(33)"`
-	Abstract 		string	`form:"abstract" valid:"Required;MaxSize(50)"`
+	Abstract 		string	`form:"abstract" valid:"Required;MaxSize(100)"`
 	Category 		int64 	`form:"category" valid:"Required"`
 	Tag 			string 	`form:"tag" valid:"Required"`
 	Content 		string 	`form:"editormd-html-code" valid:"Required"`

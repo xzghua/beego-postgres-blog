@@ -6,6 +6,7 @@ import (
 	"bee-go-myBlog/services"
 	"bee-go-myBlog/models"
 	"github.com/astaxie/beego"
+	"fmt"
 )
 
 type HomeController struct {
@@ -30,6 +31,7 @@ func (h *HomeController) Index() {
 	h.Data["lastPage"] = lastPage
 	h.Data["currentPage"] = currentPage
 	h.Data["nextPage"] = nextPage
+	fmt.Println(totalPage,lastPage,currentPage,nextPage,"//////")
 	h.Data["system"] = system
 	h.Data["post"] = post
 	h.Data["cate"] = cate

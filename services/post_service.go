@@ -201,7 +201,7 @@ func IndexPostList(page int64) (ml []interface{}, err error) {
 	res := cache.Get(key)
 
 	if res == nil {
-		post,err := models.IndexAllPost(page)
+		post,_ := models.IndexAllPost(page)
 		if post != nil {
 			for key, val := range post {
 				userId := val.(map[string]interface{})["UserId"].(int64)
@@ -224,7 +224,10 @@ func IndexPostList(page int64) (ml []interface{}, err error) {
 		timeoutDuration := 24 * 30 * time.Hour
 		data ,_ := json.Marshal(post)
 		cache.Put(key,data,timeoutDuration)
-		return post,err
+		//为什么这地方, 我还要再麻烦的存进去又取出来呢..  因为 他喵的 Tag的类型 虽然都是数组,但是一开始里面是 interface{},
+		//后来进了缓存,再拿出来又是 map类型的..  妈了个鸡..  新手,不知道怎么搞
+		res = cache.Get(key)
+		//return post,err
 	}
 
 	var post  []interface{}

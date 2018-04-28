@@ -201,7 +201,7 @@ func TagPaginate(page int64,env string) (totalPage int64,lastPage int64,currentP
 	return common.MyPaginate(page,tableName,env)
 }
 
-func GetTagByTagIds(maps []orm.Params) (tags []Tags) {
+func GetTagByTagIds(maps []orm.Params) (tags []interface{}) {
 	for _,value := range maps {
 		tagId := value["TagId"].(int64)
 		tag,err := GetTagsById(tagId)
