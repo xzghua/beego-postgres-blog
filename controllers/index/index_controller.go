@@ -34,6 +34,10 @@ func (h *HomeController) Index() {
 	fmt.Println(totalPage,lastPage,currentPage,nextPage,"//////")
 	h.Data["system"] = system
 	h.Data["post"] = post
+	for _,v := range tag {
+		fmt.Println(v)
+	}
+	fmt.Println(system)
 	h.Data["cate"] = cate
 	h.Data["link"] = link
 	h.Data["tag"] = tag

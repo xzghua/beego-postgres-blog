@@ -548,3 +548,44 @@
 2018/04/28 17:23:21.683 [I] [asm_amd64.s:2337] http server Running on http://:8080
 2018/04/28 17:29:17.621 [I] [asm_amd64.s:2337] http server Running on http://:8080
 2018/04/28 17:29:52.158 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/28 17:31:21.715 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/28 17:32:02.168 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/28 17:33:27.650 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/28 17:45:12.545 [E] [template.go:174] parse template err: home/local/index.tpl template: home/local/index.tpl:48: unexpected "%" in operand
+2018/04/28 17:48:53.806 [E] [template.go:174] parse template err: home/local/index.tpl template: home/local/index.tpl:48: function "add" not defined
+2018/04/28 17:50:38.633 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/28 17:50:40.516 [D] [controller.go:263] template Execute err: template: home/local/index.tpl:43:26: executing "home/local/index.tpl" at <dateformat>: wrong number of args for dateformat: want 2 got 1
+2018/04/28 17:50:40.516 [E] [server.go:2619] template: home/local/index.tpl:43:26: executing "home/local/index.tpl" at <dateformat>: wrong number of args for dateformat: want 2 got 1
+2018/04/28 17:50:55.820 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/28 17:50:56.805 [D] [controller.go:263] template Execute err: template: home/local/index.tpl:43:27: executing "home/local/index.tpl" at <$.dateformat>: dateformat is not a method but has arguments
+2018/04/28 17:50:56.805 [E] [server.go:2619] template: home/local/index.tpl:43:27: executing "home/local/index.tpl" at <$.dateformat>: dateformat is not a method but has arguments
+2018/04/28 17:51:00.174 [D] [controller.go:263] template Execute err: template: home/local/index.tpl:43:27: executing "home/local/index.tpl" at <$.dateformat>: dateformat is not a method but has arguments
+2018/04/28 17:51:00.174 [E] [server.go:2619] template: home/local/index.tpl:43:27: executing "home/local/index.tpl" at <$.dateformat>: dateformat is not a method but has arguments
+2018/04/28 17:51:00.868 [D] [controller.go:263] template Execute err: template: home/local/index.tpl:43:27: executing "home/local/index.tpl" at <$.dateformat>: dateformat is not a method but has arguments
+2018/04/28 17:51:00.868 [E] [server.go:2619] template: home/local/index.tpl:43:27: executing "home/local/index.tpl" at <$.dateformat>: dateformat is not a method but has arguments
+2018/04/28 17:51:36.948 [D] [controller.go:263] template Execute err: template: home/local/index.tpl:43:27: executing "home/local/index.tpl" at <$.dateformat>: dateformat is not a method but has arguments
+2018/04/28 17:51:36.948 [E] [server.go:2619] template: home/local/index.tpl:43:27: executing "home/local/index.tpl" at <$.dateformat>: dateformat is not a method but has arguments
+2018/04/28 17:51:37.643 [D] [controller.go:263] template Execute err: template: home/local/index.tpl:43:27: executing "home/local/index.tpl" at <$.dateformat>: dateformat is not a method but has arguments
+2018/04/28 17:51:37.643 [E] [server.go:2619] template: home/local/index.tpl:43:27: executing "home/local/index.tpl" at <$.dateformat>: dateformat is not a method but has arguments
+2018/04/28 17:51:42.682 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/28 17:51:46.565 [D] [controller.go:263] template Execute err: template: home/local/index.tpl:43:42: executing "home/local/index.tpl" at <$item.CreatedAt>: wrong type for value; expected time.Time; got string
+2018/04/28 17:51:46.565 [E] [server.go:2619] template: home/local/index.tpl:43:42: executing "home/local/index.tpl" at <$item.CreatedAt>: wrong type for value; expected time.Time; got string
+2018/04/28 17:54:30.403 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/28 17:54:33.691 [D] [controller.go:263] template Execute err: template: home/local/index.tpl:43:42: executing "home/local/index.tpl" at <$item.CreatedAt>: wrong type for value; expected time.Time; got string
+2018/04/28 17:54:33.691 [E] [server.go:2619] template: home/local/index.tpl:43:42: executing "home/local/index.tpl" at <$item.CreatedAt>: wrong type for value; expected time.Time; got string
+2018/04/28 17:55:58.262 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/28 17:56:00.540 [D] [controller.go:263] template Execute err: template: home/local/index.tpl:43:42: executing "home/local/index.tpl" at <$item.CreatedAt>: wrong type for value; expected time.Time; got string
+2018/04/28 17:56:00.540 [E] [server.go:2619] template: home/local/index.tpl:43:42: executing "home/local/index.tpl" at <$item.CreatedAt>: wrong type for value; expected time.Time; got string
+2018/04/28 17:57:01.530 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/28 18:00:08.905 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/28 18:02:53.152 [E] [template.go:174] parse template err: home/local/master.tpl template: home/local/master.tpl:68: function "for" not defined
+2018/04/28 18:03:21.888 [E] [template.go:174] parse template err: home/local/master.tpl template: home/local/master.tpl:68: function "_" not defined
+2018/04/28 18:03:56.250 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/28 18:04:36.791 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/28 18:05:04.080 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/28 18:06:53.721 [E] [template.go:174] parse template err: home/local/master.tpl template: home/local/master.tpl:82: undefined variable "$item"
+2018/04/28 18:07:06.556 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/28 18:09:08.689 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/28 18:11:53.246 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/28 18:13:39.590 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/04/28 18:14:23.818 [I] [asm_amd64.s:2337] http server Running on http://:8080
