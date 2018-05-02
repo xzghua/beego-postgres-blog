@@ -5,7 +5,6 @@ import (
 	"strconv"
 	"bee-go-myBlog/services"
 	"bee-go-myBlog/models"
-	"github.com/astaxie/beego"
 	"fmt"
 )
 
@@ -38,8 +37,8 @@ func (h *HomeController) Index() {
 	h.Data["link"] = link
 	h.Data["tag"] = tag
 
-	staticMode := beego.AppConfig.String("staticmode")
-	if staticMode == "local" {
+
+	if system.CdnType == 1 {
 		h.Layout = "home/local/master.tpl"
 		h.TplName = "home/local/index.tpl"
 	} else {
@@ -74,6 +73,7 @@ func (h *HomeController) Detail() {
 
 	fmt.Println(postTag)
 	//评论
+	//阅读数+1
 	h.Data["system"] = system
 	h.Data["cate"] = cate
 	h.Data["link"] = link
@@ -82,8 +82,8 @@ func (h *HomeController) Detail() {
 	h.Data["detail"] = post
 	h.Data["lastPost"] = lastPost
 	h.Data["lastBefore"] = lastBefore
-	staticMode := beego.AppConfig.String("staticmode")
-	if staticMode == "local" {
+
+	if system.CdnType == 1 {
 		h.Layout = "home/local/master.tpl"
 	} else {
 		h.Layout = "home/master.tpl"

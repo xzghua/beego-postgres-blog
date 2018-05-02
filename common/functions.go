@@ -97,3 +97,14 @@ func round(a int64,b int64) int64 {
 		return dis
 	}
 }
+
+var Comment = map[int]string{1:"cy",2:"github"}
+var Cdn 	= map[int]string{1:"local",2:"qi"}
+
+func GetComment() map[int]string {
+	return Comment
+}
+
+func GetCdn() map[int]string {
+	return Cdn
+}

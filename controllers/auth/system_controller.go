@@ -26,13 +26,18 @@ func (s *SystemController) Index() {
 	system,_ := models.GetSystemsById(1)
 	if system == nil {
 		var systemCreate = models.Systems{
-			Title	:	"叶落山城秋",
+			Title		:	"叶落山城秋",
+			CommentType	:	1,
+			CdnType		: 	1,
 		}
 		id,_ := models.AddSystems(&systemCreate)
 		system,_ = models.GetSystemsById(id)
 	}
+
 	s.Data["xsrfdata"]= template.HTML(s.XSRFFormHTML())
 	s.Data["system"] = system
+	s.Data["comment"] = common.GetComment()
+	s.Data["cdn"] = common.GetCdn()
 	s.Layout = "auth/master.tpl"
 	s.TplName = "auth/system/update.tpl"
 }
@@ -51,13 +56,22 @@ func (s *SystemController) Update() {
 	}
 
 	system := models.Systems{
-		Id				:	1,
-		Title			:	u.Title,
-		STitle			:	u.STitle,
-		Description		:	u.Description,
-		SeoKey			:	u.SeoKey,
-		SeoDes			:	u.SeoDes,
-		RecordNumber	:	u.RecordNumber,
+		Id					:	1,
+		Title				:	u.Title,
+		STitle				:	u.STitle,
+		Description			:	u.Description,
+		SeoKey				:	u.SeoKey,
+		SeoDes				:	u.SeoDes,
+		RecordNumber		:	u.RecordNumber,
+		CommentType			:	u.CommentType,
+		GithubClientId		:	u.GithubClientId,
+		GithubClientSecret	:	u.GithubClientSecret,
+		CyAppId				:	u.CyAppId,
+		CyAppKey			:	u.CyAppKey,
+		CdnType				:	u.CdnType,
+		CdnUrl				:	u.CdnUrl,
+		GithubName			:	u.GithubName,
+		GithubRepo			:	u.GithubRepo,
 	}
 
 	models.UpdateSystemsById(&system)

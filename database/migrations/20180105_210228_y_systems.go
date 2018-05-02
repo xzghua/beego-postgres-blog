@@ -28,6 +28,15 @@ func (m *YSystems_20180105_210228) Up() {
 		"seo_key varchar(255) default '叶落山城秋'," +
 		"seo_des varchar(255) default '叶落山城秋'," +
 		"record_number varchar(30) default '京ICP备 88888888号'," +
+		"comment_type smallint default 1, " +
+		"github_client_secret varchar(50) default '29x9s92s0d0s9w9sx9d9w9szqa9wq9'," +
+		"github_client_id varchar(30) default '200x0ws2k3982ks'," +
+		"github_name varchar(100) default 'github_name'," +
+		"github_repo varchar(100) default 'github_repo'," +
+		"cy_app_id varchar(30) default '2kks9w9s'," +
+		"cy_app_key varchar(50) default 'kski29sk298al843hasd83ijsu38j2js82',"	+
+		"cdn_type smallint default 1," +
+		"cdn_url varchar(255) default 'https://www.iphpt.com'," +
 		"created_at timestamp default current_timestamp," +
 		"updated_at timestamp default current_timestamp" +
 		")")

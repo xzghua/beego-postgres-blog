@@ -26,12 +26,21 @@ type LinkCreate struct {
 
 
 type SystemUpdate struct {
-	Title			string 		`form:"title" valid:"Required;MaxSize(23)"`
-	STitle			string 		`form:"s_title" `
-	Description 	string 		`form:"description" `
-	SeoKey			string 		`form:"seo_key" `
-	SeoDes			string 		`form:"seo_des" `
-	RecordNumber	string 		`form:"record_number" `
+	Title				string 		`form:"title" valid:"Required;MaxSize(23)"`
+	STitle				string 		`form:"s_title" `
+	Description 		string 		`form:"description" `
+	SeoKey				string 		`form:"seo_key" `
+	SeoDes				string 		`form:"seo_des" `
+	RecordNumber		string 		`form:"record_number" `
+	CommentType			int 		`form:"comment_type"`
+	GithubClientSecret 	string		`form:"github_client_secret"`
+	GithubClientId		string		`form:"github_client_id"`
+	GithubName			string		`form:"github_name"`
+	GithubRepo			string		`form:"github_repo"`
+	CyAppId				string 		`form:"cy_app_id"`
+	CyAppKey			string 		`form:"cy_app_key"`
+	CdnType 			int 		`form:"cdn_type"`
+	CdnUrl				string		`form:"cdn_url"`
 }
 
 type TagRequest struct {

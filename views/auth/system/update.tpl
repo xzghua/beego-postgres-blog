@@ -60,6 +60,68 @@
                                         <input type="text" value="{{.system.SeoDes}}" class="form-control" name="seo_des" id="description">
                                     </div>
                                 </div>
+                                <div class="control-group">
+                                    <label class="control-label" for="comment_type">评论类型</label>
+                                    <div class="controls">
+                                        <select class="form-control" name="comment_type"  id="comment_type">
+                                        {{range $index,$item := .comment }}
+                                            <option value="{{$index}}" {{if eq $index $.system.CommentType }} selected {{end}}>{{$item}}</option>
+                                        {{end}}
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="control-group" >
+                                    <label class="control-label" for="description">GithubClientId</label>
+                                    <div  class="controls">
+                                        <input type="text" value="{{.system.GithubClientId}}" class="form-control" name="github_client_id" id="description">
+                                    </div>
+                                </div>
+                                <div class="control-group" >
+                                    <label class="control-label" for="description">GithubClientSecret</label>
+                                    <div  class="controls">
+                                        <input type="text" value="{{.system.GithubClientSecret}}" class="form-control" name="github_client_secret" id="description">
+                                    </div>
+                                </div>
+                                <div class="control-group" >
+                                    <label class="control-label" for="description">GithubName</label>
+                                    <div  class="controls">
+                                        <input type="text" value="{{.system.GithubName}}" class="form-control" name="github_name" id="description">
+                                    </div>
+                                </div>
+                                <div class="control-group" >
+                                    <label class="control-label" for="description">GithubRepo</label>
+                                    <div  class="controls">
+                                        <input type="text" value="{{.system.GithubRepo}}" class="form-control" name="github_repo" id="description">
+                                    </div>
+                                </div>
+                                <div class="control-group" >
+                                    <label class="control-label" for="description">CyAppId</label>
+                                    <div  class="controls">
+                                        <input type="text" value="{{.system.CyAppId}}" class="form-control" name="cy_app_id" id="description">
+                                    </div>
+                                </div>
+                                <div class="control-group" >
+                                    <label class="control-label" for="description">CyAppKey</label>
+                                    <div  class="controls">
+                                        <input type="text" value="{{.system.CyAppKey}}" class="form-control" name="cy_app_key" id="description">
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label" for="comment_type">CDN类型</label>
+                                    <div class="controls">
+                                        <select class="form-control" name="cdn_type"  id="comment_type">
+                                        {{range $index,$item := .cdn }}
+                                            <option value="{{$index}}" {{if eq $index $.system.CdnType }} selected {{end}}>{{$item}}</option>
+                                        {{end}}
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="control-group" >
+                                    <label class="control-label" for="description">CDN地址</label>
+                                    <div  class="controls">
+                                        <input type="text" value="{{.system.CdnUrl}}" class="form-control" name="cdn_url" id="description">
+                                    </div>
+                                </div>
                                 <div class="control-group" >
                                     <label class="control-label" for="description">网站备案号</label>
                                     <div  class="controls">

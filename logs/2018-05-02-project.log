@@ -95,3 +95,58 @@
 2018/05/02 15:37:07.371 [E] [server.go:2619] template: home/detail.tpl:7:31: executing "home/detail.tpl" at <.detail.CreatedAt>: can't evaluate field CreatedAt in type interface {}
 2018/05/02 15:40:18.684 [I] [asm_amd64.s:2337] http server Running on http://:8080
 2018/05/02 15:44:18.200 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 15:53:45.016 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 17:08:42.502 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 17:13:49.204 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 17:15:21.014 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 17:16:52.864 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 17:18:02.333 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 17:30:15.341 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 17:31:51.983 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 17:34:35.676 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 17:36:32.008 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 17:37:59.616 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 17:41:24.896 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 17:53:03.157 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 17:55:18.749 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 17:55:52.439 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 17:56:56.157 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 17:58:29.130 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 18:11:25.470 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 18:11:26.491 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 18:16:37.039 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 18:17:50.188 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 18:25:33.795 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 18:29:13.663 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 18:30:06.874 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 18:30:48.049 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 18:30:49.089 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 18:31:50.082 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 18:31:51.111 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 18:41:15.427 [E] [template.go:174] parse template err: home/detail.tpl template: home/detail.tpl:44: unexpected "=" in operand
+2018/05/02 18:41:35.905 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 18:41:43.664 [C] [asm_amd64.s:509] the request url is  /detail/11
+2018/05/02 18:41:43.664 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/home/master.tpl
+2018/05/02 18:41:43.664 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/05/02 18:41:43.664 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/05/02 18:41:43.664 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/05/02 18:41:43.664 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:235
+2018/05/02 18:41:43.664 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/05/02 18:41:43.664 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/05/02 18:41:43.665 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/05/02 18:41:43.665 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/05/02 18:41:43.665 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/05/02 18:42:25.254 [C] [asm_amd64.s:509] the request url is  /detail/11
+2018/05/02 18:42:25.254 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/home/master.tpl
+2018/05/02 18:42:25.254 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/05/02 18:42:25.254 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/05/02 18:42:25.254 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/05/02 18:42:25.254 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:235
+2018/05/02 18:42:25.254 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/05/02 18:42:25.254 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/05/02 18:42:25.254 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/05/02 18:42:25.254 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/05/02 18:42:25.254 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/05/02 18:52:31.255 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 18:53:39.457 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 18:57:46.604 [I] [asm_amd64.s:2337] http server Running on http://:8080

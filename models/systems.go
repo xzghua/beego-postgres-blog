@@ -11,15 +11,24 @@ import (
 )
 
 type Systems struct {
-	Id        		int64  		`orm:"column(id);auto;unique" json:"id"`
-	Title 			string 		`orm:"column(title);size(255)" json:"title"`
-	STitle 			string 		`orm:"column(s_title);size(255)" json:"s_title"`
-	Description 	string 		`orm:"column(description);size(255)" json:"description"`
-	SeoKey 			string 		`orm:"column(seo_key);size(255)" json:"seo_key"`
-	SeoDes 			string 		`orm:"column(seo_des);size(255)" json:"seo_des"`
-	RecordNumber 	string 		`orm:"column(record_number);default(0)" json:"record_number"`
-	CreatedAt      time.Time 	`orm:"column(created_at);default('0000-00-00 00:00:00');null;auto_now;type(datetime)" json:"created_at"`
-	UpdatedAt      time.Time 	`orm:"column(updated_at);default('0000-00-00 00:00:00');null;auto_now;type(datetime)" json:"updated_at"`
+	Id        			int64  		`orm:"column(id);auto;unique" json:"id"`
+	Title 				string 		`orm:"column(title);size(255)" json:"title"`
+	STitle 				string 		`orm:"column(s_title);size(255)" json:"s_title"`
+	Description 		string 		`orm:"column(description);size(255)" json:"description"`
+	SeoKey 				string 		`orm:"column(seo_key);size(255)" json:"seo_key"`
+	SeoDes 				string 		`orm:"column(seo_des);size(255)" json:"seo_des"`
+	RecordNumber 		string 		`orm:"column(record_number);default(0)" json:"record_number"`
+	CommentType			int 		`orm:"column(comment_type);default(1)" json:"comment_type"`
+	GithubClientSecret 	string 		`orm:"column(github_client_secret);size(50)" json:"github_client_secret"`
+	GithubClientId 		string 		`orm:"column(github_client_id);size(30)" json:"github_client_id"`
+	GithubName			string		`orm:"column(github_name);size(100)" json:"github_name"`
+	GithubRepo			string		`orm:"column(github_repo);size(100)" json:"github_repo"`
+	CyAppId 			string 		`orm:"column(cy_app_id);size(30)" json:"cy_app_id"`
+	CyAppKey 			string 		`orm:"column(cy_app_key);size(30)" json:"cy_app_key"`
+	CdnType				int 		`orm:"column(cdn_type);default(1)" json:"cdn_type"`
+	CdnUrl				string 		`orm:"column(cdn_url);size(255)" json:"cdn_url"`
+	CreatedAt      		time.Time 	`orm:"column(created_at);default('0000-00-00 00:00:00');null;auto_now;type(datetime)" json:"created_at"`
+	UpdatedAt      		time.Time 	`orm:"column(updated_at);default('0000-00-00 00:00:00');null;auto_now;type(datetime)" json:"updated_at"`
 }
 
 func (s *Systems) TableName() string {
@@ -161,7 +170,7 @@ func System() (ml []interface{}, err error) {
 	var query map[string]string = make(map[string]string)
 	var limit int64
 	var offset int64
-	fields = []string{"Title", "STitle","Description","SeoKey","SeoDes","RecordNumber"}
+	fields = []string{"Title", "STitle","Description","SeoKey","SeoDes","RecordNumber","CommentType","GithubClientSecret","GithubClientId","CyAppId","CyAppKey"}
 	res, err := GetAllLinks(query, fields, sortby, order, offset, limit)
 	return res, err
 }
