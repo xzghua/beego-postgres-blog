@@ -1,0 +1,97 @@
+2018/05/02 11:22:43.669 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 11:24:35.887 [C] [asm_amd64.s:509] the request url is  /
+2018/05/02 11:24:35.887 [C] [asm_amd64.s:509] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2018/05/02 11:24:35.887 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/05/02 11:24:35.888 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/05/02 11:24:35.888 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:63
+2018/05/02 11:24:35.888 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/signal_unix.go:367
+2018/05/02 11:24:35.888 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/services/post_service.go:201
+2018/05/02 11:24:35.888 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/controllers/index/index_controller.go:24
+2018/05/02 11:24:35.888 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/05/02 11:24:35.888 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:434
+2018/05/02 11:24:35.888 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:302
+2018/05/02 11:24:35.888 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:847
+2018/05/02 11:24:35.888 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/05/02 11:24:35.888 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/05/02 11:24:35.888 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/05/02 11:25:16.511 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 11:44:32.985 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 11:44:37.354 [D] [controller.go:263] template Execute err: template: home/detail.tpl:36:58: executing "home/detail.tpl" at <.lastPost.Id>: can't evaluate field Id in type interface {}
+2018/05/02 11:44:37.355 [E] [server.go:2619] template: home/detail.tpl:36:58: executing "home/detail.tpl" at <.lastPost.Id>: can't evaluate field Id in type interface {}
+2018/05/02 11:45:11.181 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 11:45:13.006 [D] [controller.go:263] template Execute err: template: home/detail.tpl:36:58: executing "home/detail.tpl" at <.lastPost.Id>: can't evaluate field Id in type interface {}
+2018/05/02 11:45:13.006 [E] [server.go:2619] template: home/detail.tpl:36:58: executing "home/detail.tpl" at <.lastPost.Id>: can't evaluate field Id in type interface {}
+2018/05/02 11:45:49.457 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 11:46:57.306 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 11:47:22.691 [D] [controller.go:263] template Execute err: template: home/detail.tpl:36:26: executing "home/detail.tpl" at <.lastPost.Id>: can't evaluate field Id in type interface {}
+2018/05/02 11:47:22.691 [E] [server.go:2619] template: home/detail.tpl:36:26: executing "home/detail.tpl" at <.lastPost.Id>: can't evaluate field Id in type interface {}
+2018/05/02 11:47:53.443 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 11:47:54.618 [D] [controller.go:263] template Execute err: template: home/detail.tpl:30:17: executing "home/detail.tpl" at <eq .lastBefore.Id ni...>: error calling eq: invalid type for comparison
+2018/05/02 11:47:54.618 [E] [server.go:2619] template: home/detail.tpl:30:17: executing "home/detail.tpl" at <eq .lastBefore.Id ni...>: error calling eq: invalid type for comparison
+2018/05/02 11:49:45.620 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 11:49:49.269 [D] [controller.go:263] template Execute err: template: home/detail.tpl:30:17: executing "home/detail.tpl" at <ne .lastBefore.Id ni...>: error calling ne: invalid type for comparison
+2018/05/02 11:49:49.269 [E] [server.go:2619] template: home/detail.tpl:30:17: executing "home/detail.tpl" at <ne .lastBefore.Id ni...>: error calling ne: invalid type for comparison
+2018/05/02 11:50:07.712 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 11:50:11.567 [D] [controller.go:263] template Execute err: template: home/detail.tpl:30:17: executing "home/detail.tpl" at <ne .lastBefore nil>: error calling ne: invalid type for comparison
+2018/05/02 11:50:11.567 [E] [server.go:2619] template: home/detail.tpl:30:17: executing "home/detail.tpl" at <ne .lastBefore nil>: error calling ne: invalid type for comparison
+2018/05/02 11:50:29.374 [E] [template.go:174] parse template err: home/detail.tpl template: home/detail.tpl:30: function "neq" not defined
+2018/05/02 11:51:08.546 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 11:51:12.004 [D] [controller.go:263] template Execute err: template: home/detail.tpl:30:17: executing "home/detail.tpl" at <ne .lastBefore nil>: error calling ne: invalid type for comparison
+2018/05/02 11:51:12.004 [E] [server.go:2619] template: home/detail.tpl:30:17: executing "home/detail.tpl" at <ne .lastBefore nil>: error calling ne: invalid type for comparison
+2018/05/02 11:52:04.100 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 11:52:05.502 [D] [controller.go:263] template Execute err: template: home/detail.tpl:30:17: executing "home/detail.tpl" at <ne .lastBefore nil>: error calling ne: invalid type for comparison
+2018/05/02 11:52:05.502 [E] [server.go:2619] template: home/detail.tpl:30:17: executing "home/detail.tpl" at <ne .lastBefore nil>: error calling ne: invalid type for comparison
+2018/05/02 11:53:12.034 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 11:53:13.707 [D] [controller.go:263] template Execute err: template: home/detail.tpl:30:17: executing "home/detail.tpl" at <ne nil .lastBefore>: error calling ne: invalid type for comparison
+2018/05/02 11:53:13.707 [E] [server.go:2619] template: home/detail.tpl:30:17: executing "home/detail.tpl" at <ne nil .lastBefore>: error calling ne: invalid type for comparison
+2018/05/02 11:53:45.667 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 11:53:48.011 [D] [controller.go:263] template Execute err: template: home/detail.tpl:30:17: executing "home/detail.tpl" at <eq nil .lastBefore>: error calling eq: invalid type for comparison
+2018/05/02 11:53:48.011 [E] [server.go:2619] template: home/detail.tpl:30:17: executing "home/detail.tpl" at <eq nil .lastBefore>: error calling eq: invalid type for comparison
+2018/05/02 11:54:44.145 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 11:55:06.625 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 11:55:07.729 [D] [controller.go:263] template Execute err: template: home/detail.tpl:30:33: executing "home/detail.tpl" at <.lastBefore.Name>: can't evaluate field Name in type interface {}
+2018/05/02 11:55:07.729 [E] [server.go:2619] template: home/detail.tpl:30:33: executing "home/detail.tpl" at <.lastBefore.Name>: can't evaluate field Name in type interface {}
+2018/05/02 11:55:47.255 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 11:56:56.357 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 11:57:18.379 [E] [template.go:174] parse template err: home/detail.tpl template: home/detail.tpl:31: unexpected "=" in operand
+2018/05/02 11:57:36.236 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 11:57:37.990 [D] [controller.go:263] template Execute err: template: home/detail.tpl:31:23: executing "home/detail.tpl" at <eq>: wrong number of args for eq: want at least 1 got 0
+2018/05/02 11:57:37.990 [E] [server.go:2619] template: home/detail.tpl:31:23: executing "home/detail.tpl" at <eq>: wrong number of args for eq: want at least 1 got 0
+2018/05/02 11:58:26.898 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 11:58:27.853 [D] [controller.go:263] template Execute err: template: home/detail.tpl:31:15: executing "home/detail.tpl" at <eq "nil" .lastPost>: error calling eq: invalid type for comparison
+2018/05/02 11:58:27.853 [E] [server.go:2619] template: home/detail.tpl:31:15: executing "home/detail.tpl" at <eq "nil" .lastPost>: error calling eq: invalid type for comparison
+2018/05/02 11:58:42.935 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 11:58:43.734 [D] [controller.go:263] template Execute err: template: home/detail.tpl:31:15: executing "home/detail.tpl" at <eq nil .lastPost>: error calling eq: invalid type for comparison
+2018/05/02 11:58:43.734 [E] [server.go:2619] template: home/detail.tpl:31:15: executing "home/detail.tpl" at <eq nil .lastPost>: error calling eq: invalid type for comparison
+2018/05/02 11:59:31.853 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 11:59:32.530 [D] [controller.go:263] template Execute err: template: home/detail.tpl:31:26: executing "home/detail.tpl" at <len>: error calling len: len of nil pointer
+2018/05/02 11:59:32.530 [E] [server.go:2619] template: home/detail.tpl:31:26: executing "home/detail.tpl" at <len>: error calling len: len of nil pointer
+2018/05/02 12:02:21.837 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 12:03:36.583 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 12:03:39.746 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 12:05:16.228 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 12:06:18.418 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 12:09:31.964 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 12:11:02.965 [E] [template.go:174] parse template err: home/detail.tpl template: home/detail.tpl:13: function "_" not defined
+2018/05/02 12:11:16.902 [E] [template.go:174] parse template err: home/detail.tpl template: home/detail.tpl:13: function "k" not defined
+2018/05/02 12:12:02.104 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 12:12:43.177 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 12:13:43.670 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 12:15:23.682 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 14:08:30.725 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 15:06:46.751 [D] [controller.go:263] template Execute err: template: home/detail.tpl:12:47: executing "home/detail.tpl" at <$v.id>: can't evaluate field id in type interface {}
+2018/05/02 15:06:46.751 [E] [server.go:2619] template: home/detail.tpl:12:47: executing "home/detail.tpl" at <$v.id>: can't evaluate field id in type interface {}
+2018/05/02 15:28:34.800 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 15:30:16.333 [D] [controller.go:263] template Execute err: template: home/detail.tpl:12:47: executing "home/detail.tpl" at <$v.id>: can't evaluate field id in type interface {}
+2018/05/02 15:30:16.333 [E] [server.go:2619] template: home/detail.tpl:12:47: executing "home/detail.tpl" at <$v.id>: can't evaluate field id in type interface {}
+2018/05/02 15:31:48.703 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 15:31:52.761 [D] [controller.go:263] template Execute err: template: home/detail.tpl:12:47: executing "home/detail.tpl" at <$v.id>: can't evaluate field id in type interface {}
+2018/05/02 15:31:52.761 [E] [server.go:2619] template: home/detail.tpl:12:47: executing "home/detail.tpl" at <$v.id>: can't evaluate field id in type interface {}
+2018/05/02 15:32:53.539 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 15:33:40.942 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 15:35:23.410 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 15:36:03.885 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 15:37:07.371 [D] [controller.go:263] template Execute err: template: home/detail.tpl:7:31: executing "home/detail.tpl" at <.detail.CreatedAt>: can't evaluate field CreatedAt in type interface {}
+2018/05/02 15:37:07.371 [E] [server.go:2619] template: home/detail.tpl:7:31: executing "home/detail.tpl" at <.detail.CreatedAt>: can't evaluate field CreatedAt in type interface {}
+2018/05/02 15:40:18.684 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/02 15:44:18.200 [I] [asm_amd64.s:2337] http server Running on http://:8080

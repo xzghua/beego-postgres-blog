@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-    <title>KIERAN&#39;S BLOG</title>
+    <title>{{.system.Title}}</title>
     <!-- Meta data -->
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>

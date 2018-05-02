@@ -269,7 +269,7 @@ func IndexPostTag(id int64) (tags []interface{}) {
 		timeoutDuration := 24 * 30 * time.Hour
 		data ,_ := json.Marshal(tags)
 		cache.Put(key,data,timeoutDuration)
-		return tags
+		res = cache.Get(key)
 	}
 	var err error
 	string1,err := redis.String(res,err)

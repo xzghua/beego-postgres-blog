@@ -4,17 +4,13 @@
         <div class="row col-md-offset-2">
             <div class="col-md-8">
     			<span class="post-meta">
-      <time datetime="2014-12-04T18:53:55.000Z" itemprop="datePublished">
-          2014-12-05
+      <time datetime="{{.detail.CreatedAt}}" itemprop="datePublished">
+          {{date .detail.CreatedAt "Y-m-d H:i:s"}}
       </time>
-
-
     |
-    <a href='../../tags/GPT/index.html'>GPT</a>,
-
-    <a href='../../tags/MBR/index.html'>MBR</a>,
-
-    <a href='../../tags/引导/index.html'>引导</a>
+                    {{range $k,$v := .postTag}}
+                        <a href='../../tag/{{$v.id}}'>{{$v.name}}</a>,
+                    {{end}}
 
 
 </span>
@@ -28,15 +24,19 @@
         </div>
         <nav class="m-pagination col-md-8 col-md-offset-2 col-sm-24" role="pagination">
 
-            <a class="pull-left" href="../4/index.html" style="float: left;">
-                ← 信息隐藏——LSB算法
+            {{if .lastBeforeCond }}
+                <a class="pull-left" href="{{.lastBefore.Id}}" style="float: left;max-width:35%;">
+                    ←
+                    <span style="overflow: hidden;text-overflow:ellipsis;white-space: nowrap;"> {{.lastBefore.Title}}</span>
+                </a>
+            {{end}}
+
+            {{if  .lastPostCond }}
+            <a class="pull-right" href="{{.lastPost.Id}}" style="max-width:35%;float: right;">
+                <span style="overflow: hidden;text-overflow:ellipsis;white-space: nowrap;">{{.lastPost.Title}}</span>
+                →
             </a>
-
-
-            <a class="pull-right" href="../1/index.html">
-                Hexo 简单优化 →
-            </a>
-
+            {{end}}
         </nav>
 
         <div class="col-md-8 col-md-offset-2 col-sm-24"><script type="text/javascript">

@@ -31,16 +31,13 @@ func (h *HomeController) Index() {
 	h.Data["lastPage"] = lastPage
 	h.Data["currentPage"] = currentPage
 	h.Data["nextPage"] = nextPage
-	fmt.Println(totalPage,lastPage,currentPage,nextPage,"//////")
-	h.Data["system"] = system
 	h.Data["post"] = post
-	for _,v := range tag {
-		fmt.Println(v)
-	}
-	fmt.Println(system)
+
+	h.Data["system"] = system
 	h.Data["cate"] = cate
 	h.Data["link"] = link
 	h.Data["tag"] = tag
+
 	staticMode := beego.AppConfig.String("staticmode")
 	if staticMode == "local" {
 		h.Layout = "home/local/master.tpl"
@@ -59,11 +56,29 @@ func (h *HomeController) Detail() {
 	post := services.IndexPostDetail(id64)
 	lastPost := services.IndexPostLast(id64)
 	lastBefore := services.IndexPostBefore(id64)
-	tag := services.IndexPostTag(id64)
+	cate := services.IndexAllCateBySort()
+	tag := services.IndexAllTag()
+	system := services.IndexSystem()
+	link := services.IndexLinkList()
+	if lastPost == nil {
+		h.Data["lastPostCond"] = false
+	} else {
+		h.Data["lastPostCond"] = true
+	}
+	if lastBefore == nil {
+		h.Data["lastBeforeCond"] = false
+	} else {
+		h.Data["lastBeforeCond"] = true
+	}
+	postTag := services.IndexPostTag(id64)
 
+	fmt.Println(postTag)
 	//评论
-
+	h.Data["system"] = system
+	h.Data["cate"] = cate
+	h.Data["link"] = link
 	h.Data["tag"] = tag
+	h.Data["postTag"] = postTag
 	h.Data["detail"] = post
 	h.Data["lastPost"] = lastPost
 	h.Data["lastBefore"] = lastBefore
