@@ -7,6 +7,7 @@ import (
 	"github.com/astaxie/beego"
 	"encoding/json"
 	"github.com/garyburd/redigo/redis"
+	"strconv"
 )
 
 func GoMerge(arr1 []interface{},arr2 []interface{}) ([]interface{}) {
@@ -107,4 +108,50 @@ func GetComment() map[int]string {
 
 func GetCdn() map[int]string {
 	return Cdn
+}
+
+
+func IndexCatePaginate(page int64,cateId int64,tableName string)(totalPage int64,lastPage int64,currentPage int64,nextPage int64 ) {
+	var cnt int64
+
+	cache := Cache()
+	cateIdString  :=strconv.FormatInt(cateId,10)
+	key := "index:paginate:cate:" + cateIdString
+	cacheRes := cache.Get(key)
+	if cacheRes == nil {
+		o := orm.NewOrm()
+		cnt,_ = o.QueryTable(tableName).Filter("CateId",cateId).Count()
+		timeoutDuration := 24 * 30 * time.Hour
+		data ,_ := json.Marshal(cnt)
+		cache.Put(key,data,timeoutDuration)
+	} else {
+		var err error
+		string1,err := redis.String(cacheRes,err)
+		json.Unmarshal([]byte(string1),&cnt)
+	}
+
+
+	limit, _ := beego.AppConfig.Int64("page_offset")
+	res := round(cnt,limit)
+	totalPage = res
+
+	if page - 1 <= 0 {
+		lastPage = 1
+	} else {
+		lastPage = page - 1
+	}
+
+	if page >= res {
+		currentPage = res
+	} else {
+		currentPage = page
+	}
+
+	if page + 1 >= res {
+		nextPage = res
+	} else {
+		nextPage = page + 1
+	}
+	return totalPage,lastPage,currentPage,nextPage
+
 }

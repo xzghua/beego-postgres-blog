@@ -6,6 +6,7 @@ import (
 	"errors"
 	"reflect"
 	"fmt"
+	"bee-go-myBlog/common"
 )
 
 type ArticleCate struct {
@@ -168,4 +169,11 @@ func GetCateIdByPostId(postId int64) (artCate ArticleCate,err error) {
 		return artCate,nil
 	}
 	return artCate,err
+}
+
+func IndexCatePostPaginate(page int64,cateId int64) (totalPage int64,lastPage int64,currentPage int64,nextPage int64)  {
+	var artCate ArticleCate
+	tableName := artCate.TableName()
+	return common.IndexCatePaginate(page,cateId,tableName)
+
 }

@@ -56,7 +56,7 @@
             <ul class="sb-submenu">
                 {{ range $key,$value :=  .tag }}
                 <li>
-                    <a href="/tag/{{ map_get $value "Id"}}" class="animsition-link">{{ map_get $value "Name"}}<small>({{ map_get $value "TagNum"}})</small></a>
+                    <a href="/tags/{{ map_get $value "Name"}}" class="animsition-link">{{ map_get $value "Name"}}<small>({{ map_get $value "TagNum"}})</small></a>
                 </li>
                 {{end}}
             </ul>
@@ -68,7 +68,7 @@
             <ul class="sb-submenu">
                 {{ range $key,$value :=  .cate }}
                     <li>
-                        <a href="/cate/{{ map_get $value "Id"}}" class="animsition-link">{{str2html $value.html}}{{$value.DisplayName}}</a>
+                        <a href="/categories/{{ map_get $value "DisplayName"}}" class="animsition-link">{{str2html $value.html}}{{$value.DisplayName}}</a>
                     </li>
                 {{end}}
             </ul>

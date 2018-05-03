@@ -26,7 +26,7 @@ func init() {
 	beego.GlobalControllerRouter["bee-go-myBlog/controllers/index:HomeController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/index:HomeController"],
 		beego.ControllerComments{
 			Method: "Cate",
-			Router: `/cate/:id([0-9]+`,
+			Router: `/categories/:cate`,
 			AllowHTTPMethods: []string{"get"},
 			MethodParams: param.Make(),
 			Params: nil})
@@ -42,7 +42,7 @@ func init() {
 	beego.GlobalControllerRouter["bee-go-myBlog/controllers/index:HomeController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/index:HomeController"],
 		beego.ControllerComments{
 			Method: "Tag",
-			Router: `/tag/:id([0-9]+`,
+			Router: `/tags/:id([0-9]+`,
 			AllowHTTPMethods: []string{"get"},
 			MethodParams: param.Make(),
 			Params: nil})

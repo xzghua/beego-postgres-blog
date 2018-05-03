@@ -8,6 +8,7 @@ import (
 
 	"time"
 	"github.com/astaxie/beego/logs"
+	"bee-go-myBlog/common"
 )
 
 func init() {
@@ -27,7 +28,7 @@ func main() {
 	orm.Debug = true
 	beego.BConfig.Log.AccessLogs = false
 
-
+	beego.AddFuncMap("iphpt_rem",common.Rem)
 	beego.Run()
 }
 

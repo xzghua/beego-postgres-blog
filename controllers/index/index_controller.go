@@ -71,6 +71,7 @@ func (h *HomeController) Detail() {
 	}
 	postTag := services.IndexPostTag(id64)
 
+	go services.PostReadNumAdd(id64)
 	fmt.Println(postTag)
 	//评论
 	//阅读数+1
@@ -92,16 +93,52 @@ func (h *HomeController) Detail() {
 
 }
 
-//@router /cate/:id([0-9]+ [get]
+//@router /categories/:cate [get]
 func (h *HomeController) Cate() {
-	//page := h.GetString("page")
-	//page2, err := strconv.ParseInt(page, 10, 64)
-	//if err != nil {
-	//	page2 = 1
-	//}
+	page := h.GetString("page")
+	page2, err := strconv.ParseInt(page, 10, 64)
+	if err != nil {
+		page2 = 1
+	}
+	cate := h.Ctx.Input.Param(":cate")
+	categories,err := services.IndexGetCateByName(cate)
+	if err != nil {
+		//走404页面
+	}
+	postCates,err := services.IndexGetCatePost(categories.Id,page2)
+	fmt.Println(postCates,err,"234234")
+	if err != nil {
+	}
+	posts,err := services.IndexPostByIds(postCates,page2)
+	if err != nil {
+	}
+
+	totalPage,lastPage,currentPage,nextPage := models.IndexCatePostPaginate(page2,categories.Id)
+	h.Data["totalPage"] = totalPage
+	h.Data["lastPage"] = lastPage
+	h.Data["currentPage"] = currentPage
+	h.Data["nextPage"] = nextPage
+
+	fmt.Println(totalPage,lastPage,currentPage,nextPage,"看结果")
+	cates := services.IndexAllCateBySort()
+	tag := services.IndexAllTag()
+	system := services.IndexSystem()
+	link := services.IndexLinkList()
+	h.Data["posts"] = posts
+	h.Data["system"] = system
+	h.Data["cate"] = cates
+	h.Data["link"] = link
+	h.Data["tag"] = tag
+
+	if system.CdnType == 1 {
+		h.Layout = "home/local/master.tpl"
+	} else {
+		h.Layout = "home/master.tpl"
+	}
+	h.TplName = "home/cate.tpl"
 }
 
-//@router /tag/:id([0-9]+ [get]
+//@router /tags/:id([0-9]+ [get]
 func (h *HomeController) Tag() {
 
 }

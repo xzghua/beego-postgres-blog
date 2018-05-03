@@ -313,3 +313,42 @@ func IndexPostBefore(id int64) (post *models.Articles) {
 	json.Unmarshal([]byte(string1),&post)
 	return post
 }
+
+
+func PostReadNumAdd(id64 int64) {
+	o := orm.NewOrm()
+	v := models.Articles{Id: id64}
+	// ascertain id exists in the database
+	if err := o.Read(&v); err == nil {
+		var num int64
+		v.ViewNum = v.ViewNum + 1
+		if num, err = o.Update(&v, "ViewNum"); err == nil {
+			fmt.Println("Number of records updated in database:", num)
+		}
+	}
+	return
+}
+
+func IndexPostByIds(ids []*models.ArticleCate,page int64) (posts []models.Articles,err error) {
+	cache := common.Cache()
+	pageString := strconv.FormatInt(page,10)
+	key := "index:cate:posts:data:page:"+pageString
+	res := cache.Get(key)
+	if res == nil {
+		o := orm.NewOrm()
+		var post models.Articles
+		for _,v := range ids {
+			err := o.QueryTable(new(models.Articles)).Filter("Id",v.ArtId).One(&post)
+			if err != nil {
+				return posts,err
+			}
+			posts = append(posts,post)
+		}
+		timeoutDuration := 24 * 30 * time.Hour
+		data ,_ := json.Marshal(posts)
+		cache.Put(key,data,timeoutDuration)
+	}
+	string1,err := redis.String(res,err)
+	json.Unmarshal([]byte(string1),&posts)
+	return posts,nil
+}

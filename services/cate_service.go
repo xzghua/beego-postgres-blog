@@ -8,6 +8,8 @@ import (
 	"encoding/json"
 	"github.com/garyburd/redigo/redis"
 	"time"
+	"github.com/astaxie/beego"
+	"strconv"
 )
 
 func IndexAllCateBySort() ([]interface{}) {
@@ -164,3 +166,43 @@ func DeleteCateById(cateId int64) {
 		o.Rollback()
 	}
 }
+
+func IndexGetCateByName(cateName string) (v models.Categories,err error) {
+	cache := common.Cache()
+	key := "index:cate:search:"+cateName
+	res := cache.Get(key)
+	if res == nil {
+		o := orm.NewOrm()
+		v = models.Categories{Name:cateName}
+		err = o.Read(&v,"Name")
+		timeoutDuration := 24 * 30 * time.Hour
+		data ,_ := json.Marshal(v)
+		cache.Put(key,data,timeoutDuration)
+		return v,err
+	}
+	string1,err := redis.String(res,err)
+	json.Unmarshal([]byte(string1),&v)
+	return v,err
+}
+
+func IndexGetCatePost(cateId int64,page2 int64) (catePost []*models.ArticleCate,err error) {
+	cache := common.Cache()
+	cateIdString:=strconv.FormatInt(cateId,10)
+	pageString := strconv.FormatInt(page2,10)
+	key := "index:cate:posts:by:cateid:"+cateIdString+":page:"+pageString
+	res := cache.Get(key)
+	if res == nil {
+		o := orm.NewOrm()
+		limit, _ := beego.AppConfig.Int64("page_offset")
+		offset := (page2 - 1) * limit
+		_,err = o.QueryTable(new(models.ArticleCate)).Filter("CateId",cateId).OrderBy("Id").Limit(limit,offset).All(&catePost)
+		timeoutDuration := 24 * 30 * time.Hour
+		data ,_ := json.Marshal(catePost)
+		cache.Put(key,data,timeoutDuration)
+		return catePost,err
+	}
+	string1,err := redis.String(res,err)
+	json.Unmarshal([]byte(string1),&catePost)
+	return
+}
+
