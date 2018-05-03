@@ -119,7 +119,6 @@ func (h *HomeController) Cate() {
 	h.Data["currentPage"] = currentPage
 	h.Data["nextPage"] = nextPage
 
-	fmt.Println(totalPage,lastPage,currentPage,nextPage,"看结果")
 	cates := services.IndexAllCateBySort()
 	tag := services.IndexAllTag()
 	system := services.IndexSystem()
