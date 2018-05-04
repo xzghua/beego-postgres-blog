@@ -174,6 +174,6 @@ func GetCateIdByPostId(postId int64) (artCate ArticleCate,err error) {
 func IndexCatePostPaginate(page int64,cateId int64) (totalPage int64,lastPage int64,currentPage int64,nextPage int64)  {
 	var artCate ArticleCate
 	tableName := artCate.TableName()
-	return common.IndexCatePaginate(page,cateId,tableName)
+	return common.IndexSomePaginate(page,"cate","CateId",cateId,tableName)
 
 }

@@ -201,7 +201,7 @@ func IndexPostList(page int64) (ml []interface{}, err error) {
 	res := cache.Get(key)
 
 	if res == nil {
-		post,_ := models.IndexAllPost(page)
+		post,_ := models.IndexAllPostWithPaginate(page)
 		if post != nil {
 			for key, val := range post {
 				userId := val.(map[string]interface{})["UserId"].(int64)
@@ -277,7 +277,6 @@ func IndexPostTag(id int64) (tags []interface{}) {
 	return tags
 }
 
-
 func IndexPostLast(id int64) (post *models.Articles) {
 	cache := common.Cache()
 	IdString :=strconv.FormatInt(id,10)
@@ -314,7 +313,6 @@ func IndexPostBefore(id int64) (post *models.Articles) {
 	return post
 }
 
-
 func PostReadNumAdd(id64 int64) {
 	o := orm.NewOrm()
 	v := models.Articles{Id: id64}
@@ -329,10 +327,11 @@ func PostReadNumAdd(id64 int64) {
 	return
 }
 
-func IndexPostByIds(ids []*models.ArticleCate,page int64) (posts []models.Articles,err error) {
+func IndexPostByCateIds(ids []*models.ArticleCate,cateId int64,page int64) (posts []models.Articles,err error) {
 	cache := common.Cache()
 	pageString := strconv.FormatInt(page,10)
-	key := "index:cate:posts:data:page:"+pageString
+	cateIdString:=strconv.FormatInt(cateId,10)
+	key := "index:posts:data:by:cate:"+cateIdString+"page:"+pageString
 	res := cache.Get(key)
 	if res == nil {
 		o := orm.NewOrm()
@@ -351,4 +350,75 @@ func IndexPostByIds(ids []*models.ArticleCate,page int64) (posts []models.Articl
 	string1,err := redis.String(res,err)
 	json.Unmarshal([]byte(string1),&posts)
 	return posts,nil
+}
+
+func IndexPostByTagIds(ids []*models.ArticleTag,tagId int64,page int64) (posts []models.Articles,err error) {
+	cache := common.Cache()
+	pageString := strconv.FormatInt(page,10)
+	tagIdString:=strconv.FormatInt(tagId,10)
+	key := "index:posts:data:by:tag:"+tagIdString+"page:"+pageString
+	res := cache.Get(key)
+	if res == nil {
+		o := orm.NewOrm()
+		var post models.Articles
+		for _,v := range ids {
+			err := o.QueryTable(new(models.Articles)).Filter("Id",v.ArtId).One(&post)
+			if err != nil {
+				return posts,err
+			}
+			posts = append(posts,post)
+		}
+		timeoutDuration := 24 * 30 * time.Hour
+		data ,_ := json.Marshal(posts)
+		cache.Put(key,data,timeoutDuration)
+	}
+	string1,err := redis.String(res,err)
+	json.Unmarshal([]byte(string1),&posts)
+	return posts,nil
+}
+
+
+
+func IndexPostAllList() (posts map[string]map[string]interface{},timeArr []interface{}) {
+	cache := common.Cache()
+	key1 := "index:post:archive:post"
+	key2 := "index:post:archive:timekey"
+	res1 := cache.Get(key1)
+	res2 := cache.Get(key2)
+
+	if res1 == nil || res2 == nil {
+		post,err := models.IndexAllPost()
+		var test map[string]interface{}
+		test = make(map[string]interface{})
+		posts = make(map[string]map[string]interface{})
+		if err == nil {
+			for key,value := range post {
+				createdAt,ok := value.(map[string]interface{})["CreatedAt"].(time.Time)
+				if !ok {
+					//报错
+					return nil,nil
+				}
+				createAtString := createdAt.Format("2006-01")
+				if !common.InArray(createAtString,timeArr) {
+					test = make(map[string]interface{})
+					timeArr = append(timeArr,createAtString)
+				}
+				test[strconv.Itoa(key)] = value
+				posts[createAtString] = test
+			}
+		}
+		timeoutDuration := 24 * 30 * time.Hour
+		data1 ,_ := json.Marshal(posts)
+		data2 ,_ := json.Marshal(timeArr)
+		cache.Put(key1,data1,timeoutDuration)
+		cache.Put(key2,data2,timeoutDuration)
+		res1 = cache.Get(key1)
+		res2 = cache.Get(key2)
+	}
+	var err error
+	string1,err := redis.String(res1,err)
+	string2,err := redis.String(res2,err)
+	json.Unmarshal([]byte(string1),&posts)
+	json.Unmarshal([]byte(string2),&timeArr)
+	return posts,timeArr
 }

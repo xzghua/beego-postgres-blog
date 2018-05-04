@@ -1,0 +1,239 @@
+2018/05/04 11:00:11.080 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 11:04:38.253 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 11:30:03.046 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 11:30:04.117 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 11:42:24.736 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 11:42:25.800 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 11:42:26.928 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 11:48:00.057 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 11:48:01.256 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 11:48:02.329 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 11:48:03.361 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 11:49:01.740 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 11:50:11.059 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 11:50:14.260 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 11:50:25.904 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 11:57:17.502 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 12:00:27.157 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 12:12:29.324 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 12:14:02.259 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 12:15:21.813 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 12:16:04.583 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 12:16:40.107 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 12:17:14.082 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 12:26:07.864 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 12:26:53.289 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 12:27:47.559 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 12:29:29.384 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 12:30:18.150 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 12:31:59.371 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 12:32:17.708 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 12:35:11.550 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 12:35:45.301 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 12:37:26.614 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 12:38:38.830 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 16:00:55.206 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 16:14:37.298 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 16:14:38.410 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 16:15:46.824 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 16:16:13.425 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 16:16:14.493 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 16:19:07.581 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 16:19:53.122 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 16:27:36.679 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 16:27:39.509 [C] [asm_amd64.s:509] the request url is  /archive
+2018/05/04 16:27:39.509 [C] [asm_amd64.s:509] Handler crashed with error interface conversion: interface {} is nil, not map[string]interface {}
+2018/05/04 16:27:39.509 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/05/04 16:27:39.509 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/05/04 16:27:39.509 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/iface.go:172
+2018/05/04 16:27:39.509 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/services/post_service.go:393
+2018/05/04 16:27:39.509 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/controllers/index/index_controller.go:184
+2018/05/04 16:27:39.509 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/05/04 16:27:39.509 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:434
+2018/05/04 16:27:39.509 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:302
+2018/05/04 16:27:39.509 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:847
+2018/05/04 16:27:39.510 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/05/04 16:27:39.510 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/05/04 16:27:39.510 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/05/04 16:28:21.251 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 16:28:23.965 [C] [asm_amd64.s:509] the request url is  /archive
+2018/05/04 16:28:23.965 [C] [asm_amd64.s:509] Handler crashed with error interface conversion: interface {} is nil, not map[string]interface {}
+2018/05/04 16:28:23.965 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/05/04 16:28:23.965 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/05/04 16:28:23.965 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/iface.go:172
+2018/05/04 16:28:23.965 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/services/post_service.go:393
+2018/05/04 16:28:23.965 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/controllers/index/index_controller.go:184
+2018/05/04 16:28:23.965 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/05/04 16:28:23.965 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:434
+2018/05/04 16:28:23.965 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:302
+2018/05/04 16:28:23.965 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:847
+2018/05/04 16:28:23.965 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/05/04 16:28:23.965 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/05/04 16:28:23.965 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/05/04 16:29:46.899 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 16:29:49.456 [C] [asm_amd64.s:509] the request url is  /archive
+2018/05/04 16:29:49.456 [C] [asm_amd64.s:509] Handler crashed with error runtime error: index out of range
+2018/05/04 16:29:49.456 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/05/04 16:29:49.456 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/05/04 16:29:49.456 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:28
+2018/05/04 16:29:49.456 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/services/post_service.go:393
+2018/05/04 16:29:49.456 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/controllers/index/index_controller.go:184
+2018/05/04 16:29:49.456 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/05/04 16:29:49.456 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:434
+2018/05/04 16:29:49.456 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:302
+2018/05/04 16:29:49.456 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:847
+2018/05/04 16:29:49.456 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/05/04 16:29:49.456 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/05/04 16:29:49.456 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/05/04 16:37:25.596 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 16:38:10.746 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 16:38:56.542 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 16:40:43.650 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 16:47:07.570 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 16:47:08.649 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 16:50:41.123 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 16:50:42.164 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 16:52:38.854 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 16:54:44.824 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 16:56:54.262 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 16:57:14.175 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 17:01:40.029 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 17:01:42.390 [C] [asm_amd64.s:509] the request url is  /archive
+2018/05/04 17:01:42.390 [C] [asm_amd64.s:509] Handler crashed with error runtime error: index out of range
+2018/05/04 17:01:42.390 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/05/04 17:01:42.390 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/05/04 17:01:42.390 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:28
+2018/05/04 17:01:42.390 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/services/post_service.go:399
+2018/05/04 17:01:42.390 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/controllers/index/index_controller.go:184
+2018/05/04 17:01:42.390 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/05/04 17:01:42.390 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:434
+2018/05/04 17:01:42.391 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:302
+2018/05/04 17:01:42.391 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:847
+2018/05/04 17:01:42.391 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/05/04 17:01:42.391 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/05/04 17:01:42.391 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/05/04 17:03:37.304 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 17:04:18.867 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 17:04:53.699 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 17:06:19.724 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 17:07:46.803 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 17:09:44.113 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 17:10:22.609 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 17:15:43.931 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 17:15:44.962 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 17:40:29.384 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 17:50:50.677 [E] [template.go:174] parse template err: home/archive.tpl template: home/archive.tpl:21: unexpected bad character U+005B '[' in range
+2018/05/04 17:51:28.332 [E] [template.go:174] parse template err: home/archive.tpl template: home/archive.tpl:22: unexpected "=" in operand
+2018/05/04 17:51:51.125 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 17:51:55.326 [D] [controller.go:263] template Execute err: template: home/archive.tpl:21:50: executing "home/archive.tpl" at <.postList>: can't evaluate field postList in type interface {}
+2018/05/04 17:51:55.326 [E] [server.go:2619] template: home/archive.tpl:21:50: executing "home/archive.tpl" at <.postList>: can't evaluate field postList in type interface {}
+2018/05/04 17:53:30.468 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 17:53:33.054 [D] [controller.go:263] template Execute err: template: home/archive.tpl:22:41: executing "home/archive.tpl" at <eq $k $key>: error calling eq: incompatible types for comparison
+2018/05/04 17:53:33.055 [E] [server.go:2619] template: home/archive.tpl:22:41: executing "home/archive.tpl" at <eq $k $key>: error calling eq: incompatible types for comparison
+2018/05/04 17:54:49.160 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 17:55:47.105 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 17:56:03.401 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 17:56:04.413 [D] [controller.go:263] template Execute err: template: home/archive.tpl:23:45: executing "home/archive.tpl" at <eq $value $key>: error calling eq: incompatible types for comparison
+2018/05/04 17:56:04.413 [E] [server.go:2619] template: home/archive.tpl:23:45: executing "home/archive.tpl" at <eq $value $key>: error calling eq: incompatible types for comparison
+2018/05/04 17:56:31.997 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 18:14:02.175 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 18:14:02.988 [D] [controller.go:263] template Execute err: template: home/archive.tpl:26:110: executing "home/archive.tpl" at <$v.CreatedAt>: can't evaluate field CreatedAt in type interface {}
+2018/05/04 18:14:02.988 [E] [server.go:2619] template: home/archive.tpl:26:110: executing "home/archive.tpl" at <$v.CreatedAt>: can't evaluate field CreatedAt in type interface {}
+2018/05/04 18:14:35.081 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 18:20:23.395 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 18:20:24.426 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 18:22:08.819 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 18:23:29.705 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 18:24:42.857 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 18:25:51.462 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 18:27:22.865 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 18:29:11.717 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 18:29:36.708 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 18:29:39.252 [C] [asm_amd64.s:509] the request url is  /archive
+2018/05/04 18:29:39.252 [C] [asm_amd64.s:509] Handler crashed with error interface conversion: interface {} is nil, not int64
+2018/05/04 18:29:39.252 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/05/04 18:29:39.252 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/05/04 18:29:39.252 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/iface.go:172
+2018/05/04 18:29:39.252 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/controllers/index/index_controller.go:189
+2018/05/04 18:29:39.252 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/05/04 18:29:39.252 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:434
+2018/05/04 18:29:39.252 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:302
+2018/05/04 18:29:39.252 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:847
+2018/05/04 18:29:39.252 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/05/04 18:29:39.252 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/05/04 18:29:39.252 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/05/04 18:30:51.365 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 18:30:54.841 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 18:31:37.905 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 18:32:14.290 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 18:35:07.117 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 18:38:10.921 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 18:38:35.114 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 18:40:25.646 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 18:40:26.314 [D] [controller.go:263] template Execute err: template: home/archive.tpl:26:103: executing "home/archive.tpl" at <date>: wrong number of args for date: want 2 got 4
+2018/05/04 18:40:26.314 [E] [server.go:2619] template: home/archive.tpl:26:103: executing "home/archive.tpl" at <date>: wrong number of args for date: want 2 got 4
+2018/05/04 18:40:55.692 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 18:43:44.999 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 18:44:47.686 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 18:45:25.634 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 18:46:12.277 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 18:47:04.361 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 18:48:03.116 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 18:50:47.968 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 18:50:50.102 [C] [asm_amd64.s:509] the request url is  /archive
+2018/05/04 18:50:50.102 [C] [asm_amd64.s:509] Handler crashed with error runtime error: index out of range
+2018/05/04 18:50:50.103 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/05/04 18:50:50.103 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/05/04 18:50:50.103 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:28
+2018/05/04 18:50:50.103 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/services/post_service.go:402
+2018/05/04 18:50:50.103 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/controllers/index/index_controller.go:184
+2018/05/04 18:50:50.103 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/05/04 18:50:50.103 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:434
+2018/05/04 18:50:50.103 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:302
+2018/05/04 18:50:50.103 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:847
+2018/05/04 18:50:50.103 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/05/04 18:50:50.103 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/05/04 18:50:50.103 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/05/04 18:53:42.253 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 18:53:44.631 [C] [asm_amd64.s:509] the request url is  /archive
+2018/05/04 18:53:44.631 [C] [asm_amd64.s:509] Handler crashed with error assignment to entry in nil map
+2018/05/04 18:53:44.631 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/05/04 18:53:44.631 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/05/04 18:53:44.631 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/hashmap_fast.go:600
+2018/05/04 18:53:44.631 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/services/post_service.go:403
+2018/05/04 18:53:44.631 [C] [asm_amd64.s:509] /Users/zhu/go/src/bee-go-myBlog/controllers/index/index_controller.go:184
+2018/05/04 18:53:44.631 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/05/04 18:53:44.631 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:434
+2018/05/04 18:53:44.631 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/reflect/value.go:302
+2018/05/04 18:53:44.631 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:847
+2018/05/04 18:53:44.631 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/05/04 18:53:44.631 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/05/04 18:53:44.631 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/05/04 18:58:00.297 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 18:58:52.641 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 19:00:13.984 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 19:01:48.022 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 19:01:48.922 [D] [controller.go:263] template Execute err: template: home/archive.tpl:27:111: executing "home/archive.tpl" at <date>: wrong number of args for date: want 2 got 4
+2018/05/04 19:01:48.922 [E] [server.go:2619] template: home/archive.tpl:27:111: executing "home/archive.tpl" at <date>: wrong number of args for date: want 2 got 4
+2018/05/04 19:02:14.492 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 19:02:34.809 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 19:02:46.194 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 19:04:14.878 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 19:04:43.222 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 19:07:40.439 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 19:08:59.303 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 19:10:40.338 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 19:12:08.988 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 19:12:38.813 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 19:13:53.145 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 19:14:10.016 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 19:15:14.528 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 19:15:39.054 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 19:17:56.195 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 19:21:00.769 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 19:21:03.398 [D] [controller.go:263] template Execute err: template: home/archive.tpl:20:111: executing "home/archive.tpl" at <"CreatedAt">: wrong type for value; expected time.Time; got string
+2018/05/04 19:21:03.398 [E] [server.go:2619] template: home/archive.tpl:20:111: executing "home/archive.tpl" at <"CreatedAt">: wrong type for value; expected time.Time; got string
+2018/05/04 19:26:58.367 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/04 19:26:58.980 [D] [controller.go:263] template Execute err: template: home/archive.tpl:22:130: executing "home/archive.tpl" at <"CreatedAt">: wrong type for value; expected time.Time; got string
+2018/05/04 19:26:58.980 [E] [server.go:2619] template: home/archive.tpl:22:130: executing "home/archive.tpl" at <"CreatedAt">: wrong type for value; expected time.Time; got string
+2018/05/04 19:29:46.538 [I] [asm_amd64.s:2337] http server Running on http://:8080

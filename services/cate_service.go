@@ -173,8 +173,8 @@ func IndexGetCateByName(cateName string) (v models.Categories,err error) {
 	res := cache.Get(key)
 	if res == nil {
 		o := orm.NewOrm()
-		v = models.Categories{Name:cateName}
-		err = o.Read(&v,"Name")
+		v = models.Categories{DisplayName:cateName}
+		err = o.Read(&v,"DisplayName")
 		timeoutDuration := 24 * 30 * time.Hour
 		data ,_ := json.Marshal(v)
 		cache.Put(key,data,timeoutDuration)

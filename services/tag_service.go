@@ -7,6 +7,8 @@ import (
 	"time"
 	"encoding/json"
 	"github.com/garyburd/redigo/redis"
+	"strconv"
+	"github.com/astaxie/beego"
 )
 
 
@@ -93,4 +95,44 @@ func DeleteTag(tagId int64) (res bool) {
 		o.Rollback()
 		return false
 	}
+}
+
+
+func IndexGetTagByName(tagName string) (v models.Tags,err error) {
+	cache := common.Cache()
+	key := "index:tag:search:"+tagName
+	res := cache.Get(key)
+	if res == nil {
+		o := orm.NewOrm()
+		v = models.Tags{Name:tagName}
+		err = o.Read(&v,"Name")
+		timeoutDuration := 24 * 30 * time.Hour
+		data ,_ := json.Marshal(v)
+		cache.Put(key,data,timeoutDuration)
+		return v,err
+	}
+	string1,err := redis.String(res,err)
+	json.Unmarshal([]byte(string1),&v)
+	return v,err
+}
+
+func IndexGetTagPost(tagId int64,page2 int64) (tagPost []*models.ArticleTag,err error) {
+	cache := common.Cache()
+	tagIdString:=strconv.FormatInt(tagId,10)
+	pageString := strconv.FormatInt(page2,10)
+	key := "index:tag:posts:by:tagid:"+tagIdString+":page:"+pageString
+	res := cache.Get(key)
+	if res == nil {
+		o := orm.NewOrm()
+		limit, _ := beego.AppConfig.Int64("page_offset")
+		offset := (page2 - 1) * limit
+		_,err = o.QueryTable(new(models.ArticleTag)).Filter("TagId",tagId).OrderBy("Id").Limit(limit,offset).All(&tagPost)
+		timeoutDuration := 24 * 30 * time.Hour
+		data ,_ := json.Marshal(tagPost)
+		cache.Put(key,data,timeoutDuration)
+		return tagPost,err
+	}
+	string1,err := redis.String(res,err)
+	json.Unmarshal([]byte(string1),&tagPost)
+	return
 }

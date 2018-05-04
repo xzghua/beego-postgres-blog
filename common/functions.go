@@ -111,16 +111,16 @@ func GetCdn() map[int]string {
 }
 
 
-func IndexCatePaginate(page int64,cateId int64,tableName string)(totalPage int64,lastPage int64,currentPage int64,nextPage int64 ) {
+func IndexSomePaginate(page int64,some string,someName string,someId int64,tableName string)(totalPage int64,lastPage int64,currentPage int64,nextPage int64 ) {
 	var cnt int64
 
 	cache := Cache()
-	cateIdString  :=strconv.FormatInt(cateId,10)
-	key := "index:paginate:cate:" + cateIdString
+	someIdString  :=strconv.FormatInt(someId,10)
+	key := "index:paginate:"+some+":" + someIdString
 	cacheRes := cache.Get(key)
 	if cacheRes == nil {
 		o := orm.NewOrm()
-		cnt,_ = o.QueryTable(tableName).Filter("CateId",cateId).Count()
+		cnt,_ = o.QueryTable(tableName).Filter(someName,someId).Count()
 		timeoutDuration := 24 * 30 * time.Hour
 		data ,_ := json.Marshal(cnt)
 		cache.Put(key,data,timeoutDuration)
@@ -154,4 +154,13 @@ func IndexCatePaginate(page int64,cateId int64,tableName string)(totalPage int64
 	}
 	return totalPage,lastPage,currentPage,nextPage
 
+}
+
+func InArray(search interface{},arr []interface{}) (bool) {
+	for _,v := range arr {
+		if search == v {
+			return true
+		}
+	}
+	return false
 }

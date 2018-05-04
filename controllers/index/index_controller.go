@@ -106,10 +106,9 @@ func (h *HomeController) Cate() {
 		//走404页面
 	}
 	postCates,err := services.IndexGetCatePost(categories.Id,page2)
-	fmt.Println(postCates,err,"234234")
 	if err != nil {
 	}
-	posts,err := services.IndexPostByIds(postCates,page2)
+	posts,err := services.IndexPostByCateIds(postCates,categories.Id,page2)
 	if err != nil {
 	}
 
@@ -137,12 +136,70 @@ func (h *HomeController) Cate() {
 	h.TplName = "home/cate.tpl"
 }
 
-//@router /tags/:id([0-9]+ [get]
+//@router /tags/:tag [get]
 func (h *HomeController) Tag() {
+	page := h.GetString("page")
+	page2, err := strconv.ParseInt(page, 10, 64)
+	if err != nil {
+		page2 = 1
+	}
+	tag := h.Ctx.Input.Param(":tag")
+	tagOne,err := services.IndexGetTagByName(tag)
+	if err != nil {
+	}
+	postTags,err := services.IndexGetTagPost(tagOne.Id,page2)
+	if err != nil {
+	}
+	posts,err := services.IndexPostByTagIds(postTags,tagOne.Id,page2)
+	if err != nil {
+	}
 
+	totalPage,lastPage,currentPage,nextPage := models.IndexTagPostPaginate(page2,tagOne.Id)
+	h.Data["totalPage"] = totalPage
+	h.Data["lastPage"] = lastPage
+	h.Data["currentPage"] = currentPage
+	h.Data["nextPage"] = nextPage
+
+	cate := services.IndexAllCateBySort()
+	tags := services.IndexAllTag()
+	system := services.IndexSystem()
+	link := services.IndexLinkList()
+	h.Data["posts"] = posts
+	h.Data["system"] = system
+	h.Data["cate"] = cate
+	h.Data["link"] = link
+	h.Data["tag"] = tags
+
+	if system.CdnType == 1 {
+		h.Layout = "home/local/master.tpl"
+	} else {
+		h.Layout = "home/master.tpl"
+	}
+	h.TplName = "home/tag.tpl"
 }
 
 //@router /archive [get]
 func (h *HomeController) Archive() {
 
+	postList,timeArr := services.IndexPostAllList()
+	if postList == nil {
+		//走404
+	}
+
+	cate := services.IndexAllCateBySort()
+	tags := services.IndexAllTag()
+	system := services.IndexSystem()
+	link := services.IndexLinkList()
+	h.Data["system"] = system
+	h.Data["cate"] = cate
+	h.Data["link"] = link
+	h.Data["tag"] = tags
+	h.Data["postList"] = postList
+	h.Data["timeArr"] = timeArr
+	if system.CdnType == 1 {
+		h.Layout = "home/local/master.tpl"
+	} else {
+		h.Layout = "home/master.tpl"
+	}
+	h.TplName = "home/archive.tpl"
 }

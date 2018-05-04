@@ -47,7 +47,7 @@
     </div>
     <!-- Lists in Slidebars -->
     <ul class="sb-menu">
-        <li><a href="index.html" class="animsition-link" title="Home">Home</a></li>
+        <li><a href="/" class="animsition-link" title="Home">Home</a></li>
         {{/*<li><a href="archives" class="animsition-link" title="archive">archives</a></li>*/}}
         <!-- Dropdown Menu -->
 
@@ -110,7 +110,7 @@
             <div class="container">
                 <!-- Nav logo -->
                 <div class="logo">
-                    <a href="index.html" title="Logo" class="animsition-link">
+                    <a href="/" title="Logo" class="animsition-link">
                         <img src="/static/index/img/logo.png" alt="Logo" width="35px;"/>
                     </a>
                 </div>
@@ -118,7 +118,7 @@
                 <!-- Info-bar -->
                 <nav>
                     <ul class="nav">
-                        <li><a href="index.html" class="animsition-link">KIERAN'S BLOG</a></li>
+                        <li><a href="/" class="animsition-link">{{.system.Title}}</a></li>
                         <li class="nolink"><span>Always </span>Creative.</li>
 
                         <li><a href="https://github.com/SuperKieran" title="Github" target="_blank"><i class="icon-github"></i></a></li>

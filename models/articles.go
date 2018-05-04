@@ -187,7 +187,7 @@ func PostPaginate(page int64,env string) (totalPage int64,lastPage int64,current
 	return common.MyPaginate(page,tableName,env)
 }
 
-func IndexAllPost(page int64) (ml []interface{}, err error) {
+func IndexAllPostWithPaginate(page int64) (ml []interface{}, err error) {
 	var fields []string
 	var sortby []string
 	var order []string
@@ -204,6 +204,24 @@ func IndexAllPost(page int64) (ml []interface{}, err error) {
 	res, err := GetAllArticles(query, fields, sortby, order, offset, limit)
 	return res, err
 }
+
+func IndexAllPost() (ml []interface{}, err error) {
+	var fields []string
+	var sortby []string
+	var order []string
+	var query map[string]interface{} = make(map[string]interface{})
+	var limit int64
+	var offset int64
+	query["deleted_at__isnull"] = true
+	fields = []string{"Id", "Title","UserId", "Content", "BodyOriginal", "Password", "Note", "ReadStatus",
+		"Top", "Abstract", "ViewNum", "CreatedAt", "UpdatedAt","DeletedAt"}
+	limit = 1000000
+	sortby = []string{"Id","CreatedAt"}
+	order = []string{"desc","desc"}
+	res, err := GetAllArticles(query, fields, sortby, order, offset, limit)
+	return res, err
+}
+
 
 func GetIndexArticlesById(id int64,condition string,condition2 string) (v *Articles, err error) {
 	o := orm.NewOrm()

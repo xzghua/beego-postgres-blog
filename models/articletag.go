@@ -7,6 +7,7 @@ import (
 	"strings"
 
 	"github.com/astaxie/beego/orm"
+	"bee-go-myBlog/common"
 )
 
 type ArticleTag struct {
@@ -151,4 +152,11 @@ func GetTagIdByPostId(postId int64) (num int64,maps []orm.Params)  {
 	o := orm.NewOrm()
 	num,_ = o.QueryTable(new(ArticleTag)).Filter("ArtId",postId).Values(&maps)
 	return num,maps
+}
+
+func IndexTagPostPaginate(page int64,tagId int64) (totalPage int64,lastPage int64,currentPage int64,nextPage int64)  {
+	var artTag ArticleTag
+	tableName := artTag.TableName()
+	return common.IndexSomePaginate(page,"tag","TagId",tagId,tableName)
+
 }
