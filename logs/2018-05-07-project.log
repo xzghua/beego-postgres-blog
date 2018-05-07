@@ -1,0 +1,25 @@
+2018/05/07 14:17:49.313 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/07 14:45:03.399 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/07 14:50:55.445 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/07 14:50:58.642 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/07 14:50:59.685 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/07 14:52:16.052 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/07 14:52:25.366 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/07 14:54:06.739 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/07 14:54:16.441 [C] [asm_amd64.s:509] the request url is  /console/login
+2018/05/07 14:54:16.441 [C] [asm_amd64.s:509] Handler crashed with error can't find templatefile in the path:views/homecontroller/login.tpl
+2018/05/07 14:54:16.441 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:509
+2018/05/07 14:54:16.441 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/panic.go:491
+2018/05/07 14:54:16.441 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/template.go:73
+2018/05/07 14:54:16.441 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:263
+2018/05/07 14:54:16.441 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:214
+2018/05/07 14:54:16.441 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/controller.go:194
+2018/05/07 14:54:16.441 [C] [asm_amd64.s:509] /Users/zhu/go/src/github.com/astaxie/beego/router.go:859
+2018/05/07 14:54:16.441 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:2619
+2018/05/07 14:54:16.441 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/net/http/server.go:1801
+2018/05/07 14:54:16.441 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
+2018/05/07 14:54:57.603 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/07 14:55:59.327 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/07 14:57:07.925 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/07 15:17:31.839 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/07 15:47:07.423 [I] [asm_amd64.s:2337] http server Running on http://:8080

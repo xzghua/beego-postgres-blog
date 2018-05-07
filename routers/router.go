@@ -18,7 +18,7 @@ func init() {
 	beego.Include(&auth.TagController{})
 	beego.Include(&auth.SystemController{})
 	beego.Include(&index.HomeController{})
-
+	beego.Include(&auth.HomeController{})
 }
 
 func filter() {

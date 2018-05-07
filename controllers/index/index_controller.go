@@ -5,12 +5,20 @@ import (
 	"strconv"
 	"bee-go-myBlog/services"
 	"bee-go-myBlog/models"
-	"fmt"
 )
 
 type HomeController struct {
 	controllers.BaseController
 }
+
+func (h *HomeController)URLMapping()  {
+	h.Mapping("Index",h.Index)
+	h.Mapping("Detail",h.Detail)
+	h.Mapping("Cate",h.Cate)
+	h.Mapping("Tag",h.Tag)
+	h.Mapping("Archive",h.Archive)
+}
+
 
 //@router / [get]
 func (h *HomeController) Index() {
@@ -72,7 +80,6 @@ func (h *HomeController) Detail() {
 	postTag := services.IndexPostTag(id64)
 
 	go services.PostReadNumAdd(id64)
-	fmt.Println(postTag)
 	//评论
 	//阅读数+1
 	h.Data["system"] = system
