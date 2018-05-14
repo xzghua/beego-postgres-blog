@@ -23,6 +23,8 @@ func IphptValidate(c *context.Context,env string) (code int,message string) {
 			u = &common.TagRequest{}
 		case "System":
 			u = &common.SystemUpdate{}
+		case "Register":
+			u = &common.RegisterRequest{}
 		default:
 			//u = common.PostCreate{}
 	}

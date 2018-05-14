@@ -30,7 +30,7 @@ func filter() {
 func extMethod() {
 	var filter = func(ctx *context.Context) {
 		method := ctx.Input.Query("_method")
-		println(method,ctx.Input.IsPost())
+		//println(method)
 		if method != "" && ctx.Input.IsPost() {
 			ctx.Request.Method = method
 		}

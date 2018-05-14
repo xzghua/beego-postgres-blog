@@ -127,3 +127,46 @@ var linkForm = $('.linkForm').validate({
         }
     }
 });
+
+var registerForm = $('.registerForm').validate({
+    rules:{
+        name: {
+            required:true,
+            maxlength:100
+        },
+        email:{
+            required:true,
+            maxlength:100,
+            email:true
+        },
+        password:{
+            required:true,
+            maxlength:40
+        },
+        rePassword:{
+            required:true,
+            equalTo:"#password",
+            maxlength:40
+        }
+    },
+    messages:{
+        name: {
+            required:"请输入用户名",
+            maxlength:"超出最大长度"
+        },
+        email:{
+            required:'请输入邮箱',
+            maxlength:'超出最大长度',
+            email:'邮箱格式不正确'
+        },
+        password:{
+            required:'请输入密码',
+            maxlength:'超出最大长度'
+        },
+        rePassword:{
+            required:'请输入确认密码',
+            equalTo:'两次密码不一致',
+            maxlength:'超出最大长度'
+        }
+    }
+});

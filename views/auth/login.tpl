@@ -45,16 +45,17 @@
         <div class="row">
             <div class="col-md-4 col-md-offset-4">
                 <div class="account-box">
-                    <form role="form" action="index.html">
+                    <form role="form" action="/console/login" method="post">
+                    {{ .xsrfdata }}
                         <div class="form-group">
                             <!--a href="#" class="pull-right label-forgot">Forgot email?</a-->
-                            <label for="inputUsernameEmail">用户名</label>
-                            <input type="text" id="inputUsernameEmail" class="form-control">
+                            <label for="email">用户名</label>
+                            <input type="text" id="email" class="form-control">
                         </div>
                         <div class="form-group">
                             <!--a href="#" class="pull-right label-forgot">Forgot password?</a-->
-                            <label for="inputPassword">密码</label>
-                            <input type="password" id="inputPassword" class="form-control">
+                            <label for="password">密码</label>
+                            <input type="password" name="password" id="password" class="form-control">
                         </div>
                         <div class="checkbox pull-left">
                             <label>
@@ -64,7 +65,7 @@
                             登 录
                         </button>
                     </form>
-                    <a class="forgotLnk" href="index.html"></a>
+                    <a class="forgotLnk" href="#"></a>
                     <div class="or-box">
                         <center><span class="text-center login-with">Login or <b>Sign Up</b></span></center>
                     </div>
@@ -99,64 +100,28 @@
 <!--  END OF PAPER WRAP -->
 
 
-
-
 <!-- MAIN EFFECT -->
-<script type="text/javascript" src="assets/js/preloader.js"></script>
-<script type="text/javascript" src="assets/js/bootstrap.js"></script>
-<script type="text/javascript" src="assets/js/app.js"></script>
-<script type="text/javascript" src="assets/js/load.js"></script>
-<script type="text/javascript" src="assets/js/main.js"></script>
-
-<script src="http://maps.googleapis.com/maps/api/js?sensor=false" type="text/javascript"></script>
-<script type="text/javascript" src="assets/js/map/gmap3.js"></script>
-<script type="text/javascript">
-    $(function() {
-
-        $("#test1").gmap3({
-            marker: {
-                latLng: [-7.782893, 110.402645],
-                options: {
-                    draggable: true
-                },
-                events: {
-                    dragend: function(marker) {
-                        $(this).gmap3({
-                            getaddress: {
-                                latLng: marker.getPosition(),
-                                callback: function(results) {
-                                    var map = $(this).gmap3("get"),
-                                            infowindow = $(this).gmap3({
-                                                get: "infowindow"
-                                            }),
-                                            content = results && results[1] ? results && results[1].formatted_address : "no address";
-                                    if (infowindow) {
-                                        infowindow.open(map, marker);
-                                        infowindow.setContent(content);
-                                    } else {
-                                        $(this).gmap3({
-                                            infowindow: {
-                                                anchor: marker,
-                                                options: {
-                                                    content: content
-                                                }
-                                            }
-                                        });
-                                    }
-                                }
-                            }
-                        });
-                    }
-                }
-            },
-            map: {
-                options: {
-                    zoom: 15
-                }
-            }
+<script>
+    if ("{{.flash.error}}") {
+        $.pnotify({
+            title: '哎哟',
+            text: "{{.flash.error}}",
+            type: 'error'
         });
+    } else if ("{{.flash.success}}") {
+        $.pnotify({
+            title: '哎哟',
+            text: "{{.flash.success}}",
+            type: 'success'
+        });
+    } else if ("{{.flash.info}}") {
+        $.pnotify({
+            title: '哎哟',
+            text: "{{.flash.info}}",
+            type: 'info'
+        });
+    }
 
-    });
 </script>
 
 

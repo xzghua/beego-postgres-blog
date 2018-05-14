@@ -46,3 +46,9 @@ type SystemUpdate struct {
 type TagRequest struct {
 	Name 	string `form:"name" valid:"Required;MaxSize(30)"`
 }
+
+type RegisterRequest struct {
+	Name		string 	`form:"name" valid:"Required;MaxSize(50)"`
+	Email		string 	`form:"email" valid:"Required;MaxSize(50);Email"`
+	Password	string 	`form:"password" valid:"Required;MaxSize(30)"`
+}

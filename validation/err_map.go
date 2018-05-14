@@ -16,15 +16,17 @@ var key = map[string][2]string {
 	"Sort"			: { "009", "排序值" },
 	"Link"			: { "010", "链接" },
 	"STitle"		: { "011", "SEO标题" },
-	"SeoKey"		: { "011", "SEO标题" },
-	"SeoDes"		: { "011", "SEO标题" },
-	"RecordNumber"	: { "011", "SEO标题" },
-
+	"SeoKey"		: { "012", "SEO标题" },
+	"SeoDes"		: { "013", "SEO标题" },
+	"RecordNumber"	: { "014", "SEO标题" },
+	"Email"			: { "015", "用户名" },
+	"Password"		: { "016", "密码" },
 }
 
 var condition = map[string][2]string {
 	"Required"	: { "001", "不能为空" },
 	"MaxSize"	: { "002", "超出最大范围" },
+	"Email"		: { "003", "邮箱格式不正确" },
 }
 
 
@@ -33,6 +35,8 @@ var env = map[string][2]string {
 	"Cate"		: { "4002", "节点" },
 	"Tag"		: { "4003", "标签" },
 	"Link"		: {	"4004", "友链" },
+	"System"	: { "4005", "设置" },
+	"Register"	: { "4006", "注册" },
 }
 
 

@@ -65,9 +65,25 @@ func init() {
 
 	beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:HomeController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:HomeController"],
 		beego.ControllerComments{
+			Method: "PostLogin",
+			Router: `/console/login`,
+			AllowHTTPMethods: []string{"post"},
+			MethodParams: param.Make(),
+			Params: nil})
+
+	beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:HomeController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:HomeController"],
+		beego.ControllerComments{
 			Method: "Register",
 			Router: `/console/register`,
 			AllowHTTPMethods: []string{"get"},
+			MethodParams: param.Make(),
+			Params: nil})
+
+	beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:HomeController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:HomeController"],
+		beego.ControllerComments{
+			Method: "PostRegister",
+			Router: `/console/register`,
+			AllowHTTPMethods: []string{"post"},
 			MethodParams: param.Make(),
 			Params: nil})
 

@@ -44,7 +44,7 @@
                         </time>
                         |
                             {{range $key,$value := $item.tag_list}}
-                                <a href="/tag/{{ map_get $value "id"}}">
+                                <a href="/tags/{{ map_get $value "name"}}">
                                     {{/*绿色*/}}
                                         {{/*rgba(247,186,41,.1) #f7ba2a 黄色*/}}
                                     <span style="border: 1px solid rgba(18,206,102,.2);background-color: rgba(18,206,102,.2);color: #13ce66;padding:2px 8px;border-radius: 4px;font-size: 12px;line-height: 22px;box-sizing: border-box; "> {{ map_get $value "name"}}</span>
