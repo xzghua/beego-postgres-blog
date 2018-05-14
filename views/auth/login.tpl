@@ -49,8 +49,8 @@
                     {{ .xsrfdata }}
                         <div class="form-group">
                             <!--a href="#" class="pull-right label-forgot">Forgot email?</a-->
-                            <label for="email">用户名</label>
-                            <input type="text" id="email" class="form-control">
+                            <label for="name">用户名</label>
+                            <input type="text" name="name" id="name" class="form-control">
                         </div>
                         <div class="form-group">
                             <!--a href="#" class="pull-right label-forgot">Forgot password?</a-->

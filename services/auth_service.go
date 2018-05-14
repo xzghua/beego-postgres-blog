@@ -21,3 +21,19 @@ func UserStore(u common.RegisterRequest) (id int64,err error) {
 
 	return models.AddUsers(&user)
 }
+
+func UserPwdCheck(u common.LoginRequest) (user *models.Users, res bool) {
+	user,err := models.GetUsersByName(u.Name)
+	if err != nil {
+		return user,false
+	}
+
+	password := []byte(u.Password)
+	hashedPassword := []byte(user.Password)
+	err = bcrypt.CompareHashAndPassword(hashedPassword,password)
+	if err != nil {
+		//密码不对
+		return user,false
+	}
+	return user,true
+}

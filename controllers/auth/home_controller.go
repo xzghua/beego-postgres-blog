@@ -24,14 +24,25 @@ func (h *HomeController) Login()  {
 
 //@router /console/login [post]
 func (h *HomeController) PostLogin() {
+	u := common.LoginRequest{}
+	if err := h.ParseForm(&u); err != nil {
+		h.MyReminder("error","校验内部出了错误")
+	}
 
-	//res := services.StorePost(u)
-	//if res {
-	//	p.MyReminder("success","创建文章成功")
-	//} else {
-	//	p.MyReminder("error","创建文章失败,请检查后再试")
-	//}
-	//p.Redirect("/console/post",302)
+	code ,message := requests.IphptValidate(h.Ctx,"Login")
+	fmt.Println(message)
+	if code != 0 {
+		h.MyReminder("error",message)
+		h.Redirect("/console/register",302)
+		return
+	}
+	user,res := services.UserPwdCheck(u)
+	if !res {
+		//出错了
+		h.MyReminder("error","用户不存在或者账号密码错误")
+	}
+	h.SetSession("Id",user.Id)
+	h.Redirect("/console/home",302)
 }
 
 

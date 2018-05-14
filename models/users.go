@@ -149,3 +149,12 @@ func DeleteUsers(id int64) (err error) {
 	}
 	return
 }
+
+func GetUsersByName(name string) (v *Users, err error) {
+	o := orm.NewOrm()
+	v = &Users{Name: name}
+	if err = o.QueryTable(new(Users)).Filter("Name", name).RelatedSel().One(v); err == nil {
+		return v, nil
+	}
+	return nil, err
+}

@@ -37,6 +37,7 @@ var env = map[string][2]string {
 	"Link"		: {	"4004", "友链" },
 	"System"	: { "4005", "设置" },
 	"Register"	: { "4006", "注册" },
+	"Login"		: { "4007", "登录" },
 }
 
 

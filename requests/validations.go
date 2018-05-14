@@ -25,6 +25,8 @@ func IphptValidate(c *context.Context,env string) (code int,message string) {
 			u = &common.SystemUpdate{}
 		case "Register":
 			u = &common.RegisterRequest{}
+		case "Login":
+			u = &common.LoginRequest{}
 		default:
 			//u = common.PostCreate{}
 	}

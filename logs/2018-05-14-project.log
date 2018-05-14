@@ -131,3 +131,5 @@
 2018/05/14 18:34:54.091 [C] [asm_amd64.s:509] /usr/local/Cellar/go/1.9/libexec/src/runtime/asm_amd64.s:2337
 2018/05/14 18:37:13.855 [I] [asm_amd64.s:2337] http server Running on http://:8080
 2018/05/14 19:02:02.665 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/14 19:25:38.832 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/14 19:26:18.055 [I] [asm_amd64.s:2337] http server Running on http://:8080

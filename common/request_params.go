@@ -52,3 +52,8 @@ type RegisterRequest struct {
 	Email		string 	`form:"email" valid:"Required;MaxSize(50);Email"`
 	Password	string 	`form:"password" valid:"Required;MaxSize(30)"`
 }
+
+type LoginRequest struct {
+	Name		string 	`form:"name" valid:"Required;MaxSize(50)"`
+	Password	string 	`form:"password" valid:"Required;MaxSize(30)"`
+}
