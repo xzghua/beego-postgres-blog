@@ -8,14 +8,14 @@ type PostCreate struct {
 	Category 		int64 	`form:"category" valid:"Required"`
 	Tag 			string 	`form:"tag" valid:"Required"`
 	Content 		string 	`form:"editormd-html-code" valid:"Required"`
-	BodyOriginal 	string 	`form:"content" valid:"Required"`
+	BodyOriginal	string 	`form:"content" valid:"Required"`
 }
 
 type CateRequest struct {
 	ParentId		string 	`form:"parentId" valid:"Required"`
 	Name 			string 	`form:"name" valid:"Required;MaxSize(30)"`
-	DisplayName 	string 	`form:"displayName" valid:"Required;MaxSize(30)"`
-	Description 	string 	`form:"description" valid:"MaxSize(150)"`
+	DisplayName		string 	`form:"displayName" valid:"Required;MaxSize(30)"`
+	Description		string 	`form:"description" valid:"MaxSize(150)"`
 }
 
 type LinkCreate struct {
@@ -28,12 +28,12 @@ type LinkCreate struct {
 type SystemUpdate struct {
 	Title				string 		`form:"title" valid:"Required;MaxSize(23)"`
 	STitle				string 		`form:"s_title" `
-	Description 		string 		`form:"description" `
+	Description			string 		`form:"description" `
 	SeoKey				string 		`form:"seo_key" `
 	SeoDes				string 		`form:"seo_des" `
 	RecordNumber		string 		`form:"record_number" `
 	CommentType			int 		`form:"comment_type"`
-	GithubClientSecret 	string		`form:"github_client_secret"`
+	GithubClientSecret	string		`form:"github_client_secret"`
 	GithubClientId		string		`form:"github_client_id"`
 	GithubName			string		`form:"github_name"`
 	GithubRepo			string		`form:"github_repo"`
