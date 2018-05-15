@@ -47,14 +47,14 @@
                 <span class="entypo-list-add"></span>
             </button>
             <div id="logo-mobile" class="visible-xs">
-                <h1>WEB管理<span>v1.2</span></h1>
+                <h1>Iphpt<span>v2.0</span></h1>
             </div>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-                <li><a href="#"><i data-toggle="tooltip" data-placement="bottom" title="Help" style="font-size:20px;" class="icon-help tooltitle"></i></a>
+                <li><a href="/"><i data-toggle="tooltip" data-placement="bottom" title="Help" style="font-size:20px;" class="icon-help tooltitle"></i></a>
                 </li>
             </ul>
             <div id="nt-title-container" class="navbar-left running-text visible-lg">
@@ -103,8 +103,8 @@
                         </li>
                         <li class="divider"></li>
                         <li>
-                            <a href="http://themeforest.net/item/apricot-navigation-admin-dashboard-template/7664475?WT.ac=category_item&WT.z_author=themesmile">
-                                <span class="entypo-basket"></span>&#160;&#160; Purchase</a>
+                            <a href="/console/logout">
+                                <span class="entypo-basket"></span>&#160;&#160; logout</a>
                         </li>
                     </ul>
                 </li>
@@ -161,7 +161,7 @@
                     </li>
 
                     <li>
-                        <a class="tooltip-tip ajax-load" href="index.html" title="Dashboard">
+                        <a class="tooltip-tip ajax-load" href="/console/home" title="Dashboard">
                             <i class="icon-window"></i>
                             <span>Dashboard</span>
                         </a>
@@ -259,6 +259,14 @@
                 </ul>
 
                 <div class="side-dash">
+                    <h3>
+                        <span>缓存</span>
+                    </h3>
+                        <ul class="side-dashh-list">
+                        <li>
+                            <button class="btn btn-default  button test disable" data-color="#ff0011" data-opacity="0.9">点击清除缓存</button>
+                        </li>
+                        </ul>
                     <h3>
                         <span>Device</span>
                     </h3>
@@ -384,6 +392,7 @@
 
 
 <script type="text/javascript" src="/static/auth/js/pnotify/jquery.pnotify.min.js"></script>
+<script type='text/javascript' src='/static/auth/js/button/progressbutton.jquery.js'></script>
 
 <script>
 
@@ -472,6 +481,32 @@
 
         });
 
+    });
+    jQuery(document).ready(function($) {
+        jQuery('.test').click(function() {
+            var itm = jQuery(this);
+            if (itm.hasClass('disable')) {
+                itm.attr('disabled', 'disabled');
+            }
+            var bar = itm.progressbutton({
+                percent: -1
+            });
+            var clock = 0;
+            var interval = setInterval(function() {
+                bar.progressbutton({
+                    percent: clock
+                });
+                clock = clock + 1.5;
+                if (clock > 100) {
+                    itm.removeAttr('disabled');
+                    clearInterval(interval);
+                    bar.progressbutton('reset');
+                    $.ajax({
+                        url:'/console/clearCache'
+                    })
+                }
+            }, 30);
+        });
     });
 </script>
 

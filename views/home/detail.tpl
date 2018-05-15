@@ -9,7 +9,7 @@
       </time>
     |
                     {{range $k,$v := .postTag}}
-                        <a href='../../tag/{{$v.id}}'>{{$v.name}}</a>,
+                        <a href='../../tags/{{$v.name}}'>{{$v.name}}</a>,
                     {{end}}
 
 

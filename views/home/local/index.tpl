@@ -5,7 +5,7 @@
                 <div class="center-me animateme" data-when="exit" data-from="0" data-to="0.6" data-opacity="0" data-translatey="100">
                     <div>
 
-                        <h2>叶落山城秋</h2>
+                        <h2>命定的局限尽可永在，不屈的挑战却不可须臾或缺！</h2>
                         <p></p>
 
                         <h2></h2>

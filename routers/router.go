@@ -5,22 +5,13 @@ import (
 	"bee-go-myBlog/controllers/auth"
 	"github.com/astaxie/beego/context"
 	"bee-go-myBlog/controllers/index"
+	"bee-go-myBlog/models"
 )
 
 func init() {
 	filter()
 
 	ns := beego.NewNamespace("/console",
-		//beego.NSCond(func(ctx *context.Context) bool {
-		//	sess := beego.GlobalSessions.SessionRegenerateID(ctx.ResponseWriter,ctx.Request)
-		//	defer sess.SessionRelease(ctx.ResponseWriter)
-		//	v := sess.Get("Id")
-		//	fmt.Println(v)
-		//	if v == nil {
-		//		return false
-		//	}
-		//	return true
-		//}),
 		beego.NSInclude(
 			&auth.PostController{},
 			&auth.CateController{},
@@ -41,6 +32,8 @@ func filter() {
 	extMethod()
 	// 权限校验
 	checkAuth()
+
+	forRegister()
 }
 
 func checkAuth() {
@@ -64,4 +57,18 @@ func extMethod() {
 		}
 	}
 	beego.InsertFilter("*", beego.BeforeRouter, filter)
+}
+
+func forRegister() {
+	var filter = func(ctx *context.Context) {
+		cnt,err := models.GetUserCount()
+		if err != nil || cnt == -1 {
+			ctx.Redirect(302,"/auth/login")
+		}
+		if cnt > 2 {
+			ctx.Redirect(302,"/auth/login")
+		}
+	}
+	beego.InsertFilter("/auth/register", beego.BeforeRouter, filter)
+
 }

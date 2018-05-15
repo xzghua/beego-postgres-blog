@@ -158,3 +158,12 @@ func GetUsersByName(name string) (v *Users, err error) {
 	}
 	return nil, err
 }
+
+func GetUserCount() (cnt int64,err error) {
+	o := orm.NewOrm()
+	cnt,err = o.QueryTable(new(Users)).RelatedSel().Count()
+	if err != nil {
+		return -1,err
+	}
+	return cnt,nil
+}

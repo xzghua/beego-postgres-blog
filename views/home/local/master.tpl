@@ -10,8 +10,8 @@
     <meta name="description" content="{{ .system.Title }}" />
     <meta name="keywords" content="{{ .system.SeoKey }}" />
     <!-- Favicon, (keep icon in root folder) -->
-    <link rel="Shortcut Icon" href="/static/index/img/favicon.ico" type="image/ico">
-    <link rel="alternate" href="atom.xml" title="KIERAN&#39;S BLOG" type="application/atom+xml">
+    <link rel="Shortcut Icon" href="/static/index/img/nice.png" type="image/ico">
+    <link rel="alternate" href="atom.xml" title="叶落山城秋" type="application/atom+xml">
     <link rel="stylesheet" href="/static/index/css/all.css" media="screen" type="text/css">
     <link rel="stylesheet" href="/static/index/highlightjs/xcode.css" type="text/css">
     <!--[if IE 8]>
@@ -91,8 +91,8 @@
     <!-- Lists in Slidebars -->
     <ul class="sb-menu secondary">
         <li><a href="/archive" class="animsition-link" title="Archive">Archive</a></li>
-        <li><a href="about.html" class="animsition-link" title="about">About</a></li>
-        <li><a href="atom.xml" class="animsition-link" title="rss">RSS</a></li>
+        {{/*<li><a href="about.html" class="animsition-link" title="about">About</a></li>*/}}
+        {{/*<li><a href="atom.xml" class="animsition-link" title="rss">RSS</a></li>*/}}
     </ul>
 </div>
 
@@ -111,7 +111,7 @@
                 <!-- Nav logo -->
                 <div class="logo">
                     <a href="/" title="Logo" class="animsition-link">
-                        <img src="/static/index/img/logo.png" alt="Logo" width="35px;"/>
+                        <img src="/static/index/img/nice.png" alt="Logo" width="35px;"/>
                     </a>
                 </div>
                 <!-- // Nav logo -->
@@ -119,18 +119,11 @@
                 <nav>
                     <ul class="nav">
                         <li><a href="/" class="animsition-link">{{.system.Title}}</a></li>
-                        <li class="nolink"><span>Always </span>Creative.</li>
-
-                        <li><a href="https://github.com/SuperKieran" title="Github" target="_blank"><i class="icon-github"></i></a></li>
-
-
-                        <li><a href="https://twitter.com/1tsKieran" title="Twitter" target="_blank"><i class="icon-twitter"></i></a></li>
-
-
-
-
-                        <li><a href="http://weibo.com/taokailun" title="Sina-Weibo" target="_blank"><i class="icon-sina-weibo"></i></a></li>
-
+                        <li><a href="https://github.com/Yela528" title="Github" target="_blank"><i class="icon-github"></i></a></li>
+                        <li><a href="https://github.com/Yela528" title="Github" target="_blank"><i class="icon-php"></i></a></li>
+                        <li><a href="http://weibo.com/ylsc633?refer_flag=1001030101_&is_hot=1" title="Sina-Weibo" target="_blank"><i class="icon-sina-weibo"></i></a></li>
+                        <li class="nolink"><span><a href="http://www.iphpt.com/detail/1/">给我留言</a></span></li>
+                        <li class="nolink"><span><a href="http://www.g9zz.com" target="_blank">论坛</a></span></li>
                         <li class="nolink"><span>Welcome!</span></li>
                     </ul>
                 </nav>
@@ -157,7 +150,7 @@
     <section id="statement">
         <div class="container text-center wow fadeInUp" data-wow-delay="0.5s">
             <div class="row">
-                <p>每一个不曾起舞的日子都是对生命的辜负。</p>
+                <p>当你能力不能满足你的野心的时候,你就该沉下心来学习</p>
             </div>
         </div>
     </section>
@@ -168,27 +161,26 @@
 
     <footer>
         <div class="container">
+            <div>
+                <p>欢迎加入交流群(群号):440221268</p>
+            </div>
+        </div>
+        <div class="container">
             <div class="copy">
                 <p>
-                    &copy; 2014<script>new Date().getFullYear()>2010&&document.write("-"+new Date().getFullYear());</script>, Content By Kieran. All Rights Reserved.
+                    &copy; 2014<script>new Date().getFullYear()>2010&&document.write("-"+new Date().getFullYear());</script>, Content By 叶落山城. All Rights Reserved.
                 </p>
-                <p>Theme By <a href="index.html" style="color: #767D84">Kieran</a></p>
+
             </div>
             <div class="social">
                 <ul>
-
-                    <li><a href="https://github.com/SuperKieran" title="Github" target="_blank"><i class="icon-github"></i></a>&nbsp;</li>
-
-
-                    <li><a href="https://twitter.com/1tsKieran" title="Twitter" target="_blank"><i class="icon-twitter"></i></a>&nbsp;</li>
-
-
-
-
-                    <li><a href="http://weibo.com/taokailun" title="Sina-Weibo" target="_blank"><i class="icon-sina-weibo"></i></a>&nbsp;</li>
-
+                    <li><a href="https://github.com/Yela528/laravel-5-myblog" title="Github" target="_blank"><i class="icon-github"></i></a>&nbsp;</li>
+                    <li><a href="http://weibo.com/ylsc633?refer_flag=1001030101_&is_hot=1" title="Sina-Weibo" target="_blank"><i class="icon-sina-weibo"></i></a>&nbsp;</li>
                 </ul>
+                <script src="https://s95.cnzz.com/z_stat.php?id=1256842383&web_id=1256842383" language="JavaScript"></script>
+
             </div>
+
             <div class="clearfix"> </div>
         </div>
     </footer>

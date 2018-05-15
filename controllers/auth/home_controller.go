@@ -85,3 +85,17 @@ func (h *HomeController) PostRegister() {
 	}
 	h.Redirect("/auth/login",302)
 }
+
+//@router /console/logout [get]
+func (h *HomeController) Logout() {
+	h.DelSession("Id")
+	h.Redirect("/",302)
+}
+
+//@router /console/clearCache [get]
+func (h *HomeController) ClearCache() {
+	cache := common.Cache()
+	err := cache.ClearAll()
+	fmt.Println(err,"看看错误")
+	h.Redirect("/",302)
+}
