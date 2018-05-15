@@ -23,7 +23,7 @@ func (p *PostController)URLMapping()  {
 	p.Mapping("Destroy",p.Destroy)
 }
 
-// @router /console/post [get]
+// @router /post [get]
 func (p *PostController) Index()  {
 	beego.ReadFromRequest(&p.Controller)
 	page := p.GetString("page")
@@ -43,7 +43,7 @@ func (p *PostController) Index()  {
 	p.TplName = "auth/post/index.tpl"
 }
 
-// @router /console/post/create [get]
+// @router /post/create [get]
 func (p *PostController) Create() {
 
 	beego.ReadFromRequest(&p.Controller)
@@ -54,7 +54,7 @@ func (p *PostController) Create() {
 	p.TplName = "auth/post/create.tpl"
 }
 
-// @router /console/post [post]
+// @router /post [post]
 func (p *PostController) Store()  {
 	u := common.PostCreate{}
 	if err := p.ParseForm(&u); err != nil {
@@ -67,7 +67,20 @@ func (p *PostController) Store()  {
 		p.Redirect("/console/post/create",302)
 		return
 	}
-	res := services.StorePost(u)
+
+	id := p.GetSession("Id")
+	if id == nil {
+		p.MyReminder("error","登录失效")
+		p.Redirect("/auth/login",302)
+		return
+	}
+	idInt64,ok := id.(int64)
+	if !ok {
+		p.MyReminder("error","登录失效哦")
+		p.Redirect("/auth/login",302)
+		return
+	}
+	res := services.StorePost(u,idInt64)
 	if res {
 		p.MyReminder("success","创建文章成功")
 	} else {
@@ -77,7 +90,7 @@ func (p *PostController) Store()  {
 
 }
 
-// @router /console/post/:id([0-9]+/edit [get]
+// @router /post/:id([0-9]+/edit [get]
 func (p *PostController) Edit() {
 	beego.ReadFromRequest(&p.Controller)
 	id :=p.Ctx.Input.Param(":id")
@@ -97,7 +110,7 @@ func (p *PostController) Edit() {
 	p.TplName = "auth/post/edit.tpl"
 }
 
-// @router /console/post/:id([0-9]+ [put]
+// @router /post/:id([0-9]+ [put]
 func (p *PostController) Update()  {
 	id :=p.Ctx.Input.Param(":id")
 	id64, _ := strconv.ParseInt(id, 10, 64)
@@ -133,7 +146,7 @@ func (p *PostController) Update()  {
 
 }
 
-// @router /console/post/:id([0-9]+ [delete]
+// @router /post/:id([0-9]+ [delete]
 func (p *PostController) Destroy()  {
 	id :=p.Ctx.Input.Param(":id")
 	id64, _ := strconv.ParseInt(id, 10, 64)

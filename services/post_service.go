@@ -13,13 +13,13 @@ import (
 	"strconv"
 )
 
-func StorePost(u common.PostCreate) (res bool) {
+func StorePost(u common.PostCreate,id int64) (res bool) {
 	var post models.Articles
 	post.Title = u.Title
 	post.Content = u.Content
 	post.Abstract = u.Abstract
 	post.BodyOriginal = u.BodyOriginal
-	post.UserId = 1
+	post.UserId = id
 
 	o := orm.NewOrm()
 	o.Begin()

@@ -27,7 +27,7 @@ func (t *TagController)URLMapping()  {
 }
 
 
-// @router /console/tag [get]
+// @router /tag [get]
 func (t *TagController) Index() {
 	beego.ReadFromRequest(&t.Controller)
 	page := t.GetString("page")
@@ -48,7 +48,7 @@ func (t *TagController) Index() {
 	t.TplName = "auth/tag/index.tpl"
 }
 
-// @router /console/tag/create [get]
+// @router /tag/create [get]
 func (t *TagController) Create() {
 	beego.ReadFromRequest(&t.Controller)
 	t.Data["xsrfdata"]=template.HTML(t.XSRFFormHTML())
@@ -56,7 +56,7 @@ func (t *TagController) Create() {
 	t.TplName = "auth/tag/create.tpl"
 }
 
-// @router /console/tag [post]
+// @router /tag [post]
 func (t *TagController) Store() {
 	u := common.TagRequest{}
 	if err := t.ParseForm(&u); err != nil {
@@ -78,7 +78,7 @@ func (t *TagController) Store() {
 	t.Redirect("/console/tag",302)
 }
 
-// @router /console/tag/:id([0-9]+/edit [get]
+// @router /tag/:id([0-9]+/edit [get]
 func (t *TagController) Show() {
 	beego.ReadFromRequest(&t.Controller)
 	id := t.Ctx.Input.Param(":id")
@@ -90,7 +90,7 @@ func (t *TagController) Show() {
 	t.TplName = "auth/tag/edit.tpl"
 }
 
-// @router /console/tag/:id([0-9]+ [put]
+// @router /tag/:id([0-9]+ [put]
 func (t *TagController) Update() {
 	u := common.TagRequest{}
 	if err := t.ParseForm(&u); err != nil {
@@ -134,7 +134,7 @@ func (t *TagController) Update() {
 	return
 }
 
-// @router /console/tag/:id([0-9]+ [delete]
+// @router /tag/:id([0-9]+ [delete]
 func (t *TagController) Destroy() {
 	id := t.Ctx.Input.Param(":id")
 	id64, _ := strconv.ParseInt(id, 10, 64)
@@ -148,7 +148,7 @@ func (t *TagController) Destroy() {
 	}
 }
 
-// @router /console/tag/auto [get]
+// @router /tag/auto [get]
 func (t *TagController) GetTagByLike() {
 	param := t.GetString("term")
 	res := services.GetTagByLike(param)

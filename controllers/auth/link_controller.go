@@ -23,7 +23,7 @@ func (l *LinkController)URLMapping()  {
 	l.Mapping("Destroy",l.Destroy)
 }
 
-// @router /console/link [get]
+// @router /link [get]
 func (l *LinkController) Index() {
 	beego.ReadFromRequest(&l.Controller)
 	page := l.GetString("page")
@@ -46,7 +46,7 @@ func (l *LinkController) Index() {
 	l.TplName = "auth/link/index.tpl"
 }
 
-// @router /console/link/create [get]
+// @router /link/create [get]
 func (l *LinkController) Create() {
 	beego.ReadFromRequest(&l.Controller)
 	l.Data["xsrfdata"]=template.HTML(l.XSRFFormHTML())
@@ -54,7 +54,7 @@ func (l *LinkController) Create() {
 	l.TplName = "auth/link/create.tpl"
 }
 
-// @router /console/link [post]
+// @router /link [post]
 func (l *LinkController) Store() {
 	u := common.LinkCreate{}
 	if err := l.ParseForm(&u); err != nil {
@@ -77,7 +77,7 @@ func (l *LinkController) Store() {
 	return
 }
 
-// @router /console/link/:id([0-9]+/edit [get]
+// @router /link/:id([0-9]+/edit [get]
 func (l *LinkController) Show() {
 	beego.ReadFromRequest(&l.Controller)
 	id := l.Ctx.Input.Param(":id")
@@ -89,7 +89,7 @@ func (l *LinkController) Show() {
 	l.TplName = "auth/link/edit.tpl"
 }
 
-// @router /console/link/:id([0-9]+ [put]
+// @router /link/:id([0-9]+ [put]
 func (l *LinkController) Update() {
 	u := common.LinkCreate{}
 	if err := l.ParseForm(&u); err != nil {
@@ -115,7 +115,7 @@ func (l *LinkController) Update() {
 	return
 }
 
-// @router /console/link/:id([0-9]+ [delete]
+// @router /link/:id([0-9]+ [delete]
 func (l *LinkController) Destroy() {
 	id := l.Ctx.Input.Param(":id")
 	id64, _ := strconv.ParseInt(id, 10, 64)

@@ -45,7 +45,7 @@
         <div class="row">
             <div class="col-md-4 col-md-offset-4">
                 <div class="account-box">
-                    <form role="form" action="/console/login" method="post">
+                    <form role="form" action="/auth/login" method="post">
                     {{ .xsrfdata }}
                         <div class="form-group">
                             <!--a href="#" class="pull-right label-forgot">Forgot email?</a-->
@@ -73,7 +73,7 @@
                     <div class="row-block">
                         <div class="row">
                             <div class="col-md-12 row-block">
-                                <a href="/console/register" class="btn btn-primary btn-block">Create New Account</a>
+                                <a href="/auth/register" class="btn btn-primary btn-block">Create New Account</a>
                             </div>
                         </div>
                     </div>
@@ -99,6 +99,7 @@
 
 <!--  END OF PAPER WRAP -->
 
+<script type="text/javascript" src="/static/auth/js/pnotify/jquery.pnotify.min.js"></script>
 
 <!-- MAIN EFFECT -->
 <script>

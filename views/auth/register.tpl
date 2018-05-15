@@ -45,7 +45,7 @@
         <div class="row">
             <div class="col-md-4 col-md-offset-4">
                 <div class="account-box">
-                    <form role="form" action="/console/register" method="post" class="registerForm">
+                    <form role="form" action="/auth/register" method="post" class="registerForm">
                     {{ .xsrfdata }}
                         <div class="form-group">
                             <!--a href="#" class="pull-right label-forgot">Forgot email?</a-->
@@ -73,7 +73,7 @@
                     </form>
                     <a class="forgotLnk" href="#"></a>
                     <div class="or-box">
-                        <center><span class="text-center login-with">Login or <b><a href="/console/login">Sign Up</a></b></span></center>
+                        <center><span class="text-center login-with">Login or <b><a href="/auth/login">Sign Up</a></b></span></center>
                     </div>
                     <div class="row-block">
                         <div class="row">
@@ -106,6 +106,7 @@
 <script type="text/javascript" src="/static/auth/js/bootstrap.js"></script>
 <script type="text/javascript" src="/static/auth/js/admin.create.js"></script>
 
+<script type="text/javascript" src="/static/auth/js/pnotify/jquery.pnotify.min.js"></script>
 
 <script>
     if ("{{.flash.error}}") {

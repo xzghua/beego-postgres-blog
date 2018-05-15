@@ -26,7 +26,7 @@ func (c *CateController)URLMapping()  {
 }
 
 
-// @router /console/cate [get]
+// @router /cate [get]
 func (c *CateController) Index() {
 	beego.ReadFromRequest(&c.Controller)
 	cate := services.GetAllCateBySort()
@@ -36,7 +36,7 @@ func (c *CateController) Index() {
 	c.TplName = "auth/cate/index.tpl"
 }
 
-// @router /console/cate/create [get]
+// @router /cate/create [get]
 func (c *CateController) Create() {
 	beego.ReadFromRequest(&c.Controller)
 	cate := services.GetAllCateBySort()
@@ -46,7 +46,7 @@ func (c *CateController) Create() {
 	c.TplName = "auth/cate/create.tpl"
 }
 
-// @router /console/cate [post]
+// @router /cate [post]
 func (c *CateController) Store() {
 	u := common.CateRequest{}
 	if err := c.ParseForm(&u); err != nil {
@@ -75,7 +75,7 @@ func (c *CateController) Store() {
 	c.Redirect("/console/cate",302)
 }
 
-// @router /console/cate/:id([0-9]+/edit [get]
+// @router /cate/:id([0-9]+/edit [get]
 func (c *CateController) Show() {
 	beego.ReadFromRequest(&c.Controller)
 	id := c.Ctx.Input.Param(":id")
@@ -89,7 +89,7 @@ func (c *CateController) Show() {
 	c.TplName = "auth/cate/edit.tpl"
 }
 
-// @router /console/cate/:id([0-9]+ [put]
+// @router /cate/:id([0-9]+ [put]
 func (c *CateController) Update() {
 	u := common.CateRequest{}
 	if err := c.ParseForm(&u); err != nil {
@@ -132,7 +132,7 @@ func (c *CateController) Update() {
 	c.Redirect("/console/cate",302)
 }
 
-// @router /console/cate/:id([0-9]+ [delete]
+// @router /cate/:id([0-9]+ [delete]
 func (c *CateController) Destroy() {
 	id := c.Ctx.Input.Param(":id")
 	id64, _ := strconv.ParseInt(id, 10, 64)

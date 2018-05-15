@@ -20,7 +20,7 @@ func (s *SystemController)URLMapping()  {
 }
 
 
-// @router /console/system [get]
+// @router /system [get]
 func (s *SystemController) Index() {
 	beego.ReadFromRequest(&s.Controller)
 	system,_ := models.GetSystemsById(1)
@@ -42,7 +42,7 @@ func (s *SystemController) Index() {
 	s.TplName = "auth/system/update.tpl"
 }
 
-// @router /console/system/1 [put]
+// @router /system/1 [put]
 func (s *SystemController) Update() {
 	u := common.SystemUpdate{}
 	if err := s.ParseForm(&u); err != nil {
