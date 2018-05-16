@@ -50,8 +50,8 @@ func (h *HomeController) Index() {
 		h.Layout = "home/local/master.tpl"
 		h.TplName = "home/local/index.tpl"
 	} else {
-		h.Layout = "home/master.tpl"
-		h.TplName = "home/index.tpl"
+		h.Layout = "home/qi/master.tpl"
+		h.TplName = "home/qi/index.tpl"
 	}
 
 }
@@ -94,7 +94,7 @@ func (h *HomeController) Detail() {
 	if system.CdnType == 1 {
 		h.Layout = "home/local/master.tpl"
 	} else {
-		h.Layout = "home/master.tpl"
+		h.Layout = "home/qi/master.tpl"
 	}
 	h.TplName = "home/detail.tpl"
 
@@ -137,10 +137,11 @@ func (h *HomeController) Cate() {
 
 	if system.CdnType == 1 {
 		h.Layout = "home/local/master.tpl"
+		h.TplName = "home/local/cate.tpl"
 	} else {
-		h.Layout = "home/master.tpl"
+		h.Layout = "home/qi/master.tpl"
+		h.TplName = "home/qi/cate.tpl"
 	}
-	h.TplName = "home/cate.tpl"
 }
 
 //@router /tags/:tag [get]
@@ -179,10 +180,12 @@ func (h *HomeController) Tag() {
 
 	if system.CdnType == 1 {
 		h.Layout = "home/local/master.tpl"
+		h.TplName = "home/local/tag.tpl"
 	} else {
-		h.Layout = "home/master.tpl"
+		h.Layout = "home/qi/master.tpl"
+		h.TplName = "home/qi/tag.tpl"
 	}
-	h.TplName = "home/tag.tpl"
+
 }
 
 //@router /archive [get]
@@ -206,7 +209,7 @@ func (h *HomeController) Archive() {
 	if system.CdnType == 1 {
 		h.Layout = "home/local/master.tpl"
 	} else {
-		h.Layout = "home/master.tpl"
+		h.Layout = "home/qi/master.tpl"
 	}
 	h.TplName = "home/archive.tpl"
 }

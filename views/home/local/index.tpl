@@ -1,12 +1,15 @@
 <section id="hero" class="scrollme">
-    <div class="container-fluid element-img" style="background: url(/static/index/img/1.jpeg) no-repeat center center fixed;background-size: cover">
+    <div class="container-fluid element-img" style="background: url(/static/index/img/index.jpg) no-repeat center center fixed;background-size: cover">
         <div class="row">
             <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 vertical-align cover boost text-center">
                 <div class="center-me animateme" data-when="exit" data-from="0" data-to="0.6" data-opacity="0" data-translatey="100">
                     <div>
 
-                        <h2>命定的局限尽可永在，不屈的挑战却不可须臾或缺！</h2>
-                        <p></p>
+                        <h2 style="color: #e0f507;">
+                            <a href="#intro" class="more scrolly" style="color: #e0f507;">
+                                命定的局限尽可永在，不屈的挑战却不可须臾或缺！
+                            </a>
+                        </h2>
 
                         <h2></h2>
                         <p></p>
