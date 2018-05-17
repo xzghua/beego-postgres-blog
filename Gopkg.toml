@@ -24,7 +24,6 @@
 #   go-tests = true
 #   unused-packages = true
 
-ignored = ["golang.org/x/crypto"]
 
 [[constraint]]
   name = "github.com/astaxie/beego"
@@ -42,7 +41,10 @@ ignored = ["golang.org/x/crypto"]
   name = "github.com/smartystreets/goconvey"
   version = "1.6.3"
 
-
+[[constraint]]
+  branch = "master"
+  name = "golang.org/x/crypto"
+  source = "github.com/golang/crypto"
 
 [prune]
   go-tests = true
