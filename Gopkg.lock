@@ -80,10 +80,11 @@
     "blowfish"
   ]
   revision = "1a580b3eff7814fc9b40602fd35256c63b50f491"
+  source = "github.com/golang/crypto"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "1637eb272e0b564ccea4acef13d0ed22efbb1d6f132679f6a6b9e6db540486b7"
+  inputs-digest = "f98eb7e8643f3c243eaf751d6ec19ebbed4ebc7c066369fc3392ead48adf152a"
   solver-name = "gps-cdcl"
   solver-version = 1

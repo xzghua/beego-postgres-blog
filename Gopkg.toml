@@ -44,6 +44,7 @@
 [[constraint]]
   branch = "master"
   name = "golang.org/x/crypto"
+  source = "github.com/golang/crypto"
 
 [prune]
   go-tests = true
