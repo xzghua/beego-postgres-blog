@@ -32,6 +32,12 @@
   version = "v1.6.0"
 
 [[projects]]
+  name = "github.com/go-sql-driver/mysql"
+  packages = ["."]
+  revision = "a0583e0143b1624142adab07e0e97fe106d99561"
+  version = "v1.3.0"
+
+[[projects]]
   branch = "master"
   name = "github.com/gopherjs/gopherjs"
   packages = ["js"]
@@ -84,6 +90,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "1637eb272e0b564ccea4acef13d0ed22efbb1d6f132679f6a6b9e6db540486b7"
+  inputs-digest = "6c6d7e083f9aa9c5d992b55ada8adf9c2e959ad37f7298d66a51045a5606814b"
   solver-name = "gps-cdcl"
   solver-version = 1
