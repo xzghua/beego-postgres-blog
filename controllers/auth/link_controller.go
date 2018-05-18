@@ -1,13 +1,13 @@
 package auth
 
 import (
-	"bee-go-myBlog/controllers"
-	"bee-go-myBlog/models"
+	"beego-postgres-blog/controllers"
+	"beego-postgres-blog/models"
 	"github.com/astaxie/beego"
 	"strconv"
 	"html/template"
-	"bee-go-myBlog/common"
-	"bee-go-myBlog/requests"
+	"beego-postgres-blog/common"
+	"beego-postgres-blog/requests"
 )
 
 type LinkController struct {

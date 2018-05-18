@@ -2,13 +2,13 @@ package auth
 
 import (
 	"strconv"
-	"bee-go-myBlog/services"
+	"beego-postgres-blog/services"
 	"html/template"
-	"bee-go-myBlog/controllers"
+	"beego-postgres-blog/controllers"
 	"github.com/astaxie/beego"
-	"bee-go-myBlog/models"
-	"bee-go-myBlog/common"
-	"bee-go-myBlog/requests"
+	"beego-postgres-blog/models"
+	"beego-postgres-blog/common"
+	"beego-postgres-blog/requests"
 )
 
 type PostController struct {

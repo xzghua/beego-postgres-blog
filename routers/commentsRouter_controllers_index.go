@@ -7,7 +7,7 @@ import (
 
 func init() {
 
-	beego.GlobalControllerRouter["bee-go-myBlog/controllers/index:HomeController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/index:HomeController"],
+	beego.GlobalControllerRouter["beego-postgres-blog/controllers/index:HomeController"] = append(beego.GlobalControllerRouter["beego-postgres-blog/controllers/index:HomeController"],
 		beego.ControllerComments{
 			Method: "Index",
 			Router: `/`,
@@ -15,7 +15,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["bee-go-myBlog/controllers/index:HomeController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/index:HomeController"],
+	beego.GlobalControllerRouter["beego-postgres-blog/controllers/index:HomeController"] = append(beego.GlobalControllerRouter["beego-postgres-blog/controllers/index:HomeController"],
 		beego.ControllerComments{
 			Method: "Archive",
 			Router: `/archive`,
@@ -23,7 +23,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["bee-go-myBlog/controllers/index:HomeController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/index:HomeController"],
+	beego.GlobalControllerRouter["beego-postgres-blog/controllers/index:HomeController"] = append(beego.GlobalControllerRouter["beego-postgres-blog/controllers/index:HomeController"],
 		beego.ControllerComments{
 			Method: "Cate",
 			Router: `/categories/:cate`,
@@ -31,7 +31,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["bee-go-myBlog/controllers/index:HomeController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/index:HomeController"],
+	beego.GlobalControllerRouter["beego-postgres-blog/controllers/index:HomeController"] = append(beego.GlobalControllerRouter["beego-postgres-blog/controllers/index:HomeController"],
 		beego.ControllerComments{
 			Method: "Detail",
 			Router: `/detail/:id([0-9]+`,
@@ -39,7 +39,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["bee-go-myBlog/controllers/index:HomeController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/index:HomeController"],
+	beego.GlobalControllerRouter["beego-postgres-blog/controllers/index:HomeController"] = append(beego.GlobalControllerRouter["beego-postgres-blog/controllers/index:HomeController"],
 		beego.ControllerComments{
 			Method: "Tag",
 			Router: `/tags/:tag`,

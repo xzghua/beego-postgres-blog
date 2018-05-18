@@ -1,10 +1,10 @@
 package services
 
 import (
-	"bee-go-myBlog/common"
+	"beego-postgres-blog/common"
 	"encoding/json"
 	"github.com/garyburd/redigo/redis"
-	"bee-go-myBlog/models"
+	"beego-postgres-blog/models"
 	"time"
 )
 

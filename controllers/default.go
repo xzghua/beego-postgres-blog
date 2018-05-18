@@ -2,7 +2,7 @@ package controllers
 
 import (
 	"github.com/astaxie/beego"
-	"bee-go-myBlog/models"
+	"beego-postgres-blog/models"
 	"fmt"
 	"github.com/astaxie/beego/logs"
 )

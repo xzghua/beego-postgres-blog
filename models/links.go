@@ -8,7 +8,7 @@ import (
 
 	"github.com/astaxie/beego/orm"
 	"time"
-	"bee-go-myBlog/common"
+	"beego-postgres-blog/common"
 	"github.com/astaxie/beego"
 )
 

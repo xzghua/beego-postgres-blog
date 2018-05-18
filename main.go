@@ -1,14 +1,14 @@
 package main
 
 import (
-	_ "bee-go-myBlog/routers"
+	_ "beego-postgres-blog/routers"
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/orm"
 	_"github.com/lib/pq"
 
 	"time"
 	"github.com/astaxie/beego/logs"
-	"bee-go-myBlog/common"
+	"beego-postgres-blog/common"
 )
 
 func init() {

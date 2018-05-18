@@ -6,7 +6,7 @@ import (
 	"errors"
 	"reflect"
 	"fmt"
-	"bee-go-myBlog/common"
+	"beego-postgres-blog/common"
 )
 
 type ArticleCate struct {

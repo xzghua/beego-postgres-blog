@@ -2,12 +2,12 @@ package auth
 
 import (
 	"html/template"
-	"bee-go-myBlog/requests"
-	"bee-go-myBlog/common"
-	"bee-go-myBlog/controllers"
+	"beego-postgres-blog/requests"
+	"beego-postgres-blog/common"
+	"beego-postgres-blog/controllers"
 	"fmt"
 	"github.com/astaxie/beego"
-	"bee-go-myBlog/services"
+	"beego-postgres-blog/services"
 )
 
 type HomeController struct {

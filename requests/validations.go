@@ -2,8 +2,8 @@ package requests
 
 import (
 	"github.com/astaxie/beego/validation"
-	validation2 "bee-go-myBlog/validation"
-	"bee-go-myBlog/common"
+	validation2 "beego-postgres-blog/validation"
+	"beego-postgres-blog/common"
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/context"
 	"fmt"

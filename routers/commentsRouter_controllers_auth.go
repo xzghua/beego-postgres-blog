@@ -7,7 +7,7 @@ import (
 
 func init() {
 
-	beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:CateController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:CateController"],
+	beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:CateController"] = append(beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:CateController"],
 		beego.ControllerComments{
 			Method: "Index",
 			Router: `/cate`,
@@ -15,7 +15,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:CateController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:CateController"],
+	beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:CateController"] = append(beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:CateController"],
 		beego.ControllerComments{
 			Method: "Store",
 			Router: `/cate`,
@@ -23,7 +23,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:CateController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:CateController"],
+	beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:CateController"] = append(beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:CateController"],
 		beego.ControllerComments{
 			Method: "Update",
 			Router: `/cate/:id([0-9]+`,
@@ -31,7 +31,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:CateController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:CateController"],
+	beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:CateController"] = append(beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:CateController"],
 		beego.ControllerComments{
 			Method: "Destroy",
 			Router: `/cate/:id([0-9]+`,
@@ -39,7 +39,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:CateController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:CateController"],
+	beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:CateController"] = append(beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:CateController"],
 		beego.ControllerComments{
 			Method: "Show",
 			Router: `/cate/:id([0-9]+/edit`,
@@ -47,7 +47,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:CateController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:CateController"],
+	beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:CateController"] = append(beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:CateController"],
 		beego.ControllerComments{
 			Method: "Create",
 			Router: `/cate/create`,
@@ -55,7 +55,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:HomeController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:HomeController"],
+	beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:HomeController"] = append(beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:HomeController"],
 		beego.ControllerComments{
 			Method: "Login",
 			Router: `/auth/login`,
@@ -63,7 +63,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:HomeController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:HomeController"],
+	beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:HomeController"] = append(beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:HomeController"],
 		beego.ControllerComments{
 			Method: "PostLogin",
 			Router: `/auth/login`,
@@ -71,7 +71,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:HomeController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:HomeController"],
+	beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:HomeController"] = append(beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:HomeController"],
 		beego.ControllerComments{
 			Method: "Register",
 			Router: `/auth/register`,
@@ -79,7 +79,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:HomeController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:HomeController"],
+	beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:HomeController"] = append(beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:HomeController"],
 		beego.ControllerComments{
 			Method: "PostRegister",
 			Router: `/auth/register`,
@@ -87,7 +87,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:HomeController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:HomeController"],
+	beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:HomeController"] = append(beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:HomeController"],
 		beego.ControllerComments{
 			Method: "ClearCache",
 			Router: `/console/clearCache`,
@@ -95,7 +95,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:HomeController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:HomeController"],
+	beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:HomeController"] = append(beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:HomeController"],
 		beego.ControllerComments{
 			Method: "Home",
 			Router: `/console/home`,
@@ -103,7 +103,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:HomeController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:HomeController"],
+	beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:HomeController"] = append(beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:HomeController"],
 		beego.ControllerComments{
 			Method: "Logout",
 			Router: `/console/logout`,
@@ -111,7 +111,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:LinkController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:LinkController"],
+	beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:LinkController"] = append(beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:LinkController"],
 		beego.ControllerComments{
 			Method: "Index",
 			Router: `/link`,
@@ -119,7 +119,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:LinkController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:LinkController"],
+	beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:LinkController"] = append(beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:LinkController"],
 		beego.ControllerComments{
 			Method: "Store",
 			Router: `/link`,
@@ -127,7 +127,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:LinkController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:LinkController"],
+	beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:LinkController"] = append(beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:LinkController"],
 		beego.ControllerComments{
 			Method: "Update",
 			Router: `/link/:id([0-9]+`,
@@ -135,7 +135,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:LinkController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:LinkController"],
+	beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:LinkController"] = append(beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:LinkController"],
 		beego.ControllerComments{
 			Method: "Destroy",
 			Router: `/link/:id([0-9]+`,
@@ -143,7 +143,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:LinkController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:LinkController"],
+	beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:LinkController"] = append(beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:LinkController"],
 		beego.ControllerComments{
 			Method: "Show",
 			Router: `/link/:id([0-9]+/edit`,
@@ -151,7 +151,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:LinkController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:LinkController"],
+	beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:LinkController"] = append(beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:LinkController"],
 		beego.ControllerComments{
 			Method: "Create",
 			Router: `/link/create`,
@@ -159,7 +159,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:PostController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:PostController"],
+	beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:PostController"] = append(beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:PostController"],
 		beego.ControllerComments{
 			Method: "Index",
 			Router: `/post`,
@@ -167,7 +167,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:PostController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:PostController"],
+	beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:PostController"] = append(beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:PostController"],
 		beego.ControllerComments{
 			Method: "Store",
 			Router: `/post`,
@@ -175,7 +175,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:PostController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:PostController"],
+	beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:PostController"] = append(beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:PostController"],
 		beego.ControllerComments{
 			Method: "Update",
 			Router: `/post/:id([0-9]+`,
@@ -183,7 +183,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:PostController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:PostController"],
+	beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:PostController"] = append(beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:PostController"],
 		beego.ControllerComments{
 			Method: "Destroy",
 			Router: `/post/:id([0-9]+`,
@@ -191,7 +191,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:PostController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:PostController"],
+	beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:PostController"] = append(beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:PostController"],
 		beego.ControllerComments{
 			Method: "Edit",
 			Router: `/post/:id([0-9]+/edit`,
@@ -199,7 +199,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:PostController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:PostController"],
+	beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:PostController"] = append(beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:PostController"],
 		beego.ControllerComments{
 			Method: "Create",
 			Router: `/post/create`,
@@ -207,7 +207,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:SystemController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:SystemController"],
+	beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:SystemController"] = append(beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:SystemController"],
 		beego.ControllerComments{
 			Method: "Index",
 			Router: `/system`,
@@ -215,7 +215,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:SystemController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:SystemController"],
+	beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:SystemController"] = append(beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:SystemController"],
 		beego.ControllerComments{
 			Method: "Update",
 			Router: `/system/1`,
@@ -223,7 +223,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:TagController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:TagController"],
+	beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:TagController"] = append(beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:TagController"],
 		beego.ControllerComments{
 			Method: "Index",
 			Router: `/tag`,
@@ -231,7 +231,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:TagController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:TagController"],
+	beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:TagController"] = append(beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:TagController"],
 		beego.ControllerComments{
 			Method: "Store",
 			Router: `/tag`,
@@ -239,7 +239,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:TagController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:TagController"],
+	beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:TagController"] = append(beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:TagController"],
 		beego.ControllerComments{
 			Method: "Update",
 			Router: `/tag/:id([0-9]+`,
@@ -247,7 +247,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:TagController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:TagController"],
+	beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:TagController"] = append(beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:TagController"],
 		beego.ControllerComments{
 			Method: "Destroy",
 			Router: `/tag/:id([0-9]+`,
@@ -255,7 +255,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:TagController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:TagController"],
+	beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:TagController"] = append(beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:TagController"],
 		beego.ControllerComments{
 			Method: "Show",
 			Router: `/tag/:id([0-9]+/edit`,
@@ -263,7 +263,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:TagController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:TagController"],
+	beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:TagController"] = append(beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:TagController"],
 		beego.ControllerComments{
 			Method: "GetTagByLike",
 			Router: `/tag/auto`,
@@ -271,7 +271,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:TagController"] = append(beego.GlobalControllerRouter["bee-go-myBlog/controllers/auth:TagController"],
+	beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:TagController"] = append(beego.GlobalControllerRouter["beego-postgres-blog/controllers/auth:TagController"],
 		beego.ControllerComments{
 			Method: "Create",
 			Router: `/tag/create`,

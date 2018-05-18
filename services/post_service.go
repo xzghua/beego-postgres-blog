@@ -1,13 +1,13 @@
 package services
 
 import (
-	"bee-go-myBlog/models"
+	"beego-postgres-blog/models"
 	"github.com/astaxie/beego/orm"
 	"fmt"
 
 	"strings"
 	"time"
-	"bee-go-myBlog/common"
+	"beego-postgres-blog/common"
 	"encoding/json"
 	"github.com/garyburd/redigo/redis"
 	"strconv"

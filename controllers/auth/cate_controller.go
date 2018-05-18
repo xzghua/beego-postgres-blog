@@ -2,13 +2,13 @@ package auth
 
 import (
 	"github.com/astaxie/beego"
-	"bee-go-myBlog/services"
+	"beego-postgres-blog/services"
 	"html/template"
-	"bee-go-myBlog/controllers"
-	"bee-go-myBlog/models"
+	"beego-postgres-blog/controllers"
+	"beego-postgres-blog/models"
 	"strconv"
-	"bee-go-myBlog/common"
-	"bee-go-myBlog/requests"
+	"beego-postgres-blog/common"
+	"beego-postgres-blog/requests"
 )
 
 type CateController struct {

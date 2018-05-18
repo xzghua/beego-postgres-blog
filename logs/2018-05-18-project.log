@@ -1,1 +1,22 @@
 2018/05/18 17:46:44.713 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/18 18:42:26.803 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/18 18:57:50.607 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/18 18:58:10.290 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/18 18:58:13.699 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/18 18:58:14.761 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/18 18:58:18.501 [D] [server.go:2619] ::1 - - [18/May/2018 06:58:18] "GET / HTTP/1.1 200 0" 0.022008  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+
+2018/05/18 18:58:18.526 [D] [server.go:2619] ::1 - - [18/May/2018 06:58:18] "GET /static/index/highlightjs/xcode.css HTTP/1.1 200 0" 0.000435 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+
+2018/05/18 18:58:18.532 [D] [server.go:2619] ::1 - - [18/May/2018 06:58:18] "GET /static/index/js/jquery-1.11.1.min.js HTTP/1.1 200 0" 0.001112 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+
+2018/05/18 18:58:18.532 [D] [server.go:2619] ::1 - - [18/May/2018 06:58:18] "GET /static/index/fancybox/jquery.fancybox.css HTTP/1.1 200 0" 0.001324 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+
+2018/05/18 18:58:18.596 [D] [server.go:2619] ::1 - - [18/May/2018 06:58:18] "GET /static/index/js/plugins.min.js HTTP/1.1 200 0" 0.002671 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+
+2018/05/18 18:58:18.600 [D] [server.go:2619] ::1 - - [18/May/2018 06:58:18] "GET /static/index/js/scripts.js HTTP/1.1 200 0" 0.000522 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+
+2018/05/18 18:58:18.606 [D] [server.go:2619] ::1 - - [18/May/2018 06:58:18] "GET /static/index/fancybox/jquery.fancybox.pack.js HTTP/1.1 200 0" 0.000697 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+
+2018/05/18 18:58:18.610 [D] [server.go:2619] ::1 - - [18/May/2018 06:58:18] "GET /static/index/img/close.png HTTP/1.1 200 0" 0.000532 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+

@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"github.com/astaxie/beego/orm"
-	"bee-go-myBlog/common"
+	"beego-postgres-blog/common"
 )
 
 type ArticleTag struct {

@@ -1,12 +1,12 @@
 package auth
 
 import (
-	"bee-go-myBlog/controllers"
-	"bee-go-myBlog/models"
+	"beego-postgres-blog/controllers"
+	"beego-postgres-blog/models"
 	"html/template"
 	"github.com/astaxie/beego"
-	"bee-go-myBlog/common"
-	"bee-go-myBlog/requests"
+	"beego-postgres-blog/common"
+	"beego-postgres-blog/requests"
 )
 
 type SystemController struct {

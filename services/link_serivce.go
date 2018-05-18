@@ -1,8 +1,8 @@
 package services
 
 import (
-	"bee-go-myBlog/common"
-	"bee-go-myBlog/models"
+	"beego-postgres-blog/common"
+	"beego-postgres-blog/models"
 	"time"
 	"encoding/json"
 	"github.com/garyburd/redigo/redis"

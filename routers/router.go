@@ -2,10 +2,10 @@ package routers
 
 import (
 	"github.com/astaxie/beego"
-	"bee-go-myBlog/controllers/auth"
+	"beego-postgres-blog/controllers/auth"
 	"github.com/astaxie/beego/context"
-	"bee-go-myBlog/controllers/index"
-	"bee-go-myBlog/models"
+	"beego-postgres-blog/controllers/index"
+	"beego-postgres-blog/models"
 )
 
 func init() {

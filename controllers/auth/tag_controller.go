@@ -1,15 +1,15 @@
 package auth
 
 import (
-	"bee-go-myBlog/controllers"
-	"bee-go-myBlog/services"
+	"beego-postgres-blog/controllers"
+	"beego-postgres-blog/services"
 	"strconv"
-	"bee-go-myBlog/models"
+	"beego-postgres-blog/models"
 	"github.com/astaxie/beego"
 	"html/template"
 	"github.com/astaxie/beego/orm"
-	"bee-go-myBlog/requests"
-	"bee-go-myBlog/common"
+	"beego-postgres-blog/requests"
+	"beego-postgres-blog/common"
 )
 
 type TagController struct {

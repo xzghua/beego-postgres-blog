@@ -9,7 +9,7 @@ import (
 	"github.com/astaxie/beego/orm"
 	"time"
 	"github.com/astaxie/beego"
-	"bee-go-myBlog/common"
+	"beego-postgres-blog/common"
 )
 
 type Articles struct {

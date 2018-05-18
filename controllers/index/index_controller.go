@@ -1,10 +1,10 @@
 package index
 
 import (
-	"bee-go-myBlog/controllers"
+	"beego-postgres-blog/controllers"
 	"strconv"
-	"bee-go-myBlog/services"
-	"bee-go-myBlog/models"
+	"beego-postgres-blog/services"
+	"beego-postgres-blog/models"
 )
 
 type HomeController struct {

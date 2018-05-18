@@ -4,7 +4,7 @@ import (
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/validation"
 	"github.com/astaxie/beego/context"
-	validation2 "bee-go-myBlog/validation"
+	validation2 "beego-postgres-blog/validation"
 	"fmt"
 )
 

@@ -8,7 +8,7 @@ import (
 
 	"github.com/astaxie/beego/orm"
 	"github.com/astaxie/beego"
-	"bee-go-myBlog/common"
+	"beego-postgres-blog/common"
 )
 
 type Tags struct {

@@ -1,9 +1,9 @@
 package services
 
 import (
-	"bee-go-myBlog/models"
+	"beego-postgres-blog/models"
 	"github.com/astaxie/beego/orm"
-	"bee-go-myBlog/common"
+	"beego-postgres-blog/common"
 	"time"
 	"encoding/json"
 	"github.com/garyburd/redigo/redis"
