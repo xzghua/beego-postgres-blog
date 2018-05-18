@@ -5,6 +5,7 @@ import (
 	"strconv"
 	"beego-postgres-blog/services"
 	"beego-postgres-blog/models"
+	"fmt"
 )
 
 type HomeController struct {
@@ -32,6 +33,7 @@ func (h *HomeController) Index() {
 	cate := services.IndexAllCateBySort()
 	tag := services.IndexAllTag()
 	system := services.IndexSystem()
+	fmt.Println(system)
 	link := services.IndexLinkList()
 	totalPage,lastPage,currentPage,nextPage := models.PostPaginate(page2,"index")
 	h.Data["totalPage"] = totalPage
