@@ -39,7 +39,7 @@
         <div class="row">
             <div class="col-md-8 col-md-offset-2 opening-statement">
                 <div class="col-md-4">
-                    <h3 style="white-space: pre-wrap;word-wrap: break-word;"><a href="post/{{$item.Id}}">{{$item.Title}}</a></h3>
+                    <h3 style="white-space: pre-wrap;word-wrap: break-word;"><a href="detail/{{$item.Id}}">{{$item.Title}}</a></h3>
                     <span>
                         <span class="post-meta">
                         <time datetime="{{$item.CreatedAt}}" itemprop="datePublished">
