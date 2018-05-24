@@ -1,0 +1,2 @@
+2018/05/24 17:04:14.032 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/05/24 17:04:14.033 [C] [asm_amd64.s:2337] ListenAndServe:  listen tcp :8080: bind: address already in use
