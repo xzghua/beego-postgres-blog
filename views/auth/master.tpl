@@ -73,13 +73,7 @@
                     <li class="meridiem"></li>
                 </ul>
                 <ul id="nt-title">
-                    <li><i class="wi-day-lightning"></i>&#160;&#160;Berlin&#160;
-                        <b>85</b><i class="wi-fahrenheit"></i>&#160;; 15km/h
-                    </li>
-                    <li><i class="wi-day-lightning"></i>&#160;&#160;Yogyakarta&#160;
-                        <b>85</b><i class="wi-fahrenheit"></i>&#160;; Tonight- 72 °F (22.2 °C)
-                    </li>
-
+                    <iframe allowtransparency="true" frameborder="0" width="731" height="28" scrolling="no" src="https://tianqi.2345.com/plugin/widget/index.htm?s=3&z=1&t=0&v=0&d=3&bd=0&k=&f=&q=1&e=1&a=1&c=54511&w=731&h=28&align=left"></iframe>
                 </ul>
             </div>
 
@@ -92,14 +86,6 @@
                         <li>
                             <a href="#">
                                 <span class="entypo-user"></span>&#160;&#160;My Profile</a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span class="entypo-vcard"></span>&#160;&#160;Account Setting</a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span class="entypo-lifebuoy"></span>&#160;&#160;Help</a>
                         </li>
                         <li class="divider"></li>
                         <li>
@@ -321,7 +307,7 @@
                             <button type="button" class="close" data-dismiss="alert">×</button>
                             <span class="tittle-alert entypo-info-circled"></span>
                             Welcome back,&nbsp;
-                            <strong>Dave mattew!</strong>&nbsp;&nbsp;Your last sig in at Yesterday, 16:54 PM
+                            &nbsp;&nbsp;Your last sig in at what time I do not know
                         </div>
 
                     </div>
