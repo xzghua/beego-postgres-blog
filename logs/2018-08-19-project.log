@@ -1,0 +1,12 @@
+2018/08/19 00:45:42.262 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/08/19 01:35:47.713 [I] [asm_amd64.s:2337] http server Running on http://:8080
+2018/08/19 01:35:50.083 [D] [server.go:2619] ::1 - - [19/Aug/2018 01:35:50] "GET / HTTP/1.1 200 0" 0.026297  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+2018/08/19 01:35:50.473 [D] [server.go:2619] ::1 - - [19/Aug/2018 01:35:50] "GET /static/index/img/nice.png HTTP/1.1 200 0" 0.000889 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+2018/08/19 01:35:53.656 [D] [server.go:2619] ::1 - - [19/Aug/2018 01:35:53] "GET /detail/29 HTTP/1.1 200 0" 0.039749 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+2018/08/19 01:36:06.205 [D] [server.go:2619] ::1 - - [19/Aug/2018 01:36:05] "GET /?page=2 HTTP/1.1 200 0" 0.251848 http://localhost:8080/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+2018/08/19 01:36:11.667 [D] [server.go:2619] ::1 - - [19/Aug/2018 01:36:11] "GET /detail/10 HTTP/1.1 200 0" 0.045415 http://localhost:8080/?page=2 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+

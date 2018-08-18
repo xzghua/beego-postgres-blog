@@ -13,7 +13,8 @@ import (
 
 func init() {
 	orm.RegisterDriver("postgres", orm.DRPostgres)
-	orm.RegisterDataBase("default", "postgres", "postgres://postgres:123456@127.0.0.1:5432/postgres?sslmode=disable")
+	postgresPwd := beego.AppConfig.String("postgrespass")
+	orm.RegisterDataBase("default", "postgres", "postgres://postgres:"+postgresPwd+"@127.0.0.1:5432/postgres?sslmode=disable")
 
 }
 
