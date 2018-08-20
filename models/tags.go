@@ -155,13 +155,23 @@ func AddTagWithUnique(name string) (id int64, err error) {
 	o := orm.NewOrm()
 	v := Tags{Name: name}
 	err = o.Read(&v,"Name")
-	if err != nil {
+	if err != nil && err != orm.ErrNoRows {
+		return 0,err
+	}
+	if err == orm.ErrNoRows {
 		tagCreate := &Tags{
 			Name	:	name,
 			TagNum	:	1,
 		}
 		id,err1 := AddTags(tagCreate)
 		return id,err1
+	} else {
+		tagUpdate := &Tags{
+			Id:v.Id,
+			Name:v.Name,
+			TagNum:v.TagNum + 1,
+		}
+		UpdateTagsById(tagUpdate)
 	}
 	return v.Id,nil
 }
