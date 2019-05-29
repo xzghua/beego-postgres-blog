@@ -1,3 +1,5 @@
+# 早已停更,最新重构的请左转 [https://github.com/izghua/go-blog](https://github.com/izghua/go-blog)
+
 ### 瞎搞
 
 
